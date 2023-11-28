@@ -1,0 +1,37 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "silver_sword",
+    "customModelName": "Normal",
+    "name": "Espada de Prata",
+    "specialInfo": [
+      "§cPurificação de prata",
+      "§8Armas ou projéteis de prata causam dano adicional a criaturas não-vivas. Sendo assim, ataques desferidos por Espada de prata  causam §22% da vida máxima§8 do alvo como dano físico adicional."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 2,
+    "efficiency": 6.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 7.0,
+    "usageCount": 286,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:SilverIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "SilverWeaponsOnHitEffect"
+    }
+  }
+}

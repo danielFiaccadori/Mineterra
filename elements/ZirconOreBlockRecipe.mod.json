@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Zircon"
+      },
+      {
+        "value": "CUSTOM:Zircon"
+      },
+      {
+        "value": "CUSTOM:Zircon"
+      },
+      {
+        "value": "CUSTOM:Zircon"
+      },
+      {
+        "value": "CUSTOM:Zircon"
+      },
+      {
+        "value": "CUSTOM:Zircon"
+      },
+      {
+        "value": "CUSTOM:Zircon"
+      },
+      {
+        "value": "CUSTOM:Zircon"
+      },
+      {
+        "value": "CUSTOM:Zircon"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ZirconBlock"
+    },
+    "name": "zircon_ore_block_recipe",
+    "namespace": "mod"
+  }
+}

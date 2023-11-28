@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mineterra:garnet"
+    },
+    "2": {
+      "item": "mineterra:garnet"
+    },
+    "3": {
+      "item": "mineterra:garnet"
+    },
+    "4": {
+      "item": "mineterra:garnet"
+    },
+    "5": {
+      "item": "mineterra:garnet"
+    },
+    "6": {
+      "item": "mineterra:garnet"
+    },
+    "7": {
+      "item": "mineterra:garnet"
+    },
+    "8": {
+      "item": "mineterra:garnet"
+    }
+  },
+  "result": {
+    "item": "mineterra:garnet_armor_chestplate",
+    "count": 1
+  }
+}

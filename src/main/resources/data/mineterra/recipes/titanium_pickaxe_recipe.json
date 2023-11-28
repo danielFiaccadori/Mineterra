@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "mineterra:titanium_ingot"
+    },
+    "1": {
+      "item": "mineterra:titanium_ingot"
+    },
+    "2": {
+      "item": "mineterra:titanium_ingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mineterra:titanium_pickaxe",
+    "count": 1
+  }
+}

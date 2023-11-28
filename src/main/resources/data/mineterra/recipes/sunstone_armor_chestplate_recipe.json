@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mineterra:sunstone"
+    },
+    "2": {
+      "item": "mineterra:sunstone"
+    },
+    "3": {
+      "item": "mineterra:sunstone"
+    },
+    "4": {
+      "item": "mineterra:sunstone"
+    },
+    "5": {
+      "item": "mineterra:sunstone"
+    },
+    "6": {
+      "item": "mineterra:sunstone"
+    },
+    "7": {
+      "item": "mineterra:sunstone"
+    },
+    "8": {
+      "item": "mineterra:sunstone"
+    }
+  },
+  "result": {
+    "item": "mineterra:sunstone_armor_chestplate",
+    "count": 1
+  }
+}

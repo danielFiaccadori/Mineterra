@@ -1,0 +1,38 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "Stone_katana",
+    "customModelName": "Normal",
+    "name": "Katana de Pedra",
+    "specialInfo": [
+      "§4Golpe Cortante",
+      "§8O primeiro ataque desferido por Katanas, causam §6100%♦§8 de dano adicional.",
+      "§8§cGolpe Cortante possui um tempo de recarga rápido antes que possa ser ativado novamente."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 4.0,
+    "enchantability": 5,
+    "damageVsEntity": 3.0,
+    "usageCount": 131,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:StoneKatana"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "KatanaProcedure"
+    }
+  }
+}

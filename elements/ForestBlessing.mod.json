@@ -1,0 +1,20 @@
+{
+  "_fv": 47,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Bênção da Fauna",
+    "icon": "forest-blessing.png",
+    "color": {
+      "value": -16737997,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "ForestBlessingEffectStartedapplied"
+    }
+  }
+}

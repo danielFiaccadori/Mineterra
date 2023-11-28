@@ -1,0 +1,11 @@
+{
+  "parent": "mineterra:custom/activationtable",
+  "textures": {
+    "all": "mineterra:block/arcanetable",
+    "particle": "mineterra:block/arcanetable",
+    "0": "mineterra:block/",
+    "1": "mineterra:block/",
+    "2": "mineterra:block/"
+  },
+  "render_type": "solid"
+}

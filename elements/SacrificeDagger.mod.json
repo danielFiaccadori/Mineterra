@@ -1,0 +1,33 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "sacrificedagger",
+    "customModelName": "Normal",
+    "name": "Adaga de Sacrifício",
+    "specialInfo": [
+      "§cBônus de dano§8",
+      "Adagas causam dano adicional equivalente a §6+1% do dano de ataque do usuário§r."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 3.0,
+    "enchantability": 2,
+    "damageVsEntity": 5.0,
+    "usageCount": 200,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "SacrificeDaggerLivingEntityIsHitWithTool"
+    }
+  }
+}

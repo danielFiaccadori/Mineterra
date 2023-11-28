@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mineterra:tourmaline_block"
+    }
+  ],
+  "result": {
+    "item": "mineterra:tourmaline",
+    "count": 9
+  }
+}

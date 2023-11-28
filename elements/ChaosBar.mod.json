@@ -1,0 +1,153 @@
+{
+  "_fv": 47,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "no_chaos.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ChaosAmount"
+          },
+          "x": 321,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "1_chaos.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ChaosAmount10"
+          },
+          "x": 321,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "2_chaos.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ChaosAmount20"
+          },
+          "x": 321,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "3_chaos.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ChaosAmount30"
+          },
+          "x": 321,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "4_chaos.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ChaosAmount40"
+          },
+          "x": 321,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "5_chaos.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ChaosAmount50"
+          },
+          "x": 321,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "6_chaos.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ChaosAmount60"
+          },
+          "x": 321,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "7_chaos.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ChaosAmount70"
+          },
+          "x": 321,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "8_chaos.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ChaosAmount80"
+          },
+          "x": 321,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "9_chaos.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ChaosAmount90"
+          },
+          "x": 321,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "10_chaos.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ChaosAmount100"
+          },
+          "x": 321,
+          "y": 224
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "ChaosBarDisplayOverlayIngameCondition"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

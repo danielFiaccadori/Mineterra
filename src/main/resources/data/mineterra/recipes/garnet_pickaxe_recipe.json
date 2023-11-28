@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "mineterra:garnet"
+    },
+    "1": {
+      "item": "mineterra:garnet"
+    },
+    "2": {
+      "item": "mineterra:garnet"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mineterra:garnet_pickaxe",
+    "count": 1
+  }
+}

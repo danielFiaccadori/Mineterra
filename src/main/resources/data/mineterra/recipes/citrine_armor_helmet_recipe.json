@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "mineterra:citrine"
+    },
+    "1": {
+      "item": "mineterra:citrine"
+    },
+    "2": {
+      "item": "mineterra:citrine"
+    },
+    "3": {
+      "item": "mineterra:citrine"
+    },
+    "5": {
+      "item": "mineterra:citrine"
+    }
+  },
+  "result": {
+    "item": "mineterra:citrine_armor_helmet",
+    "count": 1
+  }
+}

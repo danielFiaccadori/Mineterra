@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "mineterra:zircon"
+    },
+    "1": {
+      "item": "mineterra:zircon"
+    },
+    "2": {
+      "item": "mineterra:zircon"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mineterra:zircon_pickaxe",
+    "count": 1
+  }
+}

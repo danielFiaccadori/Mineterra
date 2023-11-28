@@ -1,0 +1,38 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "rapier",
+    "customModelName": "Normal",
+    "name": "Rapieira",
+    "specialInfo": [
+      "§5Perfuração§8",
+      "Acertos realizados com rapieiras possuem 20% de chance de causar §4Sangramento§8por 2 segundos.",
+      "§8§oEssa arma também concede §croubo de vida §o§7equivalente ao §6DdA §8do jogador."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
+    "enchantability": 2,
+    "damageVsEntity": 2.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.IRON_INGOT"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "RapierProcedure"
+    }
+  }
+}

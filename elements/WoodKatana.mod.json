@@ -1,0 +1,38 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "wood_katana",
+    "customModelName": "Normal",
+    "name": "Katana de Madeira",
+    "specialInfo": [
+      "§4Golpe Cortante",
+      "§8O primeiro ataque desferido por Katanas, causam §6100%♦§8 de dano adicional.",
+      "§8§cGolpe Cortante possui um tempo de recarga rápido antes que possa ser ativado novamente."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 4.0,
+    "enchantability": 15,
+    "damageVsEntity": 2.0,
+    "usageCount": 59,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:WoodKatana"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "KatanaProcedure"
+    }
+  }
+}

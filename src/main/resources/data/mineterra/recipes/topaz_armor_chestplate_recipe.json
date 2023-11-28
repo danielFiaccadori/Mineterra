@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mineterra:topaz"
+    },
+    "2": {
+      "item": "mineterra:topaz"
+    },
+    "3": {
+      "item": "mineterra:topaz"
+    },
+    "4": {
+      "item": "mineterra:topaz"
+    },
+    "5": {
+      "item": "mineterra:topaz"
+    },
+    "6": {
+      "item": "mineterra:topaz"
+    },
+    "7": {
+      "item": "mineterra:topaz"
+    },
+    "8": {
+      "item": "mineterra:topaz"
+    }
+  },
+  "result": {
+    "item": "mineterra:topaz_armor_chestplate",
+    "count": 1
+  }
+}

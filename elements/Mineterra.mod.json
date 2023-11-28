@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "Mineterra",
+    "icon": {
+      "value": "Blocks.DIAMOND_ORE"
+    },
+    "showSearch": true
+  }
+}

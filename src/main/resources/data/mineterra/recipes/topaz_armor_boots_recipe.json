@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "mineterra:topaz"
+    },
+    "2": {
+      "item": "mineterra:topaz"
+    },
+    "3": {
+      "item": "mineterra:topaz"
+    },
+    "5": {
+      "item": "mineterra:topaz"
+    }
+  },
+  "result": {
+    "item": "mineterra:topaz_armor_boots",
+    "count": 1
+  }
+}

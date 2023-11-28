@@ -1,0 +1,162 @@
+{
+  "celestial-passive-active": {
+    "sounds": [
+      {
+        "name": "mineterra:magical-blowing-95072",
+        "stream": false
+      }
+    ]
+  },
+  "dreamwood-ambience": {
+    "sounds": [
+      {
+        "name": "mineterra:creaky-tree-in-woodland-20187",
+        "stream": false
+      }
+    ]
+  },
+  "insatable-hunger": {
+    "sounds": [
+      {
+        "name": "mineterra:magical-focus-energy-40083",
+        "stream": false
+      }
+    ]
+  },
+  "abyssal-transformation-sound": {
+    "sounds": [
+      {
+        "name": "mineterra:possessed-laugh-94851",
+        "stream": false
+      }
+    ]
+  },
+  "celestial-transformation-sound": {
+    "sounds": [
+      {
+        "name": "mineterra:cinematic-boom-171285",
+        "stream": false
+      }
+    ]
+  },
+  "celestial-transform-saound": {
+    "sounds": [
+      {
+        "name": "mineterra:cinematic-boom-171285",
+        "stream": false
+      }
+    ]
+  },
+  "transformation-sound": {
+    "sounds": [
+      {
+        "name": "mineterra:short-dance-36870",
+        "stream": false
+      }
+    ]
+  },
+  "orc-roar": {
+    "sounds": [
+      {
+        "name": "mineterra:dragon-roar-90344",
+        "stream": false
+      }
+    ]
+  },
+  "ferocity-growl": {
+    "sounds": [
+      {
+        "name": "mineterra:deep-monster-growl-86780",
+        "stream": false
+      }
+    ]
+  },
+  "orrc-growl": {
+    "sounds": [
+      {
+        "name": "mineterra:deep-monster-growl-86780",
+        "stream": false
+      }
+    ]
+  },
+  "orc-passive-anger": {
+    "sounds": [
+      {
+        "name": "mineterra:dragon-roar-90344",
+        "stream": false
+      }
+    ]
+  },
+  "max-chaos": {
+    "sounds": [
+      {
+        "name": "mineterra:big-cinematic-impact-94799",
+        "stream": false
+      }
+    ]
+  },
+  "feralit-roar": {
+    "sounds": [
+      {
+        "name": "mineterra:demon_lion_monster_growl_roar-14711",
+        "stream": false
+      }
+    ]
+  },
+  "start-bleeding": {
+    "sounds": [
+      {
+        "name": "mineterra:splattt-6295",
+        "stream": false
+      }
+    ]
+  },
+  "ritualdagger8s": {
+    "sounds": [
+      {
+        "name": "mineterra:ritual-82775",
+        "stream": false
+      }
+    ]
+  },
+  "heartbeat10s": {
+    "sounds": [
+      {
+        "name": "mineterra:heartbeat-sound-effect-111218_1",
+        "stream": false
+      }
+    ]
+  },
+  "shen_sword": {
+    "sounds": [
+      {
+        "name": "mineterra:shen_select_sfx_1",
+        "stream": false
+      }
+    ]
+  },
+  "spiritual_explosion": {
+    "sounds": [
+      {
+        "name": "mineterra:aggressive-hit-logo-139133",
+        "stream": false
+      }
+    ]
+  },
+  "katana_draw": {
+    "sounds": [
+      {
+        "name": "mineterra:sword-drawing-1-35903",
+        "stream": false
+      }
+    ]
+  },
+  "gemstone_armor_equip": {
+    "sounds": [
+      {
+        "name": "mineterra:diamond-slot-35963",
+        "stream": false
+      }
+    ]
+  }
+}

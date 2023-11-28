@@ -1,0 +1,26 @@
+{
+  "_fv": 47,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Banquete Espiritual",
+    "icon": "small-and-efficient.png",
+    "color": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "SoulStealEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "SoulStealOnEffectActiveTick"
+    },
+    "activeTickCondition": {
+      "name": "SoulStealActiveTickCondition"
+    }
+  }
+}

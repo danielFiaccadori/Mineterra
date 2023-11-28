@@ -1,0 +1,178 @@
+{
+  "_fv": 47,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 246,
+    "height": 172,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "ezgif.com-webp-to-png.png",
+          "use1Xscale": true,
+          "x": -42,
+          "y": -29
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "game_start_character_creation.png",
+          "use1Xscale": false,
+          "x": 90,
+          "y": 34
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_next",
+          "text": "Next >",
+          "width": 46,
+          "height": 20,
+          "x": 280,
+          "y": 175
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_prev",
+          "text": "< Prev.",
+          "width": 51,
+          "height": 20,
+          "x": 100,
+          "y": 175
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_select",
+          "text": "Select",
+          "width": 56,
+          "height": 20,
+          "x": 186,
+          "y": 175
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_human",
+          "text": {
+            "fixedValue": "RACE SELECTOR"
+          },
+          "color": {
+            "value": -3355648,
+            "falpha": 0.0
+          },
+          "x": 178,
+          "y": 49
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "Human",
+          "text": "Human",
+          "x": 105,
+          "y": 70
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "Celestial",
+          "text": "Celestial",
+          "x": 105,
+          "y": 93
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "Abyssal",
+          "text": "Abyssal",
+          "x": 105,
+          "y": 116
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "SonOfTheTide",
+          "text": "Sirens",
+          "x": 105,
+          "y": 139
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "Orc",
+          "text": "Orc",
+          "x": 179,
+          "y": 70
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "Feralit",
+          "text": "Feralit",
+          "x": 179,
+          "y": 93
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "Gnome",
+          "text": "Gnome",
+          "x": 179,
+          "y": 116
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "Dwarf",
+          "text": "Dwarf",
+          "x": 179,
+          "y": 139
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "HighElf",
+          "text": "HighElf",
+          "x": 255,
+          "y": 70
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "ForestElf",
+          "text": "ForestElf",
+          "x": 255,
+          "y": 93
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

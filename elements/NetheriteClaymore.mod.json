@@ -1,0 +1,37 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "netherite_longsword",
+    "customModelName": "Normal",
+    "name": "Espada Longa de Netherita",
+    "specialInfo": [
+      "§4Golpe Brutal",
+      "§48Cada terceiro ataque desferido por espadas longas, causam 2(§2+ 10% da vida máxima do portador§8)\\ de dano adicional."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 8.0,
+    "usageCount": 2032,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:NetheriteClaymore"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "IronClaymoreLivingEntityIsHitWithTool"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "gold_imperial_longsword",
+    "customModelName": "Normal",
+    "name": "Espada Longa Imperial de Ouro ",
+    "specialInfo": [
+      "§4Golpe Brutal",
+      "§48Cada terceiro ataque desferido por espadas longas, causam 2(§2+ 10% da vida máxima do portador§8) de dano adicional.",
+      "§oUtilizada nas guerras do Caos, é uma Espada Longa de Ouro que fora fortalecida pelos forjadores Imperiais."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 22,
+    "damageVsEntity": 6.0,
+    "usageCount": 72,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:GoldenClaymore"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "IronClaymoreLivingEntityIsHitWithTool"
+    }
+  }
+}

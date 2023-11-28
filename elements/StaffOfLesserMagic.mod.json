@@ -1,0 +1,45 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "staffmagic",
+    "customModelName": "Normal",
+    "name": "Staff Of Lesser Magic",
+    "specialInfo": [
+      "A staff that deals 1 (+100%% of maximum Magical Damage) Magical Damage."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "CUSTOM:celestial-passive-active"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 2.0,
+    "bulletDamage": 0.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Blocks.AMETHYST_CLUSTER"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsEntity": {
+      "name": "StaffOfLesserMagicProjectileHitsLivingEntity"
+    },
+    "onBulletFlyingTick": {
+      "name": "StaffOfLesserMagicWhileProjectileFlyingTick"
+    }
+  }
+}

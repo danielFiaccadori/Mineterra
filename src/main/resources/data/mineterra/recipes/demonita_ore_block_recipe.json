@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mineterra:demonita"
+    },
+    "1": {
+      "item": "mineterra:demonita"
+    },
+    "2": {
+      "item": "mineterra:demonita"
+    },
+    "3": {
+      "item": "mineterra:demonita"
+    },
+    "4": {
+      "item": "mineterra:demonita"
+    },
+    "5": {
+      "item": "mineterra:demonita"
+    },
+    "6": {
+      "item": "mineterra:demonita"
+    },
+    "7": {
+      "item": "mineterra:demonita"
+    },
+    "8": {
+      "item": "mineterra:demonita"
+    }
+  },
+  "result": {
+    "item": "mineterra:demonita_block",
+    "count": 1
+  }
+}

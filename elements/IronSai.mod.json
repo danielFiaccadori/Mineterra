@@ -1,0 +1,37 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "iron_sai",
+    "customModelName": "Normal",
+    "name": "Sai de Ferro",
+    "specialInfo": [
+      "§cApunhaladas brutais",
+      "§8Nos primeiros 5 segundos de combate, a arma recebe §520%§8 de velocidade de ataque adicional (10 segundos de tempo de recarga fora de combate)."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.5,
+    "enchantability": 2,
+    "damageVsEntity": 3.0,
+    "usageCount": 250,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:IronSai"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "IronSaiLivingEntityIsHitWithTool"
+    }
+  }
+}

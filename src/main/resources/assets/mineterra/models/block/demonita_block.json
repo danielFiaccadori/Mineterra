@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mineterra:block/demonita_ore_block",
+    "particle": "mineterra:block/demonita_ore_block"
+  },
+  "render_type": "solid"
+}
