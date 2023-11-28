@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "sapphire_gem",
+    "texture": "arcanite_gem",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],

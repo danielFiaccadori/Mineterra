@@ -15,6 +15,8 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.chat.Component;
 
+import net.mcreator.mineterra.procedures.StaffOfLesserMagicRangedItemUsedProcedure;
+import net.mcreator.mineterra.procedures.StaffOfLesserMagicCanUseRangedItemProcedure;
 import net.mcreator.mineterra.entity.StaffOfLesserMagicEntity;
 
 import java.util.List;
@@ -52,10 +54,11 @@ public class StaffOfLesserMagicItem extends Item {
 			double x = entity.getX();
 			double y = entity.getY();
 			double z = entity.getZ();
-			if (true) {
+			if (StaffOfLesserMagicCanUseRangedItemProcedure.execute(entity, itemstack)) {
 				StaffOfLesserMagicEntity entityarrow = StaffOfLesserMagicEntity.shoot(world, entity, world.getRandom(), 2f, 0, 0);
 				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 				entityarrow.pickup = AbstractArrow.Pickup.DISALLOWED;
+				StaffOfLesserMagicRangedItemUsedProcedure.execute(entity, itemstack);
 			}
 		}
 	}

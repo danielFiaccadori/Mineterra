@@ -25,6 +25,12 @@
     "animation": "none",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "StaffOfLesserMagicRangedItemUsed"
+    },
+    "useCondition": {
+      "name": "StaffOfLesserMagicCanUseRangedItem"
+    },
     "bulletPower": 2.0,
     "bulletDamage": 0.0,
     "bulletKnockback": 0,
