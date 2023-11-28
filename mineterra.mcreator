@@ -1141,7 +1141,7 @@
           "src/main/java/net/mcreator/mineterra/potion/SangramentoMobEffect.java"
         ]
       },
-      "path": "~/PassiveEffects/Global Effects/Bleeding"
+      "path": "~/Global Effects/Bleeding"
     },
     {
       "name": "Blood",
@@ -1156,7 +1156,7 @@
           "src/main/resources/assets/mineterra/particles/blood.json"
         ]
       },
-      "path": "~/PassiveEffects/Global Effects/Bleeding"
+      "path": "~/Global Effects/Bleeding"
     },
     {
       "name": "SangramentoEffectStartedapplied",
@@ -1188,7 +1188,7 @@
           }
         ]
       },
-      "path": "~/PassiveEffects/Global Effects/Bleeding"
+      "path": "~/Global Effects/Bleeding"
     },
     {
       "name": "SangramentoActiveTickCondition",
@@ -1213,7 +1213,7 @@
           }
         ]
       },
-      "path": "~/PassiveEffects/Global Effects/Bleeding"
+      "path": "~/Global Effects/Bleeding"
     },
     {
       "name": "SangramentoOnEffectActiveTick",
@@ -1237,7 +1237,7 @@
           }
         ]
       },
-      "path": "~/PassiveEffects/Global Effects/Bleeding"
+      "path": "~/Global Effects/Bleeding"
     },
     {
       "name": "IronDagger",
@@ -7407,15 +7407,15 @@
       "item.mineterra.topaz_pickaxe": "Topaz Pickaxe",
       "gui.mineterra.game_start_character_creation.label_human": "RACE SELECTOR",
       "block.mineterra.sunstone_ore": "Sunstone Ore",
-      "item.mineterra.tanzanite_pickaxe": "Tanzanite Pickaxe",
       "item.mineterra.silver_armor_chestplate": "Peitoral de Prata",
+      "item.mineterra.tanzanite_pickaxe": "Tanzanite Pickaxe",
       "item.mineterra.amethyst_armor_boots": "Amethyst Boots",
-      "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
       "item.mineterra.zircon_axe": "Zircon Axe",
+      "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
       "effect.mineterra.sangramento": "Sangramento",
       "block.mineterra.garnet_ore": "Garnet Ore",
-      "item.mineterra.sapphire_armor_boots": "Sapphire Boots",
       "item.mineterra.garnet_pickaxe": "Garnet Pickaxe",
+      "item.mineterra.sapphire_armor_boots": "Sapphire Boots",
       "gui.mineterra.game_start_character_creation.Celestial": "Celestial",
       "item.mineterra.topaz_armor_leggings": "Topaz Leggings",
       "block.mineterra.silver_ore": "Minério de Prata",
@@ -7448,8 +7448,8 @@
       "item.mineterra.copper_hoe": "Copper Hoe",
       "item.mineterra.copper_pickaxe": "Copper Pickaxe",
       "item.mineterra.ritual_dagger": "Ritual Dagger",
-      "item.mineterra.citrine_hoe": "Citrine Hoe",
       "item.mineterra.demonita_armor_leggings": "Calças de Demonita",
+      "item.mineterra.citrine_hoe": "Citrine Hoe",
       "item.mineterra.ruby": "Ruby",
       "item.mineterra.iron_dagger": "Adaga de Ferro",
       "item.mineterra.garnet": "Garnet",
@@ -7460,14 +7460,14 @@
       "item.mineterra.copper_sword": "Copper Sword",
       "item.mineterra.sapphire_pickaxe": "Sapphire Pickaxe",
       "item.mineterra.sunstone_armor_helmet": "Sunstone Helmet",
-      "item.mineterra.zircon_armor_helmet": "Zircon Helmet",
       "subtitles.orrc-growl": "",
+      "item.mineterra.zircon_armor_helmet": "Zircon Helmet",
       "item.mineterra.wood_katana": "Katana de Madeira",
       "item.mineterra.tanzanite_axe": "Tanzanite Axe",
       "item.mineterra.demonita_shovel": "Pá de Demonita",
       "gui.mineterra.human_gui.label_conhecimento": "- Conhecimento;",
-      "item.mineterra.topaz_shovel": "Topaz Shovel",
       "item.mineterra.gold_katana": "Katana de Ouro",
+      "item.mineterra.topaz_shovel": "Topaz Shovel",
       "item.mineterra.citrine_armor_helmet": "Citrine Helmet",
       "item.mineterra.sunstone_armor_boots": "Sunstone Boots",
       "item.mineterra.garnet_armor_helmet": "Garnet Helmet",
@@ -7772,15 +7772,6 @@
           {
             "name": "Gnome",
             "children": []
-          },
-          {
-            "name": "Global Effects",
-            "children": [
-              {
-                "name": "Bleeding",
-                "children": []
-              }
-            ]
           }
         ]
       },
@@ -7957,6 +7948,19 @@
       },
       {
         "name": "StatsGUI",
+        "children": []
+      },
+      {
+        "name": "Global Effects",
+        "children": [
+          {
+            "name": "Bleeding",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Teste11111111111",
         "children": []
       }
     ]
