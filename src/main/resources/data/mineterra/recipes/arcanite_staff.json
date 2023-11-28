@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "mineterra:arcanite_catalyzer"
+    },
+    "4": {
+      "item": "mineterra:magical_casing"
+    },
+    "6": {
+      "item": "mineterra:wood_staff"
+    }
+  },
+  "result": {
+    "item": "mineterra:arcanite_staff",
+    "count": 1
+  }
+}

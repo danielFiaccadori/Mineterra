@@ -22,7 +22,7 @@ import net.mcreator.mineterra.MineterraMod;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MineterraModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, MineterraMod.MODID);
-	public static final RegistryObject<EntityType<StaffOfLesserMagicEntity>> STAFF_OF_LESSER_MAGIC = register("projectile_staff_of_lesser_magic", EntityType.Builder.<StaffOfLesserMagicEntity>of(StaffOfLesserMagicEntity::new, MobCategory.MISC)
+	public static final RegistryObject<EntityType<StaffOfLesserMagicEntity>> ARCANITE_STAFF = register("projectile_arcanite_staff", EntityType.Builder.<StaffOfLesserMagicEntity>of(StaffOfLesserMagicEntity::new, MobCategory.MISC)
 			.setCustomClientFactory(StaffOfLesserMagicEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {

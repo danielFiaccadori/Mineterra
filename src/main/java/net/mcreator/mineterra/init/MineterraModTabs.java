@@ -58,8 +58,10 @@ public class MineterraModTabs {
 				tabData.accept(MineterraModBlocks.TITANIUM_BLOCK.get().asItem());
 				tabData.accept(MineterraModItems.TITANIUM_INGOT.get());
 				tabData.accept(MineterraModItems.MAGICAL_CASING.get());
-				tabData.accept(MineterraModItems.AMETHYST_MAGICAL_CATALYZER.get());
-				tabData.accept(MineterraModBlocks.ACTIVATION_TABLE.get().asItem());
+				tabData.accept(MineterraModBlocks.ARCANITE_ORE.get().asItem());
+				tabData.accept(MineterraModBlocks.ARCANITE_BLOCK.get().asItem());
+				tabData.accept(MineterraModItems.ARCANITE.get());
+				tabData.accept(MineterraModItems.ARCANITE_CATALYZER.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -166,7 +168,7 @@ public class MineterraModTabs {
 			tabData.accept(MineterraModItems.TITANIUM_ARMOR_BOOTS.get());
 			tabData.accept(MineterraModItems.TITANIUM_SWORD.get());
 			tabData.accept(MineterraModItems.WOOD_STAFF.get());
-			tabData.accept(MineterraModItems.STAFF_OF_LESSER_MAGIC.get());
+			tabData.accept(MineterraModItems.ARCANITE_STAFF.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {

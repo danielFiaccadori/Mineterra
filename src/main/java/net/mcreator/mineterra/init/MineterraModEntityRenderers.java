@@ -15,6 +15,6 @@ import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 public class MineterraModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
-		event.registerEntityRenderer(MineterraModEntities.STAFF_OF_LESSER_MAGIC.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(MineterraModEntities.ARCANITE_STAFF.get(), ThrownItemRenderer::new);
 	}
 }

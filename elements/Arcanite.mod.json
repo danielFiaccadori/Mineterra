@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "tanzanite_gem",
+    "texture": "arcanite_gem",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Amethyst Magical Essence",
+    "name": "Arcanite",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Mineterra"
@@ -26,12 +26,8 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "§2Blindness",
-      "§8Blind and slows an entity for 3 seconds.",
-      "§8§oContains a magical spell based on it's gem power (can be enchanted to create more spells)."
-    ],
-    "hasGlow": true,
+    "specialInfo": [],
+    "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,

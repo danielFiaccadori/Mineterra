@@ -1152,8 +1152,8 @@
       "registry_name": "blood",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/client/particle/BloodParticle.java",
-          "src/main/resources/assets/mineterra/particles/blood.json"
+          "src/main/resources/assets/mineterra/particles/blood.json",
+          "src/main/java/net/mcreator/mineterra/client/particle/BloodParticle.java"
         ]
       },
       "path": "~/Global Effects/Bleeding"
@@ -1388,8 +1388,8 @@
       "registry_name": "silver_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/silver_ingot.json",
-          "src/main/java/net/mcreator/mineterra/item/SilverIngotItem.java"
+          "src/main/java/net/mcreator/mineterra/item/SilverIngotItem.java",
+          "src/main/resources/assets/mineterra/models/item/silver_ingot.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
@@ -1403,14 +1403,14 @@
       "registry_name": "silver_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/blockstates/silver_ore.json",
-          "src/main/resources/data/mineterra/worldgen/configured_feature/silver_ore.json",
           "src/main/java/net/mcreator/mineterra/block/SilverOreBlock.java",
-          "src/main/resources/data/mineterra/worldgen/placed_feature/silver_ore.json",
-          "src/main/resources/assets/mineterra/models/block/silver_ore.json",
-          "src/main/resources/data/mineterra/forge/biome_modifier/silver_ore_biome_modifier.json",
           "src/main/java/net/mcreator/mineterra/world/features/ores/SilverOreFeature.java",
-          "src/main/resources/assets/mineterra/models/item/silver_ore.json"
+          "src/main/resources/data/mineterra/forge/biome_modifier/silver_ore_biome_modifier.json",
+          "src/main/resources/data/mineterra/worldgen/configured_feature/silver_ore.json",
+          "src/main/resources/assets/mineterra/models/block/silver_ore.json",
+          "src/main/resources/data/mineterra/worldgen/placed_feature/silver_ore.json",
+          "src/main/resources/assets/mineterra/models/item/silver_ore.json",
+          "src/main/resources/assets/mineterra/blockstates/silver_ore.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
@@ -1426,8 +1426,8 @@
         "files": [
           "src/main/java/net/mcreator/mineterra/block/SilverBlockBlock.java",
           "src/main/resources/assets/mineterra/models/block/silver_block.json",
-          "src/main/resources/assets/mineterra/models/item/silver_block.json",
-          "src/main/resources/assets/mineterra/blockstates/silver_block.json"
+          "src/main/resources/assets/mineterra/blockstates/silver_block.json",
+          "src/main/resources/assets/mineterra/models/item/silver_block.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
@@ -1513,8 +1513,8 @@
       "registry_name": "silver_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/silver_sword.json",
-          "src/main/java/net/mcreator/mineterra/item/SilverSwordItem.java"
+          "src/main/java/net/mcreator/mineterra/item/SilverSwordItem.java",
+          "src/main/resources/assets/mineterra/models/item/silver_sword.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
@@ -1528,8 +1528,8 @@
       "registry_name": "silver_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/silver_shovel.json",
-          "src/main/java/net/mcreator/mineterra/item/SilverShovelItem.java"
+          "src/main/java/net/mcreator/mineterra/item/SilverShovelItem.java",
+          "src/main/resources/assets/mineterra/models/item/silver_shovel.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
@@ -1543,8 +1543,8 @@
       "registry_name": "silver_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/silver_hoe.json",
-          "src/main/java/net/mcreator/mineterra/item/SilverHoeItem.java"
+          "src/main/java/net/mcreator/mineterra/item/SilverHoeItem.java",
+          "src/main/resources/assets/mineterra/models/item/silver_hoe.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
@@ -1628,11 +1628,11 @@
       "registry_name": "silver_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/silver_armor_chestplate.json",
-          "src/main/resources/assets/mineterra/models/item/silver_armor_leggings.json",
           "src/main/resources/assets/mineterra/models/item/silver_armor_boots.json",
           "src/main/java/net/mcreator/mineterra/item/SilverArmorItem.java",
-          "src/main/resources/assets/mineterra/models/item/silver_armor_helmet.json"
+          "src/main/resources/assets/mineterra/models/item/silver_armor_leggings.json",
+          "src/main/resources/assets/mineterra/models/item/silver_armor_helmet.json",
+          "src/main/resources/assets/mineterra/models/item/silver_armor_chestplate.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
@@ -1726,8 +1726,8 @@
       "registry_name": "stone_dagger",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/stone_dagger.json",
-          "src/main/java/net/mcreator/mineterra/item/StoneDaggerItem.java"
+          "src/main/java/net/mcreator/mineterra/item/StoneDaggerItem.java",
+          "src/main/resources/assets/mineterra/models/item/stone_dagger.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/RawItems/Daggers"
@@ -1921,8 +1921,8 @@
       "registry_name": "sacrifice_dagger",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/sacrifice_dagger.json",
-          "src/main/java/net/mcreator/mineterra/item/SacrificeDaggerItem.java"
+          "src/main/java/net/mcreator/mineterra/item/SacrificeDaggerItem.java",
+          "src/main/resources/assets/mineterra/models/item/sacrifice_dagger.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/RawItems/Daggers/Sacrifice Dagger"
@@ -1974,8 +1974,8 @@
       "registry_name": "ritual_dagger",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/RitualDaggerItem.java",
-          "src/main/resources/assets/mineterra/models/item/ritual_dagger.json"
+          "src/main/resources/assets/mineterra/models/item/ritual_dagger.json",
+          "src/main/java/net/mcreator/mineterra/item/RitualDaggerItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Special Items/Ritual Dagger"
@@ -2120,8 +2120,8 @@
       "registry_name": "iron_sai_rapier",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/IronSaiItem.java",
-          "src/main/resources/assets/mineterra/models/item/iron_sai_rapier.json"
+          "src/main/resources/assets/mineterra/models/item/iron_sai_rapier.json",
+          "src/main/java/net/mcreator/mineterra/item/IronSaiItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/RawItems/Sai"
@@ -2173,8 +2173,8 @@
       "registry_name": "elderly_rapier_sai",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/ElderlySaiItem.java",
-          "src/main/resources/assets/mineterra/models/item/elderly_rapier_sai.json"
+          "src/main/resources/assets/mineterra/models/item/elderly_rapier_sai.json",
+          "src/main/java/net/mcreator/mineterra/item/ElderlySaiItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Special Items/ElderlySai"
@@ -2658,8 +2658,8 @@
       "registry_name": "gold_sai",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/gold_sai.json",
-          "src/main/java/net/mcreator/mineterra/item/GoldSaiItem.java"
+          "src/main/java/net/mcreator/mineterra/item/GoldSaiItem.java",
+          "src/main/resources/assets/mineterra/models/item/gold_sai.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/RawItems/Sai"
@@ -2673,8 +2673,8 @@
       "registry_name": "diamond_sai",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/DiamondSaiItem.java",
-          "src/main/resources/assets/mineterra/models/item/diamond_sai.json"
+          "src/main/resources/assets/mineterra/models/item/diamond_sai.json",
+          "src/main/java/net/mcreator/mineterra/item/DiamondSaiItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/RawItems/Sai"
@@ -2688,8 +2688,8 @@
       "registry_name": "netherite_sai",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/NetheriteSaiItem.java",
-          "src/main/resources/assets/mineterra/models/item/netherite_sai.json"
+          "src/main/resources/assets/mineterra/models/item/netherite_sai.json",
+          "src/main/java/net/mcreator/mineterra/item/NetheriteSaiItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/RawItems/Sai"
@@ -2774,8 +2774,8 @@
       "registry_name": "iron_katana",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/iron_katana.json",
-          "src/main/java/net/mcreator/mineterra/item/IronKatanaItem.java"
+          "src/main/java/net/mcreator/mineterra/item/IronKatanaItem.java",
+          "src/main/resources/assets/mineterra/models/item/iron_katana.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/RawItems/Katana"
@@ -2789,8 +2789,8 @@
       "registry_name": "wood_katana",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/wood_katana.json",
-          "src/main/java/net/mcreator/mineterra/item/WoodKatanaItem.java"
+          "src/main/java/net/mcreator/mineterra/item/WoodKatanaItem.java",
+          "src/main/resources/assets/mineterra/models/item/wood_katana.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/RawItems/Katana"
@@ -2995,14 +2995,14 @@
       "registry_name": "demonita_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/mineterra/forge/biome_modifier/demonita_ore_biome_modifier.json",
           "src/main/resources/data/mineterra/worldgen/placed_feature/demonita_ore.json",
-          "src/main/resources/assets/mineterra/blockstates/demonita_ore.json",
-          "src/main/java/net/mcreator/mineterra/block/DemonitaOreBlock.java",
-          "src/main/resources/data/mineterra/worldgen/configured_feature/demonita_ore.json",
-          "src/main/resources/assets/mineterra/models/item/demonita_ore.json",
           "src/main/resources/assets/mineterra/models/block/demonita_ore.json",
-          "src/main/java/net/mcreator/mineterra/world/features/ores/DemonitaOreFeature.java"
+          "src/main/resources/data/mineterra/worldgen/configured_feature/demonita_ore.json",
+          "src/main/java/net/mcreator/mineterra/block/DemonitaOreBlock.java",
+          "src/main/resources/assets/mineterra/models/item/demonita_ore.json",
+          "src/main/java/net/mcreator/mineterra/world/features/ores/DemonitaOreFeature.java",
+          "src/main/resources/data/mineterra/forge/biome_modifier/demonita_ore_biome_modifier.json",
+          "src/main/resources/assets/mineterra/blockstates/demonita_ore.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Demonite"
@@ -3017,9 +3017,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/mineterra/models/item/demonita_block.json",
-          "src/main/resources/assets/mineterra/models/block/demonita_block.json",
           "src/main/resources/assets/mineterra/blockstates/demonita_block.json",
-          "src/main/java/net/mcreator/mineterra/block/DemonitaBlockBlock.java"
+          "src/main/java/net/mcreator/mineterra/block/DemonitaBlockBlock.java",
+          "src/main/resources/assets/mineterra/models/block/demonita_block.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Demonite"
@@ -3105,8 +3105,8 @@
       "registry_name": "demonita_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/DemonitaSwordItem.java",
-          "src/main/resources/assets/mineterra/models/item/demonita_sword.json"
+          "src/main/resources/assets/mineterra/models/item/demonita_sword.json",
+          "src/main/java/net/mcreator/mineterra/item/DemonitaSwordItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Demonite"
@@ -3135,8 +3135,8 @@
       "registry_name": "demonita_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/demonita_hoe.json",
-          "src/main/java/net/mcreator/mineterra/item/DemonitaHoeItem.java"
+          "src/main/java/net/mcreator/mineterra/item/DemonitaHoeItem.java",
+          "src/main/resources/assets/mineterra/models/item/demonita_hoe.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Demonite"
@@ -3220,11 +3220,11 @@
       "registry_name": "demonita_armor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/DemonitaArmorItem.java",
           "src/main/resources/assets/mineterra/models/item/demonita_armor_chestplate.json",
           "src/main/resources/assets/mineterra/models/item/demonita_armor_boots.json",
-          "src/main/resources/assets/mineterra/models/item/demonita_armor_helmet.json",
-          "src/main/resources/assets/mineterra/models/item/demonita_armor_leggings.json"
+          "src/main/resources/assets/mineterra/models/item/demonita_armor_leggings.json",
+          "src/main/java/net/mcreator/mineterra/item/DemonitaArmorItem.java",
+          "src/main/resources/assets/mineterra/models/item/demonita_armor_helmet.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Demonite"
@@ -3294,8 +3294,8 @@
       "registry_name": "unactive_ritual_dagger",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/UnactiveRitualDaggerItem.java",
-          "src/main/resources/assets/mineterra/models/item/unactive_ritual_dagger.json"
+          "src/main/resources/assets/mineterra/models/item/unactive_ritual_dagger.json",
+          "src/main/java/net/mcreator/mineterra/item/UnactiveRitualDaggerItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Special Items/Ritual Dagger"
@@ -3407,8 +3407,8 @@
       "registry_name": "forge_hammer",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/ForgeHammerItem.java",
-          "src/main/resources/assets/mineterra/models/item/forge_hammer.json"
+          "src/main/resources/assets/mineterra/models/item/forge_hammer.json",
+          "src/main/java/net/mcreator/mineterra/item/ForgeHammerItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/UtilityItems"
@@ -3422,8 +3422,8 @@
       "registry_name": "copper_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/CopperPickaxeItem.java",
-          "src/main/resources/assets/mineterra/models/item/copper_pickaxe.json"
+          "src/main/resources/assets/mineterra/models/item/copper_pickaxe.json",
+          "src/main/java/net/mcreator/mineterra/item/CopperPickaxeItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/CooperKit"
@@ -3452,8 +3452,8 @@
       "registry_name": "copper_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/CopperSwordItem.java",
-          "src/main/resources/assets/mineterra/models/item/copper_sword.json"
+          "src/main/resources/assets/mineterra/models/item/copper_sword.json",
+          "src/main/java/net/mcreator/mineterra/item/CopperSwordItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/CooperKit"
@@ -3467,8 +3467,8 @@
       "registry_name": "copper_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/copper_shovel.json",
-          "src/main/java/net/mcreator/mineterra/item/CopperShovelItem.java"
+          "src/main/java/net/mcreator/mineterra/item/CopperShovelItem.java",
+          "src/main/resources/assets/mineterra/models/item/copper_shovel.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/CooperKit"
@@ -3569,9 +3569,9 @@
         "files": [
           "src/main/resources/assets/mineterra/models/item/copper_armor_helmet.json",
           "src/main/resources/assets/mineterra/models/item/copper_armor_leggings.json",
+          "src/main/resources/assets/mineterra/models/item/copper_armor_chestplate.json",
           "src/main/java/net/mcreator/mineterra/item/CopperArmorItem.java",
-          "src/main/resources/assets/mineterra/models/item/copper_armor_boots.json",
-          "src/main/resources/assets/mineterra/models/item/copper_armor_chestplate.json"
+          "src/main/resources/assets/mineterra/models/item/copper_armor_boots.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/CooperKit"
@@ -3656,14 +3656,14 @@
       "registry_name": "citrine_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/mineterra/worldgen/configured_feature/citrine_ore.json",
-          "src/main/resources/assets/mineterra/blockstates/citrine_ore.json",
-          "src/main/resources/assets/mineterra/models/block/citrine_ore.json",
-          "src/main/resources/data/mineterra/worldgen/placed_feature/citrine_ore.json",
-          "src/main/java/net/mcreator/mineterra/block/CitrineOreBlock.java",
+          "src/main/java/net/mcreator/mineterra/world/features/ores/CitrineOreFeature.java",
           "src/main/resources/data/mineterra/forge/biome_modifier/citrine_ore_biome_modifier.json",
+          "src/main/resources/assets/mineterra/blockstates/citrine_ore.json",
+          "src/main/java/net/mcreator/mineterra/block/CitrineOreBlock.java",
           "src/main/resources/assets/mineterra/models/item/citrine_ore.json",
-          "src/main/java/net/mcreator/mineterra/world/features/ores/CitrineOreFeature.java"
+          "src/main/resources/assets/mineterra/models/block/citrine_ore.json",
+          "src/main/resources/data/mineterra/worldgen/configured_feature/citrine_ore.json",
+          "src/main/resources/data/mineterra/worldgen/placed_feature/citrine_ore.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/CitrineKit"
@@ -3678,9 +3678,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/mineterra/block/CitrineBlockBlock.java",
-          "src/main/resources/assets/mineterra/models/item/citrine_block.json",
+          "src/main/resources/assets/mineterra/blockstates/citrine_block.json",
           "src/main/resources/assets/mineterra/models/block/citrine_block.json",
-          "src/main/resources/assets/mineterra/blockstates/citrine_block.json"
+          "src/main/resources/assets/mineterra/models/item/citrine_block.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/CitrineKit"
@@ -3751,8 +3751,8 @@
       "registry_name": "citrine_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/citrine_axe.json",
-          "src/main/java/net/mcreator/mineterra/item/CitrineAxeItem.java"
+          "src/main/java/net/mcreator/mineterra/item/CitrineAxeItem.java",
+          "src/main/resources/assets/mineterra/models/item/citrine_axe.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/CitrineKit"
@@ -3766,8 +3766,8 @@
       "registry_name": "citrine_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/citrine_sword.json",
-          "src/main/java/net/mcreator/mineterra/item/CitrineSwordItem.java"
+          "src/main/java/net/mcreator/mineterra/item/CitrineSwordItem.java",
+          "src/main/resources/assets/mineterra/models/item/citrine_sword.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/CitrineKit"
@@ -3781,8 +3781,8 @@
       "registry_name": "citrine_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/CitrineShovelItem.java",
-          "src/main/resources/assets/mineterra/models/item/citrine_shovel.json"
+          "src/main/resources/assets/mineterra/models/item/citrine_shovel.json",
+          "src/main/java/net/mcreator/mineterra/item/CitrineShovelItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/CitrineKit"
@@ -3882,10 +3882,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/mineterra/item/CitrineArmorItem.java",
-          "src/main/resources/assets/mineterra/models/item/citrine_armor_leggings.json",
+          "src/main/resources/assets/mineterra/models/item/citrine_armor_boots.json",
           "src/main/resources/assets/mineterra/models/item/citrine_armor_chestplate.json",
           "src/main/resources/assets/mineterra/models/item/citrine_armor_helmet.json",
-          "src/main/resources/assets/mineterra/models/item/citrine_armor_boots.json"
+          "src/main/resources/assets/mineterra/models/item/citrine_armor_leggings.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/CitrineKit"
@@ -4000,8 +4000,8 @@
       "registry_name": "amethyst_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/amethyst_shovel.json",
-          "src/main/java/net/mcreator/mineterra/item/AmethystShovelItem.java"
+          "src/main/java/net/mcreator/mineterra/item/AmethystShovelItem.java",
+          "src/main/resources/assets/mineterra/models/item/amethyst_shovel.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Amethyst"
@@ -4100,11 +4100,11 @@
       "registry_name": "amethyst_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/amethyst_armor_chestplate.json",
           "src/main/java/net/mcreator/mineterra/item/AmethystArmorItem.java",
-          "src/main/resources/assets/mineterra/models/item/amethyst_armor_boots.json",
           "src/main/resources/assets/mineterra/models/item/amethyst_armor_leggings.json",
-          "src/main/resources/assets/mineterra/models/item/amethyst_armor_helmet.json"
+          "src/main/resources/assets/mineterra/models/item/amethyst_armor_chestplate.json",
+          "src/main/resources/assets/mineterra/models/item/amethyst_armor_helmet.json",
+          "src/main/resources/assets/mineterra/models/item/amethyst_armor_boots.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Amethyst"
@@ -4174,8 +4174,8 @@
       "registry_name": "ruby",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/ruby.json",
-          "src/main/java/net/mcreator/mineterra/item/RubyItem.java"
+          "src/main/java/net/mcreator/mineterra/item/RubyItem.java",
+          "src/main/resources/assets/mineterra/models/item/ruby.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Ruby"
@@ -4190,13 +4190,13 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/mineterra/world/features/ores/RubyOreFeature.java",
-          "src/main/resources/data/mineterra/worldgen/placed_feature/ruby_ore.json",
-          "src/main/resources/assets/mineterra/blockstates/ruby_ore.json",
-          "src/main/java/net/mcreator/mineterra/block/RubyOreBlock.java",
-          "src/main/resources/assets/mineterra/models/item/ruby_ore.json",
-          "src/main/resources/data/mineterra/forge/biome_modifier/ruby_ore_biome_modifier.json",
           "src/main/resources/data/mineterra/worldgen/configured_feature/ruby_ore.json",
-          "src/main/resources/assets/mineterra/models/block/ruby_ore.json"
+          "src/main/resources/assets/mineterra/blockstates/ruby_ore.json",
+          "src/main/resources/assets/mineterra/models/block/ruby_ore.json",
+          "src/main/resources/data/mineterra/forge/biome_modifier/ruby_ore_biome_modifier.json",
+          "src/main/resources/assets/mineterra/models/item/ruby_ore.json",
+          "src/main/resources/data/mineterra/worldgen/placed_feature/ruby_ore.json",
+          "src/main/java/net/mcreator/mineterra/block/RubyOreBlock.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Ruby"
@@ -4210,10 +4210,10 @@
       "registry_name": "ruby_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/blockstates/ruby_block.json",
+          "src/main/resources/assets/mineterra/models/item/ruby_block.json",
           "src/main/java/net/mcreator/mineterra/block/RubyBlockBlock.java",
-          "src/main/resources/assets/mineterra/models/block/ruby_block.json",
-          "src/main/resources/assets/mineterra/models/item/ruby_block.json"
+          "src/main/resources/assets/mineterra/blockstates/ruby_block.json",
+          "src/main/resources/assets/mineterra/models/block/ruby_block.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Ruby"
@@ -4269,8 +4269,8 @@
       "registry_name": "ruby_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/RubyPickaxeItem.java",
-          "src/main/resources/assets/mineterra/models/item/ruby_pickaxe.json"
+          "src/main/resources/assets/mineterra/models/item/ruby_pickaxe.json",
+          "src/main/java/net/mcreator/mineterra/item/RubyPickaxeItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Ruby"
@@ -4299,8 +4299,8 @@
       "registry_name": "ruby_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/RubySwordItem.java",
-          "src/main/resources/assets/mineterra/models/item/ruby_sword.json"
+          "src/main/resources/assets/mineterra/models/item/ruby_sword.json",
+          "src/main/java/net/mcreator/mineterra/item/RubySwordItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Ruby"
@@ -4314,8 +4314,8 @@
       "registry_name": "ruby_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/RubyShovelItem.java",
-          "src/main/resources/assets/mineterra/models/item/ruby_shovel.json"
+          "src/main/resources/assets/mineterra/models/item/ruby_shovel.json",
+          "src/main/java/net/mcreator/mineterra/item/RubyShovelItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Ruby"
@@ -4414,11 +4414,11 @@
       "registry_name": "ruby_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/ruby_armor_boots.json",
           "src/main/resources/assets/mineterra/models/item/ruby_armor_helmet.json",
           "src/main/resources/assets/mineterra/models/item/ruby_armor_chestplate.json",
-          "src/main/java/net/mcreator/mineterra/item/RubyArmorItem.java",
-          "src/main/resources/assets/mineterra/models/item/ruby_armor_leggings.json"
+          "src/main/resources/assets/mineterra/models/item/ruby_armor_boots.json",
+          "src/main/resources/assets/mineterra/models/item/ruby_armor_leggings.json",
+          "src/main/java/net/mcreator/mineterra/item/RubyArmorItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Ruby"
@@ -4503,14 +4503,14 @@
       "registry_name": "garnet_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/garnet_ore.json",
-          "src/main/resources/data/mineterra/worldgen/placed_feature/garnet_ore.json",
-          "src/main/resources/assets/mineterra/models/block/garnet_ore.json",
-          "src/main/java/net/mcreator/mineterra/block/GarnetOreBlock.java",
           "src/main/resources/assets/mineterra/blockstates/garnet_ore.json",
-          "src/main/resources/data/mineterra/worldgen/configured_feature/garnet_ore.json",
+          "src/main/resources/assets/mineterra/models/block/garnet_ore.json",
+          "src/main/resources/data/mineterra/forge/biome_modifier/garnet_ore_biome_modifier.json",
           "src/main/java/net/mcreator/mineterra/world/features/ores/GarnetOreFeature.java",
-          "src/main/resources/data/mineterra/forge/biome_modifier/garnet_ore_biome_modifier.json"
+          "src/main/resources/data/mineterra/worldgen/placed_feature/garnet_ore.json",
+          "src/main/resources/assets/mineterra/models/item/garnet_ore.json",
+          "src/main/resources/data/mineterra/worldgen/configured_feature/garnet_ore.json",
+          "src/main/java/net/mcreator/mineterra/block/GarnetOreBlock.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/GarnetKit"
@@ -4524,10 +4524,10 @@
       "registry_name": "garnet_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/block/garnet_block.json",
-          "src/main/resources/assets/mineterra/blockstates/garnet_block.json",
           "src/main/java/net/mcreator/mineterra/block/GarnetBlockBlock.java",
-          "src/main/resources/assets/mineterra/models/item/garnet_block.json"
+          "src/main/resources/assets/mineterra/models/item/garnet_block.json",
+          "src/main/resources/assets/mineterra/models/block/garnet_block.json",
+          "src/main/resources/assets/mineterra/blockstates/garnet_block.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/GarnetKit"
@@ -4583,8 +4583,8 @@
       "registry_name": "garnet_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/GarnetPickaxeItem.java",
-          "src/main/resources/assets/mineterra/models/item/garnet_pickaxe.json"
+          "src/main/resources/assets/mineterra/models/item/garnet_pickaxe.json",
+          "src/main/java/net/mcreator/mineterra/item/GarnetPickaxeItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/GarnetKit"
@@ -4598,8 +4598,8 @@
       "registry_name": "garnet_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/garnet_axe.json",
-          "src/main/java/net/mcreator/mineterra/item/GarnetAxeItem.java"
+          "src/main/java/net/mcreator/mineterra/item/GarnetAxeItem.java",
+          "src/main/resources/assets/mineterra/models/item/garnet_axe.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/GarnetKit"
@@ -4729,10 +4729,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/mineterra/models/item/garnet_armor_helmet.json",
-          "src/main/resources/assets/mineterra/models/item/garnet_armor_chestplate.json",
-          "src/main/resources/assets/mineterra/models/item/garnet_armor_leggings.json",
+          "src/main/resources/assets/mineterra/models/item/garnet_armor_boots.json",
           "src/main/java/net/mcreator/mineterra/item/GarnetArmorItem.java",
-          "src/main/resources/assets/mineterra/models/item/garnet_armor_boots.json"
+          "src/main/resources/assets/mineterra/models/item/garnet_armor_chestplate.json",
+          "src/main/resources/assets/mineterra/models/item/garnet_armor_leggings.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/GarnetKit"
@@ -4817,14 +4817,14 @@
       "registry_name": "zircon_ore",
       "metadata": {
         "files": [
+          "src/main/resources/assets/mineterra/blockstates/zircon_ore.json",
+          "src/main/resources/data/mineterra/worldgen/configured_feature/zircon_ore.json",
+          "src/main/java/net/mcreator/mineterra/block/ZirconOreBlock.java",
           "src/main/resources/assets/mineterra/models/item/zircon_ore.json",
           "src/main/resources/data/mineterra/forge/biome_modifier/zircon_ore_biome_modifier.json",
           "src/main/resources/data/mineterra/worldgen/placed_feature/zircon_ore.json",
-          "src/main/java/net/mcreator/mineterra/block/ZirconOreBlock.java",
-          "src/main/resources/assets/mineterra/models/block/zircon_ore.json",
-          "src/main/resources/data/mineterra/worldgen/configured_feature/zircon_ore.json",
           "src/main/java/net/mcreator/mineterra/world/features/ores/ZirconOreFeature.java",
-          "src/main/resources/assets/mineterra/blockstates/zircon_ore.json"
+          "src/main/resources/assets/mineterra/models/block/zircon_ore.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/ZirconKit"
@@ -4839,9 +4839,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/mineterra/models/block/zircon_block.json",
-          "src/main/resources/assets/mineterra/blockstates/zircon_block.json",
           "src/main/java/net/mcreator/mineterra/block/ZirconBlockBlock.java",
-          "src/main/resources/assets/mineterra/models/item/zircon_block.json"
+          "src/main/resources/assets/mineterra/models/item/zircon_block.json",
+          "src/main/resources/assets/mineterra/blockstates/zircon_block.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/ZirconKit"
@@ -4927,8 +4927,8 @@
       "registry_name": "zircon_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/ZirconSwordItem.java",
-          "src/main/resources/assets/mineterra/models/item/zircon_sword.json"
+          "src/main/resources/assets/mineterra/models/item/zircon_sword.json",
+          "src/main/java/net/mcreator/mineterra/item/ZirconSwordItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/ZirconKit"
@@ -4957,8 +4957,8 @@
       "registry_name": "zircon_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/zircon_hoe.json",
-          "src/main/java/net/mcreator/mineterra/item/ZirconHoeItem.java"
+          "src/main/java/net/mcreator/mineterra/item/ZirconHoeItem.java",
+          "src/main/resources/assets/mineterra/models/item/zircon_hoe.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/ZirconKit"
@@ -5042,11 +5042,11 @@
       "registry_name": "zircon_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/zircon_armor_helmet.json",
-          "src/main/resources/assets/mineterra/models/item/zircon_armor_boots.json",
           "src/main/resources/assets/mineterra/models/item/zircon_armor_leggings.json",
           "src/main/java/net/mcreator/mineterra/item/ZirconArmorItem.java",
-          "src/main/resources/assets/mineterra/models/item/zircon_armor_chestplate.json"
+          "src/main/resources/assets/mineterra/models/item/zircon_armor_chestplate.json",
+          "src/main/resources/assets/mineterra/models/item/zircon_armor_boots.json",
+          "src/main/resources/assets/mineterra/models/item/zircon_armor_helmet.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/ZirconKit"
@@ -5116,8 +5116,8 @@
       "registry_name": "topaz",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/topaz.json",
-          "src/main/java/net/mcreator/mineterra/item/TopazItem.java"
+          "src/main/java/net/mcreator/mineterra/item/TopazItem.java",
+          "src/main/resources/assets/mineterra/models/item/topaz.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TopazKit"
@@ -5131,14 +5131,14 @@
       "registry_name": "topaz_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/blockstates/topaz_ore.json",
+          "src/main/resources/assets/mineterra/models/block/topaz_ore.json",
           "src/main/java/net/mcreator/mineterra/world/features/ores/TopazOreFeature.java",
-          "src/main/resources/data/mineterra/worldgen/configured_feature/topaz_ore.json",
-          "src/main/resources/data/mineterra/worldgen/placed_feature/topaz_ore.json",
+          "src/main/resources/assets/mineterra/models/item/topaz_ore.json",
+          "src/main/resources/assets/mineterra/blockstates/topaz_ore.json",
           "src/main/java/net/mcreator/mineterra/block/TopazOreBlock.java",
           "src/main/resources/data/mineterra/forge/biome_modifier/topaz_ore_biome_modifier.json",
-          "src/main/resources/assets/mineterra/models/block/topaz_ore.json",
-          "src/main/resources/assets/mineterra/models/item/topaz_ore.json"
+          "src/main/resources/data/mineterra/worldgen/placed_feature/topaz_ore.json",
+          "src/main/resources/data/mineterra/worldgen/configured_feature/topaz_ore.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TopazKit"
@@ -5152,10 +5152,10 @@
       "registry_name": "topaz_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/block/topaz_block.json",
-          "src/main/java/net/mcreator/mineterra/block/TopazBlockBlock.java",
           "src/main/resources/assets/mineterra/blockstates/topaz_block.json",
-          "src/main/resources/assets/mineterra/models/item/topaz_block.json"
+          "src/main/resources/assets/mineterra/models/item/topaz_block.json",
+          "src/main/java/net/mcreator/mineterra/block/TopazBlockBlock.java",
+          "src/main/resources/assets/mineterra/models/block/topaz_block.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TopazKit"
@@ -5211,8 +5211,8 @@
       "registry_name": "topaz_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/topaz_pickaxe.json",
-          "src/main/java/net/mcreator/mineterra/item/TopazPickaxeItem.java"
+          "src/main/java/net/mcreator/mineterra/item/TopazPickaxeItem.java",
+          "src/main/resources/assets/mineterra/models/item/topaz_pickaxe.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TopazKit"
@@ -5256,8 +5256,8 @@
       "registry_name": "topaz_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/TopazShovelItem.java",
-          "src/main/resources/assets/mineterra/models/item/topaz_shovel.json"
+          "src/main/resources/assets/mineterra/models/item/topaz_shovel.json",
+          "src/main/java/net/mcreator/mineterra/item/TopazShovelItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TopazKit"
@@ -5271,8 +5271,8 @@
       "registry_name": "topaz_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/topaz_hoe.json",
-          "src/main/java/net/mcreator/mineterra/item/TopazHoeItem.java"
+          "src/main/java/net/mcreator/mineterra/item/TopazHoeItem.java",
+          "src/main/resources/assets/mineterra/models/item/topaz_hoe.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TopazKit"
@@ -5356,11 +5356,11 @@
       "registry_name": "topaz_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/topaz_armor_helmet.json",
           "src/main/java/net/mcreator/mineterra/item/TopazArmorItem.java",
           "src/main/resources/assets/mineterra/models/item/topaz_armor_boots.json",
           "src/main/resources/assets/mineterra/models/item/topaz_armor_chestplate.json",
-          "src/main/resources/assets/mineterra/models/item/topaz_armor_leggings.json"
+          "src/main/resources/assets/mineterra/models/item/topaz_armor_leggings.json",
+          "src/main/resources/assets/mineterra/models/item/topaz_armor_helmet.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TopazKit"
@@ -5430,8 +5430,8 @@
       "registry_name": "tanzanite",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/TanzaniteItem.java",
-          "src/main/resources/assets/mineterra/models/item/tanzanite.json"
+          "src/main/resources/assets/mineterra/models/item/tanzanite.json",
+          "src/main/java/net/mcreator/mineterra/item/TanzaniteItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TanzaniteKit"
@@ -5445,14 +5445,14 @@
       "registry_name": "tanzanite_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/mineterra/forge/biome_modifier/tanzanite_ore_biome_modifier.json",
           "src/main/resources/data/mineterra/worldgen/placed_feature/tanzanite_ore.json",
-          "src/main/resources/assets/mineterra/models/block/tanzanite_ore.json",
-          "src/main/java/net/mcreator/mineterra/block/TanzaniteOreBlock.java",
-          "src/main/resources/data/mineterra/worldgen/configured_feature/tanzanite_ore.json",
           "src/main/resources/assets/mineterra/models/item/tanzanite_ore.json",
+          "src/main/resources/data/mineterra/forge/biome_modifier/tanzanite_ore_biome_modifier.json",
           "src/main/java/net/mcreator/mineterra/world/features/ores/TanzaniteOreFeature.java",
-          "src/main/resources/assets/mineterra/blockstates/tanzanite_ore.json"
+          "src/main/resources/data/mineterra/worldgen/configured_feature/tanzanite_ore.json",
+          "src/main/java/net/mcreator/mineterra/block/TanzaniteOreBlock.java",
+          "src/main/resources/assets/mineterra/blockstates/tanzanite_ore.json",
+          "src/main/resources/assets/mineterra/models/block/tanzanite_ore.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TanzaniteKit"
@@ -5468,8 +5468,8 @@
         "files": [
           "src/main/resources/assets/mineterra/models/item/tanzanite_block.json",
           "src/main/resources/assets/mineterra/models/block/tanzanite_block.json",
-          "src/main/resources/assets/mineterra/blockstates/tanzanite_block.json",
-          "src/main/java/net/mcreator/mineterra/block/TanzaniteBlockBlock.java"
+          "src/main/java/net/mcreator/mineterra/block/TanzaniteBlockBlock.java",
+          "src/main/resources/assets/mineterra/blockstates/tanzanite_block.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TanzaniteKit"
@@ -5670,11 +5670,11 @@
       "registry_name": "tanzanite_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/tanzanite_armor_leggings.json",
-          "src/main/resources/assets/mineterra/models/item/tanzanite_armor_chestplate.json",
-          "src/main/java/net/mcreator/mineterra/item/TanzaniteArmorItem.java",
           "src/main/resources/assets/mineterra/models/item/tanzanite_armor_helmet.json",
-          "src/main/resources/assets/mineterra/models/item/tanzanite_armor_boots.json"
+          "src/main/resources/assets/mineterra/models/item/tanzanite_armor_leggings.json",
+          "src/main/resources/assets/mineterra/models/item/tanzanite_armor_boots.json",
+          "src/main/resources/assets/mineterra/models/item/tanzanite_armor_chestplate.json",
+          "src/main/java/net/mcreator/mineterra/item/TanzaniteArmorItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TanzaniteKit"
@@ -5744,8 +5744,8 @@
       "registry_name": "sapphire",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/SapphireItem.java",
-          "src/main/resources/assets/mineterra/models/item/sapphire.json"
+          "src/main/resources/assets/mineterra/models/item/sapphire.json",
+          "src/main/java/net/mcreator/mineterra/item/SapphireItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SapphireKit"
@@ -5759,14 +5759,14 @@
       "registry_name": "sapphire_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/mineterra/worldgen/placed_feature/sapphire_ore.json",
           "src/main/java/net/mcreator/mineterra/block/SapphireOreBlock.java",
-          "src/main/resources/assets/mineterra/blockstates/sapphire_ore.json",
           "src/main/resources/data/mineterra/worldgen/configured_feature/sapphire_ore.json",
-          "src/main/resources/assets/mineterra/models/block/sapphire_ore.json",
           "src/main/resources/assets/mineterra/models/item/sapphire_ore.json",
+          "src/main/resources/data/mineterra/forge/biome_modifier/sapphire_ore_biome_modifier.json",
           "src/main/java/net/mcreator/mineterra/world/features/ores/SapphireOreFeature.java",
-          "src/main/resources/data/mineterra/forge/biome_modifier/sapphire_ore_biome_modifier.json"
+          "src/main/resources/data/mineterra/worldgen/placed_feature/sapphire_ore.json",
+          "src/main/resources/assets/mineterra/blockstates/sapphire_ore.json",
+          "src/main/resources/assets/mineterra/models/block/sapphire_ore.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SapphireKit"
@@ -5780,8 +5780,8 @@
       "registry_name": "sapphire_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/blockstates/sapphire_block.json",
           "src/main/java/net/mcreator/mineterra/block/SapphireBlockBlock.java",
+          "src/main/resources/assets/mineterra/blockstates/sapphire_block.json",
           "src/main/resources/assets/mineterra/models/block/sapphire_block.json",
           "src/main/resources/assets/mineterra/models/item/sapphire_block.json"
         ]
@@ -5854,8 +5854,8 @@
       "registry_name": "sapphire_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/sapphire_axe.json",
-          "src/main/java/net/mcreator/mineterra/item/SapphireAxeItem.java"
+          "src/main/java/net/mcreator/mineterra/item/SapphireAxeItem.java",
+          "src/main/resources/assets/mineterra/models/item/sapphire_axe.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SapphireKit"
@@ -5869,8 +5869,8 @@
       "registry_name": "sapphire_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/SapphireSwordItem.java",
-          "src/main/resources/assets/mineterra/models/item/sapphire_sword.json"
+          "src/main/resources/assets/mineterra/models/item/sapphire_sword.json",
+          "src/main/java/net/mcreator/mineterra/item/SapphireSwordItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SapphireKit"
@@ -5884,8 +5884,8 @@
       "registry_name": "sapphire_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/SapphireShovelItem.java",
-          "src/main/resources/assets/mineterra/models/item/sapphire_shovel.json"
+          "src/main/resources/assets/mineterra/models/item/sapphire_shovel.json",
+          "src/main/java/net/mcreator/mineterra/item/SapphireShovelItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SapphireKit"
@@ -5984,11 +5984,11 @@
       "registry_name": "sapphire_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/sapphire_armor_boots.json",
-          "src/main/resources/assets/mineterra/models/item/sapphire_armor_helmet.json",
-          "src/main/java/net/mcreator/mineterra/item/SapphireArmorItem.java",
           "src/main/resources/assets/mineterra/models/item/sapphire_armor_chestplate.json",
-          "src/main/resources/assets/mineterra/models/item/sapphire_armor_leggings.json"
+          "src/main/resources/assets/mineterra/models/item/sapphire_armor_boots.json",
+          "src/main/resources/assets/mineterra/models/item/sapphire_armor_leggings.json",
+          "src/main/resources/assets/mineterra/models/item/sapphire_armor_helmet.json",
+          "src/main/java/net/mcreator/mineterra/item/SapphireArmorItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SapphireKit"
@@ -6073,14 +6073,14 @@
       "registry_name": "sunstone_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/mineterra/forge/biome_modifier/sunstone_ore_biome_modifier.json",
           "src/main/java/net/mcreator/mineterra/block/SunstoneOreBlock.java",
-          "src/main/resources/data/mineterra/worldgen/configured_feature/sunstone_ore.json",
-          "src/main/resources/data/mineterra/worldgen/placed_feature/sunstone_ore.json",
           "src/main/resources/assets/mineterra/models/item/sunstone_ore.json",
-          "src/main/resources/assets/mineterra/models/block/sunstone_ore.json",
           "src/main/java/net/mcreator/mineterra/world/features/ores/SunstoneOreFeature.java",
-          "src/main/resources/assets/mineterra/blockstates/sunstone_ore.json"
+          "src/main/resources/assets/mineterra/blockstates/sunstone_ore.json",
+          "src/main/resources/data/mineterra/worldgen/configured_feature/sunstone_ore.json",
+          "src/main/resources/assets/mineterra/models/block/sunstone_ore.json",
+          "src/main/resources/data/mineterra/forge/biome_modifier/sunstone_ore_biome_modifier.json",
+          "src/main/resources/data/mineterra/worldgen/placed_feature/sunstone_ore.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SunstoneKit"
@@ -6094,10 +6094,10 @@
       "registry_name": "sunstone_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/sunstone_block.json",
           "src/main/java/net/mcreator/mineterra/block/SunstoneBlockBlock.java",
-          "src/main/resources/assets/mineterra/blockstates/sunstone_block.json",
-          "src/main/resources/assets/mineterra/models/block/sunstone_block.json"
+          "src/main/resources/assets/mineterra/models/block/sunstone_block.json",
+          "src/main/resources/assets/mineterra/models/item/sunstone_block.json",
+          "src/main/resources/assets/mineterra/blockstates/sunstone_block.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SunstoneKit"
@@ -6153,8 +6153,8 @@
       "registry_name": "sunstone_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/SunstonePickaxeItem.java",
-          "src/main/resources/assets/mineterra/models/item/sunstone_pickaxe.json"
+          "src/main/resources/assets/mineterra/models/item/sunstone_pickaxe.json",
+          "src/main/java/net/mcreator/mineterra/item/SunstonePickaxeItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SunstoneKit"
@@ -6168,8 +6168,8 @@
       "registry_name": "sunstone_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/SunstoneAxeItem.java",
-          "src/main/resources/assets/mineterra/models/item/sunstone_axe.json"
+          "src/main/resources/assets/mineterra/models/item/sunstone_axe.json",
+          "src/main/java/net/mcreator/mineterra/item/SunstoneAxeItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SunstoneKit"
@@ -6183,8 +6183,8 @@
       "registry_name": "sunstone_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/SunstoneSwordItem.java",
-          "src/main/resources/assets/mineterra/models/item/sunstone_sword.json"
+          "src/main/resources/assets/mineterra/models/item/sunstone_sword.json",
+          "src/main/java/net/mcreator/mineterra/item/SunstoneSwordItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SunstoneKit"
@@ -6198,8 +6198,8 @@
       "registry_name": "sunstone_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/SunstoneShovelItem.java",
-          "src/main/resources/assets/mineterra/models/item/sunstone_shovel.json"
+          "src/main/resources/assets/mineterra/models/item/sunstone_shovel.json",
+          "src/main/java/net/mcreator/mineterra/item/SunstoneShovelItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SunstoneKit"
@@ -6213,8 +6213,8 @@
       "registry_name": "sunstone_hoe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/SunstoneHoeItem.java",
-          "src/main/resources/assets/mineterra/models/item/sunstone_hoe.json"
+          "src/main/resources/assets/mineterra/models/item/sunstone_hoe.json",
+          "src/main/java/net/mcreator/mineterra/item/SunstoneHoeItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SunstoneKit"
@@ -6300,8 +6300,8 @@
         "files": [
           "src/main/resources/assets/mineterra/models/item/sunstone_armor_boots.json",
           "src/main/java/net/mcreator/mineterra/item/SunstoneArmorItem.java",
-          "src/main/resources/assets/mineterra/models/item/sunstone_armor_helmet.json",
           "src/main/resources/assets/mineterra/models/item/sunstone_armor_leggings.json",
+          "src/main/resources/assets/mineterra/models/item/sunstone_armor_helmet.json",
           "src/main/resources/assets/mineterra/models/item/sunstone_armor_chestplate.json"
         ]
       },
@@ -6372,8 +6372,8 @@
       "registry_name": "tourmaline",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/tourmaline.json",
-          "src/main/java/net/mcreator/mineterra/item/TourmalineItem.java"
+          "src/main/java/net/mcreator/mineterra/item/TourmalineItem.java",
+          "src/main/resources/assets/mineterra/models/item/tourmaline.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TourmalineKit"
@@ -6387,14 +6387,14 @@
       "registry_name": "tourmaline_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/block/tourmaline_ore.json",
-          "src/main/java/net/mcreator/mineterra/world/features/ores/TourmalineOreFeature.java",
           "src/main/java/net/mcreator/mineterra/block/TourmalineOreBlock.java",
+          "src/main/resources/data/mineterra/worldgen/placed_feature/tourmaline_ore.json",
+          "src/main/resources/assets/mineterra/models/block/tourmaline_ore.json",
+          "src/main/resources/data/mineterra/forge/biome_modifier/tourmaline_ore_biome_modifier.json",
+          "src/main/resources/data/mineterra/worldgen/configured_feature/tourmaline_ore.json",
           "src/main/resources/assets/mineterra/models/item/tourmaline_ore.json",
           "src/main/resources/assets/mineterra/blockstates/tourmaline_ore.json",
-          "src/main/resources/data/mineterra/worldgen/configured_feature/tourmaline_ore.json",
-          "src/main/resources/data/mineterra/forge/biome_modifier/tourmaline_ore_biome_modifier.json",
-          "src/main/resources/data/mineterra/worldgen/placed_feature/tourmaline_ore.json"
+          "src/main/java/net/mcreator/mineterra/world/features/ores/TourmalineOreFeature.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TourmalineKit"
@@ -6408,10 +6408,10 @@
       "registry_name": "tourmaline_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/block/TourmalineBlockBlock.java",
           "src/main/resources/assets/mineterra/models/item/tourmaline_block.json",
           "src/main/resources/assets/mineterra/blockstates/tourmaline_block.json",
-          "src/main/resources/assets/mineterra/models/block/tourmaline_block.json"
+          "src/main/resources/assets/mineterra/models/block/tourmaline_block.json",
+          "src/main/java/net/mcreator/mineterra/block/TourmalineBlockBlock.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TourmalineKit"
@@ -6527,8 +6527,8 @@
       "registry_name": "tourmaline_hoe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/TourmalineHoeItem.java",
-          "src/main/resources/assets/mineterra/models/item/tourmaline_hoe.json"
+          "src/main/resources/assets/mineterra/models/item/tourmaline_hoe.json",
+          "src/main/java/net/mcreator/mineterra/item/TourmalineHoeItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TourmalineKit"
@@ -6612,11 +6612,11 @@
       "registry_name": "tourmaline_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/tourmaline_armor_boots.json",
           "src/main/java/net/mcreator/mineterra/item/TourmalineArmorItem.java",
+          "src/main/resources/assets/mineterra/models/item/tourmaline_armor_chestplate.json",
           "src/main/resources/assets/mineterra/models/item/tourmaline_armor_helmet.json",
           "src/main/resources/assets/mineterra/models/item/tourmaline_armor_leggings.json",
-          "src/main/resources/assets/mineterra/models/item/tourmaline_armor_chestplate.json"
+          "src/main/resources/assets/mineterra/models/item/tourmaline_armor_boots.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TourmalineKit"
@@ -6701,11 +6701,11 @@
       "registry_name": "titanium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/mineterra/forge/biome_modifier/titanium_ore_biome_modifier.json",
-          "src/main/java/net/mcreator/mineterra/world/features/ores/TitaniumOreFeature.java",
-          "src/main/resources/assets/mineterra/blockstates/titanium_ore.json",
-          "src/main/resources/data/mineterra/worldgen/configured_feature/titanium_ore.json",
           "src/main/resources/data/mineterra/worldgen/placed_feature/titanium_ore.json",
+          "src/main/resources/assets/mineterra/blockstates/titanium_ore.json",
+          "src/main/resources/data/mineterra/forge/biome_modifier/titanium_ore_biome_modifier.json",
+          "src/main/resources/data/mineterra/worldgen/configured_feature/titanium_ore.json",
+          "src/main/java/net/mcreator/mineterra/world/features/ores/TitaniumOreFeature.java",
           "src/main/resources/assets/mineterra/models/item/titanium_ore.json",
           "src/main/java/net/mcreator/mineterra/block/TitaniumOreBlock.java",
           "src/main/resources/assets/mineterra/models/block/titanium_ore.json"
@@ -6722,10 +6722,10 @@
       "registry_name": "titanium_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/block/TitaniumBlockBlock.java",
-          "src/main/resources/assets/mineterra/models/item/titanium_block.json",
           "src/main/resources/assets/mineterra/blockstates/titanium_block.json",
-          "src/main/resources/assets/mineterra/models/block/titanium_block.json"
+          "src/main/resources/assets/mineterra/models/block/titanium_block.json",
+          "src/main/resources/assets/mineterra/models/item/titanium_block.json",
+          "src/main/java/net/mcreator/mineterra/block/TitaniumBlockBlock.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/TitaniumKit"
@@ -6781,8 +6781,8 @@
       "registry_name": "titanium_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/titanium_pickaxe.json",
-          "src/main/java/net/mcreator/mineterra/item/TitaniumPickaxeItem.java"
+          "src/main/java/net/mcreator/mineterra/item/TitaniumPickaxeItem.java",
+          "src/main/resources/assets/mineterra/models/item/titanium_pickaxe.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/TitaniumKit"
@@ -6796,8 +6796,8 @@
       "registry_name": "titanium_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/titanium_axe.json",
-          "src/main/java/net/mcreator/mineterra/item/TitaniumAxeItem.java"
+          "src/main/java/net/mcreator/mineterra/item/TitaniumAxeItem.java",
+          "src/main/resources/assets/mineterra/models/item/titanium_axe.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/TitaniumKit"
@@ -6811,8 +6811,8 @@
       "registry_name": "titanium_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/TitaniumSwordItem.java",
-          "src/main/resources/assets/mineterra/models/item/titanium_sword.json"
+          "src/main/resources/assets/mineterra/models/item/titanium_sword.json",
+          "src/main/java/net/mcreator/mineterra/item/TitaniumSwordItem.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/TitaniumKit"
@@ -6841,8 +6841,8 @@
       "registry_name": "titanium_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/titanium_hoe.json",
-          "src/main/java/net/mcreator/mineterra/item/TitaniumHoeItem.java"
+          "src/main/java/net/mcreator/mineterra/item/TitaniumHoeItem.java",
+          "src/main/resources/assets/mineterra/models/item/titanium_hoe.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/TitaniumKit"
@@ -6926,11 +6926,11 @@
       "registry_name": "titanium_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/titanium_armor_boots.json",
-          "src/main/resources/assets/mineterra/models/item/titanium_armor_chestplate.json",
+          "src/main/resources/assets/mineterra/models/item/titanium_armor_leggings.json",
           "src/main/resources/assets/mineterra/models/item/titanium_armor_helmet.json",
           "src/main/java/net/mcreator/mineterra/item/TitaniumArmorItem.java",
-          "src/main/resources/assets/mineterra/models/item/titanium_armor_leggings.json"
+          "src/main/resources/assets/mineterra/models/item/titanium_armor_boots.json",
+          "src/main/resources/assets/mineterra/models/item/titanium_armor_chestplate.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/TitaniumKit"
@@ -7014,8 +7014,8 @@
       "registry_name": "wood_staff",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/wood_staff.json",
-          "src/main/java/net/mcreator/mineterra/item/WoodStaffItem.java"
+          "src/main/java/net/mcreator/mineterra/item/WoodStaffItem.java",
+          "src/main/resources/assets/mineterra/models/item/wood_staff.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Magic/Staffs"
@@ -7064,103 +7064,20 @@
       "path": "~/Items/ItemsNormal/Magic/Staffs"
     },
     {
-      "name": "AmethystMagicalCatalyzer",
-      "type": "item",
-      "sortid": 480,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "amethyst_magical_catalyzer",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/mineterra/models/item/amethyst_magical_catalyzer.json",
-          "src/main/java/net/mcreator/mineterra/item/AmethystMagicalCatalyzerItem.java"
-        ]
-      },
-      "path": "~/Items/ItemsNormal/Magic/Staffs"
-    },
-    {
-      "name": "ActivationTable",
-      "type": "block",
-      "sortid": 482,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "activation_table",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/mineterra/models/item/activation_table.json",
-          "src/main/resources/assets/mineterra/blockstates/activation_table.json",
-          "src/main/resources/assets/mineterra/models/block/activation_table.json",
-          "src/main/java/net/mcreator/mineterra/block/ActivationTableBlock.java"
-        ]
-      },
-      "path": "~/Items/ItemsNormal/Magic/Utility"
-    },
-    {
-      "name": "ActivationTableGUI",
-      "type": "gui",
-      "sortid": 483,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "activation_table_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mineterra/world/inventory/ActivationTableGUIMenu.java",
-          "src/main/java/net/mcreator/mineterra/client/gui/ActivationTableGUIScreen.java"
-        ]
-      },
-      "path": "~/Items/ItemsNormal/Magic/Utility"
-    },
-    {
-      "name": "ActivationTableOnBlockRightClicked",
-      "type": "procedure",
-      "sortid": 484,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "activation_table_on_block_right_clicked",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mineterra/procedures/ActivationTableOnBlockRightClickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Items/ItemsNormal/Magic/Utility"
-    },
-    {
       "name": "StaffOfLesserMagic",
       "type": "rangeditem",
       "sortid": 485,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "staff_of_lesser_magic",
+      "registry_name": "arcanite_staff",
       "metadata": {
         "files": [
+          "src/main/resources/assets/mineterra/models/item/arcanite_staff.json",
           "src/main/java/net/mcreator/mineterra/item/StaffOfLesserMagicItem.java",
-          "src/main/java/net/mcreator/mineterra/entity/StaffOfLesserMagicEntity.java",
-          "src/main/resources/assets/mineterra/models/item/staff_of_lesser_magic.json"
+          "src/main/java/net/mcreator/mineterra/entity/StaffOfLesserMagicEntity.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Magic/Staffs"
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Arcanite Staff"
     },
     {
       "name": "StaffOfLesserMagicWhileProjectileFlyingTick",
@@ -7192,7 +7109,7 @@
           }
         ]
       },
-      "path": "~/Items/ItemsNormal/Magic/Staffs"
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Arcanite Staff"
     },
     {
       "name": "StaffOfLesserMagicProjectileHitsLivingEntity",
@@ -7220,7 +7137,131 @@
           }
         ]
       },
-      "path": "~/Items/ItemsNormal/Magic/Staffs"
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Arcanite Staff"
+    },
+    {
+      "name": "Arcanite",
+      "type": "item",
+      "sortid": 490,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcanite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/ArcaniteItem.java",
+          "src/main/resources/assets/mineterra/models/item/arcanite.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Arcane Natural Material"
+    },
+    {
+      "name": "ArcaniteOre",
+      "type": "block",
+      "sortid": 488,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcanite_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/block/ArcaniteOreBlock.java",
+          "src/main/java/net/mcreator/mineterra/world/features/ores/ArcaniteOreFeature.java",
+          "src/main/resources/data/mineterra/worldgen/configured_feature/arcanite_ore.json",
+          "src/main/resources/assets/mineterra/models/item/arcanite_ore.json",
+          "src/main/resources/assets/mineterra/blockstates/arcanite_ore.json",
+          "src/main/resources/data/mineterra/forge/biome_modifier/arcanite_ore_biome_modifier.json",
+          "src/main/resources/assets/mineterra/models/block/arcanite_ore.json",
+          "src/main/resources/data/mineterra/worldgen/placed_feature/arcanite_ore.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Arcane Natural Material"
+    },
+    {
+      "name": "ArcaniteBlock",
+      "type": "block",
+      "sortid": 489,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcanite_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/block/ArcaniteBlockBlock.java",
+          "src/main/resources/assets/mineterra/models/item/arcanite_block.json",
+          "src/main/resources/assets/mineterra/blockstates/arcanite_block.json",
+          "src/main/resources/assets/mineterra/models/block/arcanite_block.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Arcane Natural Material"
+    },
+    {
+      "name": "ArcaniteOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 491,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcanite_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/arcanite_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Arcane Natural Material"
+    },
+    {
+      "name": "ArcaniteBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 492,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcanite_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/arcanite_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Arcane Natural Material"
+    },
+    {
+      "name": "ArcaniteOreSmelting",
+      "type": "recipe",
+      "sortid": 493,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcanite_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/arcanite_ore_smelting.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Arcane Natural Material"
+    },
+    {
+      "name": "ArcaniteCatalyzer",
+      "type": "item",
+      "sortid": 494,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcanite_catalyzer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/arcanite_catalyzer.json",
+          "src/main/java/net/mcreator/mineterra/item/ArcaniteCatalyzerItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Arcanite Staff"
+    },
+    {
+      "name": "ArcaniteStaff",
+      "type": "recipe",
+      "sortid": 495,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcanite_staff",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/arcanite_staff.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Arcanite Staff"
     }
   ],
   "variable_elements": [
@@ -7407,15 +7448,15 @@
       "item.mineterra.topaz_pickaxe": "Topaz Pickaxe",
       "gui.mineterra.game_start_character_creation.label_human": "RACE SELECTOR",
       "block.mineterra.sunstone_ore": "Sunstone Ore",
-      "item.mineterra.silver_armor_chestplate": "Peitoral de Prata",
       "item.mineterra.tanzanite_pickaxe": "Tanzanite Pickaxe",
+      "item.mineterra.silver_armor_chestplate": "Peitoral de Prata",
       "item.mineterra.amethyst_armor_boots": "Amethyst Boots",
-      "item.mineterra.zircon_axe": "Zircon Axe",
       "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
+      "item.mineterra.zircon_axe": "Zircon Axe",
       "effect.mineterra.sangramento": "Sangramento",
       "block.mineterra.garnet_ore": "Garnet Ore",
-      "item.mineterra.garnet_pickaxe": "Garnet Pickaxe",
       "item.mineterra.sapphire_armor_boots": "Sapphire Boots",
+      "item.mineterra.garnet_pickaxe": "Garnet Pickaxe",
       "gui.mineterra.game_start_character_creation.Celestial": "Celestial",
       "item.mineterra.topaz_armor_leggings": "Topaz Leggings",
       "block.mineterra.silver_ore": "Minério de Prata",
@@ -7443,13 +7484,14 @@
       "item.mineterra.garnet_axe": "Garnet Axe",
       "item.mineterra.silver_shovel": "Pá de Prata",
       "gui.mineterra.celestial_gui.label_das_suas_consequencias": "das suas consequências.",
+      "item.mineterra.arcanite": "Arcanite",
       "item.mineterra.silver_armor_helmet": "Capacete de Prata",
       "subtitles.ferocity-growl": "",
       "item.mineterra.copper_hoe": "Copper Hoe",
       "item.mineterra.copper_pickaxe": "Copper Pickaxe",
       "item.mineterra.ritual_dagger": "Ritual Dagger",
-      "item.mineterra.demonita_armor_leggings": "Calças de Demonita",
       "item.mineterra.citrine_hoe": "Citrine Hoe",
+      "item.mineterra.demonita_armor_leggings": "Calças de Demonita",
       "item.mineterra.ruby": "Ruby",
       "item.mineterra.iron_dagger": "Adaga de Ferro",
       "item.mineterra.garnet": "Garnet",
@@ -7460,14 +7502,14 @@
       "item.mineterra.copper_sword": "Copper Sword",
       "item.mineterra.sapphire_pickaxe": "Sapphire Pickaxe",
       "item.mineterra.sunstone_armor_helmet": "Sunstone Helmet",
-      "subtitles.orrc-growl": "",
       "item.mineterra.zircon_armor_helmet": "Zircon Helmet",
+      "subtitles.orrc-growl": "",
       "item.mineterra.wood_katana": "Katana de Madeira",
       "item.mineterra.tanzanite_axe": "Tanzanite Axe",
       "item.mineterra.demonita_shovel": "Pá de Demonita",
       "gui.mineterra.human_gui.label_conhecimento": "- Conhecimento;",
-      "item.mineterra.gold_katana": "Katana de Ouro",
       "item.mineterra.topaz_shovel": "Topaz Shovel",
+      "item.mineterra.gold_katana": "Katana de Ouro",
       "item.mineterra.citrine_armor_helmet": "Citrine Helmet",
       "item.mineterra.sunstone_armor_boots": "Sunstone Boots",
       "item.mineterra.garnet_armor_helmet": "Garnet Helmet",
@@ -7475,7 +7517,6 @@
       "attribute.mineterra.intelligence": "Intelligence",
       "gui.mineterra.game_start_character_creation.Feralit": "Feralit",
       "item.mineterra.citrine": "Citrine",
-      "item.mineterra.staff_of_lesser_magic": "Staff Of Lesser Magic",
       "subtitles.dreamwood-ambience": "",
       "item.mineterra.stone_katana": "Katana de Pedra",
       "item.mineterra.ruby_shovel": "Ruby Shovel",
@@ -7500,6 +7541,7 @@
       "item.mineterra.sacrifice_dagger": "Adaga de Sacrifício",
       "item.mineterra.flint_dagger": "Adaga de Sílex",
       "block.mineterra.zircon_block": "Block of Zircon",
+      "item.mineterra.arcanite_catalyzer": "Arcanite Catalyzer",
       "item.mineterra.netherite_dagger": "Adaga de Netherita",
       "item.mineterra.copper_axe": "Copper Axe",
       "item.mineterra.netherite_claymore": "Espada Longa de Netherita",
@@ -7523,6 +7565,7 @@
       "item.mineterra.citrine_armor_chestplate": "Citrine Chestplate",
       "item.mineterra.sapphire_armor_leggings": "Sapphire Leggings",
       "item.mineterra.sunstone_pickaxe": "Sunstone Pickaxe",
+      "block.mineterra.arcanite_ore": "Arcanite Ore",
       "item.mineterra.topaz_armor_boots": "Topaz Boots",
       "item.mineterra.titanium_ingot": "Titanium",
       "item.mineterra.silver_hoe": "Enxada de Prata",
@@ -7605,7 +7648,6 @@
       "item.mineterra.demonita": "Demonita",
       "attribute.mineterra.strength": "Strength",
       "item.mineterra.amethyst_pickaxe": "Amethyst Pickaxe",
-      "block.mineterra.activation_table": "Activation Table",
       "item.mineterra.tourmaline_shovel": "Tourmaline Shovel",
       "item.mineterra.tourmaline_hoe": "Tourmaline Hoe",
       "item.mineterra.wood_staff": "Wood Staff",
@@ -7641,6 +7683,7 @@
       "item.mineterra.zircon_armor_leggings": "Zircon Leggings",
       "gui.mineterra.gnome_gui.label_das_suas_consequencias": "das suas consequências.",
       "item.mineterra.zircon_pickaxe": "Zircon Pickaxe",
+      "block.mineterra.arcanite_block": "Block of Arcanite",
       "item.mineterra.garnet_sword": "Garnet Sword",
       "item.mineterra.sapphire_armor_helmet": "Sapphire Helmet",
       "block.mineterra.tourmaline_ore": "Tourmaline Ore",
@@ -7654,13 +7697,13 @@
       "item.mineterra.tourmaline_pickaxe": "Tourmaline Pickaxe",
       "subtitles.transformation-sound": "",
       "item.mineterra.tourmaline_armor_leggings": "Tourmaline Leggings",
-      "item.mineterra.amethyst_magical_catalyzer": "Amethyst Magical Essence",
       "item.mineterra.gold_sai": "Sai de Ouro",
       "item.mineterra.demonita_hoe": "Enxada de Demonita",
       "gui.mineterra.game_start_character_creation.button_next": "Next \u003e",
       "subtitles.max-chaos": "",
       "block.mineterra.ruby_ore": "Ruby Ore",
       "item.mineterra.sapphire_hoe": "Sapphire Hoe",
+      "item.mineterra.arcanite_staff": "Arcanite Staff",
       "subtitles.celestial-transformation-sound": "",
       "item.mineterra.tourmaline_armor_helmet": "Tourmaline Helmet",
       "item.mineterra.titanium_armor_leggings": "Titanium Leggings",
@@ -7930,10 +7973,19 @@
                   },
                   {
                     "name": "Staffs",
-                    "children": []
+                    "children": [
+                      {
+                        "name": "Arcanite Staff",
+                        "children": []
+                      }
+                    ]
                   },
                   {
                     "name": "Utility",
+                    "children": []
+                  },
+                  {
+                    "name": "Arcane Natural Material",
                     "children": []
                   }
                 ]
@@ -7958,10 +8010,6 @@
             "children": []
           }
         ]
-      },
-      {
-        "name": "Teste11111111111",
-        "children": []
       }
     ]
   },

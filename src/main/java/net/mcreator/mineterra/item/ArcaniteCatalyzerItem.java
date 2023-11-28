@@ -13,8 +13,8 @@ import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
-public class AmethystMagicalCatalyzerItem extends Item {
-	public AmethystMagicalCatalyzerItem() {
+public class ArcaniteCatalyzerItem extends Item {
+	public ArcaniteCatalyzerItem() {
 		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
 	}
 
@@ -27,8 +27,6 @@ public class AmethystMagicalCatalyzerItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("\u00A72Blindness"));
-		list.add(Component.literal("\u00A78Blind and slows an entity for 3 seconds."));
-		list.add(Component.literal("\u00A78\u00A7oContains a magical spell based on it's gem power (can be enchanted to create more spells)."));
+		list.add(Component.literal("\u00A78\u00A7oStores a spell of type \u00A75Arcane Energy\u00A78\u00A7o."));
 	}
 }

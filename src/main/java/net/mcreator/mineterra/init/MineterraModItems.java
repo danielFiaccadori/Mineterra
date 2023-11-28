@@ -135,10 +135,11 @@ import net.mcreator.mineterra.item.CitrineItem;
 import net.mcreator.mineterra.item.CitrineHoeItem;
 import net.mcreator.mineterra.item.CitrineAxeItem;
 import net.mcreator.mineterra.item.CitrineArmorItem;
+import net.mcreator.mineterra.item.ArcaniteItem;
+import net.mcreator.mineterra.item.ArcaniteCatalyzerItem;
 import net.mcreator.mineterra.item.AmethystSwordItem;
 import net.mcreator.mineterra.item.AmethystShovelItem;
 import net.mcreator.mineterra.item.AmethystPickaxeItem;
-import net.mcreator.mineterra.item.AmethystMagicalCatalyzerItem;
 import net.mcreator.mineterra.item.AmethystHoeItem;
 import net.mcreator.mineterra.item.AmethystAxeItem;
 import net.mcreator.mineterra.item.AmethystArmorItem;
@@ -340,9 +341,11 @@ public class MineterraModItems {
 	public static final RegistryObject<Item> TITANIUM_HOE = REGISTRY.register("titanium_hoe", () -> new TitaniumHoeItem());
 	public static final RegistryObject<Item> WOOD_STAFF = REGISTRY.register("wood_staff", () -> new WoodStaffItem());
 	public static final RegistryObject<Item> MAGICAL_CASING = REGISTRY.register("magical_casing", () -> new MagicalCasingItem());
-	public static final RegistryObject<Item> AMETHYST_MAGICAL_CATALYZER = REGISTRY.register("amethyst_magical_catalyzer", () -> new AmethystMagicalCatalyzerItem());
-	public static final RegistryObject<Item> ACTIVATION_TABLE = block(MineterraModBlocks.ACTIVATION_TABLE);
-	public static final RegistryObject<Item> STAFF_OF_LESSER_MAGIC = REGISTRY.register("staff_of_lesser_magic", () -> new StaffOfLesserMagicItem());
+	public static final RegistryObject<Item> ARCANITE_STAFF = REGISTRY.register("arcanite_staff", () -> new StaffOfLesserMagicItem());
+	public static final RegistryObject<Item> ARCANITE_ORE = block(MineterraModBlocks.ARCANITE_ORE);
+	public static final RegistryObject<Item> ARCANITE_BLOCK = block(MineterraModBlocks.ARCANITE_BLOCK);
+	public static final RegistryObject<Item> ARCANITE = REGISTRY.register("arcanite", () -> new ArcaniteItem());
+	public static final RegistryObject<Item> ARCANITE_CATALYZER = REGISTRY.register("arcanite_catalyzer", () -> new ArcaniteCatalyzerItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

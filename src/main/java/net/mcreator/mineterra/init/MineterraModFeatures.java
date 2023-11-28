@@ -23,6 +23,7 @@ import net.mcreator.mineterra.world.features.ores.RubyOreFeature;
 import net.mcreator.mineterra.world.features.ores.GarnetOreFeature;
 import net.mcreator.mineterra.world.features.ores.DemonitaOreFeature;
 import net.mcreator.mineterra.world.features.ores.CitrineOreFeature;
+import net.mcreator.mineterra.world.features.ores.ArcaniteOreFeature;
 import net.mcreator.mineterra.MineterraMod;
 
 @Mod.EventBusSubscriber
@@ -40,4 +41,5 @@ public class MineterraModFeatures {
 	public static final RegistryObject<Feature<?>> TOURMALINE_ORE = REGISTRY.register("tourmaline_ore", TourmalineOreFeature::new);
 	public static final RegistryObject<Feature<?>> SILVER_ORE = REGISTRY.register("silver_ore", SilverOreFeature::new);
 	public static final RegistryObject<Feature<?>> TITANIUM_ORE = REGISTRY.register("titanium_ore", TitaniumOreFeature::new);
+	public static final RegistryObject<Feature<?>> ARCANITE_ORE = REGISTRY.register("arcanite_ore", ArcaniteOreFeature::new);
 }

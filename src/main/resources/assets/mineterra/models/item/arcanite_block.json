@@ -1,5 +1,5 @@
 {
-  "parent": "mineterra:block/activation_table",
+  "parent": "mineterra:block/arcanite_block",
   "display": {
     "thirdperson": {
       "rotation": [
