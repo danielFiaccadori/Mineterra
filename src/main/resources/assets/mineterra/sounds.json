@@ -158,5 +158,13 @@
         "stream": false
       }
     ]
+  },
+  "arcanite-spell": {
+    "sounds": [
+      {
+        "name": "mineterra:spellcast-46164",
+        "stream": false
+      }
+    ]
   }
 }

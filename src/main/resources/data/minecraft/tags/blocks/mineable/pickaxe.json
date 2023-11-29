@@ -24,6 +24,8 @@
     "mineterra:silver_ore",
     "mineterra:silver_block",
     "mineterra:titanium_ore",
-    "mineterra:titanium_block"
+    "mineterra:titanium_block",
+    "mineterra:arcanitium_ore",
+    "mineterra:arcanitium_block"
   ]
 }

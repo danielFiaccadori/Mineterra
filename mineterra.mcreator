@@ -7152,21 +7152,6 @@
       "path": "~/Items/ItemsNormal/Magic/Staffs/Arcanite Staff"
     },
     {
-      "name": "ArcaniteCatalyzer",
-      "type": "item",
-      "sortid": 494,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "arcanite_catalyzer",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/mineterra/models/item/arcanite_catalyzer.json",
-          "src/main/java/net/mcreator/mineterra/item/ArcaniteCatalyzerItem.java"
-        ]
-      },
-      "path": "~/Items/ItemsNormal/Magic/Staffs/Arcanite Staff"
-    },
-    {
       "name": "ArcaniteStaff",
       "type": "recipe",
       "sortid": 495,
@@ -7318,6 +7303,101 @@
         ]
       },
       "path": "~/Items/ItemsNormal/Magic/Staffs/Arcanite Staff"
+    },
+    {
+      "name": "Arcanitium",
+      "type": "item",
+      "sortid": 507,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcanitium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/arcanitium.json",
+          "src/main/java/net/mcreator/mineterra/item/ArcanitiumItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Arcane Natural Material"
+    },
+    {
+      "name": "ArcanitiumOre",
+      "type": "block",
+      "sortid": 505,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcanitium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/arcanitium_ore.json",
+          "src/main/resources/data/mineterra/worldgen/configured_feature/arcanitium_ore.json",
+          "src/main/java/net/mcreator/mineterra/world/features/ores/ArcanitiumOreFeature.java",
+          "src/main/resources/data/mineterra/worldgen/placed_feature/arcanitium_ore.json",
+          "src/main/resources/assets/mineterra/blockstates/arcanitium_ore.json",
+          "src/main/resources/data/mineterra/forge/biome_modifier/arcanitium_ore_biome_modifier.json",
+          "src/main/resources/assets/mineterra/models/block/arcanitium_ore.json",
+          "src/main/java/net/mcreator/mineterra/block/ArcanitiumOreBlock.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Arcane Natural Material"
+    },
+    {
+      "name": "ArcanitiumBlock",
+      "type": "block",
+      "sortid": 506,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcanitium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/block/arcanitium_block.json",
+          "src/main/java/net/mcreator/mineterra/block/ArcanitiumBlockBlock.java",
+          "src/main/resources/assets/mineterra/models/item/arcanitium_block.json",
+          "src/main/resources/assets/mineterra/blockstates/arcanitium_block.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Arcane Natural Material"
+    },
+    {
+      "name": "ArcanitiumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 508,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcanitium_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/arcanitium_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Arcane Natural Material"
+    },
+    {
+      "name": "ArcanitiumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 509,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcanitium_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/arcanitium_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Arcane Natural Material"
+    },
+    {
+      "name": "ArcanitiumOreSmelting",
+      "type": "recipe",
+      "sortid": 510,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcanitium_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/arcanitium_ore_smelting.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Arcane Natural Material"
     }
   ],
   "variable_elements": [
@@ -7494,6 +7574,14 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "arcanite-spell",
+      "files": [
+        "spellcast-46164"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -7573,6 +7661,7 @@
       "gui.mineterra.game_start_character_creation.Feralit": "Feralit",
       "item.mineterra.citrine": "Citrine",
       "subtitles.dreamwood-ambience": "",
+      "item.mineterra.arcanitium": "Arcanitium",
       "item.mineterra.stone_katana": "Katana de Pedra",
       "item.mineterra.ruby_shovel": "Ruby Shovel",
       "gui.mineterra.gnome_gui.label_mas_ao_final_do_dia_todos_sabem": "mas ao final do dia, todos sabemos",
@@ -7585,6 +7674,7 @@
       "item.mineterra.citrine_axe": "Citrine Axe",
       "item.mineterra.demonita_pickaxe": "Picareta de Demonita",
       "item.mineterra.golden_claymore": "Espada Longa de Ouro",
+      "subtitles.arcanite-spell": "",
       "item.mineterra.titanium_hoe": "Titanium Hoe",
       "item.mineterra.ruby_pickaxe": "Ruby Pickaxe",
       "item.mineterra.sunstone_hoe": "Sunstone Hoe",
@@ -7596,7 +7686,6 @@
       "item.mineterra.sacrifice_dagger": "Adaga de Sacrifício",
       "item.mineterra.flint_dagger": "Adaga de Sílex",
       "block.mineterra.zircon_block": "Block of Zircon",
-      "item.mineterra.arcanite_catalyzer": "Arcanite Catalyzer",
       "item.mineterra.netherite_dagger": "Adaga de Netherita",
       "item.mineterra.copper_axe": "Copper Axe",
       "item.mineterra.netherite_claymore": "Espada Longa de Netherita",
@@ -7617,6 +7706,7 @@
       "block.mineterra.silver_block": "Bloco de Prata",
       "item.mineterra.tanzanite_armor_helmet": "Tanzanite Helmet",
       "item.mineterra.ruby_armor_helmet": "Ruby Helmet",
+      "block.mineterra.arcanitium_block": "Block of Arcanitium",
       "item.mineterra.citrine_armor_chestplate": "Citrine Chestplate",
       "item.mineterra.sapphire_armor_leggings": "Sapphire Leggings",
       "item.mineterra.sunstone_pickaxe": "Sunstone Pickaxe",
@@ -7738,6 +7828,7 @@
       "item.mineterra.zircon_armor_leggings": "Zircon Leggings",
       "gui.mineterra.gnome_gui.label_das_suas_consequencias": "das suas consequências.",
       "item.mineterra.zircon_pickaxe": "Zircon Pickaxe",
+      "block.mineterra.arcanitium_ore": "Arcanitium Ore",
       "item.mineterra.garnet_sword": "Garnet Sword",
       "item.mineterra.sapphire_armor_helmet": "Sapphire Helmet",
       "block.mineterra.tourmaline_ore": "Tourmaline Ore",

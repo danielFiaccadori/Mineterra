@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "sapphire_gem",
+    "texture": "arcanitium_gem",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Arcanite Catalyzer",
+    "name": "Arcanitium",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Mineterra"
@@ -26,10 +26,8 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "§8§oStores a spell of type §5Arcane Energy§8§o."
-    ],
-    "hasGlow": true,
+    "specialInfo": [],
+    "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,

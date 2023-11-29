@@ -2,13 +2,13 @@
   "_fv": 47,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Crafting",
+    "recipeType": "Smelting",
     "recipeRetstackSize": 1,
     "group": "",
     "cookingBookCategory": "MISC",
-    "xpReward": 0.0,
+    "xpReward": 2.0999999999999996,
     "cookingTime": 200,
-    "craftingBookCategory": "EQUIPMENT",
+    "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
       {
@@ -18,19 +18,19 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Arcanitium"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:MagicalCasing"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:WoodStaff"
+        "value": ""
       },
       {
         "value": ""
@@ -40,9 +40,15 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:StaffOfLesserMagic"
+      "value": ""
     },
-    "name": "arcanite_staff",
+    "smeltingInputStack": {
+      "value": "CUSTOM:ArcanitiumOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Arcanitium"
+    },
+    "name": "arcanitium_ore_smelting",
     "namespace": "mod"
   }
 }

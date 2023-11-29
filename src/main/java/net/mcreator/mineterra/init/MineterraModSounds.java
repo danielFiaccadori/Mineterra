@@ -35,4 +35,5 @@ public class MineterraModSounds {
 	public static final RegistryObject<SoundEvent> SPIRITUAL_EXPLOSION = REGISTRY.register("spiritual_explosion", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mineterra", "spiritual_explosion")));
 	public static final RegistryObject<SoundEvent> KATANA_DRAW = REGISTRY.register("katana_draw", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mineterra", "katana_draw")));
 	public static final RegistryObject<SoundEvent> GEMSTONE_ARMOR_EQUIP = REGISTRY.register("gemstone_armor_equip", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mineterra", "gemstone_armor_equip")));
+	public static final RegistryObject<SoundEvent> ARCANITE_SPELL = REGISTRY.register("arcanite-spell", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mineterra", "arcanite-spell")));
 }

@@ -35,7 +35,8 @@ public class StaffOfLesserMagicItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("A staff that deals 1 (+100%% of maximum Magical Damage) Magical Damage."));
+		list.add(Component.literal("\u00A7dArcane Ash"));
+		list.add(Component.literal("\u00A78Focus all your arcane energy into a target, dealing damage based on \u00A75100% \u00A78of your \u00A75Magical Damage\u00A78."));
 	}
 
 	@Override

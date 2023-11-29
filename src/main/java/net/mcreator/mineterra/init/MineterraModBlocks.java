@@ -34,6 +34,8 @@ import net.mcreator.mineterra.block.DemonitaOreBlock;
 import net.mcreator.mineterra.block.DemonitaBlockBlock;
 import net.mcreator.mineterra.block.CitrineOreBlock;
 import net.mcreator.mineterra.block.CitrineBlockBlock;
+import net.mcreator.mineterra.block.ArcanitiumOreBlock;
+import net.mcreator.mineterra.block.ArcanitiumBlockBlock;
 import net.mcreator.mineterra.MineterraMod;
 
 public class MineterraModBlocks {
@@ -62,4 +64,6 @@ public class MineterraModBlocks {
 	public static final RegistryObject<Block> SILVER_BLOCK = REGISTRY.register("silver_block", () -> new SilverBlockBlock());
 	public static final RegistryObject<Block> TITANIUM_ORE = REGISTRY.register("titanium_ore", () -> new TitaniumOreBlock());
 	public static final RegistryObject<Block> TITANIUM_BLOCK = REGISTRY.register("titanium_block", () -> new TitaniumBlockBlock());
+	public static final RegistryObject<Block> ARCANITIUM_ORE = REGISTRY.register("arcanitium_ore", () -> new ArcanitiumOreBlock());
+	public static final RegistryObject<Block> ARCANITIUM_BLOCK = REGISTRY.register("arcanitium_block", () -> new ArcanitiumBlockBlock());
 }

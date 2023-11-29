@@ -36,9 +36,9 @@ public class ArcaniteAshTranslucnetParticle extends TextureSheetParticle {
 		super(world, x, y, z);
 		this.spriteSet = spriteSet;
 		this.setSize(0.2f, 0.2f);
-		this.quadSize *= 4f;
+		this.quadSize *= 2.5f;
 		this.lifetime = 10;
-		this.gravity = 0f;
+		this.gravity = -0.05f;
 		this.hasPhysics = true;
 		this.xd = vx * 0.05;
 		this.yd = vy * 0.05;
