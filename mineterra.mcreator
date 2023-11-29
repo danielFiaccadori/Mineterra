@@ -7353,6 +7353,66 @@
         ]
       },
       "path": "~/Items/ItemsNormal/Magic/Staffs/Arcanite Staff"
+    },
+    {
+      "name": "ArcaniteParticle2",
+      "type": "particle",
+      "sortid": 501,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcanite_particle_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/particles/arcanite_particle_2.json",
+          "src/main/java/net/mcreator/mineterra/client/particle/ArcaniteParticle2Particle.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Arcanite Staff"
+    },
+    {
+      "name": "ArcanitePArticle3",
+      "type": "particle",
+      "sortid": 502,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcanite_p_article_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/client/particle/ArcanitePArticle3Particle.java",
+          "src/main/resources/assets/mineterra/particles/arcanite_p_article_3.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Arcanite Staff"
+    },
+    {
+      "name": "ArcaniteAsh",
+      "type": "particle",
+      "sortid": 503,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcanite_ash",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/client/particle/ArcaniteAshParticle.java",
+          "src/main/resources/assets/mineterra/particles/arcanite_ash.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Arcanite Staff"
+    },
+    {
+      "name": "ArcaniteAshTranslucnet",
+      "type": "particle",
+      "sortid": 504,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcanite_ash_translucnet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/client/particle/ArcaniteAshTranslucnetParticle.java",
+          "src/main/resources/assets/mineterra/particles/arcanite_ash_translucnet.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Arcanite Staff"
     }
   ],
   "variable_elements": [

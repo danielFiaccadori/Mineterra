@@ -2,7 +2,7 @@
   "_fv": 47,
   "_type": "particle",
   "definition": {
-    "texture": "arcanite_particle.png",
+    "texture": "arcanite_particle3.png",
     "animate": false,
     "frameDuration": 1,
     "width": 0.2,
