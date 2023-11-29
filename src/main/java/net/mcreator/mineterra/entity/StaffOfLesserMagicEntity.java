@@ -51,7 +51,7 @@ public class StaffOfLesserMagicEntity extends AbstractArrow implements ItemSuppl
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public ItemStack getItem() {
-		return new ItemStack(MineterraModItems.ARCANITE_RUNE.get());
+		return new ItemStack(MineterraModItems.ARCANITE.get());
 	}
 
 	@Override
@@ -68,13 +68,13 @@ public class StaffOfLesserMagicEntity extends AbstractArrow implements ItemSuppl
 	@Override
 	public void onHitEntity(EntityHitResult entityHitResult) {
 		super.onHitEntity(entityHitResult);
-		StaffOfLesserMagicProjectileHitsLivingEntityProcedure.execute(this.level(), entityHitResult.getEntity(), this.getOwner());
+		StaffOfLesserMagicProjectileHitsLivingEntityProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), entityHitResult.getEntity(), this.getOwner());
 	}
 
 	@Override
 	public void tick() {
 		super.tick();
-		StaffOfLesserMagicWhileProjectileFlyingTickProcedure.execute(this);
+		StaffOfLesserMagicWhileProjectileFlyingTickProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this.getOwner(), this);
 		if (this.inGround)
 			this.discard();
 	}
@@ -96,7 +96,7 @@ public class StaffOfLesserMagicEntity extends AbstractArrow implements ItemSuppl
 		double dx = target.getX() - entity.getX();
 		double dy = target.getY() + target.getEyeHeight() - 1.1;
 		double dz = target.getZ() - entity.getZ();
-		entityarrow.shoot(dx, dy - entityarrow.getY() + Math.hypot(dx, dz) * 0.2F, dz, 0.5f * 2, 12.0F);
+		entityarrow.shoot(dx, dy - entityarrow.getY() + Math.hypot(dx, dz) * 0.2F, dz, 2f * 2, 12.0F);
 		entityarrow.setSilent(true);
 		entityarrow.setBaseDamage(0);
 		entityarrow.setKnockback(0);
