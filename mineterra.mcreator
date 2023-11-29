@@ -7330,6 +7330,21 @@
         ]
       },
       "path": "~/Items/ItemsNormal/Magic/Staffs/Arcanite Staff"
+    },
+    {
+      "name": "ArcaniteDamageParticle",
+      "type": "particle",
+      "sortid": 499,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcanite_damage_particle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/particles/arcanite_damage_particle.json",
+          "src/main/java/net/mcreator/mineterra/client/particle/ArcaniteDamageParticleParticle.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Arcanite Staff"
     }
   ],
   "variable_elements": [

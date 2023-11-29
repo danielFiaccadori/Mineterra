@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.mineterra.client.particle.BloodParticle;
 import net.mcreator.mineterra.client.particle.ArcaniteParticleParticle;
+import net.mcreator.mineterra.client.particle.ArcaniteDamageParticleParticle;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class MineterraModParticles {
@@ -18,5 +19,6 @@ public class MineterraModParticles {
 	public static void registerParticles(RegisterParticleProvidersEvent event) {
 		event.registerSpriteSet(MineterraModParticleTypes.BLOOD.get(), BloodParticle::provider);
 		event.registerSpriteSet(MineterraModParticleTypes.ARCANITE_PARTICLE.get(), ArcaniteParticleParticle::provider);
+		event.registerSpriteSet(MineterraModParticleTypes.ARCANITE_DAMAGE_PARTICLE.get(), ArcaniteDamageParticleParticle::provider);
 	}
 }

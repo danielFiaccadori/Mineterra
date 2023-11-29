@@ -8,7 +8,6 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.phys.EntityHitResult;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.ItemSupplier;
@@ -23,6 +22,7 @@ import net.minecraft.network.protocol.Packet;
 
 import net.mcreator.mineterra.procedures.StaffOfLesserMagicWhileProjectileFlyingTickProcedure;
 import net.mcreator.mineterra.procedures.StaffOfLesserMagicProjectileHitsLivingEntityProcedure;
+import net.mcreator.mineterra.init.MineterraModItems;
 import net.mcreator.mineterra.init.MineterraModEntities;
 
 @OnlyIn(value = Dist.CLIENT, _interface = ItemSupplier.class)
@@ -51,7 +51,7 @@ public class StaffOfLesserMagicEntity extends AbstractArrow implements ItemSuppl
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public ItemStack getItem() {
-		return new ItemStack(Blocks.AMETHYST_CLUSTER);
+		return new ItemStack(MineterraModItems.ARCANITE_CATALYZER.get());
 	}
 
 	@Override

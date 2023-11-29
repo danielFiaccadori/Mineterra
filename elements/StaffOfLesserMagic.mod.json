@@ -37,7 +37,7 @@
     "bulletParticles": false,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {
-      "value": "Blocks.AMETHYST_CLUSTER"
+      "value": "CUSTOM:ArcaniteCatalyzer"
     },
     "bulletModel": "Default",
     "customBulletModelTexture": "",

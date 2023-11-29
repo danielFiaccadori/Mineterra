@@ -13,30 +13,30 @@ import net.minecraft.client.particle.Particle;
 import net.minecraft.client.multiplayer.ClientLevel;
 
 @OnlyIn(Dist.CLIENT)
-public class ArcaniteParticleParticle extends TextureSheetParticle {
-	public static ArcaniteParticleParticleProvider provider(SpriteSet spriteSet) {
-		return new ArcaniteParticleParticleProvider(spriteSet);
+public class ArcaniteDamageParticleParticle extends TextureSheetParticle {
+	public static ArcaniteDamageParticleParticleProvider provider(SpriteSet spriteSet) {
+		return new ArcaniteDamageParticleParticleProvider(spriteSet);
 	}
 
-	public static class ArcaniteParticleParticleProvider implements ParticleProvider<SimpleParticleType> {
+	public static class ArcaniteDamageParticleParticleProvider implements ParticleProvider<SimpleParticleType> {
 		private final SpriteSet spriteSet;
 
-		public ArcaniteParticleParticleProvider(SpriteSet spriteSet) {
+		public ArcaniteDamageParticleParticleProvider(SpriteSet spriteSet) {
 			this.spriteSet = spriteSet;
 		}
 
 		public Particle createParticle(SimpleParticleType typeIn, ClientLevel worldIn, double x, double y, double z, double xSpeed, double ySpeed, double zSpeed) {
-			return new ArcaniteParticleParticle(worldIn, x, y, z, xSpeed, ySpeed, zSpeed, this.spriteSet);
+			return new ArcaniteDamageParticleParticle(worldIn, x, y, z, xSpeed, ySpeed, zSpeed, this.spriteSet);
 		}
 	}
 
 	private final SpriteSet spriteSet;
 
-	protected ArcaniteParticleParticle(ClientLevel world, double x, double y, double z, double vx, double vy, double vz, SpriteSet spriteSet) {
+	protected ArcaniteDamageParticleParticle(ClientLevel world, double x, double y, double z, double vx, double vy, double vz, SpriteSet spriteSet) {
 		super(world, x, y, z);
 		this.spriteSet = spriteSet;
 		this.setSize(0.2f, 0.2f);
-		this.quadSize *= 20f;
+		this.quadSize *= 30f;
 		this.lifetime = 1;
 		this.gravity = 0f;
 		this.hasPhysics = true;

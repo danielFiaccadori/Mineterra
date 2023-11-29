@@ -17,4 +17,5 @@ public class MineterraModParticleTypes {
 	public static final DeferredRegister<ParticleType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.PARTICLE_TYPES, MineterraMod.MODID);
 	public static final RegistryObject<SimpleParticleType> BLOOD = REGISTRY.register("blood", () -> new SimpleParticleType(false));
 	public static final RegistryObject<SimpleParticleType> ARCANITE_PARTICLE = REGISTRY.register("arcanite_particle", () -> new SimpleParticleType(true));
+	public static final RegistryObject<SimpleParticleType> ARCANITE_DAMAGE_PARTICLE = REGISTRY.register("arcanite_damage_particle", () -> new SimpleParticleType(true));
 }
