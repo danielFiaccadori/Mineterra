@@ -13,12 +13,12 @@ public class FireStaffWhileProjectileFlyingTickProcedure {
 		if (immediatesourceentity == null)
 			return;
 		if (world instanceof ServerLevel _level)
-			_level.sendParticles(ParticleTypes.LARGE_SMOKE, x, y, z, 50, 1, 1, 1, 0.5);
+			_level.sendParticles(ParticleTypes.CAMPFIRE_COSY_SMOKE, x, y, z, 100, 0.75, 0.75, 0.75, 0);
 		if (world instanceof ServerLevel _level)
-			_level.sendParticles((SimpleParticleType) (MineterraModParticleTypes.FIRE_ASH.get()), x, y, z, 5, 1, 1, 1, 0.5);
+			_level.sendParticles((SimpleParticleType) (MineterraModParticleTypes.FIRE_ASH.get()), x, y, z, 15, 1, 1, 1, 0.5);
 		if (world instanceof ServerLevel _level)
-			_level.sendParticles((SimpleParticleType) (MineterraModParticleTypes.FIRE_ASH_2.get()), x, y, z, 5, 1, 1, 1, 0.5);
+			_level.sendParticles((SimpleParticleType) (MineterraModParticleTypes.FIRE_ASH_2.get()), x, y, z, 15, 1, 1, 1, 0.5);
 		if (world instanceof ServerLevel _level)
-			_level.sendParticles((SimpleParticleType) (MineterraModParticleTypes.FIRE_ASH_3.get()), x, y, z, 5, 1, 1, 1, 0.5);
+			_level.sendParticles((SimpleParticleType) (MineterraModParticleTypes.FIRE_ASH_3.get()), x, y, z, 15, 1, 1, 1, 0.5);
 	}
 }

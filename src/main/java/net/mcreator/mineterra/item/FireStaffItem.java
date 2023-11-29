@@ -57,7 +57,7 @@ public class FireStaffItem extends Item {
 			double y = entity.getY();
 			double z = entity.getZ();
 			if (FireStaffCanUseRangedItemProcedure.execute(entity, itemstack)) {
-				FireStaffEntity entityarrow = FireStaffEntity.shoot(world, entity, world.getRandom(), 2f, 0, 0);
+				FireStaffEntity entityarrow = FireStaffEntity.shoot(world, entity, world.getRandom(), 1f, 0, 0);
 				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 				entityarrow.pickup = AbstractArrow.Pickup.DISALLOWED;
 				FireStaffRangedItemIsUsedProcedure.execute(entity, itemstack);

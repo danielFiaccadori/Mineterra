@@ -33,7 +33,7 @@
     "useCondition": {
       "name": "FireStaffCanUseRangedItem"
     },
-    "bulletPower": 2.0,
+    "bulletPower": 1.0,
     "bulletDamage": 0.0,
     "bulletKnockback": 0,
     "bulletParticles": false,
