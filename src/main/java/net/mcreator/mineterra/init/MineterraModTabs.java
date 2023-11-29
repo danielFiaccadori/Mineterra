@@ -63,6 +63,8 @@ public class MineterraModTabs {
 				tabData.accept(MineterraModBlocks.ARCANITIUM_BLOCK.get().asItem());
 				tabData.accept(MineterraModItems.ARCANITIUM.get());
 				tabData.accept(MineterraModItems.ARCANITE.get());
+				tabData.accept(MineterraModItems.ARCANE_TOPAZ.get());
+				tabData.accept(MineterraModItems.ARCANITE_GEMSTONE.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -171,6 +173,7 @@ public class MineterraModTabs {
 			tabData.accept(MineterraModItems.WOOD_STAFF.get());
 			tabData.accept(MineterraModItems.ARCANITE_STAFF.get());
 			tabData.accept(MineterraModItems.LIGHT_STAFF.get());
+			tabData.accept(MineterraModItems.FIRE_STAFF.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {

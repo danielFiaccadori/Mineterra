@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Arcanite"
+      "value": "CUSTOM:ArcaniteGemstone"
     },
     "name": "arcanite_recipe",
     "namespace": "mod"

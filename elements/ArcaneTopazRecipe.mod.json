@@ -15,34 +15,34 @@
         "value": ""
       },
       {
+        "value": "CUSTOM:Arcanite"
+      },
+      {
         "value": ""
+      },
+      {
+        "value": "CUSTOM:Arcanite"
       },
       {
         "value": "CUSTOM:ArcaneTopaz"
       },
       {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:MagicalCasing"
+        "value": "CUSTOM:Arcanite"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:WoodStaff"
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:Arcanite"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:LightStaff"
+      "value": "CUSTOM:ArcaneTopaz"
     },
-    "name": "light_staff_recipe",
+    "name": "arcane_topaz_recipe",
     "namespace": "mod"
   }
 }

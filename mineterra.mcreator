@@ -7018,7 +7018,7 @@
           "src/main/resources/assets/mineterra/models/item/wood_staff.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Magic/Staffs"
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Wood Simple Staff"
     },
     {
       "name": "WoodStaffRecipe",
@@ -7032,7 +7032,7 @@
           "src/main/resources/data/mineterra/recipes/wood_staff_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Magic/Staffs"
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Wood Simple Staff"
     },
     {
       "name": "MagicalCasing",
@@ -7047,7 +7047,7 @@
           "src/main/java/net/mcreator/mineterra/item/MagicalCasingItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Magic/Staffs"
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Wood Simple Staff"
     },
     {
       "name": "MagicalCasingRecipe",
@@ -7061,7 +7061,7 @@
           "src/main/resources/data/mineterra/recipes/magical_casing_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Magic/Staffs"
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Wood Simple Staff"
     },
     {
       "name": "StaffOfLesserMagic",
@@ -7413,7 +7413,7 @@
           "src/main/resources/assets/mineterra/models/item/light_staff.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Magic/Staffs/LightStaff"
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Light Staff"
     },
     {
       "name": "LightStaffWhileProjectileFlyingTick",
@@ -7449,7 +7449,7 @@
           }
         ]
       },
-      "path": "~/Items/ItemsNormal/Magic/Staffs/LightStaff"
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Light Staff"
     },
     {
       "name": "LightStaffProjectileHitsLivingEntity",
@@ -7489,7 +7489,7 @@
           }
         ]
       },
-      "path": "~/Items/ItemsNormal/Magic/Staffs/LightStaff"
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Light Staff"
     },
     {
       "name": "LightStaffRecipe",
@@ -7503,7 +7503,7 @@
           "src/main/resources/data/mineterra/recipes/light_staff_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Magic/Staffs/LightStaff"
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Light Staff"
     },
     {
       "name": "LightStaffRangedItemIsUsed",
@@ -7527,7 +7527,7 @@
           }
         ]
       },
-      "path": "~/Items/ItemsNormal/Magic/Staffs/LightStaff"
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Light Staff"
     },
     {
       "name": "LightStaffCanUseRangedItem",
@@ -7552,7 +7552,7 @@
           }
         ]
       },
-      "path": "~/Items/ItemsNormal/Magic/Staffs/LightStaff"
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Light Staff"
     },
     {
       "name": "Arcanite",
@@ -7596,7 +7596,7 @@
           "src/main/resources/assets/mineterra/particles/light_orb_particle.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Magic/Staffs/LightStaff"
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Light Staff"
     },
     {
       "name": "LightOrb",
@@ -7611,7 +7611,7 @@
           "src/main/resources/assets/mineterra/models/item/light_orb.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Magic/Staffs/LightStaff"
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Light Staff"
     },
     {
       "name": "LightFlash",
@@ -7626,7 +7626,220 @@
           "src/main/java/net/mcreator/mineterra/client/particle/LightFlashParticle.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Magic/Staffs/LightStaff"
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Light Staff"
+    },
+    {
+      "name": "ArcaneTopaz",
+      "type": "item",
+      "sortid": 522,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcane_topaz",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/arcane_topaz.json",
+          "src/main/java/net/mcreator/mineterra/item/ArcaneTopazItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Light Staff"
+    },
+    {
+      "name": "ArcaneTopazRecipe",
+      "type": "recipe",
+      "sortid": 523,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcane_topaz_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/arcane_topaz_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Light Staff"
+    },
+    {
+      "name": "ArcaniteGemstone",
+      "type": "item",
+      "sortid": 524,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcanite_gemstone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/ArcaniteGemstoneItem.java",
+          "src/main/resources/assets/mineterra/models/item/arcanite_gemstone.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Arcanite Staff"
+    },
+    {
+      "name": "ArcanitePowderRecipe",
+      "type": "recipe",
+      "sortid": 525,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcanite_powder_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/arcanite_powder_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Arcanite Staff"
+    },
+    {
+      "name": "FireStaff",
+      "type": "rangeditem",
+      "sortid": 530,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_staff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/fire_staff.json",
+          "src/main/java/net/mcreator/mineterra/item/FireStaffItem.java",
+          "src/main/java/net/mcreator/mineterra/entity/FireStaffEntity.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Fire Staff"
+    },
+    {
+      "name": "FireStaffWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 526,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_staff_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/FireStaffWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Fire Staff"
+    },
+    {
+      "name": "FireStaffProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 527,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_staff_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/FireStaffProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Fire Staff"
+    },
+    {
+      "name": "FireStaffRecipe",
+      "type": "recipe",
+      "sortid": 531,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_staff_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/fire_staff_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Fire Staff"
+    },
+    {
+      "name": "FireStaffRangedItemIsUsed",
+      "type": "procedure",
+      "sortid": 528,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_staff_ranged_item_is_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/FireStaffRangedItemIsUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Fire Staff"
+    },
+    {
+      "name": "FireStaffCanUseRangedItem",
+      "type": "procedure",
+      "sortid": 529,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_staff_can_use_ranged_item",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/FireStaffCanUseRangedItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Fire Staff"
     }
   ],
   "variable_elements": [
@@ -7829,19 +8042,20 @@
       "item.mineterra.topaz_pickaxe": "Topaz Pickaxe",
       "gui.mineterra.game_start_character_creation.label_human": "RACE SELECTOR",
       "block.mineterra.sunstone_ore": "Sunstone Ore",
-      "item.mineterra.silver_armor_chestplate": "Peitoral de Prata",
       "item.mineterra.tanzanite_pickaxe": "Tanzanite Pickaxe",
+      "item.mineterra.silver_armor_chestplate": "Peitoral de Prata",
       "item.mineterra.amethyst_armor_boots": "Amethyst Boots",
-      "item.mineterra.zircon_axe": "Zircon Axe",
+      "item.mineterra.arcanite_gemstone": "Arcanite Gemstone",
       "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
+      "item.mineterra.zircon_axe": "Zircon Axe",
       "effect.mineterra.sangramento": "Sangramento",
       "block.mineterra.garnet_ore": "Garnet Ore",
       "item.mineterra.garnet_pickaxe": "Garnet Pickaxe",
       "item.mineterra.sapphire_armor_boots": "Sapphire Boots",
       "gui.mineterra.game_start_character_creation.Celestial": "Celestial",
       "item.mineterra.topaz_armor_leggings": "Topaz Leggings",
-      "block.mineterra.silver_ore": "Minério de Prata",
       "block.mineterra.titanium_block": "Block of Titanium",
+      "block.mineterra.silver_ore": "Minério de Prata",
       "item.mineterra.iron_sai_rapier": "Sai de Ferro",
       "attribute.mineterra.life_steal": "Life Steal",
       "item.mineterra.amethyst_armor_chestplate": "Amethyst Chestplate",
@@ -7866,14 +8080,14 @@
       "item.mineterra.garnet_axe": "Garnet Axe",
       "item.mineterra.silver_shovel": "Pá de Prata",
       "gui.mineterra.celestial_gui.label_das_suas_consequencias": "das suas consequências.",
-      "item.mineterra.arcanite": "Arcanite",
+      "item.mineterra.arcanite": "Arcanite Powder",
       "item.mineterra.silver_armor_helmet": "Capacete de Prata",
       "subtitles.ferocity-growl": "",
       "item.mineterra.copper_hoe": "Copper Hoe",
       "item.mineterra.copper_pickaxe": "Copper Pickaxe",
       "item.mineterra.ritual_dagger": "Ritual Dagger",
-      "item.mineterra.demonita_armor_leggings": "Calças de Demonita",
       "item.mineterra.citrine_hoe": "Citrine Hoe",
+      "item.mineterra.demonita_armor_leggings": "Calças de Demonita",
       "item.mineterra.ruby": "Ruby",
       "item.mineterra.iron_dagger": "Adaga de Ferro",
       "item.mineterra.garnet": "Garnet",
@@ -7948,6 +8162,7 @@
       "block.mineterra.arcanitium_block": "Block of Arcanitium",
       "item.mineterra.citrine_armor_chestplate": "Citrine Chestplate",
       "item.mineterra.sapphire_armor_leggings": "Sapphire Leggings",
+      "item.mineterra.fire_staff": "Fire Staff",
       "item.mineterra.sunstone_pickaxe": "Sunstone Pickaxe",
       "item.mineterra.topaz_armor_boots": "Topaz Boots",
       "item.mineterra.titanium_ingot": "Titanium",
@@ -7972,6 +8187,7 @@
       "block.mineterra.topaz_block": "Block of Topaz",
       "item.mineterra.titanium_armor_chestplate": "Titanium Chestplate",
       "item.mineterra.ruby_hoe": "Ruby Hoe",
+      "item.mineterra.arcane_topaz": "Arcane Topaz",
       "attribute.mineterra.chaos": "Chaos",
       "item.mineterra.garnet_shovel": "Garnet Shovel",
       "item.mineterra.citrine_armor_boots": "Citrine Boots",
@@ -8365,7 +8581,15 @@
                         "children": []
                       },
                       {
-                        "name": "LightStaff",
+                        "name": "Light Staff",
+                        "children": []
+                      },
+                      {
+                        "name": "Wood Simple Staff",
+                        "children": []
+                      },
+                      {
+                        "name": "Fire Staff",
                         "children": []
                       }
                     ]

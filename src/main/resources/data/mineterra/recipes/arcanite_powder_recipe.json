@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "mineterra:arcanite_gemstone"
+  },
+  "addition": {
+    "item": "mineterra:forge_hammer"
+  },
+  "result": {
+    "item": "mineterra:arcanite"
+  }
+}

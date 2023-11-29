@@ -18,6 +18,7 @@ import net.minecraft.world.entity.Entity;
 
 import net.mcreator.mineterra.entity.StaffOfLesserMagicEntity;
 import net.mcreator.mineterra.entity.LightStaffEntity;
+import net.mcreator.mineterra.entity.FireStaffEntity;
 import net.mcreator.mineterra.MineterraMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -27,6 +28,8 @@ public class MineterraModEntities {
 			.setCustomClientFactory(StaffOfLesserMagicEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<LightStaffEntity>> LIGHT_STAFF = register("projectile_light_staff",
 			EntityType.Builder.<LightStaffEntity>of(LightStaffEntity::new, MobCategory.MISC).setCustomClientFactory(LightStaffEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<FireStaffEntity>> FIRE_STAFF = register("projectile_fire_staff",
+			EntityType.Builder.<FireStaffEntity>of(FireStaffEntity::new, MobCategory.MISC).setCustomClientFactory(FireStaffEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

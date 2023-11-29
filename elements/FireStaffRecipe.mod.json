@@ -42,7 +42,7 @@
     "recipeReturnStack": {
       "value": "CUSTOM:LightStaff"
     },
-    "name": "light_staff_recipe",
+    "name": "fire_staff_recipe",
     "namespace": "mod"
   }
 }

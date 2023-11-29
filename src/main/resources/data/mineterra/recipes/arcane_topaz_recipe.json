@@ -8,23 +8,23 @@
   ],
   "key": {
     "1": {
-      "item": "minecraft:lapis_lazuli"
+      "item": "mineterra:arcanite"
     },
     "3": {
-      "item": "minecraft:lapis_lazuli"
+      "item": "mineterra:arcanite"
     },
     "4": {
-      "item": "mineterra:arcanitium"
+      "item": "mineterra:arcane_topaz"
     },
     "5": {
-      "item": "minecraft:lapis_lazuli"
+      "item": "mineterra:arcanite"
     },
     "7": {
-      "item": "minecraft:lapis_lazuli"
+      "item": "mineterra:arcanite"
     }
   },
   "result": {
-    "item": "mineterra:arcanite_gemstone",
+    "item": "mineterra:arcane_topaz",
     "count": 1
   }
 }

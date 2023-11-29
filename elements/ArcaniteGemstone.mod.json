@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "amethyst_powder",
+    "texture": "sapphire_gem",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Arcanite Powder",
+    "name": "Arcanite Gemstone",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Mineterra"
@@ -26,9 +26,7 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "§dCan be imbued to gem to become a Arcane Gem."
-    ],
+    "specialInfo": [],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,

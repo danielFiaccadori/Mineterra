@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "amethyst_powder",
+    "texture": "topaz-gemstone",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Arcanite Powder",
-    "rarity": "COMMON",
+    "name": "Arcane Topaz",
+    "rarity": "UNCOMMON",
     "creativeTab": {
       "value": "CUSTOM:Mineterra"
     },
@@ -21,15 +21,13 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "§dCan be imbued to gem to become a Arcane Gem."
-    ],
-    "hasGlow": false,
+    "specialInfo": [],
+    "hasGlow": true,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,

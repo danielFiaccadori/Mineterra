@@ -17,5 +17,6 @@ public class MineterraModEntityRenderers {
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(MineterraModEntities.ARCANITE_STAFF.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(MineterraModEntities.LIGHT_STAFF.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(MineterraModEntities.FIRE_STAFF.get(), ThrownItemRenderer::new);
 	}
 }

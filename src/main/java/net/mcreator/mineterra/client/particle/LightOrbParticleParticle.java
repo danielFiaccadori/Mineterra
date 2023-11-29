@@ -36,7 +36,7 @@ public class LightOrbParticleParticle extends TextureSheetParticle {
 		super(world, x, y, z);
 		this.spriteSet = spriteSet;
 		this.setSize(0.1f, 0.1f);
-		this.quadSize *= 3f;
+		this.quadSize *= 0.5f;
 		this.lifetime = 10;
 		this.gravity = 0f;
 		this.hasPhysics = true;

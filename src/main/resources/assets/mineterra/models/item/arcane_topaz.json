@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "mineterra:item/amethyst_powder"
+    "layer0": "mineterra:item/topaz-gemstone"
   }
 }

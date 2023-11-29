@@ -112,6 +112,7 @@ import net.mcreator.mineterra.item.GarnetAxeItem;
 import net.mcreator.mineterra.item.GarnetArmorItem;
 import net.mcreator.mineterra.item.ForgeHammerItem;
 import net.mcreator.mineterra.item.FlintDaggerItem;
+import net.mcreator.mineterra.item.FireStaffItem;
 import net.mcreator.mineterra.item.EmptyItem;
 import net.mcreator.mineterra.item.ElderlySaiItem;
 import net.mcreator.mineterra.item.DiamondSaiItem;
@@ -140,6 +141,8 @@ import net.mcreator.mineterra.item.CitrineAxeItem;
 import net.mcreator.mineterra.item.CitrineArmorItem;
 import net.mcreator.mineterra.item.ArcanitiumItem;
 import net.mcreator.mineterra.item.ArcaniteItem;
+import net.mcreator.mineterra.item.ArcaniteGemstoneItem;
+import net.mcreator.mineterra.item.ArcaneTopazItem;
 import net.mcreator.mineterra.item.AmethystSwordItem;
 import net.mcreator.mineterra.item.AmethystShovelItem;
 import net.mcreator.mineterra.item.AmethystPickaxeItem;
@@ -352,6 +355,9 @@ public class MineterraModItems {
 	public static final RegistryObject<Item> ARCANITE = REGISTRY.register("arcanite", () -> new ArcaniteItem());
 	public static final RegistryObject<Item> LIGHT_STAFF = REGISTRY.register("light_staff", () -> new LightStaffItem());
 	public static final RegistryObject<Item> LIGHT_ORB = REGISTRY.register("light_orb", () -> new LightOrbItem());
+	public static final RegistryObject<Item> ARCANE_TOPAZ = REGISTRY.register("arcane_topaz", () -> new ArcaneTopazItem());
+	public static final RegistryObject<Item> ARCANITE_GEMSTONE = REGISTRY.register("arcanite_gemstone", () -> new ArcaniteGemstoneItem());
+	public static final RegistryObject<Item> FIRE_STAFF = REGISTRY.register("fire_staff", () -> new FireStaffItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
