@@ -36,14 +36,13 @@ public class ArcaniteAshParticle extends TextureSheetParticle {
 		super(world, x, y, z);
 		this.spriteSet = spriteSet;
 		this.setSize(0.2f, 0.2f);
-		this.quadSize *= 2f;
 		this.lifetime = 10;
 		this.gravity = 0f;
 		this.hasPhysics = true;
 		this.xd = vx * 0.05;
 		this.yd = vy * 0.05;
 		this.zd = vz * 0.05;
-		this.setSpriteFromAge(spriteSet);
+		this.pickSprite(spriteSet);
 	}
 
 	@Override
@@ -59,8 +58,5 @@ public class ArcaniteAshParticle extends TextureSheetParticle {
 	@Override
 	public void tick() {
 		super.tick();
-		if (!this.removed) {
-			this.setSprite(this.spriteSet.get((this.age / 40) % 2 + 1, 2));
-		}
 	}
 }
