@@ -7398,6 +7398,235 @@
         ]
       },
       "path": "~/Items/ItemsNormal/Magic/Arcane Natural Material"
+    },
+    {
+      "name": "LightStaff",
+      "type": "rangeditem",
+      "sortid": 516,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_staff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/LightStaffItem.java",
+          "src/main/java/net/mcreator/mineterra/entity/LightStaffEntity.java",
+          "src/main/resources/assets/mineterra/models/item/light_staff.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/LightStaff"
+    },
+    {
+      "name": "LightStaffWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 512,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_staff_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/LightStaffWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/LightStaff"
+    },
+    {
+      "name": "LightStaffProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 513,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_staff_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/LightStaffProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/LightStaff"
+    },
+    {
+      "name": "LightStaffRecipe",
+      "type": "recipe",
+      "sortid": 517,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_staff_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/light_staff_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/LightStaff"
+    },
+    {
+      "name": "LightStaffRangedItemIsUsed",
+      "type": "procedure",
+      "sortid": 514,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_staff_ranged_item_is_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/LightStaffRangedItemIsUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/LightStaff"
+    },
+    {
+      "name": "LightStaffCanUseRangedItem",
+      "type": "procedure",
+      "sortid": 515,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_staff_can_use_ranged_item",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/LightStaffCanUseRangedItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/LightStaff"
+    },
+    {
+      "name": "Arcanite",
+      "type": "item",
+      "sortid": 511,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcanite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/ArcaniteItem.java",
+          "src/main/resources/assets/mineterra/models/item/arcanite.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Arcanite Staff"
+    },
+    {
+      "name": "ArcaniteRecipe",
+      "type": "recipe",
+      "sortid": 518,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcanite_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/arcanite_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Arcanite Staff"
+    },
+    {
+      "name": "LightOrbParticle",
+      "type": "particle",
+      "sortid": 519,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_orb_particle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/client/particle/LightOrbParticleParticle.java",
+          "src/main/resources/assets/mineterra/particles/light_orb_particle.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/LightStaff"
+    },
+    {
+      "name": "LightOrb",
+      "type": "item",
+      "sortid": 520,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_orb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/LightOrbItem.java",
+          "src/main/resources/assets/mineterra/models/item/light_orb.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/LightStaff"
+    },
+    {
+      "name": "LightFlash",
+      "type": "particle",
+      "sortid": 521,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_flash",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/particles/light_flash.json",
+          "src/main/java/net/mcreator/mineterra/client/particle/LightFlashParticle.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/LightStaff"
     }
   ],
   "variable_elements": [
@@ -7582,6 +7811,14 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "lightspell",
+      "files": [
+        "lux_select_sfx_1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -7622,12 +7859,14 @@
       "item.mineterra.gold_dagger": "Adaga de Ouro",
       "item.mineterra.amethyst_armor_helmet": "Amethyst Helmet",
       "effect.mineterra.sun_blessing": "Bênção do Sol",
+      "item.mineterra.light_staff": "Light Staff",
       "item.mineterra.tourmaline_armor_boots": "Tourmaline Boots",
       "gui.mineterra.game_start_character_creation.button_select": "Select",
       "effect.mineterra.forest_blessing": "Bênção da Fauna",
       "item.mineterra.garnet_axe": "Garnet Axe",
       "item.mineterra.silver_shovel": "Pá de Prata",
       "gui.mineterra.celestial_gui.label_das_suas_consequencias": "das suas consequências.",
+      "item.mineterra.arcanite": "Arcanite",
       "item.mineterra.silver_armor_helmet": "Capacete de Prata",
       "subtitles.ferocity-growl": "",
       "item.mineterra.copper_hoe": "Copper Hoe",
@@ -7645,8 +7884,8 @@
       "item.mineterra.copper_sword": "Copper Sword",
       "item.mineterra.sapphire_pickaxe": "Sapphire Pickaxe",
       "item.mineterra.sunstone_armor_helmet": "Sunstone Helmet",
-      "subtitles.orrc-growl": "",
       "item.mineterra.zircon_armor_helmet": "Zircon Helmet",
+      "subtitles.orrc-growl": "",
       "item.mineterra.wood_katana": "Katana de Madeira",
       "item.mineterra.tanzanite_axe": "Tanzanite Axe",
       "item.mineterra.demonita_shovel": "Pá de Demonita",
@@ -7715,6 +7954,7 @@
       "item.mineterra.silver_hoe": "Enxada de Prata",
       "item.mineterra.unactive_ritual_dagger": "Adaga de Ritual Desativada",
       "item.mineterra.sapphire_shovel": "Sapphire Shovel",
+      "item.mineterra.light_orb": "Light Orb",
       "block.mineterra.sunstone_block": "Block of Sunstone",
       "item.mineterra.tourmaline": "Tourmaline",
       "item.mineterra.demonita_axe": "Machado de Demonita",
@@ -7758,6 +7998,7 @@
       "item_group.mineterra.mineterra_weapons": "Mineterra Armas Especiais",
       "attribute.mineterra.wisdom": "Wisdom",
       "block.mineterra.topaz_ore": "Topaz Ore",
+      "subtitles.lightspell": "",
       "block.mineterra.tanzanite_ore": "Tanzanite Ore",
       "item.mineterra.citrine_pickaxe": "Citrine Pickaxe",
       "item.mineterra.netherite_katana": "Katana de Netherita",
@@ -8121,6 +8362,10 @@
                     "children": [
                       {
                         "name": "Arcanite Staff",
+                        "children": []
+                      },
+                      {
+                        "name": "LightStaff",
                         "children": []
                       }
                     ]

@@ -15,34 +15,34 @@
         "value": ""
       },
       {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Arcanite"
+        "value": "Items.DYE#4"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:MagicalCasing"
+        "value": "Items.DYE#4"
+      },
+      {
+        "value": "CUSTOM:Arcanitium"
+      },
+      {
+        "value": "Items.DYE#4"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:WoodStaff"
-      },
-      {
-        "value": ""
+        "value": "Items.DYE#4"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:StaffOfLesserMagic"
+      "value": "CUSTOM:Arcanite"
     },
-    "name": "arcanite_staff",
+    "name": "arcanite_recipe",
     "namespace": "mod"
   }
 }

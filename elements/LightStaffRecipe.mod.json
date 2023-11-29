@@ -18,7 +18,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Arcanite"
+        "value": "CUSTOM:Arcanitium"
       },
       {
         "value": ""
@@ -42,7 +42,7 @@
     "recipeReturnStack": {
       "value": "CUSTOM:StaffOfLesserMagic"
     },
-    "name": "arcanite_staff",
+    "name": "light_staff_recipe",
     "namespace": "mod"
   }
 }

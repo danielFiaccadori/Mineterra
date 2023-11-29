@@ -13,42 +13,47 @@ import net.minecraft.client.particle.Particle;
 import net.minecraft.client.multiplayer.ClientLevel;
 
 @OnlyIn(Dist.CLIENT)
-public class ArcaniteAshTranslucnetParticle extends TextureSheetParticle {
-	public static ArcaniteAshTranslucnetParticleProvider provider(SpriteSet spriteSet) {
-		return new ArcaniteAshTranslucnetParticleProvider(spriteSet);
+public class LightOrbParticleParticle extends TextureSheetParticle {
+	public static LightOrbParticleParticleProvider provider(SpriteSet spriteSet) {
+		return new LightOrbParticleParticleProvider(spriteSet);
 	}
 
-	public static class ArcaniteAshTranslucnetParticleProvider implements ParticleProvider<SimpleParticleType> {
+	public static class LightOrbParticleParticleProvider implements ParticleProvider<SimpleParticleType> {
 		private final SpriteSet spriteSet;
 
-		public ArcaniteAshTranslucnetParticleProvider(SpriteSet spriteSet) {
+		public LightOrbParticleParticleProvider(SpriteSet spriteSet) {
 			this.spriteSet = spriteSet;
 		}
 
 		public Particle createParticle(SimpleParticleType typeIn, ClientLevel worldIn, double x, double y, double z, double xSpeed, double ySpeed, double zSpeed) {
-			return new ArcaniteAshTranslucnetParticle(worldIn, x, y, z, xSpeed, ySpeed, zSpeed, this.spriteSet);
+			return new LightOrbParticleParticle(worldIn, x, y, z, xSpeed, ySpeed, zSpeed, this.spriteSet);
 		}
 	}
 
 	private final SpriteSet spriteSet;
 
-	protected ArcaniteAshTranslucnetParticle(ClientLevel world, double x, double y, double z, double vx, double vy, double vz, SpriteSet spriteSet) {
+	protected LightOrbParticleParticle(ClientLevel world, double x, double y, double z, double vx, double vy, double vz, SpriteSet spriteSet) {
 		super(world, x, y, z);
 		this.spriteSet = spriteSet;
-		this.setSize(0.2f, 0.2f);
-		this.quadSize *= 4f;
+		this.setSize(0.1f, 0.1f);
+		this.quadSize *= 3f;
 		this.lifetime = 10;
-		this.gravity = -0.05f;
+		this.gravity = 0f;
 		this.hasPhysics = true;
-		this.xd = vx * 0.05;
-		this.yd = vy * 0.05;
-		this.zd = vz * 0.05;
+		this.xd = vx * 0.01;
+		this.yd = vy * 0.01;
+		this.zd = vz * 0.01;
 		this.pickSprite(spriteSet);
 	}
 
 	@Override
+	public int getLightColor(float partialTick) {
+		return 15728880;
+	}
+
+	@Override
 	public ParticleRenderType getRenderType() {
-		return ParticleRenderType.PARTICLE_SHEET_TRANSLUCENT;
+		return ParticleRenderType.PARTICLE_SHEET_LIT;
 	}
 
 	@Override

@@ -21,4 +21,6 @@ public class MineterraModParticleTypes {
 	public static final RegistryObject<SimpleParticleType> ARCANITE_P_ARTICLE_3 = REGISTRY.register("arcanite_p_article_3", () -> new SimpleParticleType(false));
 	public static final RegistryObject<SimpleParticleType> ARCANITE_ASH = REGISTRY.register("arcanite_ash", () -> new SimpleParticleType(true));
 	public static final RegistryObject<SimpleParticleType> ARCANITE_ASH_TRANSLUCNET = REGISTRY.register("arcanite_ash_translucnet", () -> new SimpleParticleType(true));
+	public static final RegistryObject<SimpleParticleType> LIGHT_ORB_PARTICLE = REGISTRY.register("light_orb_particle", () -> new SimpleParticleType(false));
+	public static final RegistryObject<SimpleParticleType> LIGHT_FLASH = REGISTRY.register("light_flash", () -> new SimpleParticleType(false));
 }

@@ -166,5 +166,13 @@
         "stream": false
       }
     ]
+  },
+  "lightspell": {
+    "sounds": [
+      {
+        "name": "mineterra:lux_select_sfx_1",
+        "stream": false
+      }
+    ]
   }
 }

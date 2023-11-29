@@ -1,0 +1,52 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "lightstaff",
+    "customModelName": "Normal",
+    "name": "Light Staff",
+    "specialInfo": [
+      "§dIlluminate",
+      "§8Conjures a light orb into a target, dealing §53§8 + §530%(+ total XP level) Magical Damage§8."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "CUSTOM:lightspell"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "LightStaffRangedItemIsUsed"
+    },
+    "useCondition": {
+      "name": "LightStaffCanUseRangedItem"
+    },
+    "bulletPower": 2.0,
+    "bulletDamage": 0.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:LightOrb"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsEntity": {
+      "name": "LightStaffProjectileHitsLivingEntity"
+    },
+    "onBulletFlyingTick": {
+      "name": "LightStaffWhileProjectileFlyingTick"
+    }
+  }
+}
