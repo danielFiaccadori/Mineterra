@@ -7092,14 +7092,6 @@
         ],
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "immediatesourceentity",
-            "type": "entity"
-          },
-          {
             "name": "x",
             "type": "number"
           },
@@ -7328,6 +7320,36 @@
             "name": "itemstack",
             "type": "itemstack"
           }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Arcanite Staff"
+    },
+    {
+      "name": "Empty",
+      "type": "item",
+      "sortid": 499,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/empty.json",
+          "src/main/java/net/mcreator/mineterra/item/EmptyItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Arcanite Staff"
+    },
+    {
+      "name": "ArcaniteRay",
+      "type": "particle",
+      "sortid": 500,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcanite_ray",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/particles/arcanite_ray.json",
+          "src/main/java/net/mcreator/mineterra/client/particle/ArcaniteRayParticle.java"
         ]
       },
       "path": "~/Items/ItemsNormal/Magic/Staffs/Arcanite Staff"
@@ -7738,6 +7760,7 @@
       "gui.mineterra.game_start_character_creation.Dwarf": "Dwarf",
       "item.mineterra.copper_shovel": "Copper Shovel",
       "item.mineterra.titanium_sword": "Titanium Sword",
+      "item.mineterra.empty": "Empty",
       "subtitles.shen_sword": "",
       "item.mineterra.rapier": "Rapieira",
       "effect.mineterra.bestial_domain": "Fera Enfurecida",

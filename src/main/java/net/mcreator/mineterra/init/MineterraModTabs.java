@@ -62,6 +62,7 @@ public class MineterraModTabs {
 				tabData.accept(MineterraModBlocks.ARCANITE_BLOCK.get().asItem());
 				tabData.accept(MineterraModItems.ARCANITE.get());
 				tabData.accept(MineterraModItems.ARCANITE_CATALYZER.get());
+				tabData.accept(MineterraModItems.EMPTY.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

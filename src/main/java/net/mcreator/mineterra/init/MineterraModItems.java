@@ -110,6 +110,7 @@ import net.mcreator.mineterra.item.GarnetAxeItem;
 import net.mcreator.mineterra.item.GarnetArmorItem;
 import net.mcreator.mineterra.item.ForgeHammerItem;
 import net.mcreator.mineterra.item.FlintDaggerItem;
+import net.mcreator.mineterra.item.EmptyItem;
 import net.mcreator.mineterra.item.ElderlySaiItem;
 import net.mcreator.mineterra.item.DiamondSaiItem;
 import net.mcreator.mineterra.item.DiamondKatanaItem;
@@ -346,6 +347,7 @@ public class MineterraModItems {
 	public static final RegistryObject<Item> ARCANITE_BLOCK = block(MineterraModBlocks.ARCANITE_BLOCK);
 	public static final RegistryObject<Item> ARCANITE = REGISTRY.register("arcanite", () -> new ArcaniteItem());
 	public static final RegistryObject<Item> ARCANITE_CATALYZER = REGISTRY.register("arcanite_catalyzer", () -> new ArcaniteCatalyzerItem());
+	public static final RegistryObject<Item> EMPTY = REGISTRY.register("empty", () -> new EmptyItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

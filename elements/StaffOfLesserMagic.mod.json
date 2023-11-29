@@ -31,13 +31,13 @@
     "useCondition": {
       "name": "StaffOfLesserMagicCanUseRangedItem"
     },
-    "bulletPower": 2.0,
+    "bulletPower": 1.0,
     "bulletDamage": 0.0,
     "bulletKnockback": 0,
     "bulletParticles": false,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {
-      "value": "CUSTOM:Arcanite"
+      "value": "CUSTOM:Empty"
     },
     "bulletModel": "Default",
     "customBulletModelTexture": "",

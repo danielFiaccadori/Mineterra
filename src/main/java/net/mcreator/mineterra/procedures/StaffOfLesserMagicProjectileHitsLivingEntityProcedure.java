@@ -17,6 +17,6 @@ public class StaffOfLesserMagicProjectileHitsLivingEntityProcedure {
 			return;
 		entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.MAGIC)), (float) (1 + ((LivingEntity) sourceentity).getAttribute(MineterraModAttributes.MAGICDAMAGE.get()).getValue()));
 		if (world instanceof ServerLevel _level)
-			_level.sendParticles(ParticleTypes.FLASH, x, y, z, 50, 1, 1, 1, 1);
+			_level.sendParticles(ParticleTypes.ENCHANT, x, y, z, 50, 1, 1, 1, 1);
 	}
 }
