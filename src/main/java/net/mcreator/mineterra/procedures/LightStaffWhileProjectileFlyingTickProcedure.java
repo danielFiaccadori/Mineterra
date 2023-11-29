@@ -13,7 +13,7 @@ public class LightStaffWhileProjectileFlyingTickProcedure {
 		if (immediatesourceentity == null)
 			return;
 		if (world instanceof ServerLevel _level)
-			_level.sendParticles((SimpleParticleType) (MineterraModParticleTypes.LIGHT_ORB_PARTICLE.get()), x, y, z, 15, 0.5, 0.5, 0.5, 0.5);
+			_level.sendParticles((SimpleParticleType) (MineterraModParticleTypes.LIGHT_ORB_PARTICLE.get()), x, y, z, 10, 0.5, 0.5, 0.5, 0.5);
 		if (world instanceof ServerLevel _level)
 			_level.sendParticles(ParticleTypes.FLASH, x, y, z, 5, 0.5, 0.5, 0.5, 0.5);
 	}
