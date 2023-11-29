@@ -135,6 +135,7 @@ import net.mcreator.mineterra.item.CitrineItem;
 import net.mcreator.mineterra.item.CitrineHoeItem;
 import net.mcreator.mineterra.item.CitrineAxeItem;
 import net.mcreator.mineterra.item.CitrineArmorItem;
+import net.mcreator.mineterra.item.ArcaniteRuneItem;
 import net.mcreator.mineterra.item.ArcaniteItem;
 import net.mcreator.mineterra.item.ArcaniteCatalyzerItem;
 import net.mcreator.mineterra.item.AmethystSwordItem;
@@ -346,6 +347,7 @@ public class MineterraModItems {
 	public static final RegistryObject<Item> ARCANITE_BLOCK = block(MineterraModBlocks.ARCANITE_BLOCK);
 	public static final RegistryObject<Item> ARCANITE = REGISTRY.register("arcanite", () -> new ArcaniteItem());
 	public static final RegistryObject<Item> ARCANITE_CATALYZER = REGISTRY.register("arcanite_catalyzer", () -> new ArcaniteCatalyzerItem());
+	public static final RegistryObject<Item> ARCANITE_RUNE = REGISTRY.register("arcanite_rune", () -> new ArcaniteRuneItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

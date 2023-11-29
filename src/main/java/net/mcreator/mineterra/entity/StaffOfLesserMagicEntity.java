@@ -51,7 +51,7 @@ public class StaffOfLesserMagicEntity extends AbstractArrow implements ItemSuppl
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public ItemStack getItem() {
-		return new ItemStack(MineterraModItems.ARCANITE_CATALYZER.get());
+		return new ItemStack(MineterraModItems.ARCANITE_RUNE.get());
 	}
 
 	@Override
@@ -74,7 +74,7 @@ public class StaffOfLesserMagicEntity extends AbstractArrow implements ItemSuppl
 	@Override
 	public void tick() {
 		super.tick();
-		StaffOfLesserMagicWhileProjectileFlyingTickProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
+		StaffOfLesserMagicWhileProjectileFlyingTickProcedure.execute(this);
 		if (this.inGround)
 			this.discard();
 	}

@@ -7094,22 +7094,6 @@
           {
             "name": "immediatesourceentity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -7345,6 +7329,21 @@
         ]
       },
       "path": "~/Items/ItemsNormal/Magic/Staffs/Arcanite Staff"
+    },
+    {
+      "name": "ArcaniteRune",
+      "type": "item",
+      "sortid": 500,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcanite_rune",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/arcanite_rune.json",
+          "src/main/java/net/mcreator/mineterra/item/ArcaniteRuneItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Arcanite Staff"
     }
   ],
   "variable_elements": [
@@ -7531,15 +7530,15 @@
       "item.mineterra.topaz_pickaxe": "Topaz Pickaxe",
       "gui.mineterra.game_start_character_creation.label_human": "RACE SELECTOR",
       "block.mineterra.sunstone_ore": "Sunstone Ore",
-      "item.mineterra.tanzanite_pickaxe": "Tanzanite Pickaxe",
       "item.mineterra.silver_armor_chestplate": "Peitoral de Prata",
+      "item.mineterra.tanzanite_pickaxe": "Tanzanite Pickaxe",
       "item.mineterra.amethyst_armor_boots": "Amethyst Boots",
-      "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
       "item.mineterra.zircon_axe": "Zircon Axe",
+      "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
       "effect.mineterra.sangramento": "Sangramento",
       "block.mineterra.garnet_ore": "Garnet Ore",
-      "item.mineterra.sapphire_armor_boots": "Sapphire Boots",
       "item.mineterra.garnet_pickaxe": "Garnet Pickaxe",
+      "item.mineterra.sapphire_armor_boots": "Sapphire Boots",
       "gui.mineterra.game_start_character_creation.Celestial": "Celestial",
       "item.mineterra.topaz_armor_leggings": "Topaz Leggings",
       "block.mineterra.silver_ore": "Minério de Prata",
@@ -7573,8 +7572,8 @@
       "item.mineterra.copper_hoe": "Copper Hoe",
       "item.mineterra.copper_pickaxe": "Copper Pickaxe",
       "item.mineterra.ritual_dagger": "Ritual Dagger",
-      "item.mineterra.citrine_hoe": "Citrine Hoe",
       "item.mineterra.demonita_armor_leggings": "Calças de Demonita",
+      "item.mineterra.citrine_hoe": "Citrine Hoe",
       "item.mineterra.ruby": "Ruby",
       "item.mineterra.iron_dagger": "Adaga de Ferro",
       "item.mineterra.garnet": "Garnet",
@@ -7585,8 +7584,8 @@
       "item.mineterra.copper_sword": "Copper Sword",
       "item.mineterra.sapphire_pickaxe": "Sapphire Pickaxe",
       "item.mineterra.sunstone_armor_helmet": "Sunstone Helmet",
-      "item.mineterra.zircon_armor_helmet": "Zircon Helmet",
       "subtitles.orrc-growl": "",
+      "item.mineterra.zircon_armor_helmet": "Zircon Helmet",
       "item.mineterra.wood_katana": "Katana de Madeira",
       "item.mineterra.tanzanite_axe": "Tanzanite Axe",
       "item.mineterra.demonita_shovel": "Pá de Demonita",
@@ -7733,6 +7732,7 @@
       "item.mineterra.amethyst_pickaxe": "Amethyst Pickaxe",
       "item.mineterra.tourmaline_shovel": "Tourmaline Shovel",
       "item.mineterra.tourmaline_hoe": "Tourmaline Hoe",
+      "item.mineterra.arcanite_rune": "Arcanite Rune",
       "item.mineterra.wood_staff": "Wood Staff",
       "subtitles.gemstone_armor_equip": "",
       "effect.mineterra.dark_ritual": "Oferenda",

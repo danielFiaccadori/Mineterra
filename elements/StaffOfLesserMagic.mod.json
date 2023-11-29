@@ -37,7 +37,7 @@
     "bulletParticles": false,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {
-      "value": "CUSTOM:ArcaniteCatalyzer"
+      "value": "CUSTOM:ArcaniteRune"
     },
     "bulletModel": "Default",
     "customBulletModelTexture": "",
