@@ -31,7 +31,7 @@
     "useCondition": {
       "name": "StaffOfLesserMagicCanUseRangedItem"
     },
-    "bulletPower": 1.0,
+    "bulletPower": 2.0,
     "bulletDamage": 0.0,
     "bulletKnockback": 0,
     "bulletParticles": false,

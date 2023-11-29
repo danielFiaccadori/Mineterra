@@ -13,36 +13,36 @@ import net.minecraft.client.particle.Particle;
 import net.minecraft.client.multiplayer.ClientLevel;
 
 @OnlyIn(Dist.CLIENT)
-public class ArcaniteRayParticle extends TextureSheetParticle {
-	public static ArcaniteRayParticleProvider provider(SpriteSet spriteSet) {
-		return new ArcaniteRayParticleProvider(spriteSet);
+public class ArcaniteParticleParticle extends TextureSheetParticle {
+	public static ArcaniteParticleParticleProvider provider(SpriteSet spriteSet) {
+		return new ArcaniteParticleParticleProvider(spriteSet);
 	}
 
-	public static class ArcaniteRayParticleProvider implements ParticleProvider<SimpleParticleType> {
+	public static class ArcaniteParticleParticleProvider implements ParticleProvider<SimpleParticleType> {
 		private final SpriteSet spriteSet;
 
-		public ArcaniteRayParticleProvider(SpriteSet spriteSet) {
+		public ArcaniteParticleParticleProvider(SpriteSet spriteSet) {
 			this.spriteSet = spriteSet;
 		}
 
 		public Particle createParticle(SimpleParticleType typeIn, ClientLevel worldIn, double x, double y, double z, double xSpeed, double ySpeed, double zSpeed) {
-			return new ArcaniteRayParticle(worldIn, x, y, z, xSpeed, ySpeed, zSpeed, this.spriteSet);
+			return new ArcaniteParticleParticle(worldIn, x, y, z, xSpeed, ySpeed, zSpeed, this.spriteSet);
 		}
 	}
 
 	private final SpriteSet spriteSet;
 
-	protected ArcaniteRayParticle(ClientLevel world, double x, double y, double z, double vx, double vy, double vz, SpriteSet spriteSet) {
+	protected ArcaniteParticleParticle(ClientLevel world, double x, double y, double z, double vx, double vy, double vz, SpriteSet spriteSet) {
 		super(world, x, y, z);
 		this.spriteSet = spriteSet;
 		this.setSize(0.2f, 0.2f);
-		this.quadSize *= 5f;
+		this.quadSize *= 3f;
 		this.lifetime = 7;
 		this.gravity = 0f;
 		this.hasPhysics = true;
-		this.xd = vx * 0;
-		this.yd = vy * 0;
-		this.zd = vz * 0;
+		this.xd = vx * 0.05;
+		this.yd = vy * 0.05;
+		this.zd = vz * 0.05;
 		this.pickSprite(spriteSet);
 	}
 

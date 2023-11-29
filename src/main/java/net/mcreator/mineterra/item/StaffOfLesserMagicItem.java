@@ -55,7 +55,7 @@ public class StaffOfLesserMagicItem extends Item {
 			double y = entity.getY();
 			double z = entity.getZ();
 			if (StaffOfLesserMagicCanUseRangedItemProcedure.execute(entity, itemstack)) {
-				StaffOfLesserMagicEntity entityarrow = StaffOfLesserMagicEntity.shoot(world, entity, world.getRandom(), 1f, 0, 0);
+				StaffOfLesserMagicEntity entityarrow = StaffOfLesserMagicEntity.shoot(world, entity, world.getRandom(), 2f, 0, 0);
 				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 				entityarrow.pickup = AbstractArrow.Pickup.DISALLOWED;
 				StaffOfLesserMagicRangedItemUsedProcedure.execute(entity, itemstack);
