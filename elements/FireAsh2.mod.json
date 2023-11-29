@@ -1,0 +1,21 @@
+{
+  "_fv": 47,
+  "_type": "particle",
+  "definition": {
+    "texture": "fireash2.png",
+    "animate": false,
+    "frameDuration": 1,
+    "width": 0.2,
+    "height": 0.2,
+    "scale": 0.2,
+    "speedFactor": 0.05,
+    "gravity": 0.0,
+    "maxAge": 7,
+    "maxAgeDiff": 0,
+    "angularVelocity": 0.0,
+    "angularAcceleration": 0.0,
+    "canCollide": true,
+    "alwaysShow": false,
+    "renderType": "LIT"
+  }
+}

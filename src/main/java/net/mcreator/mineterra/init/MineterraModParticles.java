@@ -11,6 +11,9 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.mineterra.client.particle.LightOrbParticleParticle;
 import net.mcreator.mineterra.client.particle.LightFlashParticle;
+import net.mcreator.mineterra.client.particle.FireAshParticle;
+import net.mcreator.mineterra.client.particle.FireAsh3Particle;
+import net.mcreator.mineterra.client.particle.FireAsh2Particle;
 import net.mcreator.mineterra.client.particle.BloodParticle;
 import net.mcreator.mineterra.client.particle.ArcaniteParticleParticle;
 import net.mcreator.mineterra.client.particle.ArcaniteParticle2Particle;
@@ -30,5 +33,8 @@ public class MineterraModParticles {
 		event.registerSpriteSet(MineterraModParticleTypes.ARCANITE_ASH_TRANSLUCNET.get(), ArcaniteAshTranslucnetParticle::provider);
 		event.registerSpriteSet(MineterraModParticleTypes.LIGHT_ORB_PARTICLE.get(), LightOrbParticleParticle::provider);
 		event.registerSpriteSet(MineterraModParticleTypes.LIGHT_FLASH.get(), LightFlashParticle::provider);
+		event.registerSpriteSet(MineterraModParticleTypes.FIRE_ASH.get(), FireAshParticle::provider);
+		event.registerSpriteSet(MineterraModParticleTypes.FIRE_ASH_2.get(), FireAsh2Particle::provider);
+		event.registerSpriteSet(MineterraModParticleTypes.FIRE_ASH_3.get(), FireAsh3Particle::provider);
 	}
 }

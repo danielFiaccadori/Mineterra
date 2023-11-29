@@ -7840,6 +7840,51 @@
         ]
       },
       "path": "~/Items/ItemsNormal/Magic/Staffs/Fire Staff"
+    },
+    {
+      "name": "FireAsh",
+      "type": "particle",
+      "sortid": 532,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ash",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/client/particle/FireAshParticle.java",
+          "src/main/resources/assets/mineterra/particles/fire_ash.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Fire Staff"
+    },
+    {
+      "name": "FireAsh2",
+      "type": "particle",
+      "sortid": 533,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ash_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/particles/fire_ash_2.json",
+          "src/main/java/net/mcreator/mineterra/client/particle/FireAsh2Particle.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Fire Staff"
+    },
+    {
+      "name": "FireAsh3",
+      "type": "particle",
+      "sortid": 534,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ash_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/particles/fire_ash_3.json",
+          "src/main/java/net/mcreator/mineterra/client/particle/FireAsh3Particle.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Magic/Staffs/Fire Staff"
     }
   ],
   "variable_elements": [
@@ -8046,8 +8091,8 @@
       "item.mineterra.silver_armor_chestplate": "Peitoral de Prata",
       "item.mineterra.amethyst_armor_boots": "Amethyst Boots",
       "item.mineterra.arcanite_gemstone": "Arcanite Gemstone",
-      "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
       "item.mineterra.zircon_axe": "Zircon Axe",
+      "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
       "effect.mineterra.sangramento": "Sangramento",
       "block.mineterra.garnet_ore": "Garnet Ore",
       "item.mineterra.garnet_pickaxe": "Garnet Pickaxe",
@@ -8086,8 +8131,8 @@
       "item.mineterra.copper_hoe": "Copper Hoe",
       "item.mineterra.copper_pickaxe": "Copper Pickaxe",
       "item.mineterra.ritual_dagger": "Ritual Dagger",
-      "item.mineterra.citrine_hoe": "Citrine Hoe",
       "item.mineterra.demonita_armor_leggings": "Calças de Demonita",
+      "item.mineterra.citrine_hoe": "Citrine Hoe",
       "item.mineterra.ruby": "Ruby",
       "item.mineterra.iron_dagger": "Adaga de Ferro",
       "item.mineterra.garnet": "Garnet",
