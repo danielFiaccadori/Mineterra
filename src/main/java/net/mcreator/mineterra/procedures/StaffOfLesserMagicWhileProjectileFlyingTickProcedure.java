@@ -17,6 +17,6 @@ public class StaffOfLesserMagicWhileProjectileFlyingTickProcedure {
 		if (world instanceof ServerLevel _level)
 			_level.sendParticles((SimpleParticleType) (MineterraModParticleTypes.ARCANITE_ASH.get()), x, y, z, 10, 0.1, 0.1, 0.1, 1);
 		if (world instanceof ServerLevel _level)
-			_level.sendParticles((SimpleParticleType) (MineterraModParticleTypes.ARCANITE_ASH.get()), x, y, z, 15, 0.5, 0.5, 0.5, 1);
+			_level.sendParticles((SimpleParticleType) (MineterraModParticleTypes.ARCANITE_ASH_TRANSLUCNET.get()), x, y, z, 15, 0.5, 0.5, 0.5, 1);
 	}
 }

@@ -2,9 +2,9 @@
   "_fv": 47,
   "_type": "particle",
   "definition": {
-    "texture": "arcanite-ash-lit.png",
-    "animate": false,
-    "frameDuration": 1,
+    "texture": "arcanite-lightning20.png",
+    "animate": true,
+    "frameDuration": 40,
     "width": 0.2,
     "height": 0.2,
     "scale": 2.0,

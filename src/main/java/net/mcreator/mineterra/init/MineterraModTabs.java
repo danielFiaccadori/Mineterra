@@ -58,9 +58,6 @@ public class MineterraModTabs {
 				tabData.accept(MineterraModBlocks.TITANIUM_BLOCK.get().asItem());
 				tabData.accept(MineterraModItems.TITANIUM_INGOT.get());
 				tabData.accept(MineterraModItems.MAGICAL_CASING.get());
-				tabData.accept(MineterraModBlocks.ARCANITE_ORE.get().asItem());
-				tabData.accept(MineterraModBlocks.ARCANITE_BLOCK.get().asItem());
-				tabData.accept(MineterraModItems.ARCANITE.get());
 				tabData.accept(MineterraModItems.ARCANITE_CATALYZER.get());
 				tabData.accept(MineterraModItems.EMPTY.get());
 			}).withSearchBar().build());

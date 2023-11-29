@@ -7152,101 +7152,6 @@
       "path": "~/Items/ItemsNormal/Magic/Staffs/Arcanite Staff"
     },
     {
-      "name": "Arcanite",
-      "type": "item",
-      "sortid": 490,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "arcanite",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mineterra/item/ArcaniteItem.java",
-          "src/main/resources/assets/mineterra/models/item/arcanite.json"
-        ]
-      },
-      "path": "~/Items/ItemsNormal/Magic/Arcane Natural Material"
-    },
-    {
-      "name": "ArcaniteOre",
-      "type": "block",
-      "sortid": 488,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "arcanite_ore",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mineterra/block/ArcaniteOreBlock.java",
-          "src/main/java/net/mcreator/mineterra/world/features/ores/ArcaniteOreFeature.java",
-          "src/main/resources/data/mineterra/worldgen/configured_feature/arcanite_ore.json",
-          "src/main/resources/assets/mineterra/models/item/arcanite_ore.json",
-          "src/main/resources/assets/mineterra/blockstates/arcanite_ore.json",
-          "src/main/resources/data/mineterra/forge/biome_modifier/arcanite_ore_biome_modifier.json",
-          "src/main/resources/assets/mineterra/models/block/arcanite_ore.json",
-          "src/main/resources/data/mineterra/worldgen/placed_feature/arcanite_ore.json"
-        ]
-      },
-      "path": "~/Items/ItemsNormal/Magic/Arcane Natural Material"
-    },
-    {
-      "name": "ArcaniteBlock",
-      "type": "block",
-      "sortid": 489,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "arcanite_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mineterra/block/ArcaniteBlockBlock.java",
-          "src/main/resources/assets/mineterra/models/item/arcanite_block.json",
-          "src/main/resources/assets/mineterra/blockstates/arcanite_block.json",
-          "src/main/resources/assets/mineterra/models/block/arcanite_block.json"
-        ]
-      },
-      "path": "~/Items/ItemsNormal/Magic/Arcane Natural Material"
-    },
-    {
-      "name": "ArcaniteOreBlockRecipe",
-      "type": "recipe",
-      "sortid": 491,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "arcanite_ore_block_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mineterra/recipes/arcanite_ore_block_recipe.json"
-        ]
-      },
-      "path": "~/Items/ItemsNormal/Magic/Arcane Natural Material"
-    },
-    {
-      "name": "ArcaniteBlockOreRecipe",
-      "type": "recipe",
-      "sortid": 492,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "arcanite_block_ore_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mineterra/recipes/arcanite_block_ore_recipe.json"
-        ]
-      },
-      "path": "~/Items/ItemsNormal/Magic/Arcane Natural Material"
-    },
-    {
-      "name": "ArcaniteOreSmelting",
-      "type": "recipe",
-      "sortid": 493,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "arcanite_ore_smelting",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mineterra/recipes/arcanite_ore_smelting.json"
-        ]
-      },
-      "path": "~/Items/ItemsNormal/Magic/Arcane Natural Material"
-    },
-    {
       "name": "ArcaniteCatalyzer",
       "type": "item",
       "sortid": 494,
@@ -7599,15 +7504,15 @@
       "item.mineterra.topaz_pickaxe": "Topaz Pickaxe",
       "gui.mineterra.game_start_character_creation.label_human": "RACE SELECTOR",
       "block.mineterra.sunstone_ore": "Sunstone Ore",
-      "item.mineterra.silver_armor_chestplate": "Peitoral de Prata",
       "item.mineterra.tanzanite_pickaxe": "Tanzanite Pickaxe",
+      "item.mineterra.silver_armor_chestplate": "Peitoral de Prata",
       "item.mineterra.amethyst_armor_boots": "Amethyst Boots",
-      "item.mineterra.zircon_axe": "Zircon Axe",
       "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
+      "item.mineterra.zircon_axe": "Zircon Axe",
       "effect.mineterra.sangramento": "Sangramento",
       "block.mineterra.garnet_ore": "Garnet Ore",
-      "item.mineterra.garnet_pickaxe": "Garnet Pickaxe",
       "item.mineterra.sapphire_armor_boots": "Sapphire Boots",
+      "item.mineterra.garnet_pickaxe": "Garnet Pickaxe",
       "gui.mineterra.game_start_character_creation.Celestial": "Celestial",
       "item.mineterra.topaz_armor_leggings": "Topaz Leggings",
       "block.mineterra.silver_ore": "Minério de Prata",
@@ -7635,14 +7540,13 @@
       "item.mineterra.garnet_axe": "Garnet Axe",
       "item.mineterra.silver_shovel": "Pá de Prata",
       "gui.mineterra.celestial_gui.label_das_suas_consequencias": "das suas consequências.",
-      "item.mineterra.arcanite": "Arcanite",
       "item.mineterra.silver_armor_helmet": "Capacete de Prata",
       "subtitles.ferocity-growl": "",
       "item.mineterra.copper_hoe": "Copper Hoe",
       "item.mineterra.copper_pickaxe": "Copper Pickaxe",
       "item.mineterra.ritual_dagger": "Ritual Dagger",
-      "item.mineterra.demonita_armor_leggings": "Calças de Demonita",
       "item.mineterra.citrine_hoe": "Citrine Hoe",
+      "item.mineterra.demonita_armor_leggings": "Calças de Demonita",
       "item.mineterra.ruby": "Ruby",
       "item.mineterra.iron_dagger": "Adaga de Ferro",
       "item.mineterra.garnet": "Garnet",
@@ -7653,8 +7557,8 @@
       "item.mineterra.copper_sword": "Copper Sword",
       "item.mineterra.sapphire_pickaxe": "Sapphire Pickaxe",
       "item.mineterra.sunstone_armor_helmet": "Sunstone Helmet",
-      "subtitles.orrc-growl": "",
       "item.mineterra.zircon_armor_helmet": "Zircon Helmet",
+      "subtitles.orrc-growl": "",
       "item.mineterra.wood_katana": "Katana de Madeira",
       "item.mineterra.tanzanite_axe": "Tanzanite Axe",
       "item.mineterra.demonita_shovel": "Pá de Demonita",
@@ -7716,7 +7620,6 @@
       "item.mineterra.citrine_armor_chestplate": "Citrine Chestplate",
       "item.mineterra.sapphire_armor_leggings": "Sapphire Leggings",
       "item.mineterra.sunstone_pickaxe": "Sunstone Pickaxe",
-      "block.mineterra.arcanite_ore": "Arcanite Ore",
       "item.mineterra.topaz_armor_boots": "Topaz Boots",
       "item.mineterra.titanium_ingot": "Titanium",
       "item.mineterra.silver_hoe": "Enxada de Prata",
@@ -7835,7 +7738,6 @@
       "item.mineterra.zircon_armor_leggings": "Zircon Leggings",
       "gui.mineterra.gnome_gui.label_das_suas_consequencias": "das suas consequências.",
       "item.mineterra.zircon_pickaxe": "Zircon Pickaxe",
-      "block.mineterra.arcanite_block": "Block of Arcanite",
       "item.mineterra.garnet_sword": "Garnet Sword",
       "item.mineterra.sapphire_armor_helmet": "Sapphire Helmet",
       "block.mineterra.tourmaline_ore": "Tourmaline Ore",

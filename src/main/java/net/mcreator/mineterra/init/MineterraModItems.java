@@ -136,7 +136,6 @@ import net.mcreator.mineterra.item.CitrineItem;
 import net.mcreator.mineterra.item.CitrineHoeItem;
 import net.mcreator.mineterra.item.CitrineAxeItem;
 import net.mcreator.mineterra.item.CitrineArmorItem;
-import net.mcreator.mineterra.item.ArcaniteItem;
 import net.mcreator.mineterra.item.ArcaniteCatalyzerItem;
 import net.mcreator.mineterra.item.AmethystSwordItem;
 import net.mcreator.mineterra.item.AmethystShovelItem;
@@ -343,9 +342,6 @@ public class MineterraModItems {
 	public static final RegistryObject<Item> WOOD_STAFF = REGISTRY.register("wood_staff", () -> new WoodStaffItem());
 	public static final RegistryObject<Item> MAGICAL_CASING = REGISTRY.register("magical_casing", () -> new MagicalCasingItem());
 	public static final RegistryObject<Item> ARCANITE_STAFF = REGISTRY.register("arcanite_staff", () -> new StaffOfLesserMagicItem());
-	public static final RegistryObject<Item> ARCANITE_ORE = block(MineterraModBlocks.ARCANITE_ORE);
-	public static final RegistryObject<Item> ARCANITE_BLOCK = block(MineterraModBlocks.ARCANITE_BLOCK);
-	public static final RegistryObject<Item> ARCANITE = REGISTRY.register("arcanite", () -> new ArcaniteItem());
 	public static final RegistryObject<Item> ARCANITE_CATALYZER = REGISTRY.register("arcanite_catalyzer", () -> new ArcaniteCatalyzerItem());
 	public static final RegistryObject<Item> EMPTY = REGISTRY.register("empty", () -> new EmptyItem());
 
