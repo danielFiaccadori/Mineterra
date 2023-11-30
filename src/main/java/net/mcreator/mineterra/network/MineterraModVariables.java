@@ -105,7 +105,7 @@ public class MineterraModVariables {
 
 	public static class PlayerVariables {
 		public double SoulNumber = 0.0;
-		public double attackCount = 0;
+		public double attackCount = 0.0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
