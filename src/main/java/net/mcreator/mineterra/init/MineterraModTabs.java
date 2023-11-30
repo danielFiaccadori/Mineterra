@@ -177,6 +177,7 @@ public class MineterraModTabs {
 			tabData.accept(MineterraModItems.LIGHT_IRON_DAGGER.get());
 			tabData.accept(MineterraModItems.NEBULOUS_VEIL_DAGGER.get());
 			tabData.accept(MineterraModItems.CREPITARS_BLADE_SWORD.get());
+			tabData.accept(MineterraModItems.BLADE_OF_BANISHED_QUEEN.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {

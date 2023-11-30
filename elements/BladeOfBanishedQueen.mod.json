@@ -4,9 +4,9 @@
   "definition": {
     "toolType": "Sword",
     "renderType": 0,
-    "texture": "crepitarsblade",
+    "texture": "bladeofbanishedqueen",
     "customModelName": "Normal",
-    "name": "Crepitars Blade Sword",
+    "name": "Blade Of Banished Queen",
     "specialInfo": [],
     "creativeTab": {
       "value": "COMBAT"
@@ -14,18 +14,21 @@
     "harvestLevel": 1,
     "efficiency": 4.0,
     "attackSpeed": 3.0,
-    "enchantability": 17,
-    "damageVsEntity": 5.2,
-    "usageCount": 534,
+    "enchantability": 2,
+    "damageVsEntity": 3.0,
+    "usageCount": 423,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "Items.IRON_INGOT"
+        "value": "Items.PHANTOM_MEMBRANE"
       }
     ],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "BladeOfBanishedQueenLivingEntityIsHitWithTool"
+    }
   }
 }

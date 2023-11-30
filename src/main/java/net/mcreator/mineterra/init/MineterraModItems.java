@@ -142,6 +142,7 @@ import net.mcreator.mineterra.item.CitrineItem;
 import net.mcreator.mineterra.item.CitrineHoeItem;
 import net.mcreator.mineterra.item.CitrineAxeItem;
 import net.mcreator.mineterra.item.CitrineArmorItem;
+import net.mcreator.mineterra.item.BladeOfBanishedQueenItem;
 import net.mcreator.mineterra.item.ArcanitiumItem;
 import net.mcreator.mineterra.item.ArcaniteItem;
 import net.mcreator.mineterra.item.ArcaniteGemstoneItem;
@@ -364,6 +365,7 @@ public class MineterraModItems {
 	public static final RegistryObject<Item> LIGHT_IRON_DAGGER = REGISTRY.register("light_iron_dagger", () -> new LightIronDaggerItem());
 	public static final RegistryObject<Item> NEBULOUS_VEIL_DAGGER = REGISTRY.register("nebulous_veil_dagger", () -> new NebulousVeilDaggerItem());
 	public static final RegistryObject<Item> CREPITARS_BLADE_SWORD = REGISTRY.register("crepitars_blade_sword", () -> new CrepitarsBladeSwordItem());
+	public static final RegistryObject<Item> BLADE_OF_BANISHED_QUEEN = REGISTRY.register("blade_of_banished_queen", () -> new BladeOfBanishedQueenItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

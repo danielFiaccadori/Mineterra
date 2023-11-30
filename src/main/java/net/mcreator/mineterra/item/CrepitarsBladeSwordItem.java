@@ -12,7 +12,7 @@ public class CrepitarsBladeSwordItem extends SwordItem {
 	public CrepitarsBladeSwordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 534;
 			}
 
 			public float getSpeed() {
@@ -20,7 +20,7 @@ public class CrepitarsBladeSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 4.2f;
+				return 3.2f;
 			}
 
 			public int getLevel() {

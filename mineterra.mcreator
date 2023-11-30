@@ -8033,7 +8033,76 @@
           "src/main/resources/assets/mineterra/models/item/crepitars_blade_sword.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/RawItems/Swords"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Swords/CrepitarsBlade"
+    },
+    {
+      "name": "CrepitarsBladeRecipe",
+      "type": "recipe",
+      "sortid": 542,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crepitars_blade_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/crepitars_blade_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Swords/CrepitarsBlade"
+    },
+    {
+      "name": "BladeOfBanishedQueen",
+      "type": "tool",
+      "sortid": 543,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blade_of_banished_queen",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/blade_of_banished_queen.json",
+          "src/main/java/net/mcreator/mineterra/item/BladeOfBanishedQueenItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Swords/BladeOfBanishedQueen"
+    },
+    {
+      "name": "BladeOfBanishedQueenLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 544,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blade_of_banished_queen_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/BladeOfBanishedQueenLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Swords/BladeOfBanishedQueen"
     }
   ],
   "variable_elements": [
@@ -8248,8 +8317,8 @@
       "item.mineterra.silver_armor_chestplate": "Peitoral de Prata",
       "item.mineterra.amethyst_armor_boots": "Amethyst Boots",
       "item.mineterra.arcanite_gemstone": "Arcanite Gemstone",
-      "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
       "item.mineterra.zircon_axe": "Zircon Axe",
+      "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
       "effect.mineterra.sangramento": "Sangramento",
       "block.mineterra.garnet_ore": "Garnet Ore",
       "item.mineterra.garnet_pickaxe": "Garnet Pickaxe",
@@ -8465,6 +8534,7 @@
       "item_group.mineterra.mineterra": "Mineterra",
       "gui.mineterra.gnome_gui.label_a_heranca_de_um_evento_devastado": "a herança de um evento devastador,",
       "block.mineterra.tourmaline_block": "Block of Tourmaline",
+      "item.mineterra.blade_of_banished_queen": "Blade Of Banished Queen",
       "item.mineterra.garnet_armor_leggings": "Garnet Leggings",
       "item.mineterra.demonita_armor_boots": "Botas de Demonita",
       "gui.mineterra.game_start_character_creation.Abyssal": "Abyssal",
@@ -8678,7 +8748,16 @@
                       },
                       {
                         "name": "Swords",
-                        "children": []
+                        "children": [
+                          {
+                            "name": "CrepitarsBlade",
+                            "children": []
+                          },
+                          {
+                            "name": "BladeOfBanishedQueen",
+                            "children": []
+                          }
+                        ]
                       }
                     ]
                   },
