@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  2",
+    "34 ",
+    "67 "
+  ],
+  "key": {
+    "2": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "3": {
+      "item": "minecraft:spider_eye"
+    },
+    "4": {
+      "item": "mineterra:arcanite_gemstone"
+    },
+    "6": {
+      "item": "minecraft:nether_brick"
+    },
+    "7": {
+      "item": "minecraft:spider_eye"
+    }
+  },
+  "result": {
+    "item": "mineterra:nebulous_veil_dagger",
+    "count": 1
+  }
+}

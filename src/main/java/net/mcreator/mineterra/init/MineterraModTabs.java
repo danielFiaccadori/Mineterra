@@ -175,6 +175,7 @@ public class MineterraModTabs {
 			tabData.accept(MineterraModItems.LIGHT_STAFF.get());
 			tabData.accept(MineterraModItems.FIRE_STAFF.get());
 			tabData.accept(MineterraModItems.LIGHT_IRON_DAGGER.get());
+			tabData.accept(MineterraModItems.NEBULOUS_VEIL_DAGGER.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {

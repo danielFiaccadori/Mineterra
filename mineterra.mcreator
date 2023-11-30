@@ -2177,7 +2177,7 @@
           "src/main/java/net/mcreator/mineterra/item/ElderlySaiItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Special Items/ElderlySai"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Sai/ElderlySai"
     },
     {
       "name": "ElderlySaiTp",
@@ -2217,7 +2217,7 @@
           }
         ]
       },
-      "path": "~/Items/ItemsNormal/Special Items/ElderlySai"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Sai/ElderlySai"
     },
     {
       "name": "ElderlySaiRecipe",
@@ -2231,7 +2231,7 @@
           "src/main/resources/data/mineterra/recipes/elderly_sai_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Special Items/ElderlySai"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Sai/ElderlySai"
     },
     {
       "name": "SpiritualLongsword",
@@ -7914,6 +7914,111 @@
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/RawItems/Daggers"
+    },
+    {
+      "name": "NebulousVeilDagger",
+      "type": "tool",
+      "sortid": 537,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nebulous_veil_dagger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/nebulous_veil_dagger.json",
+          "src/main/java/net/mcreator/mineterra/item/NebulousVeilDaggerItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Daggers/NebulousVeil"
+    },
+    {
+      "name": "NebulousVeilRecipe",
+      "type": "recipe",
+      "sortid": 538,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nebulous_veil_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/nebulous_veil_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Daggers/NebulousVeil"
+    },
+    {
+      "name": "NebulousVeilDaggerRightclicked",
+      "type": "procedure",
+      "sortid": 539,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nebulous_veil_dagger_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/NebulousVeilDaggerRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Daggers/NebulousVeil"
+    },
+    {
+      "name": "NebulousVeilDaggerLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 540,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nebulous_veil_dagger_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/NebulousVeilDaggerLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Daggers/NebulousVeil"
     }
   ],
   "variable_elements": [
@@ -8250,6 +8355,7 @@
       "item.mineterra.demonita_axe": "Machado de Demonita",
       "item.mineterra.stone_dagger": "Adaga de Pedra",
       "item.mineterra.tourmaline_axe": "Tourmaline Axe",
+      "item.mineterra.nebulous_veil_dagger": "Nebulous Veil",
       "item.mineterra.netherite_sai": "Sai de Netherita",
       "item.mineterra.copper_armor_helmet": "Copper Helmet",
       "gui.mineterra.human_gui.tooltip_ha_eons_atras_muito_antes_da_so": "Há éons atrás, muito antes da sombra do asteroide Astérion lançar o mundo em um abismo de caos e desolação, uma raça ancestral dominava os confins de Mineterra. Seus domínios se estendiam por vastos territórios, da cintura dos mares tempestuosos às profundezas das florestas milenares, e sua civilização prosperava em harmonia com a natureza e a magia.  No entanto, quando o asteroide destruidor, Astérion, rasgou os céus com sua queda devastadora, o mundo que conheciam foi mergulhado na escuridão e no desespero. Cidades grandiosas se transformaram em ruínas, e os corações corajosos desses antigos habitantes se viram confrontados com uma luta pela sobrevivência em uma terra transformada.  Hoje, enquanto os seres humanos tentam recomeçar, eles aproveitam ao máximo sua incrível capacidade de se adaptar a novos ambientes e de criar ferramentas para desbravar os recantos mais sombrios da Mineterra. Eles carregam consigo a memória de sua herança perdida, determinados a aprender com os segredos antigos e restaurar a grandiosidade de uma raça que uma vez foi aclamada como uma das mais bem-sucedidas do universo. Nas suas jornadas, os humanos se esforçam para mostrar ao mundo o verdadeiro motivo de seu legado, enquanto enfrentam os desafios implacáveis de um novo amanhecer épico.",
@@ -8521,6 +8627,10 @@
                           {
                             "name": "Sacrifice Dagger",
                             "children": []
+                          },
+                          {
+                            "name": "NebulousVeil",
+                            "children": []
                           }
                         ]
                       },
@@ -8534,7 +8644,12 @@
                       },
                       {
                         "name": "Sai",
-                        "children": []
+                        "children": [
+                          {
+                            "name": "ElderlySai",
+                            "children": []
+                          }
+                        ]
                       }
                     ]
                   },
@@ -8630,10 +8745,6 @@
                         "children": []
                       }
                     ]
-                  },
-                  {
-                    "name": "ElderlySai",
-                    "children": []
                   },
                   {
                     "name": "Ritual Dagger",
