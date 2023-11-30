@@ -17,11 +17,11 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.core.particles.SimpleParticleType;
+import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.mineterra.init.MineterraModParticleTypes;
 import net.mcreator.mineterra.init.MineterraModItems;
+import net.mcreator.mineterra.init.MineterraModAttributes;
 
 import javax.annotation.Nullable;
 
@@ -44,18 +44,18 @@ public class NebulousVeilDaggerRightclickedProcedure {
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MineterraModItems.NEBULOUS_VEIL_DAGGER.get()) {
 			if (!(entity instanceof Player _player ? _player.getCooldowns().isOnCooldown(MineterraModItems.NEBULOUS_VEIL_DAGGER.get()) : false)) {
 				if (world instanceof ServerLevel _level)
-					_level.sendParticles((SimpleParticleType) (MineterraModParticleTypes.ARCANITE_ASH_TRANSLUCNET.get()), x, y, z, 10, 1, 1, 1, 1);
+					_level.sendParticles(ParticleTypes.LARGE_SMOKE, x, y, z, 20, 1, 1, 1, 0.1);
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {
-						_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("mineterra:stab")), SoundSource.NEUTRAL, 1, 1);
+						_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.amethyst_block.chime")), SoundSource.NEUTRAL, 1, 1);
 					} else {
-						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("mineterra:stab")), SoundSource.NEUTRAL, 1, 1, false);
+						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.amethyst_block.chime")), SoundSource.NEUTRAL, 1, 1, false);
 					}
 				}
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-					_entity.addEffect(new MobEffectInstance(MobEffects.INVISIBILITY, 80, 1, false, false));
+					_entity.addEffect(new MobEffectInstance(MobEffects.INVISIBILITY, 80, (int) (1 + ((LivingEntity) entity).getAttribute(MineterraModAttributes.DEXTERITY.get()).getBaseValue() / 20), false, false));
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-					_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 80, 1, false, false));
+					_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 80, (int) (1 + ((LivingEntity) entity).getAttribute(MineterraModAttributes.DEXTERITY.get()).getBaseValue() / 20), false, false));
 				if (entity instanceof Player _player)
 					_player.getCooldowns().addCooldown(MineterraModItems.NEBULOUS_VEIL_DAGGER.get(), 160);
 			}

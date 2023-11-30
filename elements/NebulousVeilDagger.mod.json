@@ -7,7 +7,10 @@
     "texture": "nebulousveil",
     "customModelName": "Normal",
     "name": "Nebulous Veil",
-    "specialInfo": [],
+    "specialInfo": [
+      "§cNight Veil",
+      "§8Right clicking with this item give to the player invisibility for 4 seconds. Your next attack during this effect inflicts §53 §8additional §5Magic Damage§8."
+    ],
     "creativeTab": {
       "value": "COMBAT"
     },
@@ -16,7 +19,7 @@
     "attackSpeed": 3.0,
     "enchantability": 13,
     "damageVsEntity": 4.5,
-    "usageCount": 670,
+    "usageCount": 367,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [

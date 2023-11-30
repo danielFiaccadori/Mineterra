@@ -23,14 +23,16 @@ public class NebulousVeilDaggerLivingEntityIsHitWithToolProcedure {
 		if (sourceentity instanceof LivingEntity _livEnt0 && _livEnt0.hasEffect(MobEffects.INVISIBILITY)) {
 			if (sourceentity instanceof LivingEntity _entity)
 				_entity.removeEffect(MobEffects.INVISIBILITY);
+			if (sourceentity instanceof LivingEntity _entity)
+				_entity.removeEffect(MobEffects.MOVEMENT_SPEED);
 			entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.MAGIC)), 3);
 			if (world instanceof ServerLevel _level)
-				_level.sendParticles(ParticleTypes.ENCHANTED_HIT, x, y, z, 5, 3, 3, 3, 1);
+				_level.sendParticles(ParticleTypes.ENCHANTED_HIT, (entity.getX()), (entity.getY()), (entity.getZ()), 10, 1, 1, 1, 1);
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
-					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.player.attack.crit")), SoundSource.NEUTRAL, 1, 1);
+					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.amethyst_block.break")), SoundSource.NEUTRAL, 1, 1);
 				} else {
-					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.player.attack.crit")), SoundSource.NEUTRAL, 1, 1, false);
+					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.amethyst_block.break")), SoundSource.NEUTRAL, 1, 1, false);
 				}
 			}
 		}
