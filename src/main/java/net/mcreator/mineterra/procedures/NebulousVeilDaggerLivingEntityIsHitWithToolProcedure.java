@@ -21,6 +21,8 @@ public class NebulousVeilDaggerLivingEntityIsHitWithToolProcedure {
 		if (entity == null || sourceentity == null)
 			return;
 		if (sourceentity instanceof LivingEntity _livEnt0 && _livEnt0.hasEffect(MobEffects.INVISIBILITY)) {
+			if (sourceentity instanceof LivingEntity _entity)
+				_entity.removeEffect(MobEffects.INVISIBILITY);
 			entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.MAGIC)), 3);
 			if (world instanceof ServerLevel _level)
 				_level.sendParticles(ParticleTypes.ENCHANTED_HIT, x, y, z, 5, 3, 3, 3, 1);

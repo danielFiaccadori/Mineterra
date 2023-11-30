@@ -174,5 +174,13 @@
         "stream": false
       }
     ]
+  },
+  "stab": {
+    "sounds": [
+      {
+        "name": "mineterra:tomp3.cc_-_knife_stab_sound_effect_320kbps",
+        "stream": false
+      }
+    ]
   }
 }

@@ -37,4 +37,5 @@ public class MineterraModSounds {
 	public static final RegistryObject<SoundEvent> GEMSTONE_ARMOR_EQUIP = REGISTRY.register("gemstone_armor_equip", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mineterra", "gemstone_armor_equip")));
 	public static final RegistryObject<SoundEvent> ARCANITE_SPELL = REGISTRY.register("arcanite-spell", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mineterra", "arcanite-spell")));
 	public static final RegistryObject<SoundEvent> LIGHTSPELL = REGISTRY.register("lightspell", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mineterra", "lightspell")));
+	public static final RegistryObject<SoundEvent> STAB = REGISTRY.register("stab", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mineterra", "stab")));
 }

@@ -8211,6 +8211,14 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "stab",
+      "files": [
+        "tomp3.cc_-_knife_stab_sound_effect_320kbps"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -8225,8 +8233,8 @@
       "item.mineterra.silver_armor_chestplate": "Peitoral de Prata",
       "item.mineterra.amethyst_armor_boots": "Amethyst Boots",
       "item.mineterra.arcanite_gemstone": "Arcanite Gemstone",
-      "item.mineterra.zircon_axe": "Zircon Axe",
       "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
+      "item.mineterra.zircon_axe": "Zircon Axe",
       "effect.mineterra.sangramento": "Sangramento",
       "block.mineterra.garnet_ore": "Garnet Ore",
       "item.mineterra.garnet_pickaxe": "Garnet Pickaxe",
@@ -8364,6 +8372,7 @@
       "subtitles.celestial-passive-active": "",
       "item.mineterra.iron_claymore": "Espada Longa de Ferro",
       "gui.mineterra.game_start_character_creation.Orc": "Orc",
+      "subtitles.stab": "",
       "gui.mineterra.game_start_character_creation.Gnome": "Gnome",
       "block.mineterra.topaz_block": "Block of Topaz",
       "item.mineterra.titanium_armor_chestplate": "Titanium Chestplate",
