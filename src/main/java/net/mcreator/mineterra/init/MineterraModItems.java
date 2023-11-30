@@ -93,6 +93,7 @@ import net.mcreator.mineterra.item.NetheriteClaymoreItem;
 import net.mcreator.mineterra.item.MagicalCasingItem;
 import net.mcreator.mineterra.item.LightStaffItem;
 import net.mcreator.mineterra.item.LightOrbItem;
+import net.mcreator.mineterra.item.LightIronDaggerItem;
 import net.mcreator.mineterra.item.IronSaiItem;
 import net.mcreator.mineterra.item.IronRapierItem;
 import net.mcreator.mineterra.item.IronKatanaItem;
@@ -358,6 +359,7 @@ public class MineterraModItems {
 	public static final RegistryObject<Item> ARCANE_TOPAZ = REGISTRY.register("arcane_topaz", () -> new ArcaneTopazItem());
 	public static final RegistryObject<Item> ARCANITE_GEMSTONE = REGISTRY.register("arcanite_gemstone", () -> new ArcaniteGemstoneItem());
 	public static final RegistryObject<Item> FIRE_STAFF = REGISTRY.register("fire_staff", () -> new FireStaffItem());
+	public static final RegistryObject<Item> LIGHT_IRON_DAGGER = REGISTRY.register("light_iron_dagger", () -> new LightIronDaggerItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

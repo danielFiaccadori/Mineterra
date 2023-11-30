@@ -7885,6 +7885,35 @@
         ]
       },
       "path": "~/Items/ItemsNormal/Magic/Staffs/Fire Staff"
+    },
+    {
+      "name": "LightIronDagger",
+      "type": "tool",
+      "sortid": 535,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_iron_dagger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/LightIronDaggerItem.java",
+          "src/main/resources/assets/mineterra/models/item/light_iron_dagger.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Daggers"
+    },
+    {
+      "name": "LightIronDaggerRacipe",
+      "type": "recipe",
+      "sortid": 536,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_iron_dagger_racipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/light_iron_dagger_racipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Daggers"
     }
   ],
   "variable_elements": [
@@ -8108,6 +8137,7 @@
       "gui.mineterra.feralits_gui.label_mas_ao_final_do_dia_todos_sabem": "mas ao final do dia, todos sabemos",
       "item.mineterra.garnet_armor_boots": "Garnet Boots",
       "item.mineterra.ruby_armor_leggings": "Ruby Leggings",
+      "item.mineterra.light_iron_dagger": "Light Iron Dagger",
       "item.mineterra.zircon_sword": "Zircon Sword",
       "item.mineterra.imperial_gold_claymore": "Espada Longa Imperial de Ouro ",
       "subtitles.orc-roar": "",

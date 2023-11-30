@@ -174,6 +174,7 @@ public class MineterraModTabs {
 			tabData.accept(MineterraModItems.ARCANITE_STAFF.get());
 			tabData.accept(MineterraModItems.LIGHT_STAFF.get());
 			tabData.accept(MineterraModItems.FIRE_STAFF.get());
+			tabData.accept(MineterraModItems.LIGHT_IRON_DAGGER.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
