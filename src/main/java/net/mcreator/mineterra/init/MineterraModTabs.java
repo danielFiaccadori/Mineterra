@@ -191,6 +191,8 @@ public class MineterraModTabs {
 			tabData.accept(MineterraModItems.STEEL_SWORD.get());
 			tabData.accept(MineterraModItems.STEEL_SCYTHE.get());
 			tabData.accept(MineterraModItems.RUSTED_IRON_SCYTHE.get());
+			tabData.accept(MineterraModItems.STEEL_GLADIUMS_SWORD.get());
+			tabData.accept(MineterraModItems.RUBI_STUDDED_STEEL_SWORD.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {

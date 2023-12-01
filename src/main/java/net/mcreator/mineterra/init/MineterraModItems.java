@@ -67,6 +67,7 @@ import net.mcreator.mineterra.item.SteelScytheItem;
 import net.mcreator.mineterra.item.SteelPickaxeItem;
 import net.mcreator.mineterra.item.SteelIngotItem;
 import net.mcreator.mineterra.item.SteelHoeItem;
+import net.mcreator.mineterra.item.SteelGladiumsSwordItem;
 import net.mcreator.mineterra.item.SteelAxeItem;
 import net.mcreator.mineterra.item.SteelArmorItem;
 import net.mcreator.mineterra.item.StaffOfLesserMagicItem;
@@ -96,6 +97,7 @@ import net.mcreator.mineterra.item.RubyItem;
 import net.mcreator.mineterra.item.RubyHoeItem;
 import net.mcreator.mineterra.item.RubyAxeItem;
 import net.mcreator.mineterra.item.RubyArmorItem;
+import net.mcreator.mineterra.item.RubiStuddedSteelSwordItem;
 import net.mcreator.mineterra.item.RitualDaggerItem;
 import net.mcreator.mineterra.item.NetheriteSaiItem;
 import net.mcreator.mineterra.item.NetheriteKatanaItem;
@@ -396,6 +398,8 @@ public class MineterraModItems {
 	public static final RegistryObject<Item> STEEL_HOE = REGISTRY.register("steel_hoe", () -> new SteelHoeItem());
 	public static final RegistryObject<Item> STEEL_SCYTHE = REGISTRY.register("steel_scythe", () -> new SteelScytheItem());
 	public static final RegistryObject<Item> RUSTED_IRON_SCYTHE = REGISTRY.register("rusted_iron_scythe", () -> new RustedIronScytheItem());
+	public static final RegistryObject<Item> STEEL_GLADIUMS_SWORD = REGISTRY.register("steel_gladiums_sword", () -> new SteelGladiumsSwordItem());
+	public static final RegistryObject<Item> RUBI_STUDDED_STEEL_SWORD = REGISTRY.register("rubi_studded_steel_sword", () -> new RubiStuddedSteelSwordItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

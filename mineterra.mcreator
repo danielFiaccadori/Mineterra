@@ -8426,6 +8426,36 @@
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/RawItems/Scythes"
+    },
+    {
+      "name": "SteelGladiumsSword",
+      "type": "tool",
+      "sortid": 595,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_gladiums_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/steel_gladiums_sword.json",
+          "src/main/java/net/mcreator/mineterra/item/SteelGladiumsSwordItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Swords"
+    },
+    {
+      "name": "RubiStuddedSteelSword",
+      "type": "tool",
+      "sortid": 596,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubi_studded_steel_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/RubiStuddedSteelSwordItem.java",
+          "src/main/resources/assets/mineterra/models/item/rubi_studded_steel_sword.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Swords"
     }
   ],
   "variable_elements": [
@@ -8646,8 +8676,8 @@
       "item.mineterra.silver_armor_chestplate": "Peitoral de Prata",
       "item.mineterra.amethyst_armor_boots": "Amethyst Boots",
       "item.mineterra.arcanite_gemstone": "Arcanite Gemstone",
-      "item.mineterra.zircon_axe": "Zircon Axe",
       "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
+      "item.mineterra.zircon_axe": "Zircon Axe",
       "effect.mineterra.sangramento": "Bleeding",
       "block.mineterra.garnet_ore": "Garnet Ore",
       "item.mineterra.garnet_pickaxe": "Garnet Pickaxe",
@@ -8762,6 +8792,7 @@
       "gui.mineterra.game_start_character_creation.button_prev": "\u003c Prev.",
       "effect.mineterra.ferocity": "Brutalidade e Ferocidade",
       "item.mineterra.citrine_sword": "Citrine Sword",
+      "item.mineterra.steel_gladiums_sword": "Gladium\u0027s Steel Sword",
       "item.mineterra.tanzanite_hoe": "Tanzanite Hoe",
       "item.mineterra.spiritual_claymore": "Espada Espiritual",
       "item.mineterra.silver_armor_leggings": "Calças de Prata",
@@ -8874,6 +8905,7 @@
       "item.mineterra.zircon_armor_boots": "Zircon Boots",
       "item.mineterra.sapphire_armor_chestplate": "Sapphire Chestplate",
       "item.mineterra.netherite_sai_rapier": "Sai de Netherita",
+      "item.mineterra.rubi_studded_steel_sword": "Gladium\u0027s Steel Sword",
       "item.mineterra.amethyst_hoe": "Amethyst Hoe",
       "item_group.mineterra.mineterra": "Mineterra",
       "gui.mineterra.gnome_gui.label_a_heranca_de_um_evento_devastado": "a herança de um evento devastador,",

@@ -14,8 +14,10 @@ public class SuradiirsScytheLivingEntityIsHitWithToolProcedure {
 		if (entity == null || sourceentity == null)
 			return;
 		if (!(sourceentity instanceof Player _player ? _player.getCooldowns().isOnCooldown(itemstack.getItem()) : false)) {
-			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MineterraModMobEffects.SANGRAMENTO.get(), 60, 1, false, false));
+			if (!(entity instanceof LivingEntity _livEnt2 && _livEnt2.hasEffect(MineterraModMobEffects.SANGRAMENTO.get()))) {
+				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+					_entity.addEffect(new MobEffectInstance(MineterraModMobEffects.SANGRAMENTO.get(), 60, 1, false, false));
+			}
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 60, 1, false, false));
 			if (sourceentity instanceof Player _player)
