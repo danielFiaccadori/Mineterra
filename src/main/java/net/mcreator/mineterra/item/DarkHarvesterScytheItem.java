@@ -4,15 +4,16 @@ package net.mcreator.mineterra.item;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
-public class SoulEaterMaceItem extends SwordItem {
-	public SoulEaterMaceItem() {
+import net.mcreator.mineterra.init.MineterraModItems;
+
+public class DarkHarvesterScytheItem extends SwordItem {
+	public DarkHarvesterScytheItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 5304;
+				return 854;
 			}
 
 			public float getSpeed() {
@@ -20,7 +21,7 @@ public class SoulEaterMaceItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 4f;
+				return 2f;
 			}
 
 			public int getLevel() {
@@ -28,12 +29,12 @@ public class SoulEaterMaceItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 23;
+				return 2;
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(Items.NETHERITE_INGOT));
+				return Ingredient.of(new ItemStack(MineterraModItems.RUBY.get()));
 			}
-		}, 3, -3f, new Item.Properties().fireResistant());
+		}, 3, -2f, new Item.Properties().fireResistant());
 	}
 }

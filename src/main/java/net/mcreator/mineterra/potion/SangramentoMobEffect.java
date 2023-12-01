@@ -27,7 +27,7 @@ public class SangramentoMobEffect extends MobEffect {
 
 	@Override
 	public void applyEffectTick(LivingEntity entity, int amplifier) {
-		SangramentoOnEffectActiveTickProcedure.execute(entity.level(), entity);
+		SangramentoOnEffectActiveTickProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity);
 	}
 
 	@Override

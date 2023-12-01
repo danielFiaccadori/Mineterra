@@ -1,0 +1,37 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "suradiirsscythe",
+    "customModelName": "Normal",
+    "name": "Suradiirs Scythe",
+    "specialInfo": [
+      "§cTorn",
+      "§8The first hit caused by this Scythe, inflicts bleeding and slowness for 3 seconds (cooldown of 10 seconds out of combat)."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 3.0,
+    "enchantability": 35,
+    "damageVsEntity": 4.0,
+    "usageCount": 241,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.IRON_INGOT"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "SuradiirsScytheLivingEntityIsHitWithTool"
+    }
+  }
+}

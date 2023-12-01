@@ -4,24 +4,24 @@
   "definition": {
     "toolType": "Sword",
     "renderType": 0,
-    "texture": "souleater",
+    "texture": "darkharvesterscythe",
     "customModelName": "Normal",
-    "name": "Soul Eater Mace",
+    "name": "Dark Harvester Scythe",
     "specialInfo": [],
     "creativeTab": {
       "value": "COMBAT"
     },
     "harvestLevel": 1,
     "efficiency": 4.0,
-    "attackSpeed": 1.0,
-    "enchantability": 23,
-    "damageVsEntity": 6.0,
-    "usageCount": 5304,
+    "attackSpeed": 2.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 854,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "Items.NETHERITE_INGOT"
+        "value": "CUSTOM:Ruby"
       }
     ],
     "immuneToFire": true,

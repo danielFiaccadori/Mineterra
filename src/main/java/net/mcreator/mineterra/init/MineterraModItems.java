@@ -50,6 +50,7 @@ import net.mcreator.mineterra.item.TanzaniteItem;
 import net.mcreator.mineterra.item.TanzaniteHoeItem;
 import net.mcreator.mineterra.item.TanzaniteAxeItem;
 import net.mcreator.mineterra.item.TanzaniteArmorItem;
+import net.mcreator.mineterra.item.SuradiirsScytheItem;
 import net.mcreator.mineterra.item.SunstoneSwordItem;
 import net.mcreator.mineterra.item.SunstoneShovelItem;
 import net.mcreator.mineterra.item.SunstonePickaxeItem;
@@ -63,7 +64,6 @@ import net.mcreator.mineterra.item.StoneDaggerItem;
 import net.mcreator.mineterra.item.StaffOfLesserMagicItem;
 import net.mcreator.mineterra.item.SpiritualLongswordItem;
 import net.mcreator.mineterra.item.SpiritualCataclysmItem;
-import net.mcreator.mineterra.item.SoulEaterMaceItem;
 import net.mcreator.mineterra.item.SilverSwordItem;
 import net.mcreator.mineterra.item.SilverShovelItem;
 import net.mcreator.mineterra.item.SilverPickaxeItem;
@@ -130,6 +130,7 @@ import net.mcreator.mineterra.item.DemonitaItem;
 import net.mcreator.mineterra.item.DemonitaHoeItem;
 import net.mcreator.mineterra.item.DemonitaAxeItem;
 import net.mcreator.mineterra.item.DemonitaArmorItem;
+import net.mcreator.mineterra.item.DarkHarvesterScytheItem;
 import net.mcreator.mineterra.item.CrepitarsBladeSwordItem;
 import net.mcreator.mineterra.item.CopperSwordItem;
 import net.mcreator.mineterra.item.CopperShovelItem;
@@ -369,7 +370,8 @@ public class MineterraModItems {
 	public static final RegistryObject<Item> CREPITARS_BLADE_SWORD = REGISTRY.register("crepitars_blade_sword", () -> new CrepitarsBladeSwordItem());
 	public static final RegistryObject<Item> BLADE_OF_BANISHED_QUEEN = REGISTRY.register("blade_of_banished_queen", () -> new BladeOfBanishedQueenItem());
 	public static final RegistryObject<Item> STORMRAZOR_KATANA = REGISTRY.register("stormrazor_katana", () -> new StormrazorKatanaItem());
-	public static final RegistryObject<Item> SOUL_EATER_MACE = REGISTRY.register("soul_eater_mace", () -> new SoulEaterMaceItem());
+	public static final RegistryObject<Item> DARK_HARVESTER_SCYTHE = REGISTRY.register("dark_harvester_scythe", () -> new DarkHarvesterScytheItem());
+	public static final RegistryObject<Item> SURADIIRS_SCYTHE = REGISTRY.register("suradiirs_scythe", () -> new SuradiirsScytheItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -1052,6 +1052,18 @@
             "type": "entity"
           },
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -7968,46 +7980,45 @@
       "path": "~/Items/ItemsNormal/Common Items/RawItems/Katana/Stormrazor"
     },
     {
-      "name": "DeathKingdom",
-      "type": "dimension",
+      "name": "DarkHarvesterScythe",
+      "type": "tool",
       "sortid": 547,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "death_kingdom",
+      "registry_name": "dark_harvester_scythe",
       "metadata": {
         "files": [
-          "src/main/resources/data/mineterra/dimension_type/death_kingdom.json",
-          "src/main/resources/data/mineterra/dimension/death_kingdom.json",
-          "src/main/java/net/mcreator/mineterra/world/dimension/DeathKingdomDimension.java"
+          "src/main/java/net/mcreator/mineterra/item/DarkHarvesterScytheItem.java",
+          "src/main/resources/assets/mineterra/models/item/dark_harvester_scythe.json"
         ]
       },
-      "path": "~/Dimensions"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Scythes"
     },
     {
-      "name": "SoulEaterMace",
+      "name": "SuradiirsScythe",
       "type": "tool",
       "sortid": 548,
       "compiles": true,
-      "locked_code": false,
-      "registry_name": "soul_eater_mace",
+      "locked_code": true,
+      "registry_name": "suradiirs_scythe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/SoulEaterMaceItem.java",
-          "src/main/resources/assets/mineterra/models/item/soul_eater_mace.json"
+          "src/main/resources/assets/mineterra/models/item/suradiirs_scythe.json",
+          "src/main/java/net/mcreator/mineterra/item/SuradiirsScytheItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/RawItems/Maces"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Scythes/SurandiirsScythe"
     },
     {
-      "name": "SoulEaterMaceProcedure",
+      "name": "SuradiirsScytheLivingEntityIsHitWithTool",
       "type": "procedure",
       "sortid": 549,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "soul_eater_mace_procedure",
+      "registry_name": "suradiirs_scythe_living_entity_is_hit_with_tool",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/procedures/SoulEaterMaceProcedureProcedure.java"
+          "src/main/java/net/mcreator/mineterra/procedures/SuradiirsScytheLivingEntityIsHitWithToolProcedure.java"
         ],
         "dependencies": [
           {
@@ -8019,12 +8030,12 @@
             "type": "entity"
           },
           {
-            "name": "world",
-            "type": "world"
+            "name": "itemstack",
+            "type": "itemstack"
           }
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/RawItems/Maces"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Scythes/SurandiirsScythe"
     }
   ],
   "variable_elements": [
@@ -8036,6 +8047,12 @@
     },
     {
       "name": "attackCount",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0.0"
+    },
+    {
+      "name": "DarkHarvestValue",
       "type": "number",
       "scope": "player_lifetime",
       "value": "0.0"
@@ -8241,7 +8258,7 @@
       "item.mineterra.arcanite_gemstone": "Arcanite Gemstone",
       "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
       "item.mineterra.zircon_axe": "Zircon Axe",
-      "effect.mineterra.sangramento": "Sangramento",
+      "effect.mineterra.sangramento": "Bleeding",
       "block.mineterra.garnet_ore": "Garnet Ore",
       "item.mineterra.garnet_pickaxe": "Garnet Pickaxe",
       "item.mineterra.sapphire_armor_boots": "Sapphire Boots",
@@ -8269,7 +8286,6 @@
       "effect.mineterra.sun_blessing": "Bênção do Sol",
       "item.mineterra.light_staff": "Light Staff",
       "item.mineterra.tourmaline_armor_boots": "Tourmaline Boots",
-      "item.mineterra.soul_eater_mace": "Soul Eater Mace",
       "gui.mineterra.game_start_character_creation.button_select": "Select",
       "effect.mineterra.forest_blessing": "Bênção da Fauna",
       "item.mineterra.garnet_axe": "Garnet Axe",
@@ -8277,6 +8293,7 @@
       "gui.mineterra.celestial_gui.label_das_suas_consequencias": "das suas consequências.",
       "item.mineterra.arcanite": "Arcanite Powder",
       "item.mineterra.silver_armor_helmet": "Capacete de Prata",
+      "item.mineterra.suradiirs_scythe": "Suradiirs Scythe",
       "subtitles.ferocity-growl": "",
       "item.mineterra.copper_hoe": "Copper Hoe",
       "item.mineterra.copper_pickaxe": "Copper Pickaxe",
@@ -8483,6 +8500,7 @@
       "item.mineterra.topaz": "Topaz",
       "item.mineterra.zircon_armor_leggings": "Zircon Leggings",
       "gui.mineterra.gnome_gui.label_das_suas_consequencias": "das suas consequências.",
+      "item.mineterra.dark_harvester_scythe": "Dark Harvester Scythe",
       "item.mineterra.zircon_pickaxe": "Zircon Pickaxe",
       "item.mineterra.stormrazor_katana": "Stormrazor",
       "block.mineterra.arcanitium_ore": "Arcanitium Ore",
@@ -8769,7 +8787,12 @@
                       },
                       {
                         "name": "Scythes",
-                        "children": []
+                        "children": [
+                          {
+                            "name": "SurandiirsScythe",
+                            "children": []
+                          }
+                        ]
                       }
                     ]
                   },
@@ -8830,6 +8853,10 @@
                     "children": []
                   }
                 ]
+              },
+              {
+                "name": "PassiveItems",
+                "children": []
               }
             ]
           }

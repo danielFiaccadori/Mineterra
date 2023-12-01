@@ -69,6 +69,7 @@ public class MineterraModVariables {
 			if (!event.isWasDeath()) {
 				clone.SoulNumber = original.SoulNumber;
 				clone.attackCount = original.attackCount;
+				clone.DarkHarvestValue = original.DarkHarvestValue;
 			}
 		}
 	}
@@ -106,6 +107,7 @@ public class MineterraModVariables {
 	public static class PlayerVariables {
 		public double SoulNumber = 0.0;
 		public double attackCount = 0.0;
+		public double DarkHarvestValue = 0.0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -116,6 +118,7 @@ public class MineterraModVariables {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putDouble("SoulNumber", SoulNumber);
 			nbt.putDouble("attackCount", attackCount);
+			nbt.putDouble("DarkHarvestValue", DarkHarvestValue);
 			return nbt;
 		}
 
@@ -123,6 +126,7 @@ public class MineterraModVariables {
 			CompoundTag nbt = (CompoundTag) Tag;
 			SoulNumber = nbt.getDouble("SoulNumber");
 			attackCount = nbt.getDouble("attackCount");
+			DarkHarvestValue = nbt.getDouble("DarkHarvestValue");
 		}
 	}
 
@@ -149,6 +153,7 @@ public class MineterraModVariables {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 					variables.SoulNumber = message.data.SoulNumber;
 					variables.attackCount = message.data.attackCount;
+					variables.DarkHarvestValue = message.data.DarkHarvestValue;
 				}
 			});
 			context.setPacketHandled(true);

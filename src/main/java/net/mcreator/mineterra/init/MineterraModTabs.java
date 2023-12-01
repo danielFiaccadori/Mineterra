@@ -179,7 +179,8 @@ public class MineterraModTabs {
 			tabData.accept(MineterraModItems.CREPITARS_BLADE_SWORD.get());
 			tabData.accept(MineterraModItems.BLADE_OF_BANISHED_QUEEN.get());
 			tabData.accept(MineterraModItems.STORMRAZOR_KATANA.get());
-			tabData.accept(MineterraModItems.SOUL_EATER_MACE.get());
+			tabData.accept(MineterraModItems.DARK_HARVESTER_SCYTHE.get());
+			tabData.accept(MineterraModItems.SURADIIRS_SCYTHE.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {

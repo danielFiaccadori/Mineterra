@@ -22,6 +22,6 @@ public class SangramentoEffectStartedappliedProcedure {
 			}
 		}
 		if (world instanceof ServerLevel _level)
-			_level.sendParticles((SimpleParticleType) (MineterraModParticleTypes.BLOOD.get()), x, y, z, 50, 2, 2, 2, 1);
+			_level.sendParticles((SimpleParticleType) (MineterraModParticleTypes.BLOOD.get()), x, y, z, 100, 1, 1, 1, 1);
 	}
 }
