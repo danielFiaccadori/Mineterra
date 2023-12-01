@@ -40,7 +40,7 @@ public class NetheriteSaiItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(MineterraModItems.NETHERITE_SAI.get()));
+				return Ingredient.of(new ItemStack(MineterraModItems.NETHERITE_SAI_RAPIER.get()));
 			}
 		}, 3, -2.5f, new Item.Properties().fireResistant());
 	}

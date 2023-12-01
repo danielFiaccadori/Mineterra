@@ -40,7 +40,7 @@ public class DiamondSaiItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(MineterraModItems.DIAMOND_SAI.get()));
+				return Ingredient.of(new ItemStack(MineterraModItems.DIAMOND_SAI_RAPIER.get()));
 			}
 		}, 3, -2.5f, new Item.Properties().fireResistant());
 	}

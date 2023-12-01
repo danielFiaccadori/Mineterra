@@ -7,7 +7,11 @@
     "texture": "darkharvesterscythe",
     "customModelName": "Normal",
     "name": "Dark Harvester Scythe",
-    "specialInfo": [],
+    "specialInfo": [
+      "§cDark Harvest",
+      "§8Attacks using this Scythe deals §6damage§8 based on the amount of souls collected by it. When the target is below 10% of its §2maximum health§8, it is executed and increase the soul number by 1.",
+      "§8§oSouls increase the damage by 0.5(fixed value)."
+    ],
     "creativeTab": {
       "value": "COMBAT"
     },
@@ -26,6 +30,9 @@
     ],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "DarkHarvesterScytheLivingEntityIsHitWithTool"
+    }
   }
 }
