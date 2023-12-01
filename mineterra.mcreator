@@ -7938,6 +7938,34 @@
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/RawItems/Katana/Stormrazor"
+    },
+    {
+      "name": "StormrazorKatanaLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 546,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormrazor_katana_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/StormrazorKatanaLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Katana/Stormrazor"
     }
   ],
   "variable_elements": [
