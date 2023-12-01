@@ -24,11 +24,11 @@ import net.mcreator.mineterra.MineterraMod;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MineterraModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, MineterraMod.MODID);
-	public static final RegistryObject<EntityType<StaffOfLesserMagicEntity>> ARCANITE_STAFF = register("projectile_arcanite_staff", EntityType.Builder.<StaffOfLesserMagicEntity>of(StaffOfLesserMagicEntity::new, MobCategory.MISC)
+	public static final RegistryObject<EntityType<StaffOfLesserMagicEntity>> ARCANITE_STAFF_WAND = register("projectile_arcanite_staff_wand", EntityType.Builder.<StaffOfLesserMagicEntity>of(StaffOfLesserMagicEntity::new, MobCategory.MISC)
 			.setCustomClientFactory(StaffOfLesserMagicEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<LightStaffEntity>> LIGHT_STAFF = register("projectile_light_staff",
+	public static final RegistryObject<EntityType<LightStaffEntity>> LIGHT_STAFF_WAND = register("projectile_light_staff_wand",
 			EntityType.Builder.<LightStaffEntity>of(LightStaffEntity::new, MobCategory.MISC).setCustomClientFactory(LightStaffEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<FireStaffEntity>> FIRE_STAFF = register("projectile_fire_staff",
+	public static final RegistryObject<EntityType<FireStaffEntity>> FIRE_STAFF_WAND = register("projectile_fire_staff_wand",
 			EntityType.Builder.<FireStaffEntity>of(FireStaffEntity::new, MobCategory.MISC).setCustomClientFactory(FireStaffEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {

@@ -28,7 +28,7 @@ import net.mcreator.mineterra.init.MineterraModEntities;
 @OnlyIn(value = Dist.CLIENT, _interface = ItemSupplier.class)
 public class LightStaffEntity extends AbstractArrow implements ItemSupplier {
 	public LightStaffEntity(PlayMessages.SpawnEntity packet, Level world) {
-		super(MineterraModEntities.LIGHT_STAFF.get(), world);
+		super(MineterraModEntities.LIGHT_STAFF_WAND.get(), world);
 	}
 
 	public LightStaffEntity(EntityType<? extends LightStaffEntity> type, Level world) {
@@ -80,7 +80,7 @@ public class LightStaffEntity extends AbstractArrow implements ItemSupplier {
 	}
 
 	public static LightStaffEntity shoot(Level world, LivingEntity entity, RandomSource random, float power, double damage, int knockback) {
-		LightStaffEntity entityarrow = new LightStaffEntity(MineterraModEntities.LIGHT_STAFF.get(), entity, world);
+		LightStaffEntity entityarrow = new LightStaffEntity(MineterraModEntities.LIGHT_STAFF_WAND.get(), entity, world);
 		entityarrow.shoot(entity.getViewVector(1).x, entity.getViewVector(1).y, entity.getViewVector(1).z, power * 2, 0);
 		entityarrow.setSilent(true);
 		entityarrow.setCritArrow(false);
@@ -92,7 +92,7 @@ public class LightStaffEntity extends AbstractArrow implements ItemSupplier {
 	}
 
 	public static LightStaffEntity shoot(LivingEntity entity, LivingEntity target) {
-		LightStaffEntity entityarrow = new LightStaffEntity(MineterraModEntities.LIGHT_STAFF.get(), entity, entity.level());
+		LightStaffEntity entityarrow = new LightStaffEntity(MineterraModEntities.LIGHT_STAFF_WAND.get(), entity, entity.level());
 		double dx = target.getX() - entity.getX();
 		double dy = target.getY() + target.getEyeHeight() - 1.1;
 		double dz = target.getZ() - entity.getZ();

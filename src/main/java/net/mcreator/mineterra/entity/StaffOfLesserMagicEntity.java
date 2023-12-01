@@ -28,7 +28,7 @@ import net.mcreator.mineterra.init.MineterraModEntities;
 @OnlyIn(value = Dist.CLIENT, _interface = ItemSupplier.class)
 public class StaffOfLesserMagicEntity extends AbstractArrow implements ItemSupplier {
 	public StaffOfLesserMagicEntity(PlayMessages.SpawnEntity packet, Level world) {
-		super(MineterraModEntities.ARCANITE_STAFF.get(), world);
+		super(MineterraModEntities.ARCANITE_STAFF_WAND.get(), world);
 	}
 
 	public StaffOfLesserMagicEntity(EntityType<? extends StaffOfLesserMagicEntity> type, Level world) {
@@ -80,7 +80,7 @@ public class StaffOfLesserMagicEntity extends AbstractArrow implements ItemSuppl
 	}
 
 	public static StaffOfLesserMagicEntity shoot(Level world, LivingEntity entity, RandomSource random, float power, double damage, int knockback) {
-		StaffOfLesserMagicEntity entityarrow = new StaffOfLesserMagicEntity(MineterraModEntities.ARCANITE_STAFF.get(), entity, world);
+		StaffOfLesserMagicEntity entityarrow = new StaffOfLesserMagicEntity(MineterraModEntities.ARCANITE_STAFF_WAND.get(), entity, world);
 		entityarrow.shoot(entity.getViewVector(1).x, entity.getViewVector(1).y, entity.getViewVector(1).z, power * 2, 0);
 		entityarrow.setSilent(true);
 		entityarrow.setCritArrow(false);
@@ -92,7 +92,7 @@ public class StaffOfLesserMagicEntity extends AbstractArrow implements ItemSuppl
 	}
 
 	public static StaffOfLesserMagicEntity shoot(LivingEntity entity, LivingEntity target) {
-		StaffOfLesserMagicEntity entityarrow = new StaffOfLesserMagicEntity(MineterraModEntities.ARCANITE_STAFF.get(), entity, entity.level());
+		StaffOfLesserMagicEntity entityarrow = new StaffOfLesserMagicEntity(MineterraModEntities.ARCANITE_STAFF_WAND.get(), entity, entity.level());
 		double dx = target.getX() - entity.getX();
 		double dy = target.getY() + target.getEyeHeight() - 1.1;
 		double dz = target.getZ() - entity.getZ();

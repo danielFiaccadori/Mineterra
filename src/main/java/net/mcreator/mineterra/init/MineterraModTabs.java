@@ -173,9 +173,9 @@ public class MineterraModTabs {
 			tabData.accept(MineterraModItems.TITANIUM_ARMOR_BOOTS.get());
 			tabData.accept(MineterraModItems.TITANIUM_SWORD.get());
 			tabData.accept(MineterraModItems.WOOD_STAFF.get());
-			tabData.accept(MineterraModItems.ARCANITE_STAFF.get());
-			tabData.accept(MineterraModItems.LIGHT_STAFF.get());
-			tabData.accept(MineterraModItems.FIRE_STAFF.get());
+			tabData.accept(MineterraModItems.ARCANITE_STAFF_WAND.get());
+			tabData.accept(MineterraModItems.LIGHT_STAFF_WAND.get());
+			tabData.accept(MineterraModItems.FIRE_STAFF_WAND.get());
 			tabData.accept(MineterraModItems.LIGHT_IRON_DAGGER.get());
 			tabData.accept(MineterraModItems.NEBULOUS_VEIL_DAGGER.get());
 			tabData.accept(MineterraModItems.CREPITARS_BLADE_SWORD.get());
