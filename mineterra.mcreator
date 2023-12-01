@@ -2590,7 +2590,7 @@
       "type": "tool",
       "sortid": 29,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "iron_katana",
       "metadata": {
         "files": [
@@ -2605,7 +2605,7 @@
       "type": "tool",
       "sortid": 26,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "wood_katana",
       "metadata": {
         "files": [
@@ -2620,7 +2620,7 @@
       "type": "tool",
       "sortid": 27,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "stone_katana",
       "metadata": {
         "files": [
@@ -2635,7 +2635,7 @@
       "type": "tool",
       "sortid": 28,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "gold_katana",
       "metadata": {
         "files": [
@@ -2650,7 +2650,7 @@
       "type": "tool",
       "sortid": 30,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "diamond_katana",
       "metadata": {
         "files": [
@@ -2665,7 +2665,7 @@
       "type": "tool",
       "sortid": 31,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "netherite_katana",
       "metadata": {
         "files": [
@@ -7740,7 +7740,7 @@
       "type": "tool",
       "sortid": 537,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "nebulous_veil_dagger",
       "metadata": {
         "files": [
@@ -7929,7 +7929,7 @@
       "type": "tool",
       "sortid": 545,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "stormrazor_katana",
       "metadata": {
         "files": [
