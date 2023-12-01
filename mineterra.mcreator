@@ -8074,7 +8074,7 @@
       "type": "tool",
       "sortid": 571,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "iron_scythe",
       "metadata": {
         "files": [
@@ -8402,7 +8402,7 @@
       "type": "tool",
       "sortid": 593,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "steel_scythe",
       "metadata": {
         "files": [
@@ -8417,7 +8417,7 @@
       "type": "tool",
       "sortid": 594,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "rusted_iron_scythe",
       "metadata": {
         "files": [
@@ -8646,8 +8646,8 @@
       "item.mineterra.silver_armor_chestplate": "Peitoral de Prata",
       "item.mineterra.amethyst_armor_boots": "Amethyst Boots",
       "item.mineterra.arcanite_gemstone": "Arcanite Gemstone",
-      "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
       "item.mineterra.zircon_axe": "Zircon Axe",
+      "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
       "effect.mineterra.sangramento": "Bleeding",
       "block.mineterra.garnet_ore": "Garnet Ore",
       "item.mineterra.garnet_pickaxe": "Garnet Pickaxe",
