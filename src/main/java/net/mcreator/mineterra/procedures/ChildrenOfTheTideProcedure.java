@@ -7,6 +7,5 @@ public class ChildrenOfTheTideProcedure {
 		if (entity == null)
 			return;
 		entity.getPersistentData().putString("race", "cott");
-		SOTTAttributesProcedure.execute(entity);
 	}
 }

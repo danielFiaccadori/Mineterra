@@ -57,6 +57,7 @@ import net.mcreator.mineterra.item.SunstoneItem;
 import net.mcreator.mineterra.item.SunstoneHoeItem;
 import net.mcreator.mineterra.item.SunstoneAxeItem;
 import net.mcreator.mineterra.item.SunstoneArmorItem;
+import net.mcreator.mineterra.item.StormrazorKatanaItem;
 import net.mcreator.mineterra.item.StoneKatanaItem;
 import net.mcreator.mineterra.item.StoneDaggerItem;
 import net.mcreator.mineterra.item.StaffOfLesserMagicItem;
@@ -366,6 +367,7 @@ public class MineterraModItems {
 	public static final RegistryObject<Item> NEBULOUS_VEIL_DAGGER = REGISTRY.register("nebulous_veil_dagger", () -> new NebulousVeilDaggerItem());
 	public static final RegistryObject<Item> CREPITARS_BLADE_SWORD = REGISTRY.register("crepitars_blade_sword", () -> new CrepitarsBladeSwordItem());
 	public static final RegistryObject<Item> BLADE_OF_BANISHED_QUEEN = REGISTRY.register("blade_of_banished_queen", () -> new BladeOfBanishedQueenItem());
+	public static final RegistryObject<Item> STORMRAZOR_KATANA = REGISTRY.register("stormrazor_katana", () -> new StormrazorKatanaItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -519,186 +519,6 @@
       "path": "~/Custom Attributes"
     },
     {
-      "name": "CelestialAttributes",
-      "type": "procedure",
-      "sortid": 198,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "celestial_attributes",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mineterra/procedures/CelestialAttributesProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Custom Attributes"
-    },
-    {
-      "name": "AbyssalAttributes",
-      "type": "procedure",
-      "sortid": 199,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "abyssal_attributes",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mineterra/procedures/AbyssalAttributesProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Custom Attributes"
-    },
-    {
-      "name": "SOTTAttributes",
-      "type": "procedure",
-      "sortid": 200,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sott_attributes",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mineterra/procedures/SOTTAttributesProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Custom Attributes"
-    },
-    {
-      "name": "OrcAttrivutes",
-      "type": "procedure",
-      "sortid": 201,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "orc_attrivutes",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mineterra/procedures/OrcAttrivutesProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Custom Attributes"
-    },
-    {
-      "name": "ForestElfsAttributes",
-      "type": "procedure",
-      "sortid": 202,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "forest_elfs_attributes",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mineterra/procedures/ForestElfsAttributesProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Custom Attributes"
-    },
-    {
-      "name": "HighElfsAttributes",
-      "type": "procedure",
-      "sortid": 203,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "high_elfs_attributes",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mineterra/procedures/HighElfsAttributesProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Custom Attributes"
-    },
-    {
-      "name": "FeralitsAttributes",
-      "type": "procedure",
-      "sortid": 204,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "feralits_attributes",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mineterra/procedures/FeralitsAttributesProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Custom Attributes"
-    },
-    {
-      "name": "GnomeAttributes",
-      "type": "procedure",
-      "sortid": 205,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gnome_attributes",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mineterra/procedures/GnomeAttributesProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Custom Attributes"
-    },
-    {
-      "name": "DwarfAttributes",
-      "type": "procedure",
-      "sortid": 206,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dwarf_attributes",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mineterra/procedures/DwarfAttributesProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Custom Attributes"
-    },
-    {
       "name": "CelestialPassiveEffects",
       "type": "procedure",
       "sortid": 207,
@@ -1392,7 +1212,7 @@
           "src/main/resources/assets/mineterra/models/item/silver_ingot.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SilverKit"
     },
     {
       "name": "SilverOre",
@@ -1413,7 +1233,7 @@
           "src/main/resources/assets/mineterra/blockstates/silver_ore.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SilverKit"
     },
     {
       "name": "SilverBlock",
@@ -1430,7 +1250,7 @@
           "src/main/resources/assets/mineterra/models/item/silver_block.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SilverKit"
     },
     {
       "name": "SilverOreBlockRecipe",
@@ -1444,7 +1264,7 @@
           "src/main/resources/data/mineterra/recipes/silver_ore_block_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SilverKit"
     },
     {
       "name": "SilverBlockOreRecipe",
@@ -1458,7 +1278,7 @@
           "src/main/resources/data/mineterra/recipes/silver_block_ore_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SilverKit"
     },
     {
       "name": "SilverOreSmelting",
@@ -1472,7 +1292,7 @@
           "src/main/resources/data/mineterra/recipes/silver_ore_smelting.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SilverKit"
     },
     {
       "name": "SilverPickaxe",
@@ -1487,7 +1307,7 @@
           "src/main/java/net/mcreator/mineterra/item/SilverPickaxeItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SilverKit"
     },
     {
       "name": "SilverAxe",
@@ -1502,7 +1322,7 @@
           "src/main/java/net/mcreator/mineterra/item/SilverAxeItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SilverKit"
     },
     {
       "name": "SilverSword",
@@ -1517,7 +1337,7 @@
           "src/main/resources/assets/mineterra/models/item/silver_sword.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SilverKit"
     },
     {
       "name": "SilverShovel",
@@ -1532,7 +1352,7 @@
           "src/main/resources/assets/mineterra/models/item/silver_shovel.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SilverKit"
     },
     {
       "name": "SilverHoe",
@@ -1547,7 +1367,7 @@
           "src/main/resources/assets/mineterra/models/item/silver_hoe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SilverKit"
     },
     {
       "name": "SilverPickaxeRecipe",
@@ -1561,7 +1381,7 @@
           "src/main/resources/data/mineterra/recipes/silver_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SilverKit"
     },
     {
       "name": "SilverAxeRecipe",
@@ -1575,7 +1395,7 @@
           "src/main/resources/data/mineterra/recipes/silver_axe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SilverKit"
     },
     {
       "name": "SilverSwordRecipe",
@@ -1589,7 +1409,7 @@
           "src/main/resources/data/mineterra/recipes/silver_sword_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SilverKit"
     },
     {
       "name": "SilverShovelRecipe",
@@ -1603,7 +1423,7 @@
           "src/main/resources/data/mineterra/recipes/silver_shovel_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SilverKit"
     },
     {
       "name": "SilverHoeRecipe",
@@ -1617,7 +1437,7 @@
           "src/main/resources/data/mineterra/recipes/silver_hoe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SilverKit"
     },
     {
       "name": "SilverArmor",
@@ -1635,7 +1455,7 @@
           "src/main/resources/assets/mineterra/models/item/silver_armor_chestplate.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SilverKit"
     },
     {
       "name": "SilverArmorHelmetRecipe",
@@ -1649,7 +1469,7 @@
           "src/main/resources/data/mineterra/recipes/silver_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SilverKit"
     },
     {
       "name": "SilverArmorChestplateRecipe",
@@ -1663,7 +1483,7 @@
           "src/main/resources/data/mineterra/recipes/silver_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SilverKit"
     },
     {
       "name": "SilverArmorLeggingsRecipe",
@@ -1677,7 +1497,7 @@
           "src/main/resources/data/mineterra/recipes/silver_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SilverKit"
     },
     {
       "name": "SilverArmorBootsRecipe",
@@ -1691,7 +1511,7 @@
           "src/main/resources/data/mineterra/recipes/silver_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SilverKit"
     },
     {
       "name": "SilverWeaponsOnHitEffect",
@@ -1715,7 +1535,7 @@
           }
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/SilverKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SilverKit"
     },
     {
       "name": "StoneDagger",
@@ -1978,7 +1798,7 @@
           "src/main/java/net/mcreator/mineterra/item/RitualDaggerItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Special Items/Ritual Dagger"
+      "path": "~/Items/ItemsNormal/Common Items/Special Items/Ritual Dagger"
     },
     {
       "name": "DarkRitual",
@@ -1992,7 +1812,7 @@
           "src/main/java/net/mcreator/mineterra/potion/DarkRitualMobEffect.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Special Items/Ritual Dagger"
+      "path": "~/Items/ItemsNormal/Common Items/Special Items/Ritual Dagger"
     },
     {
       "name": "RitualDaggerRightclicked",
@@ -2032,7 +1852,7 @@
           }
         ]
       },
-      "path": "~/Items/ItemsNormal/Special Items/Ritual Dagger"
+      "path": "~/Items/ItemsNormal/Common Items/Special Items/Ritual Dagger"
     },
     {
       "name": "RitualDaggerLivingEntityIsHitWithTool",
@@ -2060,7 +1880,7 @@
           }
         ]
       },
-      "path": "~/Items/ItemsNormal/Special Items/Ritual Dagger"
+      "path": "~/Items/ItemsNormal/Common Items/Special Items/Ritual Dagger"
     },
     {
       "name": "SilverDagger",
@@ -2095,7 +1915,7 @@
           }
         ]
       },
-      "path": "~/Items/ItemsNormal/Special Items/Ritual Dagger"
+      "path": "~/Items/ItemsNormal/Common Items/Special Items/Ritual Dagger"
     },
     {
       "name": "EpicDaggerRecipe",
@@ -2109,7 +1929,7 @@
           "src/main/resources/data/mineterra/recipes/epic_dagger_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Special Items/Ritual Dagger"
+      "path": "~/Items/ItemsNormal/Common Items/Special Items/Ritual Dagger"
     },
     {
       "name": "IronSai",
@@ -2246,7 +2066,7 @@
           "src/main/resources/assets/mineterra/models/item/spiritual_claymore.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Special Items/SpiritualSword"
+      "path": "~/Items/ItemsNormal/Common Items/Special Items/SpiritualSword"
     },
     {
       "name": "SpiritualLongswordLivingEntityIsHitWithTool",
@@ -2266,7 +2086,7 @@
           }
         ]
       },
-      "path": "~/Items/ItemsNormal/Special Items/SpiritualSword"
+      "path": "~/Items/ItemsNormal/Common Items/Special Items/SpiritualSword"
     },
     {
       "name": "SpiritualSwordStun",
@@ -2306,7 +2126,7 @@
           }
         ]
       },
-      "path": "~/Items/ItemsNormal/Special Items/SpiritualSword"
+      "path": "~/Items/ItemsNormal/Common Items/Special Items/SpiritualSword"
     },
     {
       "name": "SoulStealActiveTickCondition",
@@ -2331,7 +2151,7 @@
           }
         ]
       },
-      "path": "~/Items/ItemsNormal/Special Items/SpiritualSword/SpiritualSwordEffects"
+      "path": "~/Items/ItemsNormal/Common Items/Special Items/SpiritualSword/SpiritualSwordEffects"
     },
     {
       "name": "SoulSteal",
@@ -2345,7 +2165,7 @@
           "src/main/java/net/mcreator/mineterra/potion/SoulStealMobEffect.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Special Items/SpiritualSword/SpiritualSwordEffects"
+      "path": "~/Items/ItemsNormal/Common Items/Special Items/SpiritualSword/SpiritualSwordEffects"
     },
     {
       "name": "SoulStealEffectStartedapplied",
@@ -2365,7 +2185,7 @@
           }
         ]
       },
-      "path": "~/Items/ItemsNormal/Special Items/SpiritualSword/SpiritualSwordEffects"
+      "path": "~/Items/ItemsNormal/Common Items/Special Items/SpiritualSword/SpiritualSwordEffects"
     },
     {
       "name": "SoulHealActiveTickCondition",
@@ -2390,7 +2210,7 @@
           }
         ]
       },
-      "path": "~/Items/ItemsNormal/Special Items/SpiritualSword/SpiritualSwordEffects"
+      "path": "~/Items/ItemsNormal/Common Items/Special Items/SpiritualSword/SpiritualSwordEffects"
     },
     {
       "name": "SoulHeal",
@@ -2404,7 +2224,7 @@
           "src/main/java/net/mcreator/mineterra/potion/SoulHealMobEffect.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Special Items/SpiritualSword/SpiritualSwordEffects"
+      "path": "~/Items/ItemsNormal/Common Items/Special Items/SpiritualSword/SpiritualSwordEffects"
     },
     {
       "name": "SoulHealOnEffectActiveTick",
@@ -2424,7 +2244,7 @@
           }
         ]
       },
-      "path": "~/Items/ItemsNormal/Special Items/SpiritualSword/SpiritualSwordEffects"
+      "path": "~/Items/ItemsNormal/Common Items/Special Items/SpiritualSword/SpiritualSwordEffects"
     },
     {
       "name": "SoulStealOnEffectActiveTick",
@@ -2448,7 +2268,7 @@
           }
         ]
       },
-      "path": "~/Items/ItemsNormal/Special Items/SpiritualSword/SpiritualSwordEffects"
+      "path": "~/Items/ItemsNormal/Common Items/Special Items/SpiritualSword/SpiritualSwordEffects"
     },
     {
       "name": "SpiritualCataclysm",
@@ -2463,7 +2283,7 @@
           "src/main/java/net/mcreator/mineterra/item/SpiritualCataclysmItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Special Items/SpiritualSword"
+      "path": "~/Items/ItemsNormal/Common Items/Special Items/SpiritualSword"
     },
     {
       "name": "SpiritualCataclysmLivingEntityIsHitWithTool",
@@ -2503,7 +2323,7 @@
           }
         ]
       },
-      "path": "~/Items/ItemsNormal/Special Items/SpiritualSword"
+      "path": "~/Items/ItemsNormal/Common Items/Special Items/SpiritualSword"
     },
     {
       "name": "IronClaymore",
@@ -2984,7 +2804,7 @@
           "src/main/resources/assets/mineterra/models/item/demonita.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Demonite"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Demonite"
     },
     {
       "name": "DemonitaOre",
@@ -3005,7 +2825,7 @@
           "src/main/resources/assets/mineterra/blockstates/demonita_ore.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Demonite"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Demonite"
     },
     {
       "name": "DemonitaBlock",
@@ -3022,7 +2842,7 @@
           "src/main/resources/assets/mineterra/models/block/demonita_block.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Demonite"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Demonite"
     },
     {
       "name": "DemonitaOreBlockRecipe",
@@ -3036,7 +2856,7 @@
           "src/main/resources/data/mineterra/recipes/demonita_ore_block_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Demonite"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Demonite"
     },
     {
       "name": "DemonitaBlockOreRecipe",
@@ -3050,7 +2870,7 @@
           "src/main/resources/data/mineterra/recipes/demonita_block_ore_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Demonite"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Demonite"
     },
     {
       "name": "DemonitaOreSmelting",
@@ -3064,7 +2884,7 @@
           "src/main/resources/data/mineterra/recipes/demonita_ore_smelting.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Demonite"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Demonite"
     },
     {
       "name": "DemonitaPickaxe",
@@ -3079,7 +2899,7 @@
           "src/main/java/net/mcreator/mineterra/item/DemonitaPickaxeItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Demonite"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Demonite"
     },
     {
       "name": "DemonitaAxe",
@@ -3094,7 +2914,7 @@
           "src/main/resources/assets/mineterra/models/item/demonita_axe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Demonite"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Demonite"
     },
     {
       "name": "DemonitaSword",
@@ -3109,7 +2929,7 @@
           "src/main/java/net/mcreator/mineterra/item/DemonitaSwordItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Demonite"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Demonite"
     },
     {
       "name": "DemonitaShovel",
@@ -3124,7 +2944,7 @@
           "src/main/resources/assets/mineterra/models/item/demonita_shovel.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Demonite"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Demonite"
     },
     {
       "name": "DemonitaHoe",
@@ -3139,7 +2959,7 @@
           "src/main/resources/assets/mineterra/models/item/demonita_hoe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Demonite"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Demonite"
     },
     {
       "name": "DemonitaPickaxeRecipe",
@@ -3153,7 +2973,7 @@
           "src/main/resources/data/mineterra/recipes/demonita_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Demonite"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Demonite"
     },
     {
       "name": "DemonitaAxeRecipe",
@@ -3167,7 +2987,7 @@
           "src/main/resources/data/mineterra/recipes/demonita_axe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Demonite"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Demonite"
     },
     {
       "name": "DemonitaSwordRecipe",
@@ -3181,7 +3001,7 @@
           "src/main/resources/data/mineterra/recipes/demonita_sword_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Demonite"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Demonite"
     },
     {
       "name": "DemonitaShovelRecipe",
@@ -3195,7 +3015,7 @@
           "src/main/resources/data/mineterra/recipes/demonita_shovel_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Demonite"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Demonite"
     },
     {
       "name": "DemonitaHoeRecipe",
@@ -3209,7 +3029,7 @@
           "src/main/resources/data/mineterra/recipes/demonita_hoe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Demonite"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Demonite"
     },
     {
       "name": "DemonitaArmor",
@@ -3227,7 +3047,7 @@
           "src/main/resources/assets/mineterra/models/item/demonita_armor_helmet.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Demonite"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Demonite"
     },
     {
       "name": "DemonitaArmorHelmetRecipe",
@@ -3241,7 +3061,7 @@
           "src/main/resources/data/mineterra/recipes/demonita_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Demonite"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Demonite"
     },
     {
       "name": "DemonitaArmorChestplateRecipe",
@@ -3255,7 +3075,7 @@
           "src/main/resources/data/mineterra/recipes/demonita_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Demonite"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Demonite"
     },
     {
       "name": "DemonitaArmorLeggingsRecipe",
@@ -3269,7 +3089,7 @@
           "src/main/resources/data/mineterra/recipes/demonita_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Demonite"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Demonite"
     },
     {
       "name": "DemonitaArmorBootsRecipe",
@@ -3283,7 +3103,7 @@
           "src/main/resources/data/mineterra/recipes/demonita_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Demonite"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Demonite"
     },
     {
       "name": "UnactiveRitualDagger",
@@ -3298,7 +3118,7 @@
           "src/main/java/net/mcreator/mineterra/item/UnactiveRitualDaggerItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Special Items/Ritual Dagger"
+      "path": "~/Items/ItemsNormal/Common Items/Special Items/Ritual Dagger"
     },
     {
       "name": "UnactiveRitualDaggerRecipe",
@@ -3312,7 +3132,7 @@
           "src/main/resources/data/mineterra/recipes/unactive_ritual_dagger_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Special Items/Ritual Dagger"
+      "path": "~/Items/ItemsNormal/Common Items/Special Items/Ritual Dagger"
     },
     {
       "name": "Strength",
@@ -3411,7 +3231,7 @@
           "src/main/java/net/mcreator/mineterra/item/ForgeHammerItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/UtilityItems"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/UtilityItems"
     },
     {
       "name": "CopperPickaxe",
@@ -3426,7 +3246,7 @@
           "src/main/java/net/mcreator/mineterra/item/CopperPickaxeItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/CooperKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CooperKit"
     },
     {
       "name": "CopperAxe",
@@ -3441,7 +3261,7 @@
           "src/main/java/net/mcreator/mineterra/item/CopperAxeItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/CooperKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CooperKit"
     },
     {
       "name": "CopperSword",
@@ -3456,7 +3276,7 @@
           "src/main/java/net/mcreator/mineterra/item/CopperSwordItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/CooperKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CooperKit"
     },
     {
       "name": "CopperShovel",
@@ -3471,7 +3291,7 @@
           "src/main/resources/assets/mineterra/models/item/copper_shovel.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/CooperKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CooperKit"
     },
     {
       "name": "CopperHoe",
@@ -3486,7 +3306,7 @@
           "src/main/java/net/mcreator/mineterra/item/CopperHoeItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/CooperKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CooperKit"
     },
     {
       "name": "CopperPickaxeRecipe",
@@ -3500,7 +3320,7 @@
           "src/main/resources/data/mineterra/recipes/copper_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/CooperKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CooperKit"
     },
     {
       "name": "CopperAxeRecipe",
@@ -3514,7 +3334,7 @@
           "src/main/resources/data/mineterra/recipes/copper_axe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/CooperKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CooperKit"
     },
     {
       "name": "CopperSwordRecipe",
@@ -3528,7 +3348,7 @@
           "src/main/resources/data/mineterra/recipes/copper_sword_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/CooperKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CooperKit"
     },
     {
       "name": "CopperShovelRecipe",
@@ -3542,7 +3362,7 @@
           "src/main/resources/data/mineterra/recipes/copper_shovel_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/CooperKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CooperKit"
     },
     {
       "name": "CopperHoeRecipe",
@@ -3556,7 +3376,7 @@
           "src/main/resources/data/mineterra/recipes/copper_hoe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/CooperKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CooperKit"
     },
     {
       "name": "CopperArmor",
@@ -3574,7 +3394,7 @@
           "src/main/resources/assets/mineterra/models/item/copper_armor_boots.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/CooperKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CooperKit"
     },
     {
       "name": "CopperArmorHelmetRecipe",
@@ -3588,7 +3408,7 @@
           "src/main/resources/data/mineterra/recipes/copper_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/CooperKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CooperKit"
     },
     {
       "name": "CopperArmorChestplateRecipe",
@@ -3602,7 +3422,7 @@
           "src/main/resources/data/mineterra/recipes/copper_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/CooperKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CooperKit"
     },
     {
       "name": "CopperArmorLeggingsRecipe",
@@ -3616,7 +3436,7 @@
           "src/main/resources/data/mineterra/recipes/copper_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/CooperKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CooperKit"
     },
     {
       "name": "CopperArmorBootsRecipe",
@@ -3630,7 +3450,7 @@
           "src/main/resources/data/mineterra/recipes/copper_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/CooperKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CooperKit"
     },
     {
       "name": "Citrine",
@@ -3645,7 +3465,7 @@
           "src/main/java/net/mcreator/mineterra/item/CitrineItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/CitrineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/CitrineKit"
     },
     {
       "name": "CitrineOre",
@@ -3666,7 +3486,7 @@
           "src/main/resources/data/mineterra/worldgen/placed_feature/citrine_ore.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/CitrineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/CitrineKit"
     },
     {
       "name": "CitrineBlock",
@@ -3683,7 +3503,7 @@
           "src/main/resources/assets/mineterra/models/item/citrine_block.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/CitrineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/CitrineKit"
     },
     {
       "name": "CitrineOreBlockRecipe",
@@ -3697,7 +3517,7 @@
           "src/main/resources/data/mineterra/recipes/citrine_ore_block_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/CitrineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/CitrineKit"
     },
     {
       "name": "CitrineBlockOreRecipe",
@@ -3711,7 +3531,7 @@
           "src/main/resources/data/mineterra/recipes/citrine_block_ore_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/CitrineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/CitrineKit"
     },
     {
       "name": "CitrineOreSmelting",
@@ -3725,7 +3545,7 @@
           "src/main/resources/data/mineterra/recipes/citrine_ore_smelting.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/CitrineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/CitrineKit"
     },
     {
       "name": "CitrinePickaxe",
@@ -3740,7 +3560,7 @@
           "src/main/resources/assets/mineterra/models/item/citrine_pickaxe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/CitrineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/CitrineKit"
     },
     {
       "name": "CitrineAxe",
@@ -3755,7 +3575,7 @@
           "src/main/resources/assets/mineterra/models/item/citrine_axe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/CitrineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/CitrineKit"
     },
     {
       "name": "CitrineSword",
@@ -3770,7 +3590,7 @@
           "src/main/resources/assets/mineterra/models/item/citrine_sword.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/CitrineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/CitrineKit"
     },
     {
       "name": "CitrineShovel",
@@ -3785,7 +3605,7 @@
           "src/main/java/net/mcreator/mineterra/item/CitrineShovelItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/CitrineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/CitrineKit"
     },
     {
       "name": "CitrineHoe",
@@ -3800,7 +3620,7 @@
           "src/main/resources/assets/mineterra/models/item/citrine_hoe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/CitrineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/CitrineKit"
     },
     {
       "name": "CitrinePickaxeRecipe",
@@ -3814,7 +3634,7 @@
           "src/main/resources/data/mineterra/recipes/citrine_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/CitrineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/CitrineKit"
     },
     {
       "name": "CitrineAxeRecipe",
@@ -3828,7 +3648,7 @@
           "src/main/resources/data/mineterra/recipes/citrine_axe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/CitrineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/CitrineKit"
     },
     {
       "name": "CitrineSwordRecipe",
@@ -3842,7 +3662,7 @@
           "src/main/resources/data/mineterra/recipes/citrine_sword_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/CitrineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/CitrineKit"
     },
     {
       "name": "CitrineShovelRecipe",
@@ -3856,7 +3676,7 @@
           "src/main/resources/data/mineterra/recipes/citrine_shovel_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/CitrineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/CitrineKit"
     },
     {
       "name": "CitrineHoeRecipe",
@@ -3870,7 +3690,7 @@
           "src/main/resources/data/mineterra/recipes/citrine_hoe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/CitrineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/CitrineKit"
     },
     {
       "name": "CitrineArmor",
@@ -3888,7 +3708,7 @@
           "src/main/resources/assets/mineterra/models/item/citrine_armor_leggings.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/CitrineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/CitrineKit"
     },
     {
       "name": "CitrineArmorHelmetRecipe",
@@ -3902,7 +3722,7 @@
           "src/main/resources/data/mineterra/recipes/citrine_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/CitrineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/CitrineKit"
     },
     {
       "name": "CitrineArmorChestplateRecipe",
@@ -3916,7 +3736,7 @@
           "src/main/resources/data/mineterra/recipes/citrine_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/CitrineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/CitrineKit"
     },
     {
       "name": "CitrineArmorLeggingsRecipe",
@@ -3930,7 +3750,7 @@
           "src/main/resources/data/mineterra/recipes/citrine_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/CitrineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/CitrineKit"
     },
     {
       "name": "CitrineArmorBootsRecipe",
@@ -3944,7 +3764,7 @@
           "src/main/resources/data/mineterra/recipes/citrine_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/CitrineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/CitrineKit"
     },
     {
       "name": "AmethystPickaxe",
@@ -3959,7 +3779,7 @@
           "src/main/resources/assets/mineterra/models/item/amethyst_pickaxe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Amethyst"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Amethyst"
     },
     {
       "name": "AmethystAxe",
@@ -3974,7 +3794,7 @@
           "src/main/resources/assets/mineterra/models/item/amethyst_axe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Amethyst"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Amethyst"
     },
     {
       "name": "AmethystSword",
@@ -3989,7 +3809,7 @@
           "src/main/resources/assets/mineterra/models/item/amethyst_sword.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Amethyst"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Amethyst"
     },
     {
       "name": "AmethystShovel",
@@ -4004,7 +3824,7 @@
           "src/main/resources/assets/mineterra/models/item/amethyst_shovel.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Amethyst"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Amethyst"
     },
     {
       "name": "AmethystHoe",
@@ -4019,7 +3839,7 @@
           "src/main/resources/assets/mineterra/models/item/amethyst_hoe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Amethyst"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Amethyst"
     },
     {
       "name": "AmethystPickaxeRecipe",
@@ -4033,7 +3853,7 @@
           "src/main/resources/data/mineterra/recipes/amethyst_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Amethyst"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Amethyst"
     },
     {
       "name": "AmethystAxeRecipe",
@@ -4047,7 +3867,7 @@
           "src/main/resources/data/mineterra/recipes/amethyst_axe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Amethyst"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Amethyst"
     },
     {
       "name": "AmethystSwordRecipe",
@@ -4061,7 +3881,7 @@
           "src/main/resources/data/mineterra/recipes/amethyst_sword_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Amethyst"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Amethyst"
     },
     {
       "name": "AmethystShovelRecipe",
@@ -4075,7 +3895,7 @@
           "src/main/resources/data/mineterra/recipes/amethyst_shovel_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Amethyst"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Amethyst"
     },
     {
       "name": "AmethystHoeRecipe",
@@ -4089,7 +3909,7 @@
           "src/main/resources/data/mineterra/recipes/amethyst_hoe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Amethyst"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Amethyst"
     },
     {
       "name": "AmethystArmor",
@@ -4107,7 +3927,7 @@
           "src/main/resources/assets/mineterra/models/item/amethyst_armor_boots.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Amethyst"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Amethyst"
     },
     {
       "name": "AmethystArmorHelmetRecipe",
@@ -4121,7 +3941,7 @@
           "src/main/resources/data/mineterra/recipes/amethyst_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Amethyst"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Amethyst"
     },
     {
       "name": "AmethystArmorChestplateRecipe",
@@ -4135,7 +3955,7 @@
           "src/main/resources/data/mineterra/recipes/amethyst_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Amethyst"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Amethyst"
     },
     {
       "name": "AmethystArmorLeggingsRecipe",
@@ -4149,7 +3969,7 @@
           "src/main/resources/data/mineterra/recipes/amethyst_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Amethyst"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Amethyst"
     },
     {
       "name": "AmethystArmorBootsRecipe",
@@ -4163,7 +3983,7 @@
           "src/main/resources/data/mineterra/recipes/amethyst_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Amethyst"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Amethyst"
     },
     {
       "name": "Ruby",
@@ -4178,7 +3998,7 @@
           "src/main/resources/assets/mineterra/models/item/ruby.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Ruby"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Ruby"
     },
     {
       "name": "RubyOre",
@@ -4199,7 +4019,7 @@
           "src/main/java/net/mcreator/mineterra/block/RubyOreBlock.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Ruby"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Ruby"
     },
     {
       "name": "RubyBlock",
@@ -4216,7 +4036,7 @@
           "src/main/resources/assets/mineterra/models/block/ruby_block.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Ruby"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Ruby"
     },
     {
       "name": "RubyOreBlockRecipe",
@@ -4230,7 +4050,7 @@
           "src/main/resources/data/mineterra/recipes/ruby_ore_block_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Ruby"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Ruby"
     },
     {
       "name": "RubyBlockOreRecipe",
@@ -4244,7 +4064,7 @@
           "src/main/resources/data/mineterra/recipes/ruby_block_ore_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Ruby"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Ruby"
     },
     {
       "name": "RubyOreSmelting",
@@ -4258,7 +4078,7 @@
           "src/main/resources/data/mineterra/recipes/ruby_ore_smelting.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Ruby"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Ruby"
     },
     {
       "name": "RubyPickaxe",
@@ -4273,7 +4093,7 @@
           "src/main/java/net/mcreator/mineterra/item/RubyPickaxeItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Ruby"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Ruby"
     },
     {
       "name": "RubyAxe",
@@ -4288,7 +4108,7 @@
           "src/main/resources/assets/mineterra/models/item/ruby_axe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Ruby"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Ruby"
     },
     {
       "name": "RubySword",
@@ -4303,7 +4123,7 @@
           "src/main/java/net/mcreator/mineterra/item/RubySwordItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Ruby"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Ruby"
     },
     {
       "name": "RubyShovel",
@@ -4318,7 +4138,7 @@
           "src/main/java/net/mcreator/mineterra/item/RubyShovelItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Ruby"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Ruby"
     },
     {
       "name": "RubyHoe",
@@ -4333,7 +4153,7 @@
           "src/main/resources/assets/mineterra/models/item/ruby_hoe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Ruby"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Ruby"
     },
     {
       "name": "RubyPickaxeRecipe",
@@ -4347,7 +4167,7 @@
           "src/main/resources/data/mineterra/recipes/ruby_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Ruby"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Ruby"
     },
     {
       "name": "RubyAxeRecipe",
@@ -4361,7 +4181,7 @@
           "src/main/resources/data/mineterra/recipes/ruby_axe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Ruby"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Ruby"
     },
     {
       "name": "RubySwordRecipe",
@@ -4375,7 +4195,7 @@
           "src/main/resources/data/mineterra/recipes/ruby_sword_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Ruby"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Ruby"
     },
     {
       "name": "RubyShovelRecipe",
@@ -4389,7 +4209,7 @@
           "src/main/resources/data/mineterra/recipes/ruby_shovel_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Ruby"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Ruby"
     },
     {
       "name": "RubyHoeRecipe",
@@ -4403,7 +4223,7 @@
           "src/main/resources/data/mineterra/recipes/ruby_hoe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Ruby"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Ruby"
     },
     {
       "name": "RubyArmor",
@@ -4421,7 +4241,7 @@
           "src/main/java/net/mcreator/mineterra/item/RubyArmorItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Ruby"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Ruby"
     },
     {
       "name": "RubyArmorHelmetRecipe",
@@ -4435,7 +4255,7 @@
           "src/main/resources/data/mineterra/recipes/ruby_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Ruby"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Ruby"
     },
     {
       "name": "RubyArmorChestplateRecipe",
@@ -4449,7 +4269,7 @@
           "src/main/resources/data/mineterra/recipes/ruby_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Ruby"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Ruby"
     },
     {
       "name": "RubyArmorLeggingsRecipe",
@@ -4463,7 +4283,7 @@
           "src/main/resources/data/mineterra/recipes/ruby_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Ruby"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Ruby"
     },
     {
       "name": "RubyArmorBootsRecipe",
@@ -4477,7 +4297,7 @@
           "src/main/resources/data/mineterra/recipes/ruby_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/Ruby"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Ruby"
     },
     {
       "name": "Garnet",
@@ -4492,7 +4312,7 @@
           "src/main/java/net/mcreator/mineterra/item/GarnetItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/GarnetKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/GarnetKit"
     },
     {
       "name": "GarnetOre",
@@ -4513,7 +4333,7 @@
           "src/main/java/net/mcreator/mineterra/block/GarnetOreBlock.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/GarnetKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/GarnetKit"
     },
     {
       "name": "GarnetBlock",
@@ -4530,7 +4350,7 @@
           "src/main/resources/assets/mineterra/blockstates/garnet_block.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/GarnetKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/GarnetKit"
     },
     {
       "name": "GarnetOreBlockRecipe",
@@ -4544,7 +4364,7 @@
           "src/main/resources/data/mineterra/recipes/garnet_ore_block_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/GarnetKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/GarnetKit"
     },
     {
       "name": "GarnetBlockOreRecipe",
@@ -4558,7 +4378,7 @@
           "src/main/resources/data/mineterra/recipes/garnet_block_ore_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/GarnetKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/GarnetKit"
     },
     {
       "name": "GarnetOreSmelting",
@@ -4572,7 +4392,7 @@
           "src/main/resources/data/mineterra/recipes/garnet_ore_smelting.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/GarnetKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/GarnetKit"
     },
     {
       "name": "GarnetPickaxe",
@@ -4587,7 +4407,7 @@
           "src/main/java/net/mcreator/mineterra/item/GarnetPickaxeItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/GarnetKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/GarnetKit"
     },
     {
       "name": "GarnetAxe",
@@ -4602,7 +4422,7 @@
           "src/main/resources/assets/mineterra/models/item/garnet_axe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/GarnetKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/GarnetKit"
     },
     {
       "name": "GarnetSword",
@@ -4617,7 +4437,7 @@
           "src/main/java/net/mcreator/mineterra/item/GarnetSwordItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/GarnetKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/GarnetKit"
     },
     {
       "name": "GarnetShovel",
@@ -4632,7 +4452,7 @@
           "src/main/resources/assets/mineterra/models/item/garnet_shovel.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/GarnetKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/GarnetKit"
     },
     {
       "name": "GarnetHoe",
@@ -4647,7 +4467,7 @@
           "src/main/resources/assets/mineterra/models/item/garnet_hoe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/GarnetKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/GarnetKit"
     },
     {
       "name": "GarnetPickaxeRecipe",
@@ -4661,7 +4481,7 @@
           "src/main/resources/data/mineterra/recipes/garnet_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/GarnetKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/GarnetKit"
     },
     {
       "name": "GarnetAxeRecipe",
@@ -4675,7 +4495,7 @@
           "src/main/resources/data/mineterra/recipes/garnet_axe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/GarnetKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/GarnetKit"
     },
     {
       "name": "GarnetSwordRecipe",
@@ -4689,7 +4509,7 @@
           "src/main/resources/data/mineterra/recipes/garnet_sword_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/GarnetKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/GarnetKit"
     },
     {
       "name": "GarnetShovelRecipe",
@@ -4703,7 +4523,7 @@
           "src/main/resources/data/mineterra/recipes/garnet_shovel_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/GarnetKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/GarnetKit"
     },
     {
       "name": "GarnetHoeRecipe",
@@ -4717,7 +4537,7 @@
           "src/main/resources/data/mineterra/recipes/garnet_hoe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/GarnetKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/GarnetKit"
     },
     {
       "name": "GarnetArmor",
@@ -4735,7 +4555,7 @@
           "src/main/resources/assets/mineterra/models/item/garnet_armor_leggings.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/GarnetKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/GarnetKit"
     },
     {
       "name": "GarnetArmorHelmetRecipe",
@@ -4749,7 +4569,7 @@
           "src/main/resources/data/mineterra/recipes/garnet_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/GarnetKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/GarnetKit"
     },
     {
       "name": "GarnetArmorChestplateRecipe",
@@ -4763,7 +4583,7 @@
           "src/main/resources/data/mineterra/recipes/garnet_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/GarnetKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/GarnetKit"
     },
     {
       "name": "GarnetArmorLeggingsRecipe",
@@ -4777,7 +4597,7 @@
           "src/main/resources/data/mineterra/recipes/garnet_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/GarnetKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/GarnetKit"
     },
     {
       "name": "GarnetArmorBootsRecipe",
@@ -4791,7 +4611,7 @@
           "src/main/resources/data/mineterra/recipes/garnet_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/GarnetKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/GarnetKit"
     },
     {
       "name": "Zircon",
@@ -4806,7 +4626,7 @@
           "src/main/resources/assets/mineterra/models/item/zircon.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/ZirconKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/ZirconKit"
     },
     {
       "name": "ZirconOre",
@@ -4827,7 +4647,7 @@
           "src/main/resources/assets/mineterra/models/block/zircon_ore.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/ZirconKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/ZirconKit"
     },
     {
       "name": "ZirconBlock",
@@ -4844,7 +4664,7 @@
           "src/main/resources/assets/mineterra/blockstates/zircon_block.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/ZirconKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/ZirconKit"
     },
     {
       "name": "ZirconOreBlockRecipe",
@@ -4858,7 +4678,7 @@
           "src/main/resources/data/mineterra/recipes/zircon_ore_block_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/ZirconKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/ZirconKit"
     },
     {
       "name": "ZirconBlockOreRecipe",
@@ -4872,7 +4692,7 @@
           "src/main/resources/data/mineterra/recipes/zircon_block_ore_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/ZirconKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/ZirconKit"
     },
     {
       "name": "ZirconOreSmelting",
@@ -4886,7 +4706,7 @@
           "src/main/resources/data/mineterra/recipes/zircon_ore_smelting.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/ZirconKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/ZirconKit"
     },
     {
       "name": "ZirconPickaxe",
@@ -4901,7 +4721,7 @@
           "src/main/resources/assets/mineterra/models/item/zircon_pickaxe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/ZirconKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/ZirconKit"
     },
     {
       "name": "ZirconAxe",
@@ -4916,7 +4736,7 @@
           "src/main/resources/assets/mineterra/models/item/zircon_axe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/ZirconKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/ZirconKit"
     },
     {
       "name": "ZirconSword",
@@ -4931,7 +4751,7 @@
           "src/main/java/net/mcreator/mineterra/item/ZirconSwordItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/ZirconKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/ZirconKit"
     },
     {
       "name": "ZirconShovel",
@@ -4946,7 +4766,7 @@
           "src/main/java/net/mcreator/mineterra/item/ZirconShovelItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/ZirconKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/ZirconKit"
     },
     {
       "name": "ZirconHoe",
@@ -4961,7 +4781,7 @@
           "src/main/resources/assets/mineterra/models/item/zircon_hoe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/ZirconKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/ZirconKit"
     },
     {
       "name": "ZirconPickaxeRecipe",
@@ -4975,7 +4795,7 @@
           "src/main/resources/data/mineterra/recipes/zircon_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/ZirconKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/ZirconKit"
     },
     {
       "name": "ZirconAxeRecipe",
@@ -4989,7 +4809,7 @@
           "src/main/resources/data/mineterra/recipes/zircon_axe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/ZirconKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/ZirconKit"
     },
     {
       "name": "ZirconSwordRecipe",
@@ -5003,7 +4823,7 @@
           "src/main/resources/data/mineterra/recipes/zircon_sword_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/ZirconKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/ZirconKit"
     },
     {
       "name": "ZirconShovelRecipe",
@@ -5017,7 +4837,7 @@
           "src/main/resources/data/mineterra/recipes/zircon_shovel_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/ZirconKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/ZirconKit"
     },
     {
       "name": "ZirconHoeRecipe",
@@ -5031,7 +4851,7 @@
           "src/main/resources/data/mineterra/recipes/zircon_hoe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/ZirconKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/ZirconKit"
     },
     {
       "name": "ZirconArmor",
@@ -5049,7 +4869,7 @@
           "src/main/resources/assets/mineterra/models/item/zircon_armor_helmet.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/ZirconKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/ZirconKit"
     },
     {
       "name": "ZirconArmorHelmetRecipe",
@@ -5063,7 +4883,7 @@
           "src/main/resources/data/mineterra/recipes/zircon_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/ZirconKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/ZirconKit"
     },
     {
       "name": "ZirconArmorChestplateRecipe",
@@ -5077,7 +4897,7 @@
           "src/main/resources/data/mineterra/recipes/zircon_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/ZirconKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/ZirconKit"
     },
     {
       "name": "ZirconArmorLeggingsRecipe",
@@ -5091,7 +4911,7 @@
           "src/main/resources/data/mineterra/recipes/zircon_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/ZirconKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/ZirconKit"
     },
     {
       "name": "ZirconArmorBootsRecipe",
@@ -5105,7 +4925,7 @@
           "src/main/resources/data/mineterra/recipes/zircon_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/ZirconKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/ZirconKit"
     },
     {
       "name": "Topaz",
@@ -5120,7 +4940,7 @@
           "src/main/resources/assets/mineterra/models/item/topaz.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TopazKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TopazKit"
     },
     {
       "name": "TopazOre",
@@ -5141,7 +4961,7 @@
           "src/main/resources/data/mineterra/worldgen/configured_feature/topaz_ore.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TopazKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TopazKit"
     },
     {
       "name": "TopazBlock",
@@ -5158,7 +4978,7 @@
           "src/main/resources/assets/mineterra/models/block/topaz_block.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TopazKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TopazKit"
     },
     {
       "name": "TopazOreBlockRecipe",
@@ -5172,7 +4992,7 @@
           "src/main/resources/data/mineterra/recipes/topaz_ore_block_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TopazKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TopazKit"
     },
     {
       "name": "TopazBlockOreRecipe",
@@ -5186,7 +5006,7 @@
           "src/main/resources/data/mineterra/recipes/topaz_block_ore_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TopazKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TopazKit"
     },
     {
       "name": "TopazOreSmelting",
@@ -5200,7 +5020,7 @@
           "src/main/resources/data/mineterra/recipes/topaz_ore_smelting.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TopazKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TopazKit"
     },
     {
       "name": "TopazPickaxe",
@@ -5215,7 +5035,7 @@
           "src/main/resources/assets/mineterra/models/item/topaz_pickaxe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TopazKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TopazKit"
     },
     {
       "name": "TopazAxe",
@@ -5230,7 +5050,7 @@
           "src/main/resources/assets/mineterra/models/item/topaz_axe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TopazKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TopazKit"
     },
     {
       "name": "TopazSword",
@@ -5245,7 +5065,7 @@
           "src/main/java/net/mcreator/mineterra/item/TopazSwordItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TopazKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TopazKit"
     },
     {
       "name": "TopazShovel",
@@ -5260,7 +5080,7 @@
           "src/main/java/net/mcreator/mineterra/item/TopazShovelItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TopazKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TopazKit"
     },
     {
       "name": "TopazHoe",
@@ -5275,7 +5095,7 @@
           "src/main/resources/assets/mineterra/models/item/topaz_hoe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TopazKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TopazKit"
     },
     {
       "name": "TopazPickaxeRecipe",
@@ -5289,7 +5109,7 @@
           "src/main/resources/data/mineterra/recipes/topaz_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TopazKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TopazKit"
     },
     {
       "name": "TopazAxeRecipe",
@@ -5303,7 +5123,7 @@
           "src/main/resources/data/mineterra/recipes/topaz_axe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TopazKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TopazKit"
     },
     {
       "name": "TopazSwordRecipe",
@@ -5317,7 +5137,7 @@
           "src/main/resources/data/mineterra/recipes/topaz_sword_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TopazKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TopazKit"
     },
     {
       "name": "TopazShovelRecipe",
@@ -5331,7 +5151,7 @@
           "src/main/resources/data/mineterra/recipes/topaz_shovel_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TopazKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TopazKit"
     },
     {
       "name": "TopazHoeRecipe",
@@ -5345,7 +5165,7 @@
           "src/main/resources/data/mineterra/recipes/topaz_hoe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TopazKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TopazKit"
     },
     {
       "name": "TopazArmor",
@@ -5363,7 +5183,7 @@
           "src/main/resources/assets/mineterra/models/item/topaz_armor_helmet.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TopazKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TopazKit"
     },
     {
       "name": "TopazArmorHelmetRecipe",
@@ -5377,7 +5197,7 @@
           "src/main/resources/data/mineterra/recipes/topaz_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TopazKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TopazKit"
     },
     {
       "name": "TopazArmorChestplateRecipe",
@@ -5391,7 +5211,7 @@
           "src/main/resources/data/mineterra/recipes/topaz_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TopazKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TopazKit"
     },
     {
       "name": "TopazArmorLeggingsRecipe",
@@ -5405,7 +5225,7 @@
           "src/main/resources/data/mineterra/recipes/topaz_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TopazKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TopazKit"
     },
     {
       "name": "TopazArmorBootsRecipe",
@@ -5419,7 +5239,7 @@
           "src/main/resources/data/mineterra/recipes/topaz_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TopazKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TopazKit"
     },
     {
       "name": "Tanzanite",
@@ -5434,7 +5254,7 @@
           "src/main/java/net/mcreator/mineterra/item/TanzaniteItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TanzaniteKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TanzaniteKit"
     },
     {
       "name": "TanzaniteOre",
@@ -5455,7 +5275,7 @@
           "src/main/resources/assets/mineterra/models/block/tanzanite_ore.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TanzaniteKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TanzaniteKit"
     },
     {
       "name": "TanzaniteBlock",
@@ -5472,7 +5292,7 @@
           "src/main/resources/assets/mineterra/blockstates/tanzanite_block.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TanzaniteKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TanzaniteKit"
     },
     {
       "name": "TanzaniteOreBlockRecipe",
@@ -5486,7 +5306,7 @@
           "src/main/resources/data/mineterra/recipes/tanzanite_ore_block_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TanzaniteKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TanzaniteKit"
     },
     {
       "name": "TanzaniteBlockOreRecipe",
@@ -5500,7 +5320,7 @@
           "src/main/resources/data/mineterra/recipes/tanzanite_block_ore_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TanzaniteKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TanzaniteKit"
     },
     {
       "name": "TanzaniteOreSmelting",
@@ -5514,7 +5334,7 @@
           "src/main/resources/data/mineterra/recipes/tanzanite_ore_smelting.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TanzaniteKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TanzaniteKit"
     },
     {
       "name": "TanzanitePickaxe",
@@ -5529,7 +5349,7 @@
           "src/main/resources/assets/mineterra/models/item/tanzanite_pickaxe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TanzaniteKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TanzaniteKit"
     },
     {
       "name": "TanzaniteAxe",
@@ -5544,7 +5364,7 @@
           "src/main/java/net/mcreator/mineterra/item/TanzaniteAxeItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TanzaniteKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TanzaniteKit"
     },
     {
       "name": "TanzaniteSword",
@@ -5559,7 +5379,7 @@
           "src/main/resources/assets/mineterra/models/item/tanzanite_sword.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TanzaniteKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TanzaniteKit"
     },
     {
       "name": "TanzaniteShovel",
@@ -5574,7 +5394,7 @@
           "src/main/java/net/mcreator/mineterra/item/TanzaniteShovelItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TanzaniteKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TanzaniteKit"
     },
     {
       "name": "TanzaniteHoe",
@@ -5589,7 +5409,7 @@
           "src/main/java/net/mcreator/mineterra/item/TanzaniteHoeItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TanzaniteKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TanzaniteKit"
     },
     {
       "name": "TanzanitePickaxeRecipe",
@@ -5603,7 +5423,7 @@
           "src/main/resources/data/mineterra/recipes/tanzanite_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TanzaniteKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TanzaniteKit"
     },
     {
       "name": "TanzaniteAxeRecipe",
@@ -5617,7 +5437,7 @@
           "src/main/resources/data/mineterra/recipes/tanzanite_axe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TanzaniteKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TanzaniteKit"
     },
     {
       "name": "TanzaniteSwordRecipe",
@@ -5631,7 +5451,7 @@
           "src/main/resources/data/mineterra/recipes/tanzanite_sword_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TanzaniteKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TanzaniteKit"
     },
     {
       "name": "TanzaniteShovelRecipe",
@@ -5645,7 +5465,7 @@
           "src/main/resources/data/mineterra/recipes/tanzanite_shovel_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TanzaniteKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TanzaniteKit"
     },
     {
       "name": "TanzaniteHoeRecipe",
@@ -5659,7 +5479,7 @@
           "src/main/resources/data/mineterra/recipes/tanzanite_hoe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TanzaniteKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TanzaniteKit"
     },
     {
       "name": "TanzaniteArmor",
@@ -5677,7 +5497,7 @@
           "src/main/java/net/mcreator/mineterra/item/TanzaniteArmorItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TanzaniteKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TanzaniteKit"
     },
     {
       "name": "TanzaniteArmorHelmetRecipe",
@@ -5691,7 +5511,7 @@
           "src/main/resources/data/mineterra/recipes/tanzanite_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TanzaniteKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TanzaniteKit"
     },
     {
       "name": "TanzaniteArmorChestplateRecipe",
@@ -5705,7 +5525,7 @@
           "src/main/resources/data/mineterra/recipes/tanzanite_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TanzaniteKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TanzaniteKit"
     },
     {
       "name": "TanzaniteArmorLeggingsRecipe",
@@ -5719,7 +5539,7 @@
           "src/main/resources/data/mineterra/recipes/tanzanite_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TanzaniteKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TanzaniteKit"
     },
     {
       "name": "TanzaniteArmorBootsRecipe",
@@ -5733,7 +5553,7 @@
           "src/main/resources/data/mineterra/recipes/tanzanite_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TanzaniteKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TanzaniteKit"
     },
     {
       "name": "Sapphire",
@@ -5748,7 +5568,7 @@
           "src/main/java/net/mcreator/mineterra/item/SapphireItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SapphireKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SapphireKit"
     },
     {
       "name": "SapphireOre",
@@ -5769,7 +5589,7 @@
           "src/main/resources/assets/mineterra/models/block/sapphire_ore.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SapphireKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SapphireKit"
     },
     {
       "name": "SapphireBlock",
@@ -5786,7 +5606,7 @@
           "src/main/resources/assets/mineterra/models/item/sapphire_block.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SapphireKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SapphireKit"
     },
     {
       "name": "SapphireOreBlockRecipe",
@@ -5800,7 +5620,7 @@
           "src/main/resources/data/mineterra/recipes/sapphire_ore_block_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SapphireKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SapphireKit"
     },
     {
       "name": "SapphireBlockOreRecipe",
@@ -5814,7 +5634,7 @@
           "src/main/resources/data/mineterra/recipes/sapphire_block_ore_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SapphireKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SapphireKit"
     },
     {
       "name": "SapphireOreSmelting",
@@ -5828,7 +5648,7 @@
           "src/main/resources/data/mineterra/recipes/sapphire_ore_smelting.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SapphireKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SapphireKit"
     },
     {
       "name": "SapphirePickaxe",
@@ -5843,7 +5663,7 @@
           "src/main/java/net/mcreator/mineterra/item/SapphirePickaxeItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SapphireKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SapphireKit"
     },
     {
       "name": "SapphireAxe",
@@ -5858,7 +5678,7 @@
           "src/main/resources/assets/mineterra/models/item/sapphire_axe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SapphireKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SapphireKit"
     },
     {
       "name": "SapphireSword",
@@ -5873,7 +5693,7 @@
           "src/main/java/net/mcreator/mineterra/item/SapphireSwordItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SapphireKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SapphireKit"
     },
     {
       "name": "SapphireShovel",
@@ -5888,7 +5708,7 @@
           "src/main/java/net/mcreator/mineterra/item/SapphireShovelItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SapphireKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SapphireKit"
     },
     {
       "name": "SapphireHoe",
@@ -5903,7 +5723,7 @@
           "src/main/resources/assets/mineterra/models/item/sapphire_hoe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SapphireKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SapphireKit"
     },
     {
       "name": "SapphirePickaxeRecipe",
@@ -5917,7 +5737,7 @@
           "src/main/resources/data/mineterra/recipes/sapphire_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SapphireKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SapphireKit"
     },
     {
       "name": "SapphireAxeRecipe",
@@ -5931,7 +5751,7 @@
           "src/main/resources/data/mineterra/recipes/sapphire_axe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SapphireKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SapphireKit"
     },
     {
       "name": "SapphireSwordRecipe",
@@ -5945,7 +5765,7 @@
           "src/main/resources/data/mineterra/recipes/sapphire_sword_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SapphireKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SapphireKit"
     },
     {
       "name": "SapphireShovelRecipe",
@@ -5959,7 +5779,7 @@
           "src/main/resources/data/mineterra/recipes/sapphire_shovel_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SapphireKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SapphireKit"
     },
     {
       "name": "SapphireHoeRecipe",
@@ -5973,7 +5793,7 @@
           "src/main/resources/data/mineterra/recipes/sapphire_hoe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SapphireKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SapphireKit"
     },
     {
       "name": "SapphireArmor",
@@ -5991,7 +5811,7 @@
           "src/main/java/net/mcreator/mineterra/item/SapphireArmorItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SapphireKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SapphireKit"
     },
     {
       "name": "SapphireArmorHelmetRecipe",
@@ -6005,7 +5825,7 @@
           "src/main/resources/data/mineterra/recipes/sapphire_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SapphireKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SapphireKit"
     },
     {
       "name": "SapphireArmorChestplateRecipe",
@@ -6019,7 +5839,7 @@
           "src/main/resources/data/mineterra/recipes/sapphire_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SapphireKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SapphireKit"
     },
     {
       "name": "SapphireArmorLeggingsRecipe",
@@ -6033,7 +5853,7 @@
           "src/main/resources/data/mineterra/recipes/sapphire_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SapphireKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SapphireKit"
     },
     {
       "name": "SapphireArmorBootsRecipe",
@@ -6047,7 +5867,7 @@
           "src/main/resources/data/mineterra/recipes/sapphire_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SapphireKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SapphireKit"
     },
     {
       "name": "Sunstone",
@@ -6062,7 +5882,7 @@
           "src/main/resources/assets/mineterra/models/item/sunstone.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SunstoneKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SunstoneKit"
     },
     {
       "name": "SunstoneOre",
@@ -6083,7 +5903,7 @@
           "src/main/resources/data/mineterra/worldgen/placed_feature/sunstone_ore.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SunstoneKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SunstoneKit"
     },
     {
       "name": "SunstoneBlock",
@@ -6100,7 +5920,7 @@
           "src/main/resources/assets/mineterra/blockstates/sunstone_block.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SunstoneKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SunstoneKit"
     },
     {
       "name": "SunstoneOreBlockRecipe",
@@ -6114,7 +5934,7 @@
           "src/main/resources/data/mineterra/recipes/sunstone_ore_block_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SunstoneKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SunstoneKit"
     },
     {
       "name": "SunstoneBlockOreRecipe",
@@ -6128,7 +5948,7 @@
           "src/main/resources/data/mineterra/recipes/sunstone_block_ore_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SunstoneKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SunstoneKit"
     },
     {
       "name": "SunstoneOreSmelting",
@@ -6142,7 +5962,7 @@
           "src/main/resources/data/mineterra/recipes/sunstone_ore_smelting.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SunstoneKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SunstoneKit"
     },
     {
       "name": "SunstonePickaxe",
@@ -6157,7 +5977,7 @@
           "src/main/java/net/mcreator/mineterra/item/SunstonePickaxeItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SunstoneKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SunstoneKit"
     },
     {
       "name": "SunstoneAxe",
@@ -6172,7 +5992,7 @@
           "src/main/java/net/mcreator/mineterra/item/SunstoneAxeItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SunstoneKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SunstoneKit"
     },
     {
       "name": "SunstoneSword",
@@ -6187,7 +6007,7 @@
           "src/main/java/net/mcreator/mineterra/item/SunstoneSwordItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SunstoneKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SunstoneKit"
     },
     {
       "name": "SunstoneShovel",
@@ -6202,7 +6022,7 @@
           "src/main/java/net/mcreator/mineterra/item/SunstoneShovelItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SunstoneKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SunstoneKit"
     },
     {
       "name": "SunstoneHoe",
@@ -6217,7 +6037,7 @@
           "src/main/java/net/mcreator/mineterra/item/SunstoneHoeItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SunstoneKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SunstoneKit"
     },
     {
       "name": "SunstonePickaxeRecipe",
@@ -6231,7 +6051,7 @@
           "src/main/resources/data/mineterra/recipes/sunstone_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SunstoneKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SunstoneKit"
     },
     {
       "name": "SunstoneAxeRecipe",
@@ -6245,7 +6065,7 @@
           "src/main/resources/data/mineterra/recipes/sunstone_axe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SunstoneKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SunstoneKit"
     },
     {
       "name": "SunstoneSwordRecipe",
@@ -6259,7 +6079,7 @@
           "src/main/resources/data/mineterra/recipes/sunstone_sword_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SunstoneKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SunstoneKit"
     },
     {
       "name": "SunstoneShovelRecipe",
@@ -6273,7 +6093,7 @@
           "src/main/resources/data/mineterra/recipes/sunstone_shovel_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SunstoneKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SunstoneKit"
     },
     {
       "name": "SunstoneHoeRecipe",
@@ -6287,7 +6107,7 @@
           "src/main/resources/data/mineterra/recipes/sunstone_hoe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SunstoneKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SunstoneKit"
     },
     {
       "name": "SunstoneArmor",
@@ -6305,7 +6125,7 @@
           "src/main/resources/assets/mineterra/models/item/sunstone_armor_chestplate.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SunstoneKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SunstoneKit"
     },
     {
       "name": "SunstoneArmorHelmetRecipe",
@@ -6319,7 +6139,7 @@
           "src/main/resources/data/mineterra/recipes/sunstone_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SunstoneKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SunstoneKit"
     },
     {
       "name": "SunstoneArmorChestplateRecipe",
@@ -6333,7 +6153,7 @@
           "src/main/resources/data/mineterra/recipes/sunstone_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SunstoneKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SunstoneKit"
     },
     {
       "name": "SunstoneArmorLeggingsRecipe",
@@ -6347,7 +6167,7 @@
           "src/main/resources/data/mineterra/recipes/sunstone_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SunstoneKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SunstoneKit"
     },
     {
       "name": "SunstoneArmorBootsRecipe",
@@ -6361,7 +6181,7 @@
           "src/main/resources/data/mineterra/recipes/sunstone_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/SunstoneKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/SunstoneKit"
     },
     {
       "name": "Tourmaline",
@@ -6376,7 +6196,7 @@
           "src/main/resources/assets/mineterra/models/item/tourmaline.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TourmalineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TourmalineKit"
     },
     {
       "name": "TourmalineOre",
@@ -6397,7 +6217,7 @@
           "src/main/java/net/mcreator/mineterra/world/features/ores/TourmalineOreFeature.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TourmalineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TourmalineKit"
     },
     {
       "name": "TourmalineBlock",
@@ -6414,7 +6234,7 @@
           "src/main/java/net/mcreator/mineterra/block/TourmalineBlockBlock.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TourmalineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TourmalineKit"
     },
     {
       "name": "TourmalineOreBlockRecipe",
@@ -6428,7 +6248,7 @@
           "src/main/resources/data/mineterra/recipes/tourmaline_ore_block_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TourmalineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TourmalineKit"
     },
     {
       "name": "TourmalineBlockOreRecipe",
@@ -6442,7 +6262,7 @@
           "src/main/resources/data/mineterra/recipes/tourmaline_block_ore_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TourmalineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TourmalineKit"
     },
     {
       "name": "TourmalineOreSmelting",
@@ -6456,7 +6276,7 @@
           "src/main/resources/data/mineterra/recipes/tourmaline_ore_smelting.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TourmalineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TourmalineKit"
     },
     {
       "name": "TourmalinePickaxe",
@@ -6471,7 +6291,7 @@
           "src/main/java/net/mcreator/mineterra/item/TourmalinePickaxeItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TourmalineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TourmalineKit"
     },
     {
       "name": "TourmalineAxe",
@@ -6486,7 +6306,7 @@
           "src/main/resources/assets/mineterra/models/item/tourmaline_axe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TourmalineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TourmalineKit"
     },
     {
       "name": "TourmalineSword",
@@ -6501,7 +6321,7 @@
           "src/main/java/net/mcreator/mineterra/item/TourmalineSwordItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TourmalineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TourmalineKit"
     },
     {
       "name": "TourmalineShovel",
@@ -6516,7 +6336,7 @@
           "src/main/java/net/mcreator/mineterra/item/TourmalineShovelItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TourmalineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TourmalineKit"
     },
     {
       "name": "TourmalineHoe",
@@ -6531,7 +6351,7 @@
           "src/main/java/net/mcreator/mineterra/item/TourmalineHoeItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TourmalineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TourmalineKit"
     },
     {
       "name": "TourmalinePickaxeRecipe",
@@ -6545,7 +6365,7 @@
           "src/main/resources/data/mineterra/recipes/tourmaline_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TourmalineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TourmalineKit"
     },
     {
       "name": "TourmalineAxeRecipe",
@@ -6559,7 +6379,7 @@
           "src/main/resources/data/mineterra/recipes/tourmaline_axe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TourmalineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TourmalineKit"
     },
     {
       "name": "TourmalineSwordRecipe",
@@ -6573,7 +6393,7 @@
           "src/main/resources/data/mineterra/recipes/tourmaline_sword_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TourmalineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TourmalineKit"
     },
     {
       "name": "TourmalineShovelRecipe",
@@ -6587,7 +6407,7 @@
           "src/main/resources/data/mineterra/recipes/tourmaline_shovel_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TourmalineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TourmalineKit"
     },
     {
       "name": "TourmalineHoeRecipe",
@@ -6601,7 +6421,7 @@
           "src/main/resources/data/mineterra/recipes/tourmaline_hoe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TourmalineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TourmalineKit"
     },
     {
       "name": "TourmalineArmor",
@@ -6619,7 +6439,7 @@
           "src/main/resources/assets/mineterra/models/item/tourmaline_armor_boots.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TourmalineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TourmalineKit"
     },
     {
       "name": "TourmalineArmorHelmetRecipe",
@@ -6633,7 +6453,7 @@
           "src/main/resources/data/mineterra/recipes/tourmaline_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TourmalineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TourmalineKit"
     },
     {
       "name": "TourmalineArmorChestplateRecipe",
@@ -6647,7 +6467,7 @@
           "src/main/resources/data/mineterra/recipes/tourmaline_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TourmalineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TourmalineKit"
     },
     {
       "name": "TourmalineArmorLeggingsRecipe",
@@ -6661,7 +6481,7 @@
           "src/main/resources/data/mineterra/recipes/tourmaline_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TourmalineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TourmalineKit"
     },
     {
       "name": "TourmalineArmorBootsRecipe",
@@ -6675,7 +6495,7 @@
           "src/main/resources/data/mineterra/recipes/tourmaline_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/GemKits/TourmalineKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/TourmalineKit"
     },
     {
       "name": "TitaniumIngot",
@@ -6690,7 +6510,7 @@
           "src/main/java/net/mcreator/mineterra/item/TitaniumIngotItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/TitaniumKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/TitaniumKit"
     },
     {
       "name": "TitaniumOre",
@@ -6711,7 +6531,7 @@
           "src/main/resources/assets/mineterra/models/block/titanium_ore.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/TitaniumKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/TitaniumKit"
     },
     {
       "name": "TitaniumBlock",
@@ -6728,7 +6548,7 @@
           "src/main/java/net/mcreator/mineterra/block/TitaniumBlockBlock.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/TitaniumKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/TitaniumKit"
     },
     {
       "name": "TitaniumOreBlockRecipe",
@@ -6742,7 +6562,7 @@
           "src/main/resources/data/mineterra/recipes/titanium_ore_block_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/TitaniumKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/TitaniumKit"
     },
     {
       "name": "TitaniumBlockOreRecipe",
@@ -6756,7 +6576,7 @@
           "src/main/resources/data/mineterra/recipes/titanium_block_ore_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/TitaniumKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/TitaniumKit"
     },
     {
       "name": "TitaniumOreSmelting",
@@ -6770,7 +6590,7 @@
           "src/main/resources/data/mineterra/recipes/titanium_ore_smelting.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/TitaniumKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/TitaniumKit"
     },
     {
       "name": "TitaniumPickaxe",
@@ -6785,7 +6605,7 @@
           "src/main/resources/assets/mineterra/models/item/titanium_pickaxe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/TitaniumKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/TitaniumKit"
     },
     {
       "name": "TitaniumAxe",
@@ -6800,7 +6620,7 @@
           "src/main/resources/assets/mineterra/models/item/titanium_axe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/TitaniumKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/TitaniumKit"
     },
     {
       "name": "TitaniumSword",
@@ -6815,7 +6635,7 @@
           "src/main/java/net/mcreator/mineterra/item/TitaniumSwordItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/TitaniumKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/TitaniumKit"
     },
     {
       "name": "TitaniumShovel",
@@ -6830,7 +6650,7 @@
           "src/main/java/net/mcreator/mineterra/item/TitaniumShovelItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/TitaniumKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/TitaniumKit"
     },
     {
       "name": "TitaniumHoe",
@@ -6845,7 +6665,7 @@
           "src/main/resources/assets/mineterra/models/item/titanium_hoe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/TitaniumKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/TitaniumKit"
     },
     {
       "name": "TitaniumPickaxeRecipe",
@@ -6859,7 +6679,7 @@
           "src/main/resources/data/mineterra/recipes/titanium_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/TitaniumKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/TitaniumKit"
     },
     {
       "name": "TitaniumAxeRecipe",
@@ -6873,7 +6693,7 @@
           "src/main/resources/data/mineterra/recipes/titanium_axe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/TitaniumKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/TitaniumKit"
     },
     {
       "name": "TitaniumSwordRecipe",
@@ -6887,7 +6707,7 @@
           "src/main/resources/data/mineterra/recipes/titanium_sword_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/TitaniumKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/TitaniumKit"
     },
     {
       "name": "TitaniumShovelRecipe",
@@ -6901,7 +6721,7 @@
           "src/main/resources/data/mineterra/recipes/titanium_shovel_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/TitaniumKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/TitaniumKit"
     },
     {
       "name": "TitaniumHoeRecipe",
@@ -6915,7 +6735,7 @@
           "src/main/resources/data/mineterra/recipes/titanium_hoe_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/TitaniumKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/TitaniumKit"
     },
     {
       "name": "TitaniumArmor",
@@ -6933,7 +6753,7 @@
           "src/main/resources/assets/mineterra/models/item/titanium_armor_chestplate.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/TitaniumKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/TitaniumKit"
     },
     {
       "name": "TitaniumArmorHelmetRecipe",
@@ -6947,7 +6767,7 @@
           "src/main/resources/data/mineterra/recipes/titanium_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/TitaniumKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/TitaniumKit"
     },
     {
       "name": "TitaniumArmorChestplateRecipe",
@@ -6961,7 +6781,7 @@
           "src/main/resources/data/mineterra/recipes/titanium_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/TitaniumKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/TitaniumKit"
     },
     {
       "name": "TitaniumArmorLeggingsRecipe",
@@ -6975,7 +6795,7 @@
           "src/main/resources/data/mineterra/recipes/titanium_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/TitaniumKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/TitaniumKit"
     },
     {
       "name": "TitaniumArmorBootsRecipe",
@@ -6989,7 +6809,7 @@
           "src/main/resources/data/mineterra/recipes/titanium_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Kits/OreKits/TitaniumKit"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/TitaniumKit"
     },
     {
       "name": "GameStartCharacterCreation",
@@ -8054,7 +7874,7 @@
       "type": "tool",
       "sortid": 543,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "blade_of_banished_queen",
       "metadata": {
         "files": [
@@ -8103,6 +7923,21 @@
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/RawItems/Swords/BladeOfBanishedQueen"
+    },
+    {
+      "name": "StormrazorKatana",
+      "type": "tool",
+      "sortid": 545,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormrazor_katana",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/StormrazorKatanaItem.java",
+          "src/main/resources/assets/mineterra/models/item/stormrazor_katana.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Katana/Stormrazor"
     }
   ],
   "variable_elements": [
@@ -8561,6 +8396,7 @@
       "item.mineterra.zircon_armor_leggings": "Zircon Leggings",
       "gui.mineterra.gnome_gui.label_das_suas_consequencias": "das suas consequências.",
       "item.mineterra.zircon_pickaxe": "Zircon Pickaxe",
+      "item.mineterra.stormrazor_katana": "Stormrazor",
       "block.mineterra.arcanitium_ore": "Arcanitium Ore",
       "item.mineterra.garnet_sword": "Garnet Sword",
       "item.mineterra.sapphire_armor_helmet": "Sapphire Helmet",
@@ -8706,10 +8542,6 @@
                 "name": "Common Items",
                 "children": [
                   {
-                    "name": "RecipeItems",
-                    "children": []
-                  },
-                  {
                     "name": "RawItems",
                     "children": [
                       {
@@ -8731,7 +8563,12 @@
                       },
                       {
                         "name": "Katana",
-                        "children": []
+                        "children": [
+                          {
+                            "name": "Stormrazor",
+                            "children": []
+                          }
+                        ]
                       },
                       {
                         "name": "Rapier",
@@ -8758,105 +8595,105 @@
                             "children": []
                           }
                         ]
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Kits",
-                    "children": [
+                      },
                       {
-                        "name": "GemKits",
+                        "name": "Kits",
                         "children": [
                           {
-                            "name": "Demonite",
-                            "children": []
+                            "name": "GemKits",
+                            "children": [
+                              {
+                                "name": "Demonite",
+                                "children": []
+                              },
+                              {
+                                "name": "CitrineKit",
+                                "children": []
+                              },
+                              {
+                                "name": "Amethyst",
+                                "children": []
+                              },
+                              {
+                                "name": "Ruby",
+                                "children": []
+                              },
+                              {
+                                "name": "GarnetKit",
+                                "children": []
+                              },
+                              {
+                                "name": "ZirconKit",
+                                "children": []
+                              },
+                              {
+                                "name": "TopazKit",
+                                "children": []
+                              },
+                              {
+                                "name": "TanzaniteKit",
+                                "children": []
+                              },
+                              {
+                                "name": "SapphireKit",
+                                "children": []
+                              },
+                              {
+                                "name": "SunstoneKit",
+                                "children": []
+                              },
+                              {
+                                "name": "TourmalineKit",
+                                "children": []
+                              },
+                              {
+                                "name": "CatsEyeKit",
+                                "children": []
+                              }
+                            ]
                           },
                           {
-                            "name": "CitrineKit",
-                            "children": []
-                          },
-                          {
-                            "name": "Amethyst",
-                            "children": []
-                          },
-                          {
-                            "name": "Ruby",
-                            "children": []
-                          },
-                          {
-                            "name": "GarnetKit",
-                            "children": []
-                          },
-                          {
-                            "name": "ZirconKit",
-                            "children": []
-                          },
-                          {
-                            "name": "TopazKit",
-                            "children": []
-                          },
-                          {
-                            "name": "TanzaniteKit",
-                            "children": []
-                          },
-                          {
-                            "name": "SapphireKit",
-                            "children": []
-                          },
-                          {
-                            "name": "SunstoneKit",
-                            "children": []
-                          },
-                          {
-                            "name": "TourmalineKit",
-                            "children": []
-                          },
-                          {
-                            "name": "CatsEyeKit",
-                            "children": []
+                            "name": "OreKits",
+                            "children": [
+                              {
+                                "name": "SilverKit",
+                                "children": []
+                              },
+                              {
+                                "name": "CooperKit",
+                                "children": []
+                              },
+                              {
+                                "name": "TitaniumKit",
+                                "children": []
+                              }
+                            ]
                           }
                         ]
                       },
                       {
-                        "name": "OreKits",
-                        "children": [
-                          {
-                            "name": "SilverKit",
-                            "children": []
-                          },
-                          {
-                            "name": "CooperKit",
-                            "children": []
-                          },
-                          {
-                            "name": "TitaniumKit",
-                            "children": []
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "name": "UtilityItems",
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "name": "Special Items",
-                "children": [
-                  {
-                    "name": "SpiritualSword",
-                    "children": [
-                      {
-                        "name": "SpiritualSwordEffects",
+                        "name": "UtilityItems",
                         "children": []
                       }
                     ]
                   },
                   {
-                    "name": "Ritual Dagger",
-                    "children": []
+                    "name": "Special Items",
+                    "children": [
+                      {
+                        "name": "SpiritualSword",
+                        "children": [
+                          {
+                            "name": "SpiritualSwordEffects",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Ritual Dagger",
+                        "children": []
+                      }
+                    ]
                   }
                 ]
               },

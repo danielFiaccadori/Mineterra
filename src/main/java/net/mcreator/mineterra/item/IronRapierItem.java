@@ -57,6 +57,6 @@ public class IronRapierItem extends SwordItem {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("\u00A75Perfura\u00E7\u00E3o\u00A78"));
 		list.add(Component.literal("Acertos realizados com rapieiras possuem 20% de chance de causar \u00A74Sangramento\u00A78por 2 segundos."));
-		list.add(Component.literal("\u00A78\u00A7oEssa arma tamb\u00E9m concede \u00A7croubo de vida \u00A7o\u00A77equivalente ao \u00A76DdA \u00A78do jogador."));
+		list.add(Component.literal("\u00A78\u00A7oEssa arma tamb\u00E9m aplica efeitos de \u00A7croubo de vida."));
 	}
 }

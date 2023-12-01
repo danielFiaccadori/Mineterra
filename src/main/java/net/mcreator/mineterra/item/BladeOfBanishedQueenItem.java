@@ -37,7 +37,7 @@ public class BladeOfBanishedQueenItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Items.PHANTOM_MEMBRANE));
 			}
-		}, 3, -1f, new Item.Properties().fireResistant());
+		}, 3, -2.5f, new Item.Properties().fireResistant());
 	}
 
 	@Override

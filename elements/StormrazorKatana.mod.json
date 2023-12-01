@@ -4,31 +4,28 @@
   "definition": {
     "toolType": "Sword",
     "renderType": 0,
-    "texture": "bladeofbanishedqueen",
+    "texture": "stormrazor",
     "customModelName": "Normal",
-    "name": "Blade Of Banished Queen",
+    "name": "Stormrazor",
     "specialInfo": [],
     "creativeTab": {
       "value": "COMBAT"
     },
     "harvestLevel": 1,
     "efficiency": 4.0,
-    "attackSpeed": 1.5,
-    "enchantability": 2,
+    "attackSpeed": 2.0,
+    "enchantability": 14,
     "damageVsEntity": 3.0,
-    "usageCount": 423,
+    "usageCount": 789,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "Items.PHANTOM_MEMBRANE"
+        "value": "Items.IRON_INGOT"
       }
     ],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
-    "onEntityHitWith": {
-      "name": "BladeOfBanishedQueenLivingEntityIsHitWithTool"
-    }
+    "damageOnCrafting": false
   }
 }
