@@ -8068,6 +8068,364 @@
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/RawItems/Scythes/DarkHarvesterScythe"
+    },
+    {
+      "name": "IronScythe",
+      "type": "tool",
+      "sortid": 571,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_scythe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/IronScytheItem.java",
+          "src/main/resources/assets/mineterra/models/item/iron_scythe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Scythes"
+    },
+    {
+      "name": "ScytheLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 572,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scythe_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/ScytheLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Scythes"
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 575,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/SteelIngotItem.java",
+          "src/main/resources/assets/mineterra/models/item/steel_ingot.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SteelKit"
+    },
+    {
+      "name": "SteelBlock",
+      "type": "block",
+      "sortid": 574,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/block/SteelBlockBlock.java",
+          "src/main/resources/assets/mineterra/models/item/steel_block.json",
+          "src/main/resources/assets/mineterra/models/block/steel_block.json",
+          "src/main/resources/assets/mineterra/blockstates/steel_block.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SteelKit"
+    },
+    {
+      "name": "SteelOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 576,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/steel_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SteelKit"
+    },
+    {
+      "name": "SteelBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 577,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/steel_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SteelKit"
+    },
+    {
+      "name": "SteelOreSmelting",
+      "type": "recipe",
+      "sortid": 578,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/steel_ore_smelting.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SteelKit"
+    },
+    {
+      "name": "SteelPickaxe",
+      "type": "tool",
+      "sortid": 588,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/SteelPickaxeItem.java",
+          "src/main/resources/assets/mineterra/models/item/steel_pickaxe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SteelKit"
+    },
+    {
+      "name": "SteelAxe",
+      "type": "tool",
+      "sortid": 589,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/steel_axe.json",
+          "src/main/java/net/mcreator/mineterra/item/SteelAxeItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SteelKit"
+    },
+    {
+      "name": "SteelSword",
+      "type": "tool",
+      "sortid": 590,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/SteelSwordItem.java",
+          "src/main/resources/assets/mineterra/models/item/steel_sword.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SteelKit"
+    },
+    {
+      "name": "SteelShovel",
+      "type": "tool",
+      "sortid": 591,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/SteelShovelItem.java",
+          "src/main/resources/assets/mineterra/models/item/steel_shovel.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SteelKit"
+    },
+    {
+      "name": "SteelHoe",
+      "type": "tool",
+      "sortid": 592,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/steel_hoe.json",
+          "src/main/java/net/mcreator/mineterra/item/SteelHoeItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SteelKit"
+    },
+    {
+      "name": "SteelPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 579,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/steel_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SteelKit"
+    },
+    {
+      "name": "SteelAxeRecipe",
+      "type": "recipe",
+      "sortid": 580,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/steel_axe_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SteelKit"
+    },
+    {
+      "name": "SteelSwordRecipe",
+      "type": "recipe",
+      "sortid": 581,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/steel_sword_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SteelKit"
+    },
+    {
+      "name": "SteelShovelRecipe",
+      "type": "recipe",
+      "sortid": 582,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/steel_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SteelKit"
+    },
+    {
+      "name": "SteelHoeRecipe",
+      "type": "recipe",
+      "sortid": 583,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/steel_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SteelKit"
+    },
+    {
+      "name": "SteelArmor",
+      "type": "armor",
+      "sortid": 573,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/steel_armor_leggings.json",
+          "src/main/resources/assets/mineterra/models/item/steel_armor_chestplate.json",
+          "src/main/resources/assets/mineterra/models/item/steel_armor_boots.json",
+          "src/main/java/net/mcreator/mineterra/item/SteelArmorItem.java",
+          "src/main/resources/assets/mineterra/models/item/steel_armor_helmet.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SteelKit"
+    },
+    {
+      "name": "SteelArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 584,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/steel_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SteelKit"
+    },
+    {
+      "name": "SteelArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 585,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/steel_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SteelKit"
+    },
+    {
+      "name": "SteelArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 586,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/steel_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SteelKit"
+    },
+    {
+      "name": "SteelArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 587,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/steel_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/SteelKit"
+    },
+    {
+      "name": "SteelScythe",
+      "type": "tool",
+      "sortid": 593,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_scythe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/steel_scythe.json",
+          "src/main/java/net/mcreator/mineterra/item/SteelScytheItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Scythes"
+    },
+    {
+      "name": "RustedIronScythe",
+      "type": "tool",
+      "sortid": 594,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusted_iron_scythe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/RustedIronScytheItem.java",
+          "src/main/resources/assets/mineterra/models/item/rusted_iron_scythe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Scythes"
     }
   ],
   "variable_elements": [
@@ -8296,6 +8654,7 @@
       "item.mineterra.sapphire_armor_boots": "Sapphire Boots",
       "gui.mineterra.game_start_character_creation.Celestial": "Celestial",
       "item.mineterra.topaz_armor_leggings": "Topaz Leggings",
+      "item.mineterra.steel_armor_chestplate": "Steel Chestplate",
       "block.mineterra.titanium_block": "Block of Titanium",
       "block.mineterra.silver_ore": "Minério de Prata",
       "item.mineterra.fire_staff_wand": "Fire Staff",
@@ -8310,13 +8669,16 @@
       "item.mineterra.zircon_sword": "Zircon Sword",
       "item.mineterra.imperial_gold_claymore": "Espada Longa Imperial de Ouro ",
       "subtitles.orc-roar": "",
+      "block.mineterra.steel_block": "Block of Steel",
       "item.mineterra.demonita_armor_helmet": "Capacete de Demonita",
       "item.mineterra.topaz_axe": "Topaz Axe",
       "effect.mineterra.insatable_hunger": "Fome Insaciável",
+      "item.mineterra.steel_armor_helmet": "Steel Helmet",
       "subtitles.orc-passive-anger": "",
       "item.mineterra.gold_dagger": "Adaga de Ouro",
       "item.mineterra.amethyst_armor_helmet": "Amethyst Helmet",
       "effect.mineterra.sun_blessing": "Bênção do Sol",
+      "item.mineterra.rusted_iron_scythe": "Rusted Scythe",
       "item.mineterra.tourmaline_armor_boots": "Tourmaline Boots",
       "gui.mineterra.game_start_character_creation.button_select": "Select",
       "effect.mineterra.forest_blessing": "Bênção da Fauna",
@@ -8337,10 +8699,12 @@
       "item.mineterra.iron_dagger": "Adaga de Ferro",
       "item.mineterra.garnet": "Garnet",
       "block.mineterra.garnet_block": "Block of Garnet",
+      "item.mineterra.steel_sword": "Steel Sword",
       "item.mineterra.titanium_axe": "Titanium Axe",
       "item.mineterra.diamond_katana": "Katana de Diamante",
       "item.mineterra.demonita_armor_chestplate": "Peitoral de Demonita",
       "item.mineterra.copper_sword": "Copper Sword",
+      "item.mineterra.steel_axe": "Steel Axe",
       "item.mineterra.sapphire_pickaxe": "Sapphire Pickaxe",
       "item.mineterra.sunstone_armor_helmet": "Sunstone Helmet",
       "item.mineterra.zircon_armor_helmet": "Zircon Helmet",
@@ -8408,6 +8772,7 @@
       "item.mineterra.citrine_armor_chestplate": "Citrine Chestplate",
       "item.mineterra.sapphire_armor_leggings": "Sapphire Leggings",
       "item.mineterra.sunstone_pickaxe": "Sunstone Pickaxe",
+      "item.mineterra.steel_armor_leggings": "Steel Leggings",
       "item.mineterra.topaz_armor_boots": "Topaz Boots",
       "item.mineterra.titanium_ingot": "Titanium",
       "item.mineterra.diamond_sai_rapier": "Sai de Diamante",
@@ -8417,6 +8782,7 @@
       "item.mineterra.light_orb": "Light Orb",
       "block.mineterra.sunstone_block": "Block of Sunstone",
       "item.mineterra.tourmaline": "Tourmaline",
+      "item.mineterra.steel_ingot": "Steel",
       "item.mineterra.demonita_axe": "Machado de Demonita",
       "item.mineterra.stone_dagger": "Adaga de Pedra",
       "item.mineterra.tourmaline_axe": "Tourmaline Axe",
@@ -8443,10 +8809,12 @@
       "item.mineterra.arcanite_staff_wand": "Arcanite Staff",
       "block.mineterra.titanium_ore": "Titanium Ore",
       "item.mineterra.titanium_pickaxe": "Titanium Pickaxe",
+      "item.mineterra.steel_hoe": "Steel Hoe",
       "effect.mineterra.small_and_efficient": "Mineradores Eficazes",
       "subtitles.insatable-hunger": "",
       "block.mineterra.demonita_ore": "Minério de Demonita",
       "block.mineterra.citrine_block": "Block of Citrine",
+      "item.mineterra.steel_pickaxe": "Steel Pickaxe",
       "item.mineterra.spiritual_cataclysm_claymore": "Cataclisma Espiritual",
       "item.mineterra.topaz_armor_helmet": "Topaz Helmet",
       "gui.mineterra.orc_gui.label_das_suas_consequencias": "das suas consequências.",
@@ -8478,6 +8846,7 @@
       "item.mineterra.tanzanite_armor_leggings": "Tanzanite Leggings",
       "item.mineterra.tourmaline_armor_chestplate": "Tourmaline Chestplate",
       "item.mineterra.elderly_rapier_sai": "Ender Sai",
+      "item.mineterra.steel_scythe": "Steel Scythe",
       "item.mineterra.gold_sai_rapier": "Sai de Ouro",
       "gui.mineterra.game_start_character_creation.HighElf": "HighElf",
       "item.mineterra.topaz_hoe": "Topaz Hoe",
@@ -8489,6 +8858,7 @@
       "item.mineterra.copper_armor_chestplate": "Copper Chestplate",
       "item.mineterra.silver_dagger": "Adaga de Prata",
       "item.mineterra.garnet_hoe": "Garnet Hoe",
+      "item.mineterra.iron_scythe": "Iron Scythe",
       "block.mineterra.demonita_block": "Bloco de Demonita",
       "effect.mineterra.soul_heal": "Consumir a Alma",
       "item.mineterra.diamond_claymore": "Espada Longa de Diamante",
@@ -8519,6 +8889,7 @@
       "gui.mineterra.game_start_character_creation.Dwarf": "Dwarf",
       "item.mineterra.copper_shovel": "Copper Shovel",
       "item.mineterra.titanium_sword": "Titanium Sword",
+      "item.mineterra.steel_shovel": "Steel Shovel",
       "item.mineterra.empty": "Empty",
       "subtitles.shen_sword": "",
       "item.mineterra.rapier": "Rapieira",
@@ -8541,6 +8912,7 @@
       "item.mineterra.garnet_sword": "Garnet Sword",
       "item.mineterra.sapphire_armor_helmet": "Sapphire Helmet",
       "block.mineterra.tourmaline_ore": "Tourmaline Ore",
+      "item.mineterra.steel_armor_boots": "Steel Boots",
       "item.mineterra.topaz_sword": "Topaz Sword",
       "item.mineterra.tanzanite_armor_boots": "Tanzanite Boots",
       "attribute.mineterra.constituition": "Constituition",

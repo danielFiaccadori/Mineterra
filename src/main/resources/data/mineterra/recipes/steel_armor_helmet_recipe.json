@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "mineterra:steel_ingot"
+    },
+    "1": {
+      "item": "mineterra:steel_ingot"
+    },
+    "2": {
+      "item": "mineterra:steel_ingot"
+    },
+    "3": {
+      "item": "mineterra:steel_ingot"
+    },
+    "5": {
+      "item": "mineterra:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "mineterra:steel_armor_helmet",
+    "count": 1
+  }
+}

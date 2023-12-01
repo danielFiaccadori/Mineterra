@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mineterra:steel_ingot"
+    },
+    "2": {
+      "item": "mineterra:steel_ingot"
+    },
+    "3": {
+      "item": "mineterra:steel_ingot"
+    },
+    "4": {
+      "item": "mineterra:steel_ingot"
+    },
+    "5": {
+      "item": "mineterra:steel_ingot"
+    },
+    "6": {
+      "item": "mineterra:steel_ingot"
+    },
+    "7": {
+      "item": "mineterra:steel_ingot"
+    },
+    "8": {
+      "item": "mineterra:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "mineterra:steel_armor_chestplate",
+    "count": 1
+  }
+}
