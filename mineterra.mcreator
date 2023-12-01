@@ -7966,6 +7966,65 @@
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/RawItems/Katana/Stormrazor"
+    },
+    {
+      "name": "DeathKingdom",
+      "type": "dimension",
+      "sortid": 547,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_kingdom",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/dimension_type/death_kingdom.json",
+          "src/main/resources/data/mineterra/dimension/death_kingdom.json",
+          "src/main/java/net/mcreator/mineterra/world/dimension/DeathKingdomDimension.java"
+        ]
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "SoulEaterMace",
+      "type": "tool",
+      "sortid": 548,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_eater_mace",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/SoulEaterMaceItem.java",
+          "src/main/resources/assets/mineterra/models/item/soul_eater_mace.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Maces"
+    },
+    {
+      "name": "SoulEaterMaceProcedure",
+      "type": "procedure",
+      "sortid": 549,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_eater_mace_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/SoulEaterMaceProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Maces"
     }
   ],
   "variable_elements": [
@@ -8180,8 +8239,8 @@
       "item.mineterra.silver_armor_chestplate": "Peitoral de Prata",
       "item.mineterra.amethyst_armor_boots": "Amethyst Boots",
       "item.mineterra.arcanite_gemstone": "Arcanite Gemstone",
-      "item.mineterra.zircon_axe": "Zircon Axe",
       "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
+      "item.mineterra.zircon_axe": "Zircon Axe",
       "effect.mineterra.sangramento": "Sangramento",
       "block.mineterra.garnet_ore": "Garnet Ore",
       "item.mineterra.garnet_pickaxe": "Garnet Pickaxe",
@@ -8210,6 +8269,7 @@
       "effect.mineterra.sun_blessing": "Bênção do Sol",
       "item.mineterra.light_staff": "Light Staff",
       "item.mineterra.tourmaline_armor_boots": "Tourmaline Boots",
+      "item.mineterra.soul_eater_mace": "Soul Eater Mace",
       "gui.mineterra.game_start_character_creation.button_select": "Select",
       "effect.mineterra.forest_blessing": "Bênção da Fauna",
       "item.mineterra.garnet_axe": "Garnet Axe",
@@ -8702,6 +8762,14 @@
                       {
                         "name": "UtilityItems",
                         "children": []
+                      },
+                      {
+                        "name": "Maces",
+                        "children": []
+                      },
+                      {
+                        "name": "Scythes",
+                        "children": []
                       }
                     ]
                   },
@@ -8783,6 +8851,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Dimensions",
+        "children": []
       }
     ]
   },

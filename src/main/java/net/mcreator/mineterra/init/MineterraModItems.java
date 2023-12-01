@@ -63,6 +63,7 @@ import net.mcreator.mineterra.item.StoneDaggerItem;
 import net.mcreator.mineterra.item.StaffOfLesserMagicItem;
 import net.mcreator.mineterra.item.SpiritualLongswordItem;
 import net.mcreator.mineterra.item.SpiritualCataclysmItem;
+import net.mcreator.mineterra.item.SoulEaterMaceItem;
 import net.mcreator.mineterra.item.SilverSwordItem;
 import net.mcreator.mineterra.item.SilverShovelItem;
 import net.mcreator.mineterra.item.SilverPickaxeItem;
@@ -368,6 +369,7 @@ public class MineterraModItems {
 	public static final RegistryObject<Item> CREPITARS_BLADE_SWORD = REGISTRY.register("crepitars_blade_sword", () -> new CrepitarsBladeSwordItem());
 	public static final RegistryObject<Item> BLADE_OF_BANISHED_QUEEN = REGISTRY.register("blade_of_banished_queen", () -> new BladeOfBanishedQueenItem());
 	public static final RegistryObject<Item> STORMRAZOR_KATANA = REGISTRY.register("stormrazor_katana", () -> new StormrazorKatanaItem());
+	public static final RegistryObject<Item> SOUL_EATER_MACE = REGISTRY.register("soul_eater_mace", () -> new SoulEaterMaceItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
