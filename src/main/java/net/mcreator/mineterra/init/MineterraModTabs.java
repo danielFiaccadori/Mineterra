@@ -65,8 +65,6 @@ public class MineterraModTabs {
 				tabData.accept(MineterraModItems.ARCANITE.get());
 				tabData.accept(MineterraModItems.ARCANE_TOPAZ.get());
 				tabData.accept(MineterraModItems.ARCANITE_GEMSTONE.get());
-				tabData.accept(MineterraModBlocks.STEEL_BLOCK.get().asItem());
-				tabData.accept(MineterraModItems.STEEL_INGOT.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -183,11 +181,6 @@ public class MineterraModTabs {
 			tabData.accept(MineterraModItems.STORMRAZOR_KATANA.get());
 			tabData.accept(MineterraModItems.DARK_HARVESTER_SCYTHE.get());
 			tabData.accept(MineterraModItems.SURADIIRS_SCYTHE.get());
-			tabData.accept(MineterraModItems.STEEL_ARMOR_HELMET.get());
-			tabData.accept(MineterraModItems.STEEL_ARMOR_CHESTPLATE.get());
-			tabData.accept(MineterraModItems.STEEL_ARMOR_LEGGINGS.get());
-			tabData.accept(MineterraModItems.STEEL_ARMOR_BOOTS.get());
-			tabData.accept(MineterraModItems.STEEL_SWORD.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
@@ -248,10 +241,6 @@ public class MineterraModTabs {
 			tabData.accept(MineterraModItems.TITANIUM_AXE.get());
 			tabData.accept(MineterraModItems.TITANIUM_SHOVEL.get());
 			tabData.accept(MineterraModItems.TITANIUM_HOE.get());
-			tabData.accept(MineterraModItems.STEEL_PICKAXE.get());
-			tabData.accept(MineterraModItems.STEEL_AXE.get());
-			tabData.accept(MineterraModItems.STEEL_SHOVEL.get());
-			tabData.accept(MineterraModItems.STEEL_HOE.get());
 		}
 	}
 }

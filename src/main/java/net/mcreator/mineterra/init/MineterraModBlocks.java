@@ -22,7 +22,6 @@ import net.mcreator.mineterra.block.TanzaniteOreBlock;
 import net.mcreator.mineterra.block.TanzaniteBlockBlock;
 import net.mcreator.mineterra.block.SunstoneOreBlock;
 import net.mcreator.mineterra.block.SunstoneBlockBlock;
-import net.mcreator.mineterra.block.SteelBlockBlock;
 import net.mcreator.mineterra.block.SilverOreBlock;
 import net.mcreator.mineterra.block.SilverBlockBlock;
 import net.mcreator.mineterra.block.SapphireOreBlock;
@@ -67,5 +66,4 @@ public class MineterraModBlocks {
 	public static final RegistryObject<Block> TITANIUM_BLOCK = REGISTRY.register("titanium_block", () -> new TitaniumBlockBlock());
 	public static final RegistryObject<Block> ARCANITIUM_ORE = REGISTRY.register("arcanitium_ore", () -> new ArcanitiumOreBlock());
 	public static final RegistryObject<Block> ARCANITIUM_BLOCK = REGISTRY.register("arcanitium_block", () -> new ArcanitiumBlockBlock());
-	public static final RegistryObject<Block> STEEL_BLOCK = REGISTRY.register("steel_block", () -> new SteelBlockBlock());
 }

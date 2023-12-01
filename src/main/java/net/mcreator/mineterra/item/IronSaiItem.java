@@ -56,6 +56,6 @@ public class IronSaiItem extends SwordItem {
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("\u00A7cApunhaladas brutais"));
-		list.add(Component.literal("\u00A78Nos primeiros 5 segundos de combate, a arma recebe \u00A7520%\u00A78 de velocidade de ataque adicional (10 segundos de tempo de recarga fora de combate)."));
+		list.add(Component.literal("\u00A78Nos primeiros 5 segundos de combate, a arma recebe de velocidade de ataque adicional baseado na sua intelig\u00EAncia + destreza(10 segundos de tempo de recarga fora de combate)."));
 	}
 }

@@ -9,7 +9,7 @@
     "name": "Sai de Ferro",
     "specialInfo": [
       "§cApunhaladas brutais",
-      "§8Nos primeiros 5 segundos de combate, a arma recebe §520%§8 de velocidade de ataque adicional (10 segundos de tempo de recarga fora de combate)."
+      "§8Nos primeiros 5 segundos de combate, a arma recebe de velocidade de ataque adicional baseado na sua inteligência + destreza(10 segundos de tempo de recarga fora de combate)."
     ],
     "creativeTab": {
       "value": "COMBAT"

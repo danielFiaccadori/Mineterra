@@ -42,7 +42,7 @@ public class ElderlySaiItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(MineterraModItems.ELDERLY_RAPIER_SAI.get()));
 			}
-		}, 3, 0f, new Item.Properties().fireResistant());
+		}, 3, -2.5f, new Item.Properties().fireResistant());
 	}
 
 	@Override
