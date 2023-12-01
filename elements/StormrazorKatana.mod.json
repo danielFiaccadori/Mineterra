@@ -7,7 +7,13 @@
     "texture": "stormrazor",
     "customModelName": "Normal",
     "name": "Stormrazor",
-    "specialInfo": [],
+    "specialInfo": [
+      "§cThunder",
+      "§8Stormrazor attacks scale effects each 3 attacks, to a maximum of 9 attacks:",
+      "- 3rd to 6th attack: gives haste I (3s)",
+      "- 6th to 8th attack: gives haste II(3s)",
+      "- 9th attack: gives Haste 3(3s) and strike a lightning on the target, that deals 3 damage."
+    ],
     "creativeTab": {
       "value": "COMBAT"
     },
