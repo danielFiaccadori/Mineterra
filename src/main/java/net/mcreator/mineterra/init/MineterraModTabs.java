@@ -196,6 +196,10 @@ public class MineterraModTabs {
 			tabData.accept(MineterraModItems.BOWTWOHANDEDLIGHTICEBOW.get());
 		}
 
+		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(MineterraModItems.RUNIC_STONE_DUELING.get());
+		}
+
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(MineterraModItems.SILVER_PICKAXE.get());
 			tabData.accept(MineterraModItems.SILVER_AXE.get());

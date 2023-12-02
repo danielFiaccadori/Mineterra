@@ -3,17 +3,17 @@
   "_type": "curiosbauble",
   "definition": {
     "renderType": 0,
-    "texture": "runicstoneprecision",
+    "texture": "runicstoneduelling",
     "customModelName": "Normal",
-    "name": "Precision Runic Stone",
+    "name": "Runic Stone Dueling",
     "rarity": "UNCOMMON",
     "slotType": "CURIO",
     "baubleModel": "Default",
     "baubleModelTexture": "",
     "creativeTab": {
-      "value": "CUSTOM:Mineterra"
+      "value": "MISC"
     },
-    "stackSize": 1,
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -22,17 +22,17 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": true,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
-    "addSlot": true,
+    "addSlot": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "§6Precision Nv.1",
-      "- §7+1 Dexterity",
-      "- §7+1 Inteligence",
-      "§8§oThe subject of this rune is to give the player an slight augment of dexterity and inteligence, the main attributes of ranged physical damage items. (Each runic stone can be upgraded using a runic upgrader in a smithing table)"
+      "§6Duelling Nv.1",
+      "- §7+1 Lifesteal",
+      "- §7+1 Constituition",
+      "§8§oThe subject of this rune is to give the player an slight augment of lifesteal and constituition, giving the player a higher durability during long fights. (Each runic stone can be upgraded using a runic upgrader in a smithing table)"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
@@ -40,10 +40,7 @@
     "inventoryStackSize": 64,
     "slotAmount": 1,
     "onEquip": {
-      "name": "PrecisionRunicStone"
-    },
-    "onUnequip": {
-      "name": "PrecisionRunicStone"
+      "name": "RunicStoneDuelingBaubleIsEquipped"
     },
     "isFood": false,
     "friendlyPigs": false,

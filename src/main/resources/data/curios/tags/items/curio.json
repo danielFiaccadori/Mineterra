@@ -2,6 +2,7 @@
   "replace": "false",
   "values": [
     "minecraft:air",
-    "mineterra:runic_stone_precision"
+    "mineterra:runic_stone_precision",
+    "mineterra:runic_stone_dueling"
   ]
 }

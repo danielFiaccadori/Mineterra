@@ -5,8 +5,12 @@
     "renderType": 0,
     "texture": "frostbite_bow",
     "customModelName": "Normal",
-    "name": "Bowtwohandedlighticebow",
-    "specialInfo": [],
+    "name": "Frostbite Bow",
+    "specialInfo": [
+      "§cFrostbite",
+      "§8Each attack from Frostbite Bow inflicts Slowness II for 2 seconds.",
+      "§8§cDamage from bows and crossbows scales with dexterity."
+    ],
     "creativeTab": {
       "value": "COMBAT"
     },

@@ -8559,7 +8559,7 @@
           "src/main/java/net/mcreator/mineterra/item/RunicStonePrecisionItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/PassiveItems"
+      "path": "~/Items/ItemsNormal/PassiveItems/Precision"
     },
     {
       "name": "RunicStonePrecisionWhileBaubleIsEquippedTick",
@@ -8572,6 +8572,21 @@
         "files": [
           "src/main/java/net/mcreator/mineterra/procedures/RunicStonePrecisionWhileBaubleIsEquippedTickProcedure.java"
         ],
+        "dependencies": []
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/CitrineKit"
+    },
+    {
+      "name": "PrecisionRunicStone",
+      "type": "procedure",
+      "sortid": 603,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "precision_runic_stone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/PrecisionRunicStoneProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -8579,7 +8594,42 @@
           }
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/CitrineKit"
+      "path": "~/Items/ItemsNormal/PassiveItems/Precision"
+    },
+    {
+      "name": "RunicStoneDueling",
+      "type": "curiosbauble",
+      "sortid": 604,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_stone_dueling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/runic_stone_dueling.json",
+          "src/main/java/net/mcreator/mineterra/item/RunicStoneDuelingItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/PassiveItems"
+    },
+    {
+      "name": "RunicStoneDuelingBaubleIsEquipped",
+      "type": "procedure",
+      "sortid": 605,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_stone_dueling_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/RunicStoneDuelingBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/PassiveItems"
     }
   ],
   "variable_elements": [
@@ -8800,8 +8850,8 @@
       "item.mineterra.silver_armor_chestplate": "Peitoral de Prata",
       "item.mineterra.amethyst_armor_boots": "Amethyst Boots",
       "item.mineterra.arcanite_gemstone": "Arcanite Gemstone",
-      "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
       "item.mineterra.zircon_axe": "Zircon Axe",
+      "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
       "effect.mineterra.sangramento": "Bleeding",
       "block.mineterra.garnet_ore": "Garnet Ore",
       "item.mineterra.garnet_pickaxe": "Garnet Pickaxe",
@@ -8832,6 +8882,7 @@
       "item.mineterra.gold_dagger": "Adaga de Ouro",
       "item.mineterra.amethyst_armor_helmet": "Amethyst Helmet",
       "effect.mineterra.sun_blessing": "Bênção do Sol",
+      "item.mineterra.runic_stone_dueling": "Runic Stone Dueling",
       "item.mineterra.rusted_iron_scythe": "Rusted Scythe",
       "item.mineterra.tourmaline_armor_boots": "Tourmaline Boots",
       "gui.mineterra.game_start_character_creation.button_select": "Select",
@@ -9068,7 +9119,7 @@
       "item.mineterra.garnet_sword": "Garnet Sword",
       "item.mineterra.sapphire_armor_helmet": "Sapphire Helmet",
       "block.mineterra.tourmaline_ore": "Tourmaline Ore",
-      "item.mineterra.bowtwohandedlighticebow": "Bowtwohandedlighticebow",
+      "item.mineterra.bowtwohandedlighticebow": "Frostbite Bow",
       "item.mineterra.steel_armor_boots": "Steel Boots",
       "item.mineterra.topaz_sword": "Topaz Sword",
       "item.mineterra.tanzanite_armor_boots": "Tanzanite Boots",
@@ -9430,7 +9481,12 @@
               },
               {
                 "name": "PassiveItems",
-                "children": []
+                "children": [
+                  {
+                    "name": "Precision",
+                    "children": []
+                  }
+                ]
               }
             ]
           }

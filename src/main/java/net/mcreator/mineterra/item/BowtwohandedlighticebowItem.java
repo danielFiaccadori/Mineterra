@@ -6,6 +6,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.UseAnim;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ProjectileWeaponItem;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
@@ -17,8 +18,11 @@ import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.network.chat.Component;
 
 import net.mcreator.mineterra.entity.BowtwohandedlighticebowEntity;
+
+import java.util.List;
 
 public class BowtwohandedlighticebowItem extends Item {
 	public BowtwohandedlighticebowItem() {
@@ -29,6 +33,14 @@ public class BowtwohandedlighticebowItem extends Item {
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		entity.startUsingItem(hand);
 		return new InteractionResultHolder(InteractionResult.SUCCESS, entity.getItemInHand(hand));
+	}
+
+	@Override
+	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, world, list, flag);
+		list.add(Component.literal("\u00A7cFrostbite"));
+		list.add(Component.literal("\u00A78Each attack from Frostbite Bow inflicts Slowness II for 2 seconds."));
+		list.add(Component.literal("\u00A78\u00A7cDamage from bows and crossbows scales with dexterity."));
 	}
 
 	@Override

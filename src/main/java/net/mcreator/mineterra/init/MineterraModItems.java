@@ -91,6 +91,7 @@ import net.mcreator.mineterra.item.SapphireArmorItem;
 import net.mcreator.mineterra.item.SacrificeDaggerItem;
 import net.mcreator.mineterra.item.RustedIronScytheItem;
 import net.mcreator.mineterra.item.RunicStonePrecisionItem;
+import net.mcreator.mineterra.item.RunicStoneDuelingItem;
 import net.mcreator.mineterra.item.RubySwordItem;
 import net.mcreator.mineterra.item.RubyShovelItem;
 import net.mcreator.mineterra.item.RubyPickaxeItem;
@@ -402,6 +403,7 @@ public class MineterraModItems {
 	public static final RegistryObject<Item> STEEL_GLADIUMS_SWORD = REGISTRY.register("steel_gladiums_sword", () -> new SteelGladiumsSwordItem());
 	public static final RegistryObject<Item> BOWTWOHANDEDLIGHTICEBOW = REGISTRY.register("bowtwohandedlighticebow", () -> new BowtwohandedlighticebowItem());
 	public static final RegistryObject<Item> RUNIC_STONE_PRECISION = REGISTRY.register("runic_stone_precision", () -> new RunicStonePrecisionItem());
+	public static final RegistryObject<Item> RUNIC_STONE_DUELING = REGISTRY.register("runic_stone_dueling", () -> new RunicStoneDuelingItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
