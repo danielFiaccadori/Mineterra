@@ -8,23 +8,23 @@
   ],
   "key": {
     "2": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:diamond"
     },
     "3": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:diamond"
     },
     "4": {
-      "item": "minecraft:iron_sword"
+      "item": "minecraft:diamond_sword"
     },
     "6": {
       "item": "minecraft:blaze_rod"
     },
     "7": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:diamond"
     }
   },
   "result": {
-    "item": "mineterra:rapier",
+    "item": "mineterra:diamond_rapier",
     "count": 1
   }
 }

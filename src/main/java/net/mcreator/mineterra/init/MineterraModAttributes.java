@@ -25,7 +25,7 @@ public class MineterraModAttributes {
 	public static final DeferredRegister<Attribute> ATTRIBUTES = DeferredRegister.create(ForgeRegistries.ATTRIBUTES, MineterraMod.MODID);
 	public static final RegistryObject<Attribute> CHAOS = ATTRIBUTES.register("chaos", () -> (new RangedAttribute("attribute." + MineterraMod.MODID + ".chaos", 0, 0, 100)).setSyncable(true));
 	public static final RegistryObject<Attribute> MAGICDAMAGE = ATTRIBUTES.register("magic_damage", () -> (new RangedAttribute("attribute." + MineterraMod.MODID + ".magic_damage", 0, 0, 2048)).setSyncable(true));
-	public static final RegistryObject<Attribute> LIFESTEAL = ATTRIBUTES.register("life_steal", () -> (new RangedAttribute("attribute." + MineterraMod.MODID + ".life_steal", 0, 0, 100)).setSyncable(true));
+	public static final RegistryObject<Attribute> LIFESTEAL = ATTRIBUTES.register("life_steal", () -> (new RangedAttribute("attribute." + MineterraMod.MODID + ".life_steal", 0, 0, 10)).setSyncable(true));
 	public static final RegistryObject<Attribute> STRENGTH = ATTRIBUTES.register("strength", () -> (new RangedAttribute("attribute." + MineterraMod.MODID + ".strength", 0, 0, 100)).setSyncable(true));
 	public static final RegistryObject<Attribute> DEXTERITY = ATTRIBUTES.register("dexterity", () -> (new RangedAttribute("attribute." + MineterraMod.MODID + ".dexterity", 0, 0, 100)).setSyncable(true));
 	public static final RegistryObject<Attribute> CONSTITUITION = ATTRIBUTES.register("constituition", () -> (new RangedAttribute("attribute." + MineterraMod.MODID + ".constituition", 0, 0, 100)).setSyncable(true));
@@ -44,6 +44,7 @@ public class MineterraModAttributes {
 	public static void addAttributes(EntityAttributeModificationEvent event) {
 		event.add(EntityType.PLAYER, CHAOS.get());
 		event.add(EntityType.PLAYER, MAGICDAMAGE.get());
+		event.add(EntityType.PLAYER, LIFESTEAL.get());
 		event.add(EntityType.PLAYER, STRENGTH.get());
 		event.add(EntityType.PLAYER, DEXTERITY.get());
 		event.add(EntityType.PLAYER, CONSTITUITION.get());
@@ -59,6 +60,7 @@ public class MineterraModAttributes {
 			Player oldP = event.getOriginal();
 			Player newP = (Player) event.getEntity();
 			newP.getAttribute(MAGICDAMAGE.get()).setBaseValue(oldP.getAttribute(MAGICDAMAGE.get()).getBaseValue());
+			newP.getAttribute(LIFESTEAL.get()).setBaseValue(oldP.getAttribute(LIFESTEAL.get()).getBaseValue());
 			newP.getAttribute(STRENGTH.get()).setBaseValue(oldP.getAttribute(STRENGTH.get()).getBaseValue());
 			newP.getAttribute(DEXTERITY.get()).setBaseValue(oldP.getAttribute(DEXTERITY.get()).getBaseValue());
 			newP.getAttribute(CONSTITUITION.get()).setBaseValue(oldP.getAttribute(CONSTITUITION.get()).getBaseValue());

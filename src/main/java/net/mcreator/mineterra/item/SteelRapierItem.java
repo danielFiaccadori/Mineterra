@@ -6,21 +6,21 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.network.chat.Component;
 
 import net.mcreator.mineterra.procedures.RapierProcedureProcedure;
+import net.mcreator.mineterra.init.MineterraModItems;
 
 import java.util.List;
 
-public class IronRapierItem extends SwordItem {
-	public IronRapierItem() {
+public class SteelRapierItem extends SwordItem {
+	public SteelRapierItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 250;
+				return 360;
 			}
 
 			public float getSpeed() {
@@ -28,7 +28,7 @@ public class IronRapierItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 0f;
+				return -0.3f;
 			}
 
 			public int getLevel() {
@@ -36,11 +36,11 @@ public class IronRapierItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 14;
+				return 7;
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(Items.IRON_INGOT));
+				return Ingredient.of(new ItemStack(MineterraModItems.STEEL_INGOT.get()));
 			}
 		}, 3, -2f, new Item.Properties().fireResistant());
 	}

@@ -18,13 +18,13 @@
         "value": ""
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:SteelIngot"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:SteelIngot"
       },
       {
-        "value": "Items.IRON_SWORD"
+        "value": "CUSTOM:SteelGladiumsSword"
       },
       {
         "value": ""
@@ -33,16 +33,16 @@
         "value": "Items.BLAZE_ROD"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:SteelIngot"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:IronRapier"
+      "value": "CUSTOM:SteelRapier"
     },
-    "name": "rapier_recipe",
+    "name": "steel_rapier_procedure",
     "namespace": "mod"
   }
 }

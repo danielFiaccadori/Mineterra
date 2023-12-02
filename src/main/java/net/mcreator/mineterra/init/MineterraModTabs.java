@@ -68,6 +68,7 @@ public class MineterraModTabs {
 				tabData.accept(MineterraModBlocks.STEEL_BLOCK.get().asItem());
 				tabData.accept(MineterraModItems.STEEL_INGOT.get());
 				tabData.accept(MineterraModItems.RUNIC_STONE_PRECISION.get());
+				tabData.accept(MineterraModItems.RUNIC_STONE_DUELING.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -194,10 +195,9 @@ public class MineterraModTabs {
 			tabData.accept(MineterraModItems.RUSTED_IRON_SCYTHE.get());
 			tabData.accept(MineterraModItems.STEEL_GLADIUMS_SWORD.get());
 			tabData.accept(MineterraModItems.BOWTWOHANDEDLIGHTICEBOW.get());
-		}
-
-		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
-			tabData.accept(MineterraModItems.RUNIC_STONE_DUELING.get());
+			tabData.accept(MineterraModItems.GOLD_RAPIER.get());
+			tabData.accept(MineterraModItems.DIAMOND_RAPIER.get());
+			tabData.accept(MineterraModItems.STEEL_RAPIER.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {

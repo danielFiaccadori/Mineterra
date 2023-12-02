@@ -18,13 +18,13 @@
         "value": ""
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "Items.DIAMOND"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "Items.DIAMOND"
       },
       {
-        "value": "Items.IRON_SWORD"
+        "value": "Items.DIAMOND_SWORD"
       },
       {
         "value": ""
@@ -33,16 +33,16 @@
         "value": "Items.BLAZE_ROD"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "Items.DIAMOND"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:IronRapier"
+      "value": "CUSTOM:DiamondRapier"
     },
-    "name": "rapier_recipe",
+    "name": "diamond_rapier_procedure",
     "namespace": "mod"
   }
 }

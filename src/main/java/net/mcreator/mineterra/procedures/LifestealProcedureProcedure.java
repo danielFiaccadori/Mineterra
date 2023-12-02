@@ -13,7 +13,7 @@ public class LifestealProcedureProcedure {
 	public static void execute(LevelAccessor world, Entity entity, Entity sourceentity) {
 		if (entity == null || sourceentity == null)
 			return;
-		entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)), (float) ((LivingEntity) entity).getAttribute(MineterraModAttributes.LIFESTEAL.get()).getValue());
+		entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC_KILL)), (float) ((LivingEntity) entity).getAttribute(MineterraModAttributes.LIFESTEAL.get()).getValue());
 		if (sourceentity instanceof LivingEntity _entity)
 			_entity.setHealth((float) ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) + ((LivingEntity) entity).getAttribute(MineterraModAttributes.LIFESTEAL.get()).getValue()));
 	}

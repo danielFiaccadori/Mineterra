@@ -4,9 +4,13 @@
   "definition": {
     "description": "Life Steal",
     "minValue": 0.0,
-    "maxValue": 100.0,
+    "maxValue": 10.0,
     "defaultValue": 0.0,
     "isPersistent": true,
-    "entities": []
+    "entities": [
+      {
+        "value": "EntityPlayer"
+      }
+    ]
   }
 }

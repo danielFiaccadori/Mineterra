@@ -18,13 +18,13 @@
         "value": ""
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "Items.GOLD_INGOT"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "Items.GOLD_INGOT"
       },
       {
-        "value": "Items.IRON_SWORD"
+        "value": "Items.GOLDEN_SWORD"
       },
       {
         "value": ""
@@ -33,16 +33,16 @@
         "value": "Items.BLAZE_ROD"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "Items.GOLD_INGOT"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:IronRapier"
+      "value": "CUSTOM:GoldRapier"
     },
-    "name": "rapier_recipe",
+    "name": "gold_rapier_recipe",
     "namespace": "mod"
   }
 }

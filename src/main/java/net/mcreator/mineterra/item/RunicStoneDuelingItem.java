@@ -17,7 +17,7 @@ import java.util.List;
 
 public class RunicStoneDuelingItem extends Item implements ICurioItem {
 	public RunicStoneDuelingItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.UNCOMMON));
+		super(new Item.Properties().stacksTo(1).fireResistant().rarity(Rarity.UNCOMMON));
 	}
 
 	@Override
@@ -32,6 +32,11 @@ public class RunicStoneDuelingItem extends Item implements ICurioItem {
 
 	@Override
 	public void onEquip(SlotContext slotContext, ItemStack prevStack, ItemStack stack) {
+		RunicStoneDuelingBaubleIsEquippedProcedure.execute(slotContext.entity());
+	}
+
+	@Override
+	public void onUnequip(SlotContext slotContext, ItemStack newStack, ItemStack stack) {
 		RunicStoneDuelingBaubleIsEquippedProcedure.execute(slotContext.entity());
 	}
 }

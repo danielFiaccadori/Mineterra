@@ -8630,6 +8630,93 @@
         ]
       },
       "path": "~/Items/ItemsNormal/PassiveItems"
+    },
+    {
+      "name": "GoldRapier",
+      "type": "tool",
+      "sortid": 606,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "gold_rapier",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/GoldRapierItem.java",
+          "src/main/resources/assets/mineterra/models/item/gold_rapier.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Rapier"
+    },
+    {
+      "name": "GoldRapierRecipe",
+      "type": "recipe",
+      "sortid": 607,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_rapier_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/gold_rapier_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Rapier"
+    },
+    {
+      "name": "DiamondRapier",
+      "type": "tool",
+      "sortid": 608,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "diamond_rapier",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/DiamondRapierItem.java",
+          "src/main/resources/assets/mineterra/models/item/diamond_rapier.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Rapier"
+    },
+    {
+      "name": "DiamondRapierProcedure",
+      "type": "recipe",
+      "sortid": 609,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_rapier_procedure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/diamond_rapier_procedure.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Rapier"
+    },
+    {
+      "name": "SteelRapier",
+      "type": "tool",
+      "sortid": 610,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "steel_rapier",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/steel_rapier.json",
+          "src/main/java/net/mcreator/mineterra/item/SteelRapierItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Rapier"
+    },
+    {
+      "name": "SteelRapierProcedure",
+      "type": "recipe",
+      "sortid": 611,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_rapier_procedure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/steel_rapier_procedure.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Rapier"
     }
   ],
   "variable_elements": [
@@ -8850,8 +8937,8 @@
       "item.mineterra.silver_armor_chestplate": "Peitoral de Prata",
       "item.mineterra.amethyst_armor_boots": "Amethyst Boots",
       "item.mineterra.arcanite_gemstone": "Arcanite Gemstone",
-      "item.mineterra.zircon_axe": "Zircon Axe",
       "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
+      "item.mineterra.zircon_axe": "Zircon Axe",
       "effect.mineterra.sangramento": "Bleeding",
       "block.mineterra.garnet_ore": "Garnet Ore",
       "item.mineterra.garnet_pickaxe": "Garnet Pickaxe",
@@ -8923,6 +9010,7 @@
       "item.mineterra.citrine_armor_helmet": "Citrine Helmet",
       "item.mineterra.sunstone_armor_boots": "Sunstone Boots",
       "item.mineterra.garnet_armor_helmet": "Garnet Helmet",
+      "item.mineterra.diamond_rapier": "Diamond Rapier",
       "item.mineterra.zircon_shovel": "Zircon Shovel",
       "attribute.mineterra.intelligence": "Intelligence",
       "gui.mineterra.game_start_character_creation.Feralit": "Feralit",
@@ -8971,6 +9059,7 @@
       "item.mineterra.tanzanite_hoe": "Tanzanite Hoe",
       "item.mineterra.spiritual_claymore": "Espada Espiritual",
       "item.mineterra.silver_armor_leggings": "Calças de Prata",
+      "item.mineterra.gold_rapier": "Gold Rapier",
       "block.mineterra.silver_block": "Bloco de Prata",
       "item.mineterra.tanzanite_armor_helmet": "Tanzanite Helmet",
       "item.mineterra.ruby_armor_helmet": "Ruby Helmet",
@@ -9099,7 +9188,7 @@
       "item.mineterra.steel_shovel": "Steel Shovel",
       "item.mineterra.empty": "Empty",
       "subtitles.shen_sword": "",
-      "item.mineterra.rapier": "Rapieira",
+      "item.mineterra.rapier": "Iron Rapier",
       "effect.mineterra.bestial_domain": "Fera Enfurecida",
       "block.mineterra.ruby_block": "Block of Ruby",
       "item.mineterra.crepitars_blade_sword": "Crepitars Blade Sword",
@@ -9129,6 +9218,7 @@
       "item.mineterra.sunstone_sword": "Sunstone Sword",
       "item.mineterra.garnet_armor_chestplate": "Garnet Chestplate",
       "item.mineterra.tourmaline_pickaxe": "Tourmaline Pickaxe",
+      "item.mineterra.steel_rapier": "Steel Rapier",
       "subtitles.transformation-sound": "",
       "item.mineterra.tourmaline_armor_leggings": "Tourmaline Leggings",
       "item.mineterra.demonita_hoe": "Enxada de Demonita",

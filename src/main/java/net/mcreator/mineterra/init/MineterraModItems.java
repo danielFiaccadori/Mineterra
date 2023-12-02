@@ -64,6 +64,7 @@ import net.mcreator.mineterra.item.StoneDaggerItem;
 import net.mcreator.mineterra.item.SteelSwordItem;
 import net.mcreator.mineterra.item.SteelShovelItem;
 import net.mcreator.mineterra.item.SteelScytheItem;
+import net.mcreator.mineterra.item.SteelRapierItem;
 import net.mcreator.mineterra.item.SteelPickaxeItem;
 import net.mcreator.mineterra.item.SteelIngotItem;
 import net.mcreator.mineterra.item.SteelHoeItem;
@@ -118,6 +119,7 @@ import net.mcreator.mineterra.item.IronClaymoreItem;
 import net.mcreator.mineterra.item.ImperialGoldClaymoreItem;
 import net.mcreator.mineterra.item.GoldenClaymoreItem;
 import net.mcreator.mineterra.item.GoldSaiItem;
+import net.mcreator.mineterra.item.GoldRapierItem;
 import net.mcreator.mineterra.item.GoldKatanaItem;
 import net.mcreator.mineterra.item.GoldDaggerItem;
 import net.mcreator.mineterra.item.GarnetSwordItem;
@@ -133,6 +135,7 @@ import net.mcreator.mineterra.item.FireStaffItem;
 import net.mcreator.mineterra.item.EmptyItem;
 import net.mcreator.mineterra.item.ElderlySaiItem;
 import net.mcreator.mineterra.item.DiamondSaiItem;
+import net.mcreator.mineterra.item.DiamondRapierItem;
 import net.mcreator.mineterra.item.DiamondKatanaItem;
 import net.mcreator.mineterra.item.DiamondDaggerItem;
 import net.mcreator.mineterra.item.DiamondClaymoreItem;
@@ -404,6 +407,9 @@ public class MineterraModItems {
 	public static final RegistryObject<Item> BOWTWOHANDEDLIGHTICEBOW = REGISTRY.register("bowtwohandedlighticebow", () -> new BowtwohandedlighticebowItem());
 	public static final RegistryObject<Item> RUNIC_STONE_PRECISION = REGISTRY.register("runic_stone_precision", () -> new RunicStonePrecisionItem());
 	public static final RegistryObject<Item> RUNIC_STONE_DUELING = REGISTRY.register("runic_stone_dueling", () -> new RunicStoneDuelingItem());
+	public static final RegistryObject<Item> GOLD_RAPIER = REGISTRY.register("gold_rapier", () -> new GoldRapierItem());
+	public static final RegistryObject<Item> DIAMOND_RAPIER = REGISTRY.register("diamond_rapier", () -> new DiamondRapierItem());
+	public static final RegistryObject<Item> STEEL_RAPIER = REGISTRY.register("steel_rapier", () -> new SteelRapierItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

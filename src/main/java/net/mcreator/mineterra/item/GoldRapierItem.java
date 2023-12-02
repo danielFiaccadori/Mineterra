@@ -16,11 +16,11 @@ import net.mcreator.mineterra.procedures.RapierProcedureProcedure;
 
 import java.util.List;
 
-public class IronRapierItem extends SwordItem {
-	public IronRapierItem() {
+public class GoldRapierItem extends SwordItem {
+	public GoldRapierItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 250;
+				return 100;
 			}
 
 			public float getSpeed() {
@@ -28,7 +28,7 @@ public class IronRapierItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 0f;
+				return -0.3f;
 			}
 
 			public int getLevel() {
@@ -36,11 +36,11 @@ public class IronRapierItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 14;
+				return 22;
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(Items.IRON_INGOT));
+				return Ingredient.of(new ItemStack(Items.GOLD_INGOT));
 			}
 		}, 3, -2f, new Item.Properties().fireResistant());
 	}
