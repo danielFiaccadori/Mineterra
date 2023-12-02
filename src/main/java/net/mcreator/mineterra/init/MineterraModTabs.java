@@ -67,6 +67,7 @@ public class MineterraModTabs {
 				tabData.accept(MineterraModItems.ARCANITE_GEMSTONE.get());
 				tabData.accept(MineterraModBlocks.STEEL_BLOCK.get().asItem());
 				tabData.accept(MineterraModItems.STEEL_INGOT.get());
+				tabData.accept(MineterraModItems.RUNIC_STONE_PRECISION.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -192,7 +193,7 @@ public class MineterraModTabs {
 			tabData.accept(MineterraModItems.STEEL_SCYTHE.get());
 			tabData.accept(MineterraModItems.RUSTED_IRON_SCYTHE.get());
 			tabData.accept(MineterraModItems.STEEL_GLADIUMS_SWORD.get());
-			tabData.accept(MineterraModItems.RUBI_STUDDED_STEEL_SWORD.get());
+			tabData.accept(MineterraModItems.BOWTWOHANDEDLIGHTICEBOW.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {

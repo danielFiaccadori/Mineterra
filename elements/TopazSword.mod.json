@@ -4,7 +4,7 @@
   "definition": {
     "toolType": "Sword",
     "renderType": 0,
-    "texture": "topaz_sword",
+    "texture": "topaz-animated-sword",
     "customModelName": "Normal",
     "name": "Topaz Sword",
     "specialInfo": [],

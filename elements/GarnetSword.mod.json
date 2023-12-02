@@ -4,7 +4,7 @@
   "definition": {
     "toolType": "Sword",
     "renderType": 0,
-    "texture": "garnet_sword",
+    "texture": "garnet-sword-animated",
     "customModelName": "Normal",
     "name": "Garnet Sword",
     "specialInfo": [],

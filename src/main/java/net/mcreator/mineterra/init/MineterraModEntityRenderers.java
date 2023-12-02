@@ -18,5 +18,6 @@ public class MineterraModEntityRenderers {
 		event.registerEntityRenderer(MineterraModEntities.ARCANITE_STAFF_WAND.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(MineterraModEntities.LIGHT_STAFF_WAND.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(MineterraModEntities.FIRE_STAFF_WAND.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(MineterraModEntities.BOWTWOHANDEDLIGHTICEBOW.get(), ThrownItemRenderer::new);
 	}
 }

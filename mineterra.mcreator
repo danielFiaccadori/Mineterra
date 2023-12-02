@@ -3598,7 +3598,7 @@
       "type": "tool",
       "sortid": 37,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "citrine_sword",
       "metadata": {
         "files": [
@@ -3817,7 +3817,7 @@
       "type": "tool",
       "sortid": 40,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "amethyst_sword",
       "metadata": {
         "files": [
@@ -4131,7 +4131,7 @@
       "type": "tool",
       "sortid": 41,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "ruby_sword",
       "metadata": {
         "files": [
@@ -5387,7 +5387,7 @@
       "type": "tool",
       "sortid": 49,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "tanzanite_sword",
       "metadata": {
         "files": [
@@ -8443,19 +8443,143 @@
       "path": "~/Items/ItemsNormal/Common Items/RawItems/Swords"
     },
     {
-      "name": "RubiStuddedSteelSword",
-      "type": "tool",
-      "sortid": 596,
+      "name": "Bowtwohandedlighticebow",
+      "type": "rangeditem",
+      "sortid": 597,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "rubi_studded_steel_sword",
+      "registry_name": "bowtwohandedlighticebow",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/item/RubiStuddedSteelSwordItem.java",
-          "src/main/resources/assets/mineterra/models/item/rubi_studded_steel_sword.json"
+          "src/main/java/net/mcreator/mineterra/entity/BowtwohandedlighticebowEntity.java",
+          "src/main/java/net/mcreator/mineterra/item/BowtwohandedlighticebowItem.java",
+          "src/main/resources/assets/mineterra/models/item/bowtwohandedlighticebow.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/RawItems/Swords"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Bows/FrostbiteBow"
+    },
+    {
+      "name": "BowtwohandedlighticebowProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 598,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bowtwohandedlighticebow_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/BowtwohandedlighticebowProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Bows/FrostbiteBow"
+    },
+    {
+      "name": "BowtwohandedlighticebowWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 599,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bowtwohandedlighticebow_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/BowtwohandedlighticebowWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Bows/FrostbiteBow"
+    },
+    {
+      "name": "BowDamageProcedure",
+      "type": "procedure",
+      "sortid": 600,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bow_damage_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/BowDamageProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Bows/FrostbiteBow"
+    },
+    {
+      "name": "RunicStonePrecision",
+      "type": "curiosbauble",
+      "sortid": 601,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_stone_precision",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/runic_stone_precision.json",
+          "src/main/java/net/mcreator/mineterra/item/RunicStonePrecisionItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/PassiveItems"
+    },
+    {
+      "name": "RunicStonePrecisionWhileBaubleIsEquippedTick",
+      "type": "procedure",
+      "sortid": 602,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_stone_precision_while_bauble_is_equipped_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/RunicStonePrecisionWhileBaubleIsEquippedTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/CitrineKit"
     }
   ],
   "variable_elements": [
@@ -8676,8 +8800,8 @@
       "item.mineterra.silver_armor_chestplate": "Peitoral de Prata",
       "item.mineterra.amethyst_armor_boots": "Amethyst Boots",
       "item.mineterra.arcanite_gemstone": "Arcanite Gemstone",
-      "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
       "item.mineterra.zircon_axe": "Zircon Axe",
+      "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
       "effect.mineterra.sangramento": "Bleeding",
       "block.mineterra.garnet_ore": "Garnet Ore",
       "item.mineterra.garnet_pickaxe": "Garnet Pickaxe",
@@ -8871,6 +8995,7 @@
       "item.mineterra.sunstone_axe": "Sunstone Axe",
       "item.mineterra.citrine_armor_leggings": "Citrine Leggings",
       "item.mineterra.tourmaline_sword": "Tourmaline Sword",
+      "item.mineterra.runic_stone_precision": "Precision Runic Stone",
       "item.mineterra.sapphire": "Sapphire",
       "item.mineterra.zircon_hoe": "Zircon Hoe",
       "subtitles.ritualdagger8s": "",
@@ -8905,7 +9030,6 @@
       "item.mineterra.zircon_armor_boots": "Zircon Boots",
       "item.mineterra.sapphire_armor_chestplate": "Sapphire Chestplate",
       "item.mineterra.netherite_sai_rapier": "Sai de Netherita",
-      "item.mineterra.rubi_studded_steel_sword": "Gladium\u0027s Steel Sword",
       "item.mineterra.amethyst_hoe": "Amethyst Hoe",
       "item_group.mineterra.mineterra": "Mineterra",
       "gui.mineterra.gnome_gui.label_a_heranca_de_um_evento_devastado": "a herança de um evento devastador,",
@@ -8944,6 +9068,7 @@
       "item.mineterra.garnet_sword": "Garnet Sword",
       "item.mineterra.sapphire_armor_helmet": "Sapphire Helmet",
       "block.mineterra.tourmaline_ore": "Tourmaline Ore",
+      "item.mineterra.bowtwohandedlighticebow": "Bowtwohandedlighticebow",
       "item.mineterra.steel_armor_boots": "Steel Boots",
       "item.mineterra.topaz_sword": "Topaz Sword",
       "item.mineterra.tanzanite_armor_boots": "Tanzanite Boots",
@@ -9251,6 +9376,15 @@
                             "children": []
                           }
                         ]
+                      },
+                      {
+                        "name": "Bows",
+                        "children": [
+                          {
+                            "name": "FrostbiteBow",
+                            "children": []
+                          }
+                        ]
                       }
                     ]
                   }
@@ -9339,7 +9473,9 @@
     "dependants": [],
     "mcreatorDependencies": [
       "kleidersplayerrenderer",
-      "geckolib"
+      "curios_api",
+      "geckolib",
+      "playeranimator"
     ],
     "currentGenerator": "forge-1.20.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",

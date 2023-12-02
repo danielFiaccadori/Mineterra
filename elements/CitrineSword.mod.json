@@ -4,7 +4,7 @@
   "definition": {
     "toolType": "Sword",
     "renderType": 0,
-    "texture": "citrine_sword",
+    "texture": "citrinecravedsteelsword",
     "customModelName": "Normal",
     "name": "Citrine Sword",
     "specialInfo": [],

@@ -90,6 +90,7 @@ import net.mcreator.mineterra.item.SapphireAxeItem;
 import net.mcreator.mineterra.item.SapphireArmorItem;
 import net.mcreator.mineterra.item.SacrificeDaggerItem;
 import net.mcreator.mineterra.item.RustedIronScytheItem;
+import net.mcreator.mineterra.item.RunicStonePrecisionItem;
 import net.mcreator.mineterra.item.RubySwordItem;
 import net.mcreator.mineterra.item.RubyShovelItem;
 import net.mcreator.mineterra.item.RubyPickaxeItem;
@@ -97,7 +98,6 @@ import net.mcreator.mineterra.item.RubyItem;
 import net.mcreator.mineterra.item.RubyHoeItem;
 import net.mcreator.mineterra.item.RubyAxeItem;
 import net.mcreator.mineterra.item.RubyArmorItem;
-import net.mcreator.mineterra.item.RubiStuddedSteelSwordItem;
 import net.mcreator.mineterra.item.RitualDaggerItem;
 import net.mcreator.mineterra.item.NetheriteSaiItem;
 import net.mcreator.mineterra.item.NetheriteKatanaItem;
@@ -157,6 +157,7 @@ import net.mcreator.mineterra.item.CitrineItem;
 import net.mcreator.mineterra.item.CitrineHoeItem;
 import net.mcreator.mineterra.item.CitrineAxeItem;
 import net.mcreator.mineterra.item.CitrineArmorItem;
+import net.mcreator.mineterra.item.BowtwohandedlighticebowItem;
 import net.mcreator.mineterra.item.BladeOfBanishedQueenItem;
 import net.mcreator.mineterra.item.ArcanitiumItem;
 import net.mcreator.mineterra.item.ArcaniteItem;
@@ -399,7 +400,8 @@ public class MineterraModItems {
 	public static final RegistryObject<Item> STEEL_SCYTHE = REGISTRY.register("steel_scythe", () -> new SteelScytheItem());
 	public static final RegistryObject<Item> RUSTED_IRON_SCYTHE = REGISTRY.register("rusted_iron_scythe", () -> new RustedIronScytheItem());
 	public static final RegistryObject<Item> STEEL_GLADIUMS_SWORD = REGISTRY.register("steel_gladiums_sword", () -> new SteelGladiumsSwordItem());
-	public static final RegistryObject<Item> RUBI_STUDDED_STEEL_SWORD = REGISTRY.register("rubi_studded_steel_sword", () -> new RubiStuddedSteelSwordItem());
+	public static final RegistryObject<Item> BOWTWOHANDEDLIGHTICEBOW = REGISTRY.register("bowtwohandedlighticebow", () -> new BowtwohandedlighticebowItem());
+	public static final RegistryObject<Item> RUNIC_STONE_PRECISION = REGISTRY.register("runic_stone_precision", () -> new RunicStonePrecisionItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

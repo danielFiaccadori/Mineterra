@@ -4,7 +4,7 @@
   "definition": {
     "toolType": "Sword",
     "renderType": 0,
-    "texture": "zircon_sword",
+    "texture": "zircon-animated-sword",
     "customModelName": "Normal",
     "name": "Zircon Sword",
     "specialInfo": [],

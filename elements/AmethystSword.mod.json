@@ -4,7 +4,7 @@
   "definition": {
     "toolType": "Sword",
     "renderType": 0,
-    "texture": "amethyst_sword",
+    "texture": "amethystcravedsteelsword",
     "customModelName": "Normal",
     "name": "Amethyst Sword",
     "specialInfo": [],
