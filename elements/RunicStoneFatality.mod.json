@@ -1,0 +1,64 @@
+{
+  "_fv": 47,
+  "_type": "curiosbauble",
+  "definition": {
+    "renderType": 0,
+    "texture": "runicstonefatality",
+    "customModelName": "Normal",
+    "name": "Runic Stone Fatality",
+    "rarity": "UNCOMMON",
+    "slotType": "CURIO",
+    "baubleModel": "Default",
+    "baubleModelTexture": "",
+    "creativeTab": {
+      "value": "CUSTOM:Mineterra"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "addSlot": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "§6Lethal Nv.1",
+      "- §7+1 Dexterity",
+      "- §7+1 Attack Damage",
+      "- §7 +5% Movespeed",
+      "§8§oThe subject of this rune is to give the player the capacity of executing enemies fastly, although at the cost of a weak durability during long fights. (Each runic stone can be upgraded using a runic upgrader in a smithing table)"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "slotAmount": 1,
+    "onEquip": {
+      "name": "RunicStoneFatalityBaubleIsEquipped"
+    },
+    "onUnequip": {
+      "name": "RunicStoneFatalityBaubleIsEquipped"
+    },
+    "isFood": false,
+    "friendlyPigs": false,
+    "enderMask": false,
+    "rotateModel": false,
+    "translateModel": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "hasModel": false,
+    "animation": "none"
+  }
+}

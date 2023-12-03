@@ -3,6 +3,8 @@
   "values": [
     "minecraft:air",
     "mineterra:runic_stone_precision",
-    "mineterra:runic_stone_dueling"
+    "mineterra:runic_stone_dueling",
+    "mineterra:runic_stone_resistence",
+    "mineterra:runic_stone_fatality"
   ]
 }

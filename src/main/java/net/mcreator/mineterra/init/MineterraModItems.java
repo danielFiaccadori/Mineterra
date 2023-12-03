@@ -21,7 +21,6 @@ import net.mcreator.mineterra.item.ZirconAxeItem;
 import net.mcreator.mineterra.item.ZirconArmorItem;
 import net.mcreator.mineterra.item.WoodStaffItem;
 import net.mcreator.mineterra.item.WoodKatanaItem;
-import net.mcreator.mineterra.item.UnactiveRitualDaggerItem;
 import net.mcreator.mineterra.item.TourmalineSwordItem;
 import net.mcreator.mineterra.item.TourmalineShovelItem;
 import net.mcreator.mineterra.item.TourmalinePickaxeItem;
@@ -91,7 +90,9 @@ import net.mcreator.mineterra.item.SapphireAxeItem;
 import net.mcreator.mineterra.item.SapphireArmorItem;
 import net.mcreator.mineterra.item.SacrificeDaggerItem;
 import net.mcreator.mineterra.item.RustedIronScytheItem;
+import net.mcreator.mineterra.item.RunicStoneResistenceItem;
 import net.mcreator.mineterra.item.RunicStonePrecisionItem;
+import net.mcreator.mineterra.item.RunicStoneFatalityItem;
 import net.mcreator.mineterra.item.RunicStoneDuelingItem;
 import net.mcreator.mineterra.item.RubySwordItem;
 import net.mcreator.mineterra.item.RubyShovelItem;
@@ -134,6 +135,7 @@ import net.mcreator.mineterra.item.FlintDaggerItem;
 import net.mcreator.mineterra.item.FireStaffItem;
 import net.mcreator.mineterra.item.EmptyItem;
 import net.mcreator.mineterra.item.ElderlySaiItem;
+import net.mcreator.mineterra.item.DragonBiteDaggerItem;
 import net.mcreator.mineterra.item.DiamondSaiItem;
 import net.mcreator.mineterra.item.DiamondRapierItem;
 import net.mcreator.mineterra.item.DiamondKatanaItem;
@@ -185,7 +187,6 @@ public class MineterraModItems {
 	public static final RegistryObject<Item> NETHERITE_DAGGER = REGISTRY.register("netherite_dagger", () -> new NetheriteDaggerItem());
 	public static final RegistryObject<Item> SACRIFICE_DAGGER = REGISTRY.register("sacrifice_dagger", () -> new SacrificeDaggerItem());
 	public static final RegistryObject<Item> FLINT_DAGGER = REGISTRY.register("flint_dagger", () -> new FlintDaggerItem());
-	public static final RegistryObject<Item> UNACTIVE_RITUAL_DAGGER = REGISTRY.register("unactive_ritual_dagger", () -> new UnactiveRitualDaggerItem());
 	public static final RegistryObject<Item> RITUAL_DAGGER = REGISTRY.register("ritual_dagger", () -> new RitualDaggerItem());
 	public static final RegistryObject<Item> IRON_SAI_RAPIER = REGISTRY.register("iron_sai_rapier", () -> new IronSaiItem());
 	public static final RegistryObject<Item> ELDERLY_RAPIER_SAI = REGISTRY.register("elderly_rapier_sai", () -> new ElderlySaiItem());
@@ -410,6 +411,9 @@ public class MineterraModItems {
 	public static final RegistryObject<Item> GOLD_RAPIER = REGISTRY.register("gold_rapier", () -> new GoldRapierItem());
 	public static final RegistryObject<Item> DIAMOND_RAPIER = REGISTRY.register("diamond_rapier", () -> new DiamondRapierItem());
 	public static final RegistryObject<Item> STEEL_RAPIER = REGISTRY.register("steel_rapier", () -> new SteelRapierItem());
+	public static final RegistryObject<Item> DRAGON_BITE_DAGGER = REGISTRY.register("dragon_bite_dagger", () -> new DragonBiteDaggerItem());
+	public static final RegistryObject<Item> RUNIC_STONE_RESISTENCE = REGISTRY.register("runic_stone_resistence", () -> new RunicStoneResistenceItem());
+	public static final RegistryObject<Item> RUNIC_STONE_FATALITY = REGISTRY.register("runic_stone_fatality", () -> new RunicStoneFatalityItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

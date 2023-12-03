@@ -69,6 +69,8 @@ public class MineterraModTabs {
 				tabData.accept(MineterraModItems.STEEL_INGOT.get());
 				tabData.accept(MineterraModItems.RUNIC_STONE_PRECISION.get());
 				tabData.accept(MineterraModItems.RUNIC_STONE_DUELING.get());
+				tabData.accept(MineterraModItems.RUNIC_STONE_RESISTENCE.get());
+				tabData.accept(MineterraModItems.RUNIC_STONE_FATALITY.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -83,7 +85,6 @@ public class MineterraModTabs {
 			tabData.accept(MineterraModItems.NETHERITE_DAGGER.get());
 			tabData.accept(MineterraModItems.SACRIFICE_DAGGER.get());
 			tabData.accept(MineterraModItems.FLINT_DAGGER.get());
-			tabData.accept(MineterraModItems.UNACTIVE_RITUAL_DAGGER.get());
 			tabData.accept(MineterraModItems.RITUAL_DAGGER.get());
 			tabData.accept(MineterraModItems.IRON_SAI_RAPIER.get());
 			tabData.accept(MineterraModItems.ELDERLY_RAPIER_SAI.get());
@@ -198,6 +199,7 @@ public class MineterraModTabs {
 			tabData.accept(MineterraModItems.GOLD_RAPIER.get());
 			tabData.accept(MineterraModItems.DIAMOND_RAPIER.get());
 			tabData.accept(MineterraModItems.STEEL_RAPIER.get());
+			tabData.accept(MineterraModItems.DRAGON_BITE_DAGGER.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {

@@ -3094,35 +3094,6 @@
       "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/GemKits/Demonite"
     },
     {
-      "name": "UnactiveRitualDagger",
-      "type": "tool",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "unactive_ritual_dagger",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/mineterra/models/item/unactive_ritual_dagger.json",
-          "src/main/java/net/mcreator/mineterra/item/UnactiveRitualDaggerItem.java"
-        ]
-      },
-      "path": "~/Items/ItemsNormal/Common Items/RawItems/Daggers/Ritual Dagger"
-    },
-    {
-      "name": "UnactiveRitualDaggerRecipe",
-      "type": "recipe",
-      "sortid": 319,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "unactive_ritual_dagger_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mineterra/recipes/unactive_ritual_dagger_recipe.json"
-        ]
-      },
-      "path": "~/Items/ItemsNormal/Common Items/RawItems/Daggers/Ritual Dagger"
-    },
-    {
       "name": "Strength",
       "type": "attribute",
       "sortid": 320,
@@ -7960,7 +7931,7 @@
       "type": "tool",
       "sortid": 547,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "dark_harvester_scythe",
       "metadata": {
         "files": [
@@ -8577,7 +8548,7 @@
           "src/main/java/net/mcreator/mineterra/item/RunicStoneDuelingItem.java"
         ]
       },
-      "path": "~/Items/ItemsNormal/PassiveItems"
+      "path": "~/Items/ItemsNormal/PassiveItems/Duelling"
     },
     {
       "name": "RunicStoneDuelingBaubleIsEquipped",
@@ -8597,7 +8568,7 @@
           }
         ]
       },
-      "path": "~/Items/ItemsNormal/PassiveItems"
+      "path": "~/Items/ItemsNormal/PassiveItems/Duelling"
     },
     {
       "name": "GoldRapier",
@@ -8685,6 +8656,119 @@
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/RawItems/Rapier"
+    },
+    {
+      "name": "DragonBiteDagger",
+      "type": "tool",
+      "sortid": 612,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_bite_dagger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/dragon_bite_dagger.json",
+          "src/main/java/net/mcreator/mineterra/item/DragonBiteDaggerItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Daggers/DragonBite"
+    },
+    {
+      "name": "DragonBiteDaggerLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 613,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_bite_dagger_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/DragonBiteDaggerLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Daggers/DragonBite"
+    },
+    {
+      "name": "RunicStoneResistence",
+      "type": "curiosbauble",
+      "sortid": 614,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_stone_resistence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/runic_stone_resistence.json",
+          "src/main/java/net/mcreator/mineterra/item/RunicStoneResistenceItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/PassiveItems/Resistence"
+    },
+    {
+      "name": "RunicStoneResistenceBaubleIsEquipped",
+      "type": "procedure",
+      "sortid": 615,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_stone_resistence_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/RunicStoneResistenceBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/PassiveItems/Resistence"
+    },
+    {
+      "name": "RunicStoneFatality",
+      "type": "curiosbauble",
+      "sortid": 616,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_stone_fatality",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/RunicStoneFatalityItem.java",
+          "src/main/resources/assets/mineterra/models/item/runic_stone_fatality.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/PassiveItems/Fatality"
+    },
+    {
+      "name": "RunicStoneFatalityBaubleIsEquipped",
+      "type": "procedure",
+      "sortid": 617,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_stone_fatality_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/RunicStoneFatalityBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Daggers"
     }
   ],
   "variable_elements": [
@@ -8899,8 +8983,8 @@
       "item.mineterra.silver_armor_chestplate": "Peitoral de Prata",
       "item.mineterra.amethyst_armor_boots": "Amethyst Boots",
       "item.mineterra.arcanite_gemstone": "Arcanite Gemstone",
-      "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
       "item.mineterra.zircon_axe": "Zircon Axe",
+      "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
       "effect.mineterra.sangramento": "Bleeding",
       "block.mineterra.garnet_ore": "Garnet Ore",
       "item.mineterra.garnet_pickaxe": "Garnet Pickaxe",
@@ -9034,7 +9118,6 @@
       "item.mineterra.titanium_ingot": "Titanium",
       "item.mineterra.diamond_sai_rapier": "Sai de Diamante",
       "item.mineterra.silver_hoe": "Enxada de Prata",
-      "item.mineterra.unactive_ritual_dagger": "Adaga de Ritual Desativada",
       "item.mineterra.sapphire_shovel": "Sapphire Shovel",
       "item.mineterra.light_orb": "Light Orb",
       "block.mineterra.sunstone_block": "Block of Sunstone",
@@ -9044,6 +9127,7 @@
       "item.mineterra.stone_dagger": "Adaga de Pedra",
       "item.mineterra.tourmaline_axe": "Tourmaline Axe",
       "item.mineterra.nebulous_veil_dagger": "Nebulous Veil",
+      "item.mineterra.runic_stone_fatality": "Runic Stone Fatality",
       "item.mineterra.copper_armor_helmet": "Copper Helmet",
       "gui.mineterra.human_gui.tooltip_ha_eons_atras_muito_antes_da_so": "Há éons atrás, muito antes da sombra do asteroide Astérion lançar o mundo em um abismo de caos e desolação, uma raça ancestral dominava os confins de Mineterra. Seus domínios se estendiam por vastos territórios, da cintura dos mares tempestuosos às profundezas das florestas milenares, e sua civilização prosperava em harmonia com a natureza e a magia.  No entanto, quando o asteroide destruidor, Astérion, rasgou os céus com sua queda devastadora, o mundo que conheciam foi mergulhado na escuridão e no desespero. Cidades grandiosas se transformaram em ruínas, e os corações corajosos desses antigos habitantes se viram confrontados com uma luta pela sobrevivência em uma terra transformada.  Hoje, enquanto os seres humanos tentam recomeçar, eles aproveitam ao máximo sua incrível capacidade de se adaptar a novos ambientes e de criar ferramentas para desbravar os recantos mais sombrios da Mineterra. Eles carregam consigo a memória de sua herança perdida, determinados a aprender com os segredos antigos e restaurar a grandiosidade de uma raça que uma vez foi aclamada como uma das mais bem-sucedidas do universo. Nas suas jornadas, os humanos se esforçam para mostrar ao mundo o verdadeiro motivo de seu legado, enquanto enfrentam os desafios implacáveis de um novo amanhecer épico.",
       "gui.mineterra.passive_items.tooltip_item_inicialitem_de_classe": "Item Inicial/Item de classe",
@@ -9081,6 +9165,7 @@
       "gui.mineterra.feralits_gui.label_das_suas_consequencias": "das suas consequências.",
       "item.mineterra.sapphire_axe": "Sapphire Axe",
       "item.mineterra.copper_armor_boots": "Copper Boots",
+      "item.mineterra.dragon_bite_dagger": "Dragon Bite",
       "item.mineterra.forge_hammer": "Forge Hammer",
       "item_group.mineterra.mineterra_weapons": "Mineterra Armas Especiais",
       "attribute.mineterra.wisdom": "Wisdom",
@@ -9138,6 +9223,7 @@
       "block.mineterra.tourmaline_block": "Block of Tourmaline",
       "item.mineterra.blade_of_banished_queen": "Blade Of Banished Queen",
       "item.mineterra.garnet_armor_leggings": "Garnet Leggings",
+      "item.mineterra.runic_stone_resistence": "Runic Stone Resistence",
       "item.mineterra.demonita_armor_boots": "Botas de Demonita",
       "gui.mineterra.game_start_character_creation.Abyssal": "Abyssal",
       "subtitles.katana_draw": "",
@@ -9342,6 +9428,10 @@
                           {
                             "name": "Ritual Dagger",
                             "children": []
+                          },
+                          {
+                            "name": "DragonBite",
+                            "children": []
                           }
                         ]
                       },
@@ -9488,6 +9578,10 @@
                             "children": []
                           }
                         ]
+                      },
+                      {
+                        "name": "Claws",
+                        "children": []
                       }
                     ]
                   }
@@ -9536,6 +9630,22 @@
                 "children": [
                   {
                     "name": "Precision",
+                    "children": []
+                  },
+                  {
+                    "name": "Duelling",
+                    "children": []
+                  },
+                  {
+                    "name": "Resistence",
+                    "children": []
+                  },
+                  {
+                    "name": "Brutality",
+                    "children": []
+                  },
+                  {
+                    "name": "Fatality",
                     "children": []
                   }
                 ]
