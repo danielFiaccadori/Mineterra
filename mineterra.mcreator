@@ -8769,6 +8769,41 @@
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/RawItems/Daggers"
+    },
+    {
+      "name": "RunicStoneBrutality",
+      "type": "curiosbauble",
+      "sortid": 618,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_stone_brutality",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/RunicStoneBrutalityItem.java",
+          "src/main/resources/assets/mineterra/models/item/runic_stone_brutality.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/PassiveItems/Brutality"
+    },
+    {
+      "name": "BrutalityRuneProcedure",
+      "type": "procedure",
+      "sortid": 619,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brutality_rune_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/BrutalityRuneProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/PassiveItems/Brutality"
     }
   ],
   "variable_elements": [
@@ -8983,8 +9018,8 @@
       "item.mineterra.silver_armor_chestplate": "Peitoral de Prata",
       "item.mineterra.amethyst_armor_boots": "Amethyst Boots",
       "item.mineterra.arcanite_gemstone": "Arcanite Gemstone",
-      "item.mineterra.zircon_axe": "Zircon Axe",
       "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
+      "item.mineterra.zircon_axe": "Zircon Axe",
       "effect.mineterra.sangramento": "Bleeding",
       "block.mineterra.garnet_ore": "Garnet Ore",
       "item.mineterra.garnet_pickaxe": "Garnet Pickaxe",
@@ -9114,6 +9149,7 @@
       "item.mineterra.sapphire_armor_leggings": "Sapphire Leggings",
       "item.mineterra.sunstone_pickaxe": "Sunstone Pickaxe",
       "item.mineterra.steel_armor_leggings": "Steel Leggings",
+      "item.mineterra.runic_stone_brutality": "Runic Stone Fatality",
       "item.mineterra.topaz_armor_boots": "Topaz Boots",
       "item.mineterra.titanium_ingot": "Titanium",
       "item.mineterra.diamond_sai_rapier": "Sai de Diamante",

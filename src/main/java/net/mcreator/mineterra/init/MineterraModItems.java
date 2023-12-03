@@ -94,6 +94,7 @@ import net.mcreator.mineterra.item.RunicStoneResistenceItem;
 import net.mcreator.mineterra.item.RunicStonePrecisionItem;
 import net.mcreator.mineterra.item.RunicStoneFatalityItem;
 import net.mcreator.mineterra.item.RunicStoneDuelingItem;
+import net.mcreator.mineterra.item.RunicStoneBrutalityItem;
 import net.mcreator.mineterra.item.RubySwordItem;
 import net.mcreator.mineterra.item.RubyShovelItem;
 import net.mcreator.mineterra.item.RubyPickaxeItem;
@@ -414,6 +415,7 @@ public class MineterraModItems {
 	public static final RegistryObject<Item> DRAGON_BITE_DAGGER = REGISTRY.register("dragon_bite_dagger", () -> new DragonBiteDaggerItem());
 	public static final RegistryObject<Item> RUNIC_STONE_RESISTENCE = REGISTRY.register("runic_stone_resistence", () -> new RunicStoneResistenceItem());
 	public static final RegistryObject<Item> RUNIC_STONE_FATALITY = REGISTRY.register("runic_stone_fatality", () -> new RunicStoneFatalityItem());
+	public static final RegistryObject<Item> RUNIC_STONE_BRUTALITY = REGISTRY.register("runic_stone_brutality", () -> new RunicStoneBrutalityItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

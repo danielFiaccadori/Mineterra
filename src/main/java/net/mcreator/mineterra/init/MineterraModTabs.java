@@ -71,6 +71,7 @@ public class MineterraModTabs {
 				tabData.accept(MineterraModItems.RUNIC_STONE_DUELING.get());
 				tabData.accept(MineterraModItems.RUNIC_STONE_RESISTENCE.get());
 				tabData.accept(MineterraModItems.RUNIC_STONE_FATALITY.get());
+				tabData.accept(MineterraModItems.RUNIC_STONE_BRUTALITY.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
