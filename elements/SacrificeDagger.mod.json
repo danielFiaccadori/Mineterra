@@ -8,8 +8,9 @@
     "customModelName": "Normal",
     "name": "Adaga de Sacrifício",
     "specialInfo": [
-      "§cBônus de dano§8",
-      "Adagas causam dano adicional equivalente a §6+1% do dano de ataque do usuário§r."
+      "§cAssassin§8",
+      "Daggers deal §6additional damage§8 based on your Dexterity + Attack Damage.",
+      "§8§oExecute enemies below 30% of health."
     ],
     "creativeTab": {
       "value": "COMBAT"

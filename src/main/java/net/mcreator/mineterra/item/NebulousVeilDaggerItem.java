@@ -56,6 +56,7 @@ public class NebulousVeilDaggerItem extends SwordItem {
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("\u00A7cNight Veil"));
-		list.add(Component.literal("\u00A78Right clicking with this item give to the player invisibility (level based on dexterity) for 4 seconds. Your next attack during this effect inflicts \u00A753 \u00A78additional \u00A75Magic Damage\u00A78."));
+		list.add(Component.literal(
+				"\u00A78Right clicking with this item give to the player invisibility (level based on dexterity) for 4 seconds. Your next attack during this effect inflicts \u00A753(+20% of Magic Damage) \u00A78additional \u00A75Magic Damage\u00A78."));
 	}
 }

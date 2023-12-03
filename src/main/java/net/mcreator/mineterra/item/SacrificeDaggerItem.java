@@ -54,7 +54,8 @@ public class SacrificeDaggerItem extends SwordItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("\u00A7cB\u00F4nus de dano\u00A78"));
-		list.add(Component.literal("Adagas causam dano adicional equivalente a \u00A76+1% do dano de ataque do usu\u00E1rio\u00A7r."));
+		list.add(Component.literal("\u00A7cAssassin\u00A78"));
+		list.add(Component.literal("Daggers deal \u00A76additional damage\u00A78 based on your Dexterity + Attack Damage."));
+		list.add(Component.literal("\u00A78\u00A7oExecute enemies below 30% of health."));
 	}
 }

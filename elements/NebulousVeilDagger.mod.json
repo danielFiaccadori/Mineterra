@@ -9,7 +9,7 @@
     "name": "Nebulous Veil",
     "specialInfo": [
       "§cNight Veil",
-      "§8Right clicking with this item give to the player invisibility (level based on dexterity) for 4 seconds. Your next attack during this effect inflicts §53 §8additional §5Magic Damage§8."
+      "§8Right clicking with this item give to the player invisibility (level based on dexterity) for 4 seconds. Your next attack during this effect inflicts §53(+20% of Magic Damage) §8additional §5Magic Damage§8."
     ],
     "creativeTab": {
       "value": "COMBAT"
