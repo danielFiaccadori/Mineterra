@@ -1675,34 +1675,6 @@
       "path": "~/Items/ItemsNormal/Common Items/RawItems/Rapier"
     },
     {
-      "name": "RapierLivingEntityIsHitWithTool",
-      "type": "procedure",
-      "sortid": 267,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rapier_living_entity_is_hit_with_tool",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mineterra/procedures/RapierLivingEntityIsHitWithToolProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Items/ItemsNormal/Common Items/RawItems/Rapier"
-    },
-    {
       "name": "RapierRecipe",
       "type": "recipe",
       "sortid": 268,
@@ -7756,7 +7728,7 @@
       "type": "tool",
       "sortid": 537,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "nebulous_veil_dagger",
       "metadata": {
         "files": [
@@ -7988,7 +7960,7 @@
       "type": "tool",
       "sortid": 547,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "dark_harvester_scythe",
       "metadata": {
         "files": [
@@ -8055,10 +8027,6 @@
         "dependencies": [
           {
             "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
             "type": "entity"
           },
           {
@@ -8731,12 +8699,6 @@
       "type": "number",
       "scope": "player_lifetime",
       "value": "0.0"
-    },
-    {
-      "name": "DarkHarvestValue",
-      "type": "number",
-      "scope": "player_lifetime",
-      "value": "0.0"
     }
   ],
   "sound_elements": [
@@ -8937,8 +8899,8 @@
       "item.mineterra.silver_armor_chestplate": "Peitoral de Prata",
       "item.mineterra.amethyst_armor_boots": "Amethyst Boots",
       "item.mineterra.arcanite_gemstone": "Arcanite Gemstone",
-      "item.mineterra.zircon_axe": "Zircon Axe",
       "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
+      "item.mineterra.zircon_axe": "Zircon Axe",
       "effect.mineterra.sangramento": "Bleeding",
       "block.mineterra.garnet_ore": "Garnet Ore",
       "item.mineterra.garnet_pickaxe": "Garnet Pickaxe",

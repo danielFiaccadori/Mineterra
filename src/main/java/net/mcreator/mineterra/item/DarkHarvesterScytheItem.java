@@ -48,7 +48,7 @@ public class DarkHarvesterScytheItem extends SwordItem {
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
-		DarkHarvesterScytheLivingEntityIsHitWithToolProcedure.execute(entity.level(), entity, sourceentity);
+		DarkHarvesterScytheLivingEntityIsHitWithToolProcedure.execute(entity.level(), entity);
 		return retval;
 	}
 

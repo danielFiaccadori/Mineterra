@@ -28,7 +28,7 @@ public class SteelRapierItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return -0.3f;
+				return 0f;
 			}
 
 			public int getLevel() {
