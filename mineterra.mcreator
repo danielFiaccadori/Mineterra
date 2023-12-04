@@ -2046,7 +2046,7 @@
       "type": "tool",
       "sortid": 18,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "spiritual_claymore",
       "metadata": {
         "files": [
@@ -2257,61 +2257,6 @@
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/RawItems/Claymore/SpiritualSword/SpiritualSwordEffects"
-    },
-    {
-      "name": "SpiritualCataclysm",
-      "type": "tool",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "spiritual_cataclysm_claymore",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/mineterra/models/item/spiritual_cataclysm_claymore.json",
-          "src/main/java/net/mcreator/mineterra/item/SpiritualCataclysmItem.java"
-        ]
-      },
-      "path": "~/Items/ItemsNormal/Common Items/RawItems/Claymore/SpiritualSword"
-    },
-    {
-      "name": "SpiritualCataclysmLivingEntityIsHitWithTool",
-      "type": "procedure",
-      "sortid": 290,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "spiritual_cataclysm_living_entity_is_hit_with_tool",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mineterra/procedures/SpiritualCataclysmLivingEntityIsHitWithToolProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Items/ItemsNormal/Common Items/RawItems/Claymore/SpiritualSword"
     },
     {
       "name": "IronClaymore",
@@ -8768,7 +8713,7 @@
           }
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/RawItems/Daggers"
+      "path": "~/Items/ItemsNormal/PassiveItems/Fatality"
     },
     {
       "name": "RunicStoneBrutality",
@@ -8804,6 +8749,41 @@
         ]
       },
       "path": "~/Items/ItemsNormal/PassiveItems/Brutality"
+    },
+    {
+      "name": "RuneStoneSpellcaster",
+      "type": "curiosbauble",
+      "sortid": 620,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_stone_spellcaster",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/rune_stone_spellcaster.json",
+          "src/main/java/net/mcreator/mineterra/item/RuneStoneSpellcasterItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/PassiveItems/Spellcaster"
+    },
+    {
+      "name": "RuneStoneSpellcasterBaubleIsEquipped",
+      "type": "procedure",
+      "sortid": 621,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_stone_spellcaster_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/RuneStoneSpellcasterBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/PassiveItems/Spellcaster"
     }
   ],
   "variable_elements": [
@@ -9018,8 +8998,8 @@
       "item.mineterra.silver_armor_chestplate": "Peitoral de Prata",
       "item.mineterra.amethyst_armor_boots": "Amethyst Boots",
       "item.mineterra.arcanite_gemstone": "Arcanite Gemstone",
-      "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
       "item.mineterra.zircon_axe": "Zircon Axe",
+      "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
       "effect.mineterra.sangramento": "Bleeding",
       "block.mineterra.garnet_ore": "Garnet Ore",
       "item.mineterra.garnet_pickaxe": "Garnet Pickaxe",
@@ -9089,6 +9069,7 @@
       "item.mineterra.gold_katana": "Katana de Ouro",
       "item.mineterra.topaz_shovel": "Topaz Shovel",
       "item.mineterra.citrine_armor_helmet": "Citrine Helmet",
+      "item.mineterra.rune_stone_spellcaster": "Runic Stone Fatality",
       "item.mineterra.sunstone_armor_boots": "Sunstone Boots",
       "item.mineterra.garnet_armor_helmet": "Garnet Helmet",
       "item.mineterra.diamond_rapier": "Diamond Rapier",
@@ -9149,7 +9130,7 @@
       "item.mineterra.sapphire_armor_leggings": "Sapphire Leggings",
       "item.mineterra.sunstone_pickaxe": "Sunstone Pickaxe",
       "item.mineterra.steel_armor_leggings": "Steel Leggings",
-      "item.mineterra.runic_stone_brutality": "Runic Stone Fatality",
+      "item.mineterra.runic_stone_brutality": "Runic Stone Brutality",
       "item.mineterra.topaz_armor_boots": "Topaz Boots",
       "item.mineterra.titanium_ingot": "Titanium",
       "item.mineterra.diamond_sai_rapier": "Sai de Diamante",
@@ -9192,7 +9173,6 @@
       "block.mineterra.demonita_ore": "Minério de Demonita",
       "block.mineterra.citrine_block": "Block of Citrine",
       "item.mineterra.steel_pickaxe": "Steel Pickaxe",
-      "item.mineterra.spiritual_cataclysm_claymore": "Cataclisma Espiritual",
       "item.mineterra.topaz_armor_helmet": "Topaz Helmet",
       "gui.mineterra.orc_gui.label_das_suas_consequencias": "das suas consequências.",
       "item.mineterra.citrine_shovel": "Citrine Shovel",
@@ -9682,6 +9662,10 @@
                   },
                   {
                     "name": "Fatality",
+                    "children": []
+                  },
+                  {
+                    "name": "Spellcaster",
                     "children": []
                   }
                 ]

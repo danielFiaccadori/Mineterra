@@ -15,7 +15,7 @@ public class FireStaffProjectileHitsLivingEntityProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, Entity sourceentity) {
 		if (entity == null || sourceentity == null)
 			return;
-		entity.setSecondsOnFire(15);
+		entity.setSecondsOnFire((int) ((LivingEntity) sourceentity).getAttribute(MineterraModAttributes.INTELLIGENCE.get()).getValue());
 		entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.MAGIC)),
 				(float) (2 + ((LivingEntity) sourceentity).getAttribute(MineterraModAttributes.MAGICDAMAGE.get()).getValue() / 5));
 		if (world instanceof ServerLevel _level)

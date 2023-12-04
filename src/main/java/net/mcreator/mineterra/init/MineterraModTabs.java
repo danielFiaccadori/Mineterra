@@ -72,6 +72,7 @@ public class MineterraModTabs {
 				tabData.accept(MineterraModItems.RUNIC_STONE_RESISTENCE.get());
 				tabData.accept(MineterraModItems.RUNIC_STONE_FATALITY.get());
 				tabData.accept(MineterraModItems.RUNIC_STONE_BRUTALITY.get());
+				tabData.accept(MineterraModItems.RUNE_STONE_SPELLCASTER.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -95,7 +96,6 @@ public class MineterraModTabs {
 			tabData.accept(MineterraModItems.NETHERITE_CLAYMORE.get());
 			tabData.accept(MineterraModItems.IMPERIAL_GOLD_CLAYMORE.get());
 			tabData.accept(MineterraModItems.SPIRITUAL_CLAYMORE.get());
-			tabData.accept(MineterraModItems.SPIRITUAL_CATACLYSM_CLAYMORE.get());
 			tabData.accept(MineterraModItems.RAPIER.get());
 			tabData.accept(MineterraModItems.GOLD_SAI_RAPIER.get());
 			tabData.accept(MineterraModItems.DIAMOND_SAI_RAPIER.get());

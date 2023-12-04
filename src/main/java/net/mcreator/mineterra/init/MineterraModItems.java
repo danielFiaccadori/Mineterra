@@ -72,7 +72,6 @@ import net.mcreator.mineterra.item.SteelAxeItem;
 import net.mcreator.mineterra.item.SteelArmorItem;
 import net.mcreator.mineterra.item.StaffOfLesserMagicItem;
 import net.mcreator.mineterra.item.SpiritualLongswordItem;
-import net.mcreator.mineterra.item.SpiritualCataclysmItem;
 import net.mcreator.mineterra.item.SilverSwordItem;
 import net.mcreator.mineterra.item.SilverShovelItem;
 import net.mcreator.mineterra.item.SilverPickaxeItem;
@@ -95,6 +94,7 @@ import net.mcreator.mineterra.item.RunicStonePrecisionItem;
 import net.mcreator.mineterra.item.RunicStoneFatalityItem;
 import net.mcreator.mineterra.item.RunicStoneDuelingItem;
 import net.mcreator.mineterra.item.RunicStoneBrutalityItem;
+import net.mcreator.mineterra.item.RuneStoneSpellcasterItem;
 import net.mcreator.mineterra.item.RubySwordItem;
 import net.mcreator.mineterra.item.RubyShovelItem;
 import net.mcreator.mineterra.item.RubyPickaxeItem;
@@ -197,7 +197,6 @@ public class MineterraModItems {
 	public static final RegistryObject<Item> NETHERITE_CLAYMORE = REGISTRY.register("netherite_claymore", () -> new NetheriteClaymoreItem());
 	public static final RegistryObject<Item> IMPERIAL_GOLD_CLAYMORE = REGISTRY.register("imperial_gold_claymore", () -> new ImperialGoldClaymoreItem());
 	public static final RegistryObject<Item> SPIRITUAL_CLAYMORE = REGISTRY.register("spiritual_claymore", () -> new SpiritualLongswordItem());
-	public static final RegistryObject<Item> SPIRITUAL_CATACLYSM_CLAYMORE = REGISTRY.register("spiritual_cataclysm_claymore", () -> new SpiritualCataclysmItem());
 	public static final RegistryObject<Item> RAPIER = REGISTRY.register("rapier", () -> new IronRapierItem());
 	public static final RegistryObject<Item> GOLD_SAI_RAPIER = REGISTRY.register("gold_sai_rapier", () -> new GoldSaiItem());
 	public static final RegistryObject<Item> DIAMOND_SAI_RAPIER = REGISTRY.register("diamond_sai_rapier", () -> new DiamondSaiItem());
@@ -416,6 +415,7 @@ public class MineterraModItems {
 	public static final RegistryObject<Item> RUNIC_STONE_RESISTENCE = REGISTRY.register("runic_stone_resistence", () -> new RunicStoneResistenceItem());
 	public static final RegistryObject<Item> RUNIC_STONE_FATALITY = REGISTRY.register("runic_stone_fatality", () -> new RunicStoneFatalityItem());
 	public static final RegistryObject<Item> RUNIC_STONE_BRUTALITY = REGISTRY.register("runic_stone_brutality", () -> new RunicStoneBrutalityItem());
+	public static final RegistryObject<Item> RUNE_STONE_SPELLCASTER = REGISTRY.register("rune_stone_spellcaster", () -> new RuneStoneSpellcasterItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -37,7 +37,7 @@ public class FireStaffItem extends Item {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("\u00A7dIgnite"));
 		list.add(Component.literal("\u00A78Throws a fire rune into a target, dealing \u00A752\u00A78 + \u00A7510%(+ total XP level) Magical Damage\u00A78"));
-		list.add(Component.literal("setting the target on fire for 3 seconds."));
+		list.add(Component.literal("setting the target on fire for a amount of time based on the intelligence of the caster."));
 	}
 
 	@Override

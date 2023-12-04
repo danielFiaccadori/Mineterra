@@ -15,7 +15,6 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.world.InteractionHand;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
@@ -28,7 +27,6 @@ import net.minecraft.network.protocol.game.ClientboundGameEventPacket;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.mineterra.network.MineterraModVariables;
 import net.mcreator.mineterra.init.MineterraModMobEffects;
 import net.mcreator.mineterra.init.MineterraModItems;
 import net.mcreator.mineterra.MineterraMod;
@@ -52,7 +50,7 @@ public class SpiritualSwordStunProcedure {
 		if (entity == null || sourceentity == null)
 			return;
 		if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MineterraModItems.SPIRITUAL_CLAYMORE.get()) {
-			if (!(sourceentity instanceof Player _player ? _player.getCooldowns().isOnCooldown((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()) : false)) {
+			if (!(sourceentity instanceof Player _player ? _player.getCooldowns().isOnCooldown(MineterraModItems.SPIRITUAL_CLAYMORE.get()) : false)) {
 				if (world instanceof ServerLevel _level)
 					_level.sendParticles(ParticleTypes.FLASH, x, y, z, 50, 1, 1, 1, 1);
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
@@ -108,36 +106,6 @@ public class SpiritualSwordStunProcedure {
 						if (sourceentity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 							_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, (int) ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMaxHealth() : -1) * 100),
 									(int) ((entity instanceof LivingEntity _livEnt ? _livEnt.getMaxHealth() : -1) / 10), false, false));
-						if (!((sourceentity.getCapability(MineterraModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new MineterraModVariables.PlayerVariables())).SoulNumber == 10)) {
-							{
-								double _setval = (sourceentity.getCapability(MineterraModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new MineterraModVariables.PlayerVariables())).SoulNumber + 1;
-								sourceentity.getCapability(MineterraModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-									capability.SoulNumber = _setval;
-									capability.syncPlayerVariables(sourceentity);
-								});
-							}
-						} else if ((sourceentity.getCapability(MineterraModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new MineterraModVariables.PlayerVariables())).SoulNumber == 10) {
-							{
-								double _setval = 0;
-								sourceentity.getCapability(MineterraModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-									capability.SoulNumber = _setval;
-									capability.syncPlayerVariables(sourceentity);
-								});
-							}
-							if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MineterraModItems.SPIRITUAL_CLAYMORE.get()) {
-								if (sourceentity instanceof Player _player) {
-									ItemStack _stktoremove = new ItemStack(MineterraModItems.SPIRITUAL_CLAYMORE.get());
-									_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
-								}
-								if (sourceentity instanceof LivingEntity _entity) {
-									ItemStack _setstack = new ItemStack(MineterraModItems.SPIRITUAL_CATACLYSM_CLAYMORE.get());
-									_setstack.setCount(1);
-									_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack);
-									if (_entity instanceof Player _player)
-										_player.getInventory().setChanged();
-								}
-							}
-						}
 					}
 					if (entity instanceof Mob _entity && sourceentity instanceof LivingEntity _ent)
 						_entity.setTarget(_ent);

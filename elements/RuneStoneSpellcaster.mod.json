@@ -3,9 +3,9 @@
   "_type": "curiosbauble",
   "definition": {
     "renderType": 0,
-    "texture": "runicstonebrutality",
+    "texture": "runicstonespellcaster",
     "customModelName": "Normal",
-    "name": "Runic Stone Brutality",
+    "name": "Runic Stone Fatality",
     "rarity": "UNCOMMON",
     "slotType": "CURIO",
     "baubleModel": "Default",
@@ -29,11 +29,11 @@
     "addSlot": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "§6Berserker Nv.1",
-      "- §7+1 Lifesteal",
-      "- §7+1 Attack Damage",
-      "- §7 +10% Attack Speed",
-      "§8§oSimilar to the Fatality rune, this one focus on the ability of brutal high speed attacks to enemies, and a slight durability during single target fights due to lifesteal. (Each runic stone can be upgraded using a runic upgrader in a smithing table)"
+      "§6Mage Nv.1",
+      "- §7+1 Magic Damage",
+      "- §7+1 Wisdom",
+      "- §7 +1 Intelligence",
+      "§8§oThe subject of this rune is to increase the Magical Capacity of the user. All of the attributes are the ones responsible for damage or power of the magic skills from Mineterra. (Each runic stone can be upgraded using a runic upgrader in a smithing table)"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
@@ -41,10 +41,10 @@
     "inventoryStackSize": 64,
     "slotAmount": 1,
     "onEquip": {
-      "name": "BrutalityRuneProcedure"
+      "name": "RuneStoneSpellcasterBaubleIsEquipped"
     },
     "onUnequip": {
-      "name": "BrutalityRuneProcedure"
+      "name": "RuneStoneSpellcasterBaubleIsEquipped"
     },
     "isFood": false,
     "friendlyPigs": false,
