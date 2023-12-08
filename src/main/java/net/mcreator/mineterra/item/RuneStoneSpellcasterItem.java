@@ -28,7 +28,7 @@ public class RuneStoneSpellcasterItem extends Item implements ICurioItem {
 		list.add(Component.literal("- \u00A77+1 Wisdom"));
 		list.add(Component.literal("- \u00A77 +1 Intelligence"));
 		list.add(Component.literal(
-				"\u00A78\u00A7oThe subject of this rune is to increase the Magical Capacity of the user. All of the attributes are the ones responsible for damage or power of the magic skills from Mineterra. (Each runic stone can be upgraded using a runic upgrader in a smithing table)"));
+				"\u00A78\u00A7oThe subject of this rune is to increase the Magical Capacity of the user. All of the attributes are the ones responsible for damage or power of the magic skills from Mineterra. Earning XP grants 20 more XP. (Each runic stone can be upgraded using a runic upgrader in a smithing table)"));
 	}
 
 	@Override

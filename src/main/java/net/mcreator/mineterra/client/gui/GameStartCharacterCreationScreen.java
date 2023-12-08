@@ -6,11 +6,12 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.Checkbox;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.mineterra.world.inventory.GameStartCharacterCreationMenu;
+import net.mcreator.mineterra.network.GameStartCharacterCreationButtonMessage;
+import net.mcreator.mineterra.MineterraMod;
 
 import java.util.HashMap;
 
@@ -21,19 +22,16 @@ public class GameStartCharacterCreationScreen extends AbstractContainerScreen<Ga
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-	Checkbox Human;
-	Checkbox Celestial;
-	Checkbox Abyssal;
-	Checkbox SonOfTheTide;
-	Checkbox Orc;
-	Checkbox Feralit;
-	Checkbox Gnome;
-	Checkbox Dwarf;
-	Checkbox HighElf;
-	Checkbox ForestElf;
-	Button button_next;
-	Button button_prev;
-	Button button_select;
+	Button button_human;
+	Button button_human1;
+	Button button_human2;
+	Button button_human3;
+	Button button_human4;
+	Button button_human5;
+	Button button_human6;
+	Button button_human7;
+	Button button_human8;
+	Button button_human9;
 
 	public GameStartCharacterCreationScreen(GameStartCharacterCreationMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -58,6 +56,16 @@ public class GameStartCharacterCreationScreen extends AbstractContainerScreen<Ga
 		this.renderBackground(guiGraphics);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
+		if (mouseX > leftPos + 0 && mouseX < leftPos + 24 && mouseY > topPos + 146 && mouseY < topPos + 170)
+			guiGraphics.renderTooltip(font, Component.translatable("gui.mineterra.game_start_character_creation.tooltip_offsprings_are_the_races_the"), mouseX, mouseY);
+		if (mouseX > leftPos + 43 && mouseX < leftPos + 67 && mouseY > topPos + 58 && mouseY < topPos + 82)
+			guiGraphics.renderTooltip(font, Component.translatable("gui.mineterra.game_start_character_creation.tooltip_mainly_composed_by_humans_imper"), mouseX, mouseY);
+		if (mouseX > leftPos + 97 && mouseX < leftPos + 121 && mouseY > topPos + 58 && mouseY < topPos + 82)
+			guiGraphics.renderTooltip(font, Component.translatable("gui.mineterra.game_start_character_creation.tooltip_good_at_mining_dwarfen_are_peop"), mouseX, mouseY);
+		if (mouseX > leftPos + 151 && mouseX < leftPos + 175 && mouseY > topPos + 58 && mouseY < topPos + 82)
+			guiGraphics.renderTooltip(font, Component.translatable("gui.mineterra.game_start_character_creation.tooltip_brute"), mouseX, mouseY);
+		if (mouseX > leftPos + 43 && mouseX < leftPos + 67 && mouseY > topPos + 83 && mouseY < topPos + 107)
+			guiGraphics.renderTooltip(font, Component.translatable("gui.mineterra.game_start_character_creation.tooltip_people_with_haerean_offspring_ar"), mouseX, mouseY);
 	}
 
 	@Override
@@ -67,7 +75,7 @@ public class GameStartCharacterCreationScreen extends AbstractContainerScreen<Ga
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		guiGraphics.blit(new ResourceLocation("mineterra:textures/screens/ezgif.com-webp-to-png.png"), this.leftPos + -132, this.topPos + -63, 0, 0, 500, 281, 500, 281);
+		guiGraphics.blit(new ResourceLocation("mineterra:textures/screens/ezgif.com-webp-to-png.png"), this.leftPos + -132, this.topPos + -62, 0, 0, 500, 281, 500, 281);
 
 		guiGraphics.blit(new ResourceLocation("mineterra:textures/screens/game_start_character_creation.png"), this.leftPos + 0, this.topPos + 0, 0, 0, 246, 172, 246, 172);
 
@@ -90,7 +98,10 @@ public class GameStartCharacterCreationScreen extends AbstractContainerScreen<Ga
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.mineterra.game_start_character_creation.label_human"), 87, 15, -3355648, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.mineterra.game_start_character_creation.label_pick_an_race"), 10, 11, -13421773, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.mineterra.game_start_character_creation.label_about_you_to_let_you_enter_in_ou"), 10, 22, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.mineterra.game_start_character_creation.label_first_tell_me_your_starting_fun"), 48, 42, -10066330, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.mineterra.game_start_character_creation.label_empty"), 9, 153, -12829636, false);
 	}
 
 	@Override
@@ -101,47 +112,85 @@ public class GameStartCharacterCreationScreen extends AbstractContainerScreen<Ga
 	@Override
 	public void init() {
 		super.init();
-		button_next = Button.builder(Component.translatable("gui.mineterra.game_start_character_creation.button_next"), e -> {
-		}).bounds(this.leftPos + 189, this.topPos + 141, 46, 20).build();
-		guistate.put("button:button_next", button_next);
-		this.addRenderableWidget(button_next);
-		button_prev = Button.builder(Component.translatable("gui.mineterra.game_start_character_creation.button_prev"), e -> {
-		}).bounds(this.leftPos + 9, this.topPos + 141, 51, 20).build();
-		guistate.put("button:button_prev", button_prev);
-		this.addRenderableWidget(button_prev);
-		button_select = Button.builder(Component.translatable("gui.mineterra.game_start_character_creation.button_select"), e -> {
-		}).bounds(this.leftPos + 95, this.topPos + 141, 56, 20).build();
-		guistate.put("button:button_select", button_select);
-		this.addRenderableWidget(button_select);
-		Human = new Checkbox(this.leftPos + 14, this.topPos + 36, 20, 20, Component.translatable("gui.mineterra.game_start_character_creation.Human"), false);
-		guistate.put("checkbox:Human", Human);
-		this.addRenderableWidget(Human);
-		Celestial = new Checkbox(this.leftPos + 14, this.topPos + 59, 20, 20, Component.translatable("gui.mineterra.game_start_character_creation.Celestial"), false);
-		guistate.put("checkbox:Celestial", Celestial);
-		this.addRenderableWidget(Celestial);
-		Abyssal = new Checkbox(this.leftPos + 14, this.topPos + 82, 20, 20, Component.translatable("gui.mineterra.game_start_character_creation.Abyssal"), false);
-		guistate.put("checkbox:Abyssal", Abyssal);
-		this.addRenderableWidget(Abyssal);
-		SonOfTheTide = new Checkbox(this.leftPos + 14, this.topPos + 105, 20, 20, Component.translatable("gui.mineterra.game_start_character_creation.SonOfTheTide"), false);
-		guistate.put("checkbox:SonOfTheTide", SonOfTheTide);
-		this.addRenderableWidget(SonOfTheTide);
-		Orc = new Checkbox(this.leftPos + 88, this.topPos + 36, 20, 20, Component.translatable("gui.mineterra.game_start_character_creation.Orc"), false);
-		guistate.put("checkbox:Orc", Orc);
-		this.addRenderableWidget(Orc);
-		Feralit = new Checkbox(this.leftPos + 88, this.topPos + 59, 20, 20, Component.translatable("gui.mineterra.game_start_character_creation.Feralit"), false);
-		guistate.put("checkbox:Feralit", Feralit);
-		this.addRenderableWidget(Feralit);
-		Gnome = new Checkbox(this.leftPos + 88, this.topPos + 82, 20, 20, Component.translatable("gui.mineterra.game_start_character_creation.Gnome"), false);
-		guistate.put("checkbox:Gnome", Gnome);
-		this.addRenderableWidget(Gnome);
-		Dwarf = new Checkbox(this.leftPos + 88, this.topPos + 105, 20, 20, Component.translatable("gui.mineterra.game_start_character_creation.Dwarf"), false);
-		guistate.put("checkbox:Dwarf", Dwarf);
-		this.addRenderableWidget(Dwarf);
-		HighElf = new Checkbox(this.leftPos + 164, this.topPos + 36, 20, 20, Component.translatable("gui.mineterra.game_start_character_creation.HighElf"), false);
-		guistate.put("checkbox:HighElf", HighElf);
-		this.addRenderableWidget(HighElf);
-		ForestElf = new Checkbox(this.leftPos + 164, this.topPos + 59, 20, 20, Component.translatable("gui.mineterra.game_start_character_creation.ForestElf"), false);
-		guistate.put("checkbox:ForestElf", ForestElf);
-		this.addRenderableWidget(ForestElf);
+		button_human = Button.builder(Component.translatable("gui.mineterra.game_start_character_creation.button_human"), e -> {
+			if (true) {
+				MineterraMod.PACKET_HANDLER.sendToServer(new GameStartCharacterCreationButtonMessage(0, x, y, z));
+				GameStartCharacterCreationButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
+		}).bounds(this.leftPos + 15, this.topPos + 61, 51, 20).build();
+		guistate.put("button:button_human", button_human);
+		this.addRenderableWidget(button_human);
+		button_human1 = Button.builder(Component.translatable("gui.mineterra.game_start_character_creation.button_human1"), e -> {
+			if (true) {
+				MineterraMod.PACKET_HANDLER.sendToServer(new GameStartCharacterCreationButtonMessage(1, x, y, z));
+				GameStartCharacterCreationButtonMessage.handleButtonAction(entity, 1, x, y, z);
+			}
+		}).bounds(this.leftPos + 15, this.topPos + 84, 51, 20).build();
+		guistate.put("button:button_human1", button_human1);
+		this.addRenderableWidget(button_human1);
+		button_human2 = Button.builder(Component.translatable("gui.mineterra.game_start_character_creation.button_human2"), e -> {
+			if (true) {
+				MineterraMod.PACKET_HANDLER.sendToServer(new GameStartCharacterCreationButtonMessage(2, x, y, z));
+				GameStartCharacterCreationButtonMessage.handleButtonAction(entity, 2, x, y, z);
+			}
+		}).bounds(this.leftPos + 177, this.topPos + 61, 51, 20).build();
+		guistate.put("button:button_human2", button_human2);
+		this.addRenderableWidget(button_human2);
+		button_human3 = Button.builder(Component.translatable("gui.mineterra.game_start_character_creation.button_human3"), e -> {
+			if (true) {
+				MineterraMod.PACKET_HANDLER.sendToServer(new GameStartCharacterCreationButtonMessage(3, x, y, z));
+				GameStartCharacterCreationButtonMessage.handleButtonAction(entity, 3, x, y, z);
+			}
+		}).bounds(this.leftPos + 69, this.topPos + 107, 51, 20).build();
+		guistate.put("button:button_human3", button_human3);
+		this.addRenderableWidget(button_human3);
+		button_human4 = Button.builder(Component.translatable("gui.mineterra.game_start_character_creation.button_human4"), e -> {
+			if (true) {
+				MineterraMod.PACKET_HANDLER.sendToServer(new GameStartCharacterCreationButtonMessage(4, x, y, z));
+				GameStartCharacterCreationButtonMessage.handleButtonAction(entity, 4, x, y, z);
+			}
+		}).bounds(this.leftPos + 69, this.topPos + 61, 51, 20).build();
+		guistate.put("button:button_human4", button_human4);
+		this.addRenderableWidget(button_human4);
+		button_human5 = Button.builder(Component.translatable("gui.mineterra.game_start_character_creation.button_human5"), e -> {
+			if (true) {
+				MineterraMod.PACKET_HANDLER.sendToServer(new GameStartCharacterCreationButtonMessage(5, x, y, z));
+				GameStartCharacterCreationButtonMessage.handleButtonAction(entity, 5, x, y, z);
+			}
+		}).bounds(this.leftPos + 69, this.topPos + 84, 51, 20).build();
+		guistate.put("button:button_human5", button_human5);
+		this.addRenderableWidget(button_human5);
+		button_human6 = Button.builder(Component.translatable("gui.mineterra.game_start_character_creation.button_human6"), e -> {
+			if (true) {
+				MineterraMod.PACKET_HANDLER.sendToServer(new GameStartCharacterCreationButtonMessage(6, x, y, z));
+				GameStartCharacterCreationButtonMessage.handleButtonAction(entity, 6, x, y, z);
+			}
+		}).bounds(this.leftPos + 177, this.topPos + 84, 51, 20).build();
+		guistate.put("button:button_human6", button_human6);
+		this.addRenderableWidget(button_human6);
+		button_human7 = Button.builder(Component.translatable("gui.mineterra.game_start_character_creation.button_human7"), e -> {
+			if (true) {
+				MineterraMod.PACKET_HANDLER.sendToServer(new GameStartCharacterCreationButtonMessage(7, x, y, z));
+				GameStartCharacterCreationButtonMessage.handleButtonAction(entity, 7, x, y, z);
+			}
+		}).bounds(this.leftPos + 123, this.topPos + 107, 51, 20).build();
+		guistate.put("button:button_human7", button_human7);
+		this.addRenderableWidget(button_human7);
+		button_human8 = Button.builder(Component.translatable("gui.mineterra.game_start_character_creation.button_human8"), e -> {
+			if (true) {
+				MineterraMod.PACKET_HANDLER.sendToServer(new GameStartCharacterCreationButtonMessage(8, x, y, z));
+				GameStartCharacterCreationButtonMessage.handleButtonAction(entity, 8, x, y, z);
+			}
+		}).bounds(this.leftPos + 123, this.topPos + 61, 51, 20).build();
+		guistate.put("button:button_human8", button_human8);
+		this.addRenderableWidget(button_human8);
+		button_human9 = Button.builder(Component.translatable("gui.mineterra.game_start_character_creation.button_human9"), e -> {
+			if (true) {
+				MineterraMod.PACKET_HANDLER.sendToServer(new GameStartCharacterCreationButtonMessage(9, x, y, z));
+				GameStartCharacterCreationButtonMessage.handleButtonAction(entity, 9, x, y, z);
+			}
+		}).bounds(this.leftPos + 123, this.topPos + 84, 51, 20).build();
+		guistate.put("button:button_human9", button_human9);
+		this.addRenderableWidget(button_human9);
 	}
 }

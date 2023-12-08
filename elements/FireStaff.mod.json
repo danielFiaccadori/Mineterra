@@ -9,7 +9,8 @@
     "specialInfo": [
       "§dIgnite",
       "§8Throws a fire rune into a target, dealing §52§8 + §510%(+ total XP level) Magical Damage§8",
-      "setting the target on fire for a amount of time based on the intelligence of the caster."
+      "setting the target on fire for a amount of time based on the intelligence of the caster.",
+      "§8§oEach cast costs 3 XP."
     ],
     "creativeTab": {
       "value": "COMBAT"

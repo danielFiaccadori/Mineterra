@@ -10,5 +10,7 @@ public class LightStaffRangedItemIsUsedProcedure {
 			return;
 		if (entity instanceof Player _player)
 			_player.getCooldowns().addCooldown(itemstack.getItem(), 100);
+		if (entity instanceof Player _player)
+			_player.giveExperiencePoints(-(3));
 	}
 }

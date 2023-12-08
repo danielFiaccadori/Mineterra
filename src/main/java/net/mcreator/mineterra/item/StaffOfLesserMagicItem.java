@@ -37,6 +37,7 @@ public class StaffOfLesserMagicItem extends Item {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("\u00A7dArcane Ash"));
 		list.add(Component.literal("\u00A78Focus all your arcane energy into a target, dealing damage based on \u00A75100% \u00A78of your \u00A75Magical Damage\u00A78."));
+		list.add(Component.literal("\u00A78\u00A7oEach cast costs 3 XP."));
 	}
 
 	@Override

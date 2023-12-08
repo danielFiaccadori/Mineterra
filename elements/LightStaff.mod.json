@@ -8,7 +8,8 @@
     "name": "Light Staff",
     "specialInfo": [
       "§dIlluminate",
-      "§8Conjures a light orb into a target, dealing §53§8 + §530%(+ total XP level) Magical Damage§8."
+      "§8Conjures a light orb into a target, dealing §53§8 + §530%(+ total XP level) Magical Damage§8.",
+      "§8§oEach cast costs 3 XP."
     ],
     "creativeTab": {
       "value": "COMBAT"

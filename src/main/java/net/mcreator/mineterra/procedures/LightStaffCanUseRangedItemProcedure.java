@@ -9,7 +9,9 @@ public class LightStaffCanUseRangedItemProcedure {
 		if (entity == null)
 			return false;
 		if (!(entity instanceof Player _player ? _player.getCooldowns().isOnCooldown(itemstack.getItem()) : false)) {
-			return true;
+			if (!((entity instanceof Player _plr ? _plr.experienceLevel : 0) <= 2)) {
+				return true;
+			}
 		}
 		return false;
 	}

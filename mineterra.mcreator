@@ -15,9 +15,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/CharacterCreation/Races"
     },
     {
       "name": "Celestial",
@@ -34,9 +51,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/CharacterCreation/Races"
     },
     {
       "name": "Abyssal",
@@ -53,9 +87,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/CharacterCreation/Races"
     },
     {
       "name": "ChildrenOfTheTide",
@@ -72,9 +123,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/CharacterCreation/Races"
     },
     {
       "name": "Dwarf",
@@ -91,9 +159,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/CharacterCreation/Races"
     },
     {
       "name": "ForestElfs",
@@ -110,9 +195,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/CharacterCreation/Races"
     },
     {
       "name": "HighElfs",
@@ -129,9 +231,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/CharacterCreation/Races"
     },
     {
       "name": "Feralits",
@@ -148,9 +267,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/CharacterCreation/Races"
     },
     {
       "name": "Orc",
@@ -167,9 +303,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/CharacterCreation/Races"
     },
     {
       "name": "Gnome",
@@ -186,9 +339,26 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/CharacterCreation/Races"
     },
     {
       "name": "Chaos",
@@ -496,7 +666,7 @@
           }
         ]
       },
-      "path": "~/PassiveEffects/Human"
+      "path": "~/CharacterCreation/PassiveEffects/Human"
     },
     {
       "name": "HumanAttributes",
@@ -516,7 +686,7 @@
           }
         ]
       },
-      "path": "~/Custom Attributes"
+      "path": "~/Custom Attributes/Human"
     },
     {
       "name": "CelestialPassiveEffects",
@@ -529,9 +699,14 @@
         "files": [
           "src/main/java/net/mcreator/mineterra/procedures/CelestialPassiveEffectsProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       },
-      "path": "~/PassiveEffects/Celestial"
+      "path": "~/CharacterCreation/PassiveEffects/Celestial"
     },
     {
       "name": "AbyssalPassiveEffect",
@@ -544,9 +719,34 @@
         "files": [
           "src/main/java/net/mcreator/mineterra/procedures/AbyssalPassiveEffectProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
-      "path": "~/PassiveEffects/Abyssal"
+      "path": "~/CharacterCreation/PassiveEffects/Abyssal"
     },
     {
       "name": "SunBlessingEffectStartedapplied",
@@ -566,7 +766,7 @@
           }
         ]
       },
-      "path": "~/PassiveEffects/Effects/EffectsProcedures"
+      "path": "~/CharacterCreation/PassiveEffects/Effects/EffectsProcedures"
     },
     {
       "name": "SunBlessing",
@@ -580,7 +780,7 @@
           "src/main/java/net/mcreator/mineterra/potion/SunBlessingMobEffect.java"
         ]
       },
-      "path": "~/PassiveEffects/Effects"
+      "path": "~/CharacterCreation/PassiveEffects/Effects"
     },
     {
       "name": "InsatableHungerEffectStartedapplied",
@@ -600,7 +800,7 @@
           }
         ]
       },
-      "path": "~/PassiveEffects/Effects/EffectsProcedures"
+      "path": "~/CharacterCreation/PassiveEffects/Effects/EffectsProcedures"
     },
     {
       "name": "InsatableHunger",
@@ -614,7 +814,7 @@
           "src/main/java/net/mcreator/mineterra/potion/InsatableHungerMobEffect.java"
         ]
       },
-      "path": "~/PassiveEffects/Effects"
+      "path": "~/CharacterCreation/PassiveEffects/Effects"
     },
     {
       "name": "COTTPassive",
@@ -627,9 +827,14 @@
         "files": [
           "src/main/java/net/mcreator/mineterra/procedures/COTTPassiveProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       },
-      "path": "~/PassiveEffects/Children of the tide"
+      "path": "~/CharacterCreation/PassiveEffects/Children of the tide"
     },
     {
       "name": "TideBlessing",
@@ -643,7 +848,7 @@
           "src/main/java/net/mcreator/mineterra/potion/TideBlessingMobEffect.java"
         ]
       },
-      "path": "~/PassiveEffects/Effects"
+      "path": "~/CharacterCreation/PassiveEffects/Effects"
     },
     {
       "name": "TideBlessingEffectStartedapplied",
@@ -663,7 +868,7 @@
           }
         ]
       },
-      "path": "~/PassiveEffects/Effects/EffectsProcedures"
+      "path": "~/CharacterCreation/PassiveEffects/Effects/EffectsProcedures"
     },
     {
       "name": "DwarfPassiveEffect",
@@ -676,9 +881,30 @@
         "files": [
           "src/main/java/net/mcreator/mineterra/procedures/DwarfPassiveEffectProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
-      "path": "~/PassiveEffects/Dwarf"
+      "path": "~/CharacterCreation/PassiveEffects/Dwarf"
     },
     {
       "name": "DwarfPassiveEffect2",
@@ -691,9 +917,30 @@
         "files": [
           "src/main/java/net/mcreator/mineterra/procedures/DwarfPassiveEffect2Procedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
-      "path": "~/PassiveEffects/Dwarf"
+      "path": "~/CharacterCreation/PassiveEffects/Dwarf"
     },
     {
       "name": "SmallAndEfficient",
@@ -707,7 +954,7 @@
           "src/main/java/net/mcreator/mineterra/potion/SmallAndEfficientMobEffect.java"
         ]
       },
-      "path": "~/PassiveEffects/Effects"
+      "path": "~/CharacterCreation/PassiveEffects/Effects"
     },
     {
       "name": "SmallAndEfficientEffectStartedapplied",
@@ -727,7 +974,7 @@
           }
         ]
       },
-      "path": "~/PassiveEffects/Effects/EffectsProcedures"
+      "path": "~/CharacterCreation/PassiveEffects/Effects/EffectsProcedures"
     },
     {
       "name": "ForestBlessingEffectStartedapplied",
@@ -747,7 +994,7 @@
           }
         ]
       },
-      "path": "~/PassiveEffects/Effects/EffectsProcedures"
+      "path": "~/CharacterCreation/PassiveEffects/Effects/EffectsProcedures"
     },
     {
       "name": "ForestBlessing",
@@ -761,7 +1008,7 @@
           "src/main/java/net/mcreator/mineterra/potion/ForestBlessingMobEffect.java"
         ]
       },
-      "path": "~/PassiveEffects/Effects"
+      "path": "~/CharacterCreation/PassiveEffects/Effects"
     },
     {
       "name": "ForestElfPassiveEffect",
@@ -774,9 +1021,14 @@
         "files": [
           "src/main/java/net/mcreator/mineterra/procedures/ForestElfPassiveEffectProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       },
-      "path": "~/PassiveEffects/Forest Elfs"
+      "path": "~/CharacterCreation/PassiveEffects/Forest Elfs"
     },
     {
       "name": "MagicDamage",
@@ -824,7 +1076,7 @@
         ],
         "dependencies": []
       },
-      "path": "~/PassiveEffects/Orc"
+      "path": "~/CharacterCreation/PassiveEffects/Orc"
     },
     {
       "name": "OrcPassive2",
@@ -839,7 +1091,7 @@
         ],
         "dependencies": []
       },
-      "path": "~/PassiveEffects/Orc"
+      "path": "~/CharacterCreation/PassiveEffects/Orc"
     },
     {
       "name": "Ferocity",
@@ -853,7 +1105,7 @@
           "src/main/java/net/mcreator/mineterra/potion/FerocityMobEffect.java"
         ]
       },
-      "path": "~/PassiveEffects/Effects"
+      "path": "~/CharacterCreation/PassiveEffects/Effects"
     },
     {
       "name": "FerocityEffectStartedapplied",
@@ -873,7 +1125,7 @@
           }
         ]
       },
-      "path": "~/PassiveEffects/Effects/EffectsProcedures"
+      "path": "~/CharacterCreation/PassiveEffects/Effects/EffectsProcedures"
     },
     {
       "name": "HighElfPassive",
@@ -886,9 +1138,14 @@
         "files": [
           "src/main/java/net/mcreator/mineterra/procedures/HighElfPassiveProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       },
-      "path": "~/PassiveEffects/High Elfs"
+      "path": "~/CharacterCreation/PassiveEffects/High Elfs"
     },
     {
       "name": "BestialDomainnEffectStartedapplied",
@@ -903,7 +1160,7 @@
         ],
         "dependencies": []
       },
-      "path": "~/PassiveEffects/Feralits"
+      "path": "~/CharacterCreation/PassiveEffects/Feralits"
     },
     {
       "name": "BestialDomain",
@@ -917,7 +1174,7 @@
           "src/main/java/net/mcreator/mineterra/potion/BestialDomainMobEffect.java"
         ]
       },
-      "path": "~/PassiveEffects/Feralits"
+      "path": "~/CharacterCreation/PassiveEffects/Feralits"
     },
     {
       "name": "FeralitPassive",
@@ -930,9 +1187,18 @@
         "files": [
           "src/main/java/net/mcreator/mineterra/procedures/FeralitPassiveProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
       },
-      "path": "~/PassiveEffects/Feralits"
+      "path": "~/CharacterCreation/PassiveEffects/Feralits"
     },
     {
       "name": "GnomePassiveEffect",
@@ -945,9 +1211,14 @@
         "files": [
           "src/main/java/net/mcreator/mineterra/procedures/GnomePassiveEffectProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       },
-      "path": "~/PassiveEffects/Gnome"
+      "path": "~/CharacterCreation/PassiveEffects/Gnome"
     },
     {
       "name": "Sangramento",
@@ -6725,9 +6996,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/mineterra/client/gui/GameStartCharacterCreationScreen.java",
-          "src/main/java/net/mcreator/mineterra/world/inventory/GameStartCharacterCreationMenu.java"
+          "src/main/java/net/mcreator/mineterra/world/inventory/GameStartCharacterCreationMenu.java",
+          "src/main/java/net/mcreator/mineterra/network/GameStartCharacterCreationButtonMessage.java"
         ]
-      }
+      },
+      "path": "~/CharacterCreation/GUI"
     },
     {
       "name": "WoodStaff",
@@ -8638,6 +8911,18 @@
             "type": "entity"
           },
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -8784,6 +9069,415 @@
         ]
       },
       "path": "~/Items/ItemsNormal/PassiveItems/Spellcaster"
+    },
+    {
+      "name": "CelestiumIngot",
+      "type": "item",
+      "sortid": 625,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/celestium_ingot.json",
+          "src/main/java/net/mcreator/mineterra/item/CelestiumIngotItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CelestiumKit"
+    },
+    {
+      "name": "CelestiumOre",
+      "type": "block",
+      "sortid": 623,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/blockstates/celestium_ore.json",
+          "src/main/resources/assets/mineterra/models/item/celestium_ore.json",
+          "src/main/java/net/mcreator/mineterra/block/CelestiumOreBlock.java",
+          "src/main/resources/data/mineterra/worldgen/placed_feature/celestium_ore.json",
+          "src/main/resources/data/mineterra/forge/biome_modifier/celestium_ore_biome_modifier.json",
+          "src/main/resources/data/mineterra/worldgen/configured_feature/celestium_ore.json",
+          "src/main/java/net/mcreator/mineterra/world/features/ores/CelestiumOreFeature.java",
+          "src/main/resources/assets/mineterra/models/block/celestium_ore.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CelestiumKit"
+    },
+    {
+      "name": "CelestiumBlock",
+      "type": "block",
+      "sortid": 624,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/block/celestium_block.json",
+          "src/main/resources/assets/mineterra/models/item/celestium_block.json",
+          "src/main/resources/assets/mineterra/blockstates/celestium_block.json",
+          "src/main/java/net/mcreator/mineterra/block/CelestiumBlockBlock.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CelestiumKit"
+    },
+    {
+      "name": "CelestiumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 626,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestium_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/celestium_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CelestiumKit"
+    },
+    {
+      "name": "CelestiumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 627,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestium_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/celestium_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CelestiumKit"
+    },
+    {
+      "name": "CelestiumOreSmelting",
+      "type": "recipe",
+      "sortid": 628,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestium_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/celestium_ore_smelting.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CelestiumKit"
+    },
+    {
+      "name": "CelestiumPickaxe",
+      "type": "tool",
+      "sortid": 638,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/CelestiumPickaxeItem.java",
+          "src/main/resources/assets/mineterra/models/item/celestium_pickaxe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CelestiumKit"
+    },
+    {
+      "name": "CelestiumAxe",
+      "type": "tool",
+      "sortid": 639,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestium_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/celestium_axe.json",
+          "src/main/java/net/mcreator/mineterra/item/CelestiumAxeItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CelestiumKit"
+    },
+    {
+      "name": "CelestiumSword",
+      "type": "tool",
+      "sortid": 640,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestium_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/celestium_sword.json",
+          "src/main/java/net/mcreator/mineterra/item/CelestiumSwordItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CelestiumKit"
+    },
+    {
+      "name": "CelestiumShovel",
+      "type": "tool",
+      "sortid": 641,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/CelestiumShovelItem.java",
+          "src/main/resources/assets/mineterra/models/item/celestium_shovel.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CelestiumKit"
+    },
+    {
+      "name": "CelestiumHoe",
+      "type": "tool",
+      "sortid": 642,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestium_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/celestium_hoe.json",
+          "src/main/java/net/mcreator/mineterra/item/CelestiumHoeItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CelestiumKit"
+    },
+    {
+      "name": "CelestiumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 629,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestium_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/celestium_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CelestiumKit"
+    },
+    {
+      "name": "CelestiumAxeRecipe",
+      "type": "recipe",
+      "sortid": 630,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestium_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/celestium_axe_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CelestiumKit"
+    },
+    {
+      "name": "CelestiumSwordRecipe",
+      "type": "recipe",
+      "sortid": 631,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestium_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/celestium_sword_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CelestiumKit"
+    },
+    {
+      "name": "CelestiumShovelRecipe",
+      "type": "recipe",
+      "sortid": 632,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestium_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/celestium_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CelestiumKit"
+    },
+    {
+      "name": "CelestiumHoeRecipe",
+      "type": "recipe",
+      "sortid": 633,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestium_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/celestium_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CelestiumKit"
+    },
+    {
+      "name": "CelestiumArmor",
+      "type": "armor",
+      "sortid": 622,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestium_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/CelestiumArmorItem.java",
+          "src/main/resources/assets/mineterra/models/item/celestium_armor_leggings.json",
+          "src/main/resources/assets/mineterra/models/item/celestium_armor_chestplate.json",
+          "src/main/resources/assets/mineterra/models/item/celestium_armor_boots.json",
+          "src/main/resources/assets/mineterra/models/item/celestium_armor_helmet.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CelestiumKit"
+    },
+    {
+      "name": "CelestiumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 634,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestium_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/celestium_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CelestiumKit"
+    },
+    {
+      "name": "CelestiumArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 635,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestium_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/celestium_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CelestiumKit"
+    },
+    {
+      "name": "CelestiumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 636,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestium_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/celestium_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CelestiumKit"
+    },
+    {
+      "name": "CelestiumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 637,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestium_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/celestium_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Kits/OreKits/CelestiumKit"
+    },
+    {
+      "name": "CelestialAttribbutes",
+      "type": "procedure",
+      "sortid": 643,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestial_attribbutes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/CelestialAttribbutesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Custom Attributes/Celestial"
+    },
+    {
+      "name": "AbyssalAttributes",
+      "type": "procedure",
+      "sortid": 644,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyssal_attributes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/AbyssalAttributesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Custom Attributes/Abyssal"
+    },
+    {
+      "name": "COTTAttributes",
+      "type": "procedure",
+      "sortid": 645,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cott_attributes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/COTTAttributesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Custom Attributes/Children Of The Tide"
+    },
+    {
+      "name": "BalsadurGreatsword",
+      "type": "tool",
+      "sortid": 646,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "balsadur_greatsword_claymore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/BalsadurGreatswordItem.java",
+          "src/main/resources/assets/mineterra/models/item/balsadur_greatsword_claymore.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Claymore"
+    },
+    {
+      "name": "RuneStoneSpellcasterEXP",
+      "type": "procedure",
+      "sortid": 647,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_stone_spellcaster_exp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/RuneStoneSpellcasterEXPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/PassiveItems/Spellcaster"
     }
   ],
   "variable_elements": [
@@ -8797,6 +9491,12 @@
       "name": "attackCount",
       "type": "number",
       "scope": "player_lifetime",
+      "value": "0.0"
+    },
+    {
+      "name": "race",
+      "type": "number",
+      "scope": "player_persistent",
       "value": "0.0"
     }
   ],
@@ -8998,8 +9698,9 @@
       "item.mineterra.silver_armor_chestplate": "Peitoral de Prata",
       "item.mineterra.amethyst_armor_boots": "Amethyst Boots",
       "item.mineterra.arcanite_gemstone": "Arcanite Gemstone",
-      "item.mineterra.zircon_axe": "Zircon Axe",
+      "block.mineterra.celestium_block": "Block of Celestium",
       "item.mineterra.tanzanite_shovel": "Tanzanite Shovel",
+      "item.mineterra.zircon_axe": "Zircon Axe",
       "effect.mineterra.sangramento": "Bleeding",
       "block.mineterra.garnet_ore": "Garnet Ore",
       "item.mineterra.garnet_pickaxe": "Garnet Pickaxe",
@@ -9009,8 +9710,10 @@
       "item.mineterra.steel_armor_chestplate": "Steel Chestplate",
       "block.mineterra.titanium_block": "Block of Titanium",
       "block.mineterra.silver_ore": "Minério de Prata",
+      "gui.mineterra.game_start_character_creation.tooltip_brute": "Brute.",
       "item.mineterra.fire_staff_wand": "Fire Staff",
       "item.mineterra.iron_sai_rapier": "Sai de Ferro",
+      "gui.mineterra.game_start_character_creation.name": "Your name",
       "attribute.mineterra.life_steal": "Life Steal",
       "item.mineterra.amethyst_armor_chestplate": "Amethyst Chestplate",
       "block.mineterra.sapphire_ore": "Sapphire Ore",
@@ -9048,6 +9751,7 @@
       "item.mineterra.ritual_dagger": "Ritual Dagger",
       "item.mineterra.demonita_armor_leggings": "Calças de Demonita",
       "item.mineterra.citrine_hoe": "Citrine Hoe",
+      "item.mineterra.celestium_sword": "Celestium Sword",
       "item.mineterra.ruby": "Ruby",
       "item.mineterra.iron_dagger": "Adaga de Ferro",
       "item.mineterra.garnet": "Garnet",
@@ -9064,6 +9768,7 @@
       "subtitles.orrc-growl": "",
       "item.mineterra.wood_katana": "Katana de Madeira",
       "item.mineterra.tanzanite_axe": "Tanzanite Axe",
+      "block.mineterra.celestium_ore": "Celestium Ore",
       "item.mineterra.demonita_shovel": "Pá de Demonita",
       "gui.mineterra.human_gui.label_conhecimento": "- Conhecimento;",
       "item.mineterra.gold_katana": "Katana de Ouro",
@@ -9075,6 +9780,7 @@
       "item.mineterra.diamond_rapier": "Diamond Rapier",
       "item.mineterra.zircon_shovel": "Zircon Shovel",
       "attribute.mineterra.intelligence": "Intelligence",
+      "gui.mineterra.game_start_character_creation.label_empty": "?",
       "gui.mineterra.game_start_character_creation.Feralit": "Feralit",
       "item.mineterra.citrine": "Citrine",
       "subtitles.dreamwood-ambience": "",
@@ -9100,6 +9806,7 @@
       "attribute.mineterra.dexterity": "Dexterity",
       "item.mineterra.magical_casing": "Magical Casing",
       "subtitles.heartbeat10s": "",
+      "item.mineterra.celestium_armor_leggings": "Celestium Leggings",
       "item.mineterra.sacrifice_dagger": "Adaga de Sacrifício",
       "item.mineterra.flint_dagger": "Adaga de Sílex",
       "block.mineterra.zircon_block": "Block of Zircon",
@@ -9109,6 +9816,7 @@
       "item.mineterra.titanium_shovel": "Titanium Shovel",
       "item.mineterra.amethyst_axe": "Amethyst Axe",
       "item.mineterra.ruby_armor_boots": "Ruby Boots",
+      "item.mineterra.balsadur_greatsword_claymore": "Balsadur Greatsword",
       "item.mineterra.copper_armor_leggings": "Copper Leggings",
       "item.mineterra.tanzanite_sword": "Tanzanite Sword",
       "subtitles.spiritual_explosion": "",
@@ -9117,11 +9825,19 @@
       "gui.mineterra.game_start_character_creation.button_prev": "\u003c Prev.",
       "effect.mineterra.ferocity": "Brutalidade e Ferocidade",
       "item.mineterra.citrine_sword": "Citrine Sword",
+      "gui.mineterra.game_start_character_creation.button_human4": "Dwarfen",
+      "gui.mineterra.game_start_character_creation.button_human3": "Oceanic",
       "item.mineterra.steel_gladiums_sword": "Gladium\u0027s Steel Sword",
+      "gui.mineterra.game_start_character_creation.button_human6": "Arcanes",
+      "gui.mineterra.game_start_character_creation.button_human5": "Elven",
+      "gui.mineterra.game_start_character_creation.button_human8": "Ugan",
+      "gui.mineterra.game_start_character_creation.button_human7": "Ixtalean",
       "item.mineterra.tanzanite_hoe": "Tanzanite Hoe",
+      "gui.mineterra.game_start_character_creation.button_human9": "Luckmore",
       "item.mineterra.spiritual_claymore": "Espada Espiritual",
       "item.mineterra.silver_armor_leggings": "Calças de Prata",
       "item.mineterra.gold_rapier": "Gold Rapier",
+      "gui.mineterra.game_start_character_creation.tooltip_good_at_mining_dwarfen_are_peop": "Good at mining, Dwarfen are people born in the far lands of Dwarfia, the richest land in the ores and gemstones quesites. You earn haste and a mining boost depending on the amount of time you pass underground.",
       "block.mineterra.silver_block": "Bloco de Prata",
       "item.mineterra.tanzanite_armor_helmet": "Tanzanite Helmet",
       "item.mineterra.ruby_armor_helmet": "Ruby Helmet",
@@ -9129,23 +9845,28 @@
       "item.mineterra.citrine_armor_chestplate": "Citrine Chestplate",
       "item.mineterra.sapphire_armor_leggings": "Sapphire Leggings",
       "item.mineterra.sunstone_pickaxe": "Sunstone Pickaxe",
+      "item.mineterra.celestium_armor_chestplate": "Celestium Chestplate",
       "item.mineterra.steel_armor_leggings": "Steel Leggings",
       "item.mineterra.runic_stone_brutality": "Runic Stone Brutality",
       "item.mineterra.topaz_armor_boots": "Topaz Boots",
+      "gui.mineterra.game_start_character_creation.button_human2": "Hadean",
       "item.mineterra.titanium_ingot": "Titanium",
       "item.mineterra.diamond_sai_rapier": "Sai de Diamante",
+      "gui.mineterra.game_start_character_creation.button_human1": "Haerean",
       "item.mineterra.silver_hoe": "Enxada de Prata",
       "item.mineterra.sapphire_shovel": "Sapphire Shovel",
       "item.mineterra.light_orb": "Light Orb",
       "block.mineterra.sunstone_block": "Block of Sunstone",
       "item.mineterra.tourmaline": "Tourmaline",
       "item.mineterra.steel_ingot": "Steel",
+      "item.mineterra.celestium_armor_helmet": "Celestium Helmet",
       "item.mineterra.demonita_axe": "Machado de Demonita",
       "item.mineterra.stone_dagger": "Adaga de Pedra",
       "item.mineterra.tourmaline_axe": "Tourmaline Axe",
       "item.mineterra.nebulous_veil_dagger": "Nebulous Veil",
       "item.mineterra.runic_stone_fatality": "Runic Stone Fatality",
       "item.mineterra.copper_armor_helmet": "Copper Helmet",
+      "item.mineterra.celestium_ingot": "Celestium",
       "gui.mineterra.human_gui.tooltip_ha_eons_atras_muito_antes_da_so": "Há éons atrás, muito antes da sombra do asteroide Astérion lançar o mundo em um abismo de caos e desolação, uma raça ancestral dominava os confins de Mineterra. Seus domínios se estendiam por vastos territórios, da cintura dos mares tempestuosos às profundezas das florestas milenares, e sua civilização prosperava em harmonia com a natureza e a magia.  No entanto, quando o asteroide destruidor, Astérion, rasgou os céus com sua queda devastadora, o mundo que conheciam foi mergulhado na escuridão e no desespero. Cidades grandiosas se transformaram em ruínas, e os corações corajosos desses antigos habitantes se viram confrontados com uma luta pela sobrevivência em uma terra transformada.  Hoje, enquanto os seres humanos tentam recomeçar, eles aproveitam ao máximo sua incrível capacidade de se adaptar a novos ambientes e de criar ferramentas para desbravar os recantos mais sombrios da Mineterra. Eles carregam consigo a memória de sua herança perdida, determinados a aprender com os segredos antigos e restaurar a grandiosidade de uma raça que uma vez foi aclamada como uma das mais bem-sucedidas do universo. Nas suas jornadas, os humanos se esforçam para mostrar ao mundo o verdadeiro motivo de seu legado, enquanto enfrentam os desafios implacáveis de um novo amanhecer épico.",
       "gui.mineterra.passive_items.tooltip_item_inicialitem_de_classe": "Item Inicial/Item de classe",
       "item.mineterra.sunstone_shovel": "Sunstone Shovel",
@@ -9156,34 +9877,42 @@
       "gui.mineterra.game_start_character_creation.Gnome": "Gnome",
       "block.mineterra.topaz_block": "Block of Topaz",
       "item.mineterra.titanium_armor_chestplate": "Titanium Chestplate",
+      "item.mineterra.celestium_hoe": "Celestium Hoe",
+      "item.mineterra.celestium_armor_boots": "Celestium Boots",
       "item.mineterra.ruby_hoe": "Ruby Hoe",
       "item.mineterra.arcane_topaz": "Arcane Topaz",
       "attribute.mineterra.chaos": "Chaos",
       "item.mineterra.garnet_shovel": "Garnet Shovel",
+      "gui.mineterra.game_start_character_creation.tooltip_mainly_composed_by_humans_imper": "Mainly composed by humans, Imperials are part of one of the most adaptable and intelligent people of Mineterra. You earn knowledge and attributes based on your total EXP.",
       "item.mineterra.citrine_armor_boots": "Citrine Boots",
       "gui.mineterra.game_start_character_creation.SonOfTheTide": "Sirens",
       "item.mineterra.diamond_dagger": "Adaga de Diamante",
       "attribute.mineterra.magic_damage": "Magic Damage",
       "item.mineterra.arcanite_staff_wand": "Arcanite Staff",
+      "gui.mineterra.game_start_character_creation.tooltip_people_with_haerean_offspring_ar": "People with Haerean offspring are good beings. The main descendents of the Celestial, they were descendents of demigods and humans. You earn the ability to fly, and became stronger on the air, although you are slower on the ground. ",
       "block.mineterra.titanium_ore": "Titanium Ore",
       "item.mineterra.titanium_pickaxe": "Titanium Pickaxe",
       "item.mineterra.steel_hoe": "Steel Hoe",
       "effect.mineterra.small_and_efficient": "Mineradores Eficazes",
+      "gui.mineterra.game_start_character_creation.tooltip_offsprings_are_the_races_the": "Offsprings are the \"races\", the informations that will give you the basic attributes depending on what race have you choosen. You can change them later creating a race diffuser. You can see more information about each offspring hovering the mouse on the right side of each race.",
       "subtitles.insatable-hunger": "",
       "block.mineterra.demonita_ore": "Minério de Demonita",
       "block.mineterra.citrine_block": "Block of Citrine",
       "item.mineterra.steel_pickaxe": "Steel Pickaxe",
+      "gui.mineterra.game_start_character_creation.label_pick_an_race": "Hello! Mineterran, i need some information",
       "item.mineterra.topaz_armor_helmet": "Topaz Helmet",
+      "gui.mineterra.game_start_character_creation.label_first_tell_me_your_starting_fun": "First, tell me your offspring",
       "gui.mineterra.orc_gui.label_das_suas_consequencias": "das suas consequências.",
       "item.mineterra.citrine_shovel": "Citrine Shovel",
       "item.mineterra.amethyst_armor_leggings": "Amethyst Leggings",
       "item.mineterra.topaz_armor_chestplate": "Topaz Chestplate",
+      "gui.mineterra.game_start_character_creation.button_human": "Imperial",
       "gui.mineterra.feralits_gui.label_das_suas_consequencias": "das suas consequências.",
       "item.mineterra.sapphire_axe": "Sapphire Axe",
       "item.mineterra.copper_armor_boots": "Copper Boots",
       "item.mineterra.dragon_bite_dagger": "Dragon Bite",
       "item.mineterra.forge_hammer": "Forge Hammer",
-      "item_group.mineterra.mineterra_weapons": "Mineterra Armas Especiais",
+      "item_group.mineterra.mineterra_weapons": "Mineterra Special Weapons",
       "attribute.mineterra.wisdom": "Wisdom",
       "block.mineterra.topaz_ore": "Topaz Ore",
       "subtitles.lightspell": "",
@@ -9198,6 +9927,7 @@
       "item.mineterra.sunstone_axe": "Sunstone Axe",
       "item.mineterra.citrine_armor_leggings": "Citrine Leggings",
       "item.mineterra.tourmaline_sword": "Tourmaline Sword",
+      "item.mineterra.celestium_shovel": "Celestium Shovel",
       "item.mineterra.runic_stone_precision": "Precision Runic Stone",
       "item.mineterra.sapphire": "Sapphire",
       "item.mineterra.zircon_hoe": "Zircon Hoe",
@@ -9233,12 +9963,14 @@
       "item.mineterra.zircon_armor_boots": "Zircon Boots",
       "item.mineterra.sapphire_armor_chestplate": "Sapphire Chestplate",
       "item.mineterra.netherite_sai_rapier": "Sai de Netherita",
+      "item.mineterra.celestium_pickaxe": "Celestium Pickaxe",
       "item.mineterra.amethyst_hoe": "Amethyst Hoe",
       "item_group.mineterra.mineterra": "Mineterra",
       "gui.mineterra.gnome_gui.label_a_heranca_de_um_evento_devastado": "a herança de um evento devastador,",
       "block.mineterra.tourmaline_block": "Block of Tourmaline",
       "item.mineterra.blade_of_banished_queen": "Blade Of Banished Queen",
       "item.mineterra.garnet_armor_leggings": "Garnet Leggings",
+      "item.mineterra.celestium_axe": "Celestium Axe",
       "item.mineterra.runic_stone_resistence": "Runic Stone Resistence",
       "item.mineterra.demonita_armor_boots": "Botas de Demonita",
       "gui.mineterra.game_start_character_creation.Abyssal": "Abyssal",
@@ -9255,6 +9987,7 @@
       "item.mineterra.rapier": "Iron Rapier",
       "effect.mineterra.bestial_domain": "Fera Enfurecida",
       "block.mineterra.ruby_block": "Block of Ruby",
+      "gui.mineterra.game_start_character_creation.label_about_you_to_let_you_enter_in_ou": "about you to let you enter in our lands.",
       "item.mineterra.crepitars_blade_sword": "Crepitars Blade Sword",
       "subtitles.celestial-transform-saound": "",
       "gui.mineterra.game_start_character_creation.Human": "Human",
@@ -9347,15 +10080,6 @@
                 "children": []
               }
             ]
-          }
-        ]
-      },
-      {
-        "name": "PassiveEffects",
-        "children": [
-          {
-            "name": "Orc",
-            "children": []
           },
           {
             "name": "Human",
@@ -9370,36 +10094,7 @@
             "children": []
           },
           {
-            "name": "Children of the tide",
-            "children": []
-          },
-          {
-            "name": "Dwarf",
-            "children": []
-          },
-          {
-            "name": "Forest Elfs",
-            "children": []
-          },
-          {
-            "name": "Effects",
-            "children": [
-              {
-                "name": "EffectsProcedures",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "High Elfs",
-            "children": []
-          },
-          {
-            "name": "Feralits",
-            "children": []
-          },
-          {
-            "name": "Gnome",
+            "name": "Children Of The Tide",
             "children": []
           }
         ]
@@ -9560,6 +10255,10 @@
                               {
                                 "name": "SteelKit",
                                 "children": []
+                              },
+                              {
+                                "name": "CelestiumKit",
+                                "children": []
                               }
                             ]
                           }
@@ -9694,6 +10393,73 @@
       {
         "name": "Dimensions",
         "children": []
+      },
+      {
+        "name": "CharacterCreation",
+        "children": [
+          {
+            "name": "Races",
+            "children": []
+          },
+          {
+            "name": "GUI",
+            "children": []
+          },
+          {
+            "name": "PassiveEffects",
+            "children": [
+              {
+                "name": "Orc",
+                "children": []
+              },
+              {
+                "name": "Human",
+                "children": []
+              },
+              {
+                "name": "Celestial",
+                "children": []
+              },
+              {
+                "name": "Abyssal",
+                "children": []
+              },
+              {
+                "name": "Children of the tide",
+                "children": []
+              },
+              {
+                "name": "Dwarf",
+                "children": []
+              },
+              {
+                "name": "Forest Elfs",
+                "children": []
+              },
+              {
+                "name": "Effects",
+                "children": [
+                  {
+                    "name": "EffectsProcedures",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "High Elfs",
+                "children": []
+              },
+              {
+                "name": "Feralits",
+                "children": []
+              },
+              {
+                "name": "Gnome",
+                "children": []
+              }
+            ]
+          }
+        ]
       }
     ]
   },

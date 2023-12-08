@@ -8,7 +8,8 @@
     "name": "Arcanite Staff",
     "specialInfo": [
       "§dArcane Ash",
-      "§8Focus all your arcane energy into a target, dealing damage based on §5100% §8of your §5Magical Damage§8."
+      "§8Focus all your arcane energy into a target, dealing damage based on §5100% §8of your §5Magical Damage§8.",
+      "§8§oEach cast costs 3 XP."
     ],
     "creativeTab": {
       "value": "COMBAT"

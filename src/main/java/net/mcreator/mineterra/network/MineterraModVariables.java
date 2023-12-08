@@ -66,6 +66,7 @@ public class MineterraModVariables {
 			event.getOriginal().revive();
 			PlayerVariables original = ((PlayerVariables) event.getOriginal().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
+			clone.race = original.race;
 			if (!event.isWasDeath()) {
 				clone.SoulNumber = original.SoulNumber;
 				clone.attackCount = original.attackCount;
@@ -106,6 +107,7 @@ public class MineterraModVariables {
 	public static class PlayerVariables {
 		public double SoulNumber = 0.0;
 		public double attackCount = 0.0;
+		public double race = 0.0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -116,6 +118,7 @@ public class MineterraModVariables {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putDouble("SoulNumber", SoulNumber);
 			nbt.putDouble("attackCount", attackCount);
+			nbt.putDouble("race", race);
 			return nbt;
 		}
 
@@ -123,6 +126,7 @@ public class MineterraModVariables {
 			CompoundTag nbt = (CompoundTag) Tag;
 			SoulNumber = nbt.getDouble("SoulNumber");
 			attackCount = nbt.getDouble("attackCount");
+			race = nbt.getDouble("race");
 		}
 	}
 
@@ -149,6 +153,7 @@ public class MineterraModVariables {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 					variables.SoulNumber = message.data.SoulNumber;
 					variables.attackCount = message.data.attackCount;
+					variables.race = message.data.race;
 				}
 			});
 			context.setPacketHandled(true);

@@ -16,7 +16,7 @@
           "image": "ezgif.com-webp-to-png.png",
           "use1Xscale": true,
           "x": -42,
-          "y": -29
+          "y": -28
         }
       },
       {
@@ -29,141 +29,268 @@
         }
       },
       {
-        "type": "button",
+        "type": "label",
         "data": {
-          "name": "button_next",
-          "text": "Next >",
-          "width": 46,
-          "height": 20,
-          "x": 280,
-          "y": 175
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "name": "button_prev",
-          "text": "< Prev.",
-          "width": 51,
-          "height": 20,
-          "x": 100,
-          "y": 175
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "name": "button_select",
-          "text": "Select",
-          "width": 56,
-          "height": 20,
-          "x": 186,
-          "y": 175
+          "name": "label_pick_an_race",
+          "text": {
+            "fixedValue": "Hello! Mineterran, i need some information"
+          },
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "x": 101,
+          "y": 45
         }
       },
       {
         "type": "label",
         "data": {
-          "name": "label_human",
+          "name": "label_about_you_to_let_you_enter_in_ou",
           "text": {
-            "fixedValue": "RACE SELECTOR"
+            "fixedValue": "about you to let you enter in our lands."
           },
           "color": {
-            "value": -3355648,
+            "value": -12829636,
             "falpha": 0.0
           },
-          "x": 178,
-          "y": 49
+          "x": 101,
+          "y": 56
         }
       },
       {
-        "type": "checkbox",
+        "type": "label",
         "data": {
-          "name": "Human",
-          "text": "Human",
-          "x": 105,
-          "y": 70
+          "name": "label_first_tell_me_your_starting_fun",
+          "text": {
+            "fixedValue": "First, tell me your offspring"
+          },
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "x": 139,
+          "y": 76
         }
       },
       {
-        "type": "checkbox",
+        "type": "button",
         "data": {
-          "name": "Celestial",
-          "text": "Celestial",
-          "x": 105,
-          "y": 93
+          "name": "button_human",
+          "text": "Imperial",
+          "onClick": {
+            "name": "Human"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 106,
+          "y": 95
         }
       },
       {
-        "type": "checkbox",
+        "type": "button",
         "data": {
-          "name": "Abyssal",
-          "text": "Abyssal",
-          "x": 105,
-          "y": 116
+          "name": "button_human1",
+          "text": "Haerean",
+          "onClick": {
+            "name": "Celestial"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 106,
+          "y": 118
         }
       },
       {
-        "type": "checkbox",
+        "type": "button",
         "data": {
-          "name": "SonOfTheTide",
-          "text": "Sirens",
-          "x": 105,
-          "y": 139
+          "name": "button_human2",
+          "text": "Hadean",
+          "onClick": {
+            "name": "Abyssal"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 268,
+          "y": 95
         }
       },
       {
-        "type": "checkbox",
+        "type": "button",
         "data": {
-          "name": "Orc",
-          "text": "Orc",
-          "x": 179,
-          "y": 70
+          "name": "button_human3",
+          "text": "Oceanic",
+          "onClick": {
+            "name": "ChildrenOfTheTide"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 160,
+          "y": 141
         }
       },
       {
-        "type": "checkbox",
+        "type": "button",
         "data": {
-          "name": "Feralit",
-          "text": "Feralit",
-          "x": 179,
-          "y": 93
+          "name": "button_human4",
+          "text": "Dwarfen",
+          "onClick": {
+            "name": "Dwarf"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 160,
+          "y": 95
         }
       },
       {
-        "type": "checkbox",
+        "type": "button",
         "data": {
-          "name": "Gnome",
-          "text": "Gnome",
-          "x": 179,
-          "y": 116
+          "name": "button_human5",
+          "text": "Elven",
+          "onClick": {
+            "name": "ForestElfs"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 160,
+          "y": 118
         }
       },
       {
-        "type": "checkbox",
+        "type": "button",
         "data": {
-          "name": "Dwarf",
-          "text": "Dwarf",
-          "x": 179,
-          "y": 139
+          "name": "button_human6",
+          "text": "Arcanes",
+          "onClick": {
+            "name": "HighElfs"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 268,
+          "y": 118
         }
       },
       {
-        "type": "checkbox",
+        "type": "button",
         "data": {
-          "name": "HighElf",
-          "text": "HighElf",
-          "x": 255,
-          "y": 70
+          "name": "button_human7",
+          "text": "Ixtalean",
+          "onClick": {
+            "name": "Feralits"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 214,
+          "y": 141
         }
       },
       {
-        "type": "checkbox",
+        "type": "button",
         "data": {
-          "name": "ForestElf",
-          "text": "ForestElf",
-          "x": 255,
-          "y": 93
+          "name": "button_human8",
+          "text": "Ugan",
+          "onClick": {
+            "name": "Orc"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 214,
+          "y": 95
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_human9",
+          "text": "Luckmore",
+          "onClick": {
+            "name": "Gnome"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 214,
+          "y": 118
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty",
+          "text": {
+            "fixedValue": "?"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 100,
+          "y": 187
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_offsprings_are_the_races_the",
+          "text": {
+            "fixedValue": "Offsprings are the \"races\", the informations that will give you the basic attributes depending on what race have you choosen. You can change them later creating a race diffuser. You can see more information about each offspring hovering the mouse on the right side of each race."
+          },
+          "width": 24,
+          "height": 24,
+          "x": 91,
+          "y": 180
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_mainly_composed_by_humans_imper",
+          "text": {
+            "fixedValue": "Mainly composed by humans, Imperials are part of one of the most adaptable and intelligent people of Mineterra. You earn knowledge and attributes based on your total EXP."
+          },
+          "width": 24,
+          "height": 24,
+          "x": 134,
+          "y": 92
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_good_at_mining_dwarfen_are_peop",
+          "text": {
+            "fixedValue": "Good at mining, Dwarfen are people born in the far lands of Dwarfia, the richest land in the ores and gemstones quesites. You earn haste and a mining boost depending on the amount of time you pass underground."
+          },
+          "width": 24,
+          "height": 24,
+          "x": 188,
+          "y": 92
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_brute",
+          "text": {
+            "fixedValue": "Brute."
+          },
+          "width": 24,
+          "height": 24,
+          "x": 242,
+          "y": 92
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_people_with_haerean_offspring_ar",
+          "text": {
+            "fixedValue": "People with Haerean offspring are good beings. The main descendents of the Celestial, they were descendents of demigods and humans. You earn the ability to fly, and became stronger on the air, although you are slower on the ground. "
+          },
+          "width": 24,
+          "height": 24,
+          "x": 134,
+          "y": 117
         }
       }
     ],

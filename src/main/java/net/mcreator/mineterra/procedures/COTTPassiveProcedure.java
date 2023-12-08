@@ -5,6 +5,12 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.event.TickEvent;
 
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffectInstance;
+
+import net.mcreator.mineterra.init.MineterraModMobEffects;
+
 import javax.annotation.Nullable;
 
 @Mod.EventBusSubscriber
@@ -12,14 +18,22 @@ public class COTTPassiveProcedure {
 	@SubscribeEvent
 	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
 		if (event.phase == TickEvent.Phase.END) {
-			execute(event);
+			execute(event, event.player);
 		}
 	}
 
-	public static void execute() {
-		execute(null);
+	public static void execute(Entity entity) {
+		execute(null, entity);
 	}
 
-	private static void execute(@Nullable Event event) {
+	private static void execute(@Nullable Event event, Entity entity) {
+		if (entity == null)
+			return;
+		if ((entity.getPersistentData().getString("race")).equals("cott")) {
+			if (entity.isInWaterRainOrBubble()) {
+				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+					_entity.addEffect(new MobEffectInstance(MineterraModMobEffects.TIDE_BLESSING.get(), 60, 1, false, false));
+			}
+		}
 	}
 }

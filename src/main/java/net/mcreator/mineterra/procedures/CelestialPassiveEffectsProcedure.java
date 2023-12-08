@@ -1,23 +1,17 @@
 package net.mcreator.mineterra.procedures;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.eventbus.api.Event;
-import net.minecraftforge.event.entity.player.CriticalHitEvent;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Entity;
 
-import javax.annotation.Nullable;
-
-@Mod.EventBusSubscriber
 public class CelestialPassiveEffectsProcedure {
-	@SubscribeEvent
-	public static void onPlayerCriticalHit(CriticalHitEvent event) {
-		execute(event);
-	}
-
-	public static void execute() {
-		execute(null);
-	}
-
-	private static void execute(@Nullable Event event) {
+	public static void execute(Entity entity) {
+		if (entity == null)
+			return;
+		if ((entity.getPersistentData().getString("race")).equals("celestial")) {
+			if (entity instanceof Player _player) {
+				_player.getAbilities().mayfly = true;
+				_player.onUpdateAbilities();
+			}
+		}
 	}
 }

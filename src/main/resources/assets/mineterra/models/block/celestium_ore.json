@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mineterra:block/celestium_ore",
+    "particle": "mineterra:block/celestium_ore"
+  },
+  "render_type": "solid"
+}

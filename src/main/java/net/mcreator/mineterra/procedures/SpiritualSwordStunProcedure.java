@@ -112,6 +112,8 @@ public class SpiritualSwordStunProcedure {
 				});
 				if (sourceentity instanceof Player _player)
 					_player.getCooldowns().addCooldown((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem(), 200);
+				if (entity instanceof Player _player)
+					_player.giveExperiencePoints(-(10));
 			}
 		}
 	}

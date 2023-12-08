@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CelestiumIngot"
+      },
+      {
+        "value": "CUSTOM:CelestiumIngot"
+      },
+      {
+        "value": "CUSTOM:CelestiumIngot"
+      },
+      {
+        "value": "CUSTOM:CelestiumIngot"
+      },
+      {
+        "value": "CUSTOM:CelestiumIngot"
+      },
+      {
+        "value": "CUSTOM:CelestiumIngot"
+      },
+      {
+        "value": "CUSTOM:CelestiumIngot"
+      },
+      {
+        "value": "CUSTOM:CelestiumIngot"
+      },
+      {
+        "value": "CUSTOM:CelestiumIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CelestiumBlock"
+    },
+    "name": "celestium_ore_block_recipe",
+    "namespace": "mod"
+  }
+}

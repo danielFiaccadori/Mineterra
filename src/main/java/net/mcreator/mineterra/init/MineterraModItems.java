@@ -164,8 +164,16 @@ import net.mcreator.mineterra.item.CitrineItem;
 import net.mcreator.mineterra.item.CitrineHoeItem;
 import net.mcreator.mineterra.item.CitrineAxeItem;
 import net.mcreator.mineterra.item.CitrineArmorItem;
+import net.mcreator.mineterra.item.CelestiumSwordItem;
+import net.mcreator.mineterra.item.CelestiumShovelItem;
+import net.mcreator.mineterra.item.CelestiumPickaxeItem;
+import net.mcreator.mineterra.item.CelestiumIngotItem;
+import net.mcreator.mineterra.item.CelestiumHoeItem;
+import net.mcreator.mineterra.item.CelestiumAxeItem;
+import net.mcreator.mineterra.item.CelestiumArmorItem;
 import net.mcreator.mineterra.item.BowtwohandedlighticebowItem;
 import net.mcreator.mineterra.item.BladeOfBanishedQueenItem;
+import net.mcreator.mineterra.item.BalsadurGreatswordItem;
 import net.mcreator.mineterra.item.ArcanitiumItem;
 import net.mcreator.mineterra.item.ArcaniteItem;
 import net.mcreator.mineterra.item.ArcaniteGemstoneItem;
@@ -416,6 +424,19 @@ public class MineterraModItems {
 	public static final RegistryObject<Item> RUNIC_STONE_FATALITY = REGISTRY.register("runic_stone_fatality", () -> new RunicStoneFatalityItem());
 	public static final RegistryObject<Item> RUNIC_STONE_BRUTALITY = REGISTRY.register("runic_stone_brutality", () -> new RunicStoneBrutalityItem());
 	public static final RegistryObject<Item> RUNE_STONE_SPELLCASTER = REGISTRY.register("rune_stone_spellcaster", () -> new RuneStoneSpellcasterItem());
+	public static final RegistryObject<Item> CELESTIUM_ARMOR_HELMET = REGISTRY.register("celestium_armor_helmet", () -> new CelestiumArmorItem.Helmet());
+	public static final RegistryObject<Item> CELESTIUM_ARMOR_CHESTPLATE = REGISTRY.register("celestium_armor_chestplate", () -> new CelestiumArmorItem.Chestplate());
+	public static final RegistryObject<Item> CELESTIUM_ARMOR_LEGGINGS = REGISTRY.register("celestium_armor_leggings", () -> new CelestiumArmorItem.Leggings());
+	public static final RegistryObject<Item> CELESTIUM_ARMOR_BOOTS = REGISTRY.register("celestium_armor_boots", () -> new CelestiumArmorItem.Boots());
+	public static final RegistryObject<Item> CELESTIUM_ORE = block(MineterraModBlocks.CELESTIUM_ORE);
+	public static final RegistryObject<Item> CELESTIUM_BLOCK = block(MineterraModBlocks.CELESTIUM_BLOCK);
+	public static final RegistryObject<Item> CELESTIUM_INGOT = REGISTRY.register("celestium_ingot", () -> new CelestiumIngotItem());
+	public static final RegistryObject<Item> CELESTIUM_PICKAXE = REGISTRY.register("celestium_pickaxe", () -> new CelestiumPickaxeItem());
+	public static final RegistryObject<Item> CELESTIUM_AXE = REGISTRY.register("celestium_axe", () -> new CelestiumAxeItem());
+	public static final RegistryObject<Item> CELESTIUM_SWORD = REGISTRY.register("celestium_sword", () -> new CelestiumSwordItem());
+	public static final RegistryObject<Item> CELESTIUM_SHOVEL = REGISTRY.register("celestium_shovel", () -> new CelestiumShovelItem());
+	public static final RegistryObject<Item> CELESTIUM_HOE = REGISTRY.register("celestium_hoe", () -> new CelestiumHoeItem());
+	public static final RegistryObject<Item> BALSADUR_GREATSWORD_CLAYMORE = REGISTRY.register("balsadur_greatsword_claymore", () -> new BalsadurGreatswordItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

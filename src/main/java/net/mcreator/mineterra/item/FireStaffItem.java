@@ -38,6 +38,7 @@ public class FireStaffItem extends Item {
 		list.add(Component.literal("\u00A7dIgnite"));
 		list.add(Component.literal("\u00A78Throws a fire rune into a target, dealing \u00A752\u00A78 + \u00A7510%(+ total XP level) Magical Damage\u00A78"));
 		list.add(Component.literal("setting the target on fire for a amount of time based on the intelligence of the caster."));
+		list.add(Component.literal("\u00A78\u00A7oEach cast costs 3 XP."));
 	}
 
 	@Override

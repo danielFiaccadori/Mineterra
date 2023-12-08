@@ -1,0 +1,34 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "balsadursgreatsword",
+    "customModelName": "Normal",
+    "name": "Balsadur Greatsword",
+    "specialInfo": [
+      "§4Golpe Brutal",
+      "§48Cada terceiro ataque desferido por espadas longas, causam 2(§2+ 10% da vida máxima do portador§8)\\ de dano adicional."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 12,
+    "damageVsEntity": 3.0,
+    "usageCount": 534,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.IRON_INGOT"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

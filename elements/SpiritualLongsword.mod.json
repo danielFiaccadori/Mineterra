@@ -9,7 +9,8 @@
     "name": "Espada Espiritual",
     "specialInfo": [
       "§4§lBanquete Espiritual",
-      "§r§8Se o jogador clicar com o botão direito em uma entidade, ela será banida para o reino espiritual por 10 segundos, fazendo com que ela fique inalvejável e sofra dano das entidades espirituais. Durante esse tempo, o portador §2drena a sua vida§8 e se §2cura§8 até que ela retorne ao plano superior. Se a entidade morrer estando no reino espiritual, a espada consome a sua alma, dando ao portador uma parcela da §cvida§8 do alvo como §2vida máxima adicional§8, em uma quantidade de tempo baseada na §2vida máxima base§8 do portador (Tempo de recarga de 10 segundos)."
+      "§r§8Se o jogador clicar com o botão direito em uma entidade, ela será banida para o reino espiritual por 10 segundos, fazendo com que ela fique inalvejável e sofra dano das entidades espirituais. Durante esse tempo, o portador §2drena a sua vida§8 e se §2cura§8 até que ela retorne ao plano superior. Se a entidade morrer estando no reino espiritual, a espada consome a sua alma, dando ao portador uma parcela da §cvida§8 do alvo como §2vida máxima adicional§8, em uma quantidade de tempo baseada na §2vida máxima base§8 do portador (Tempo de recarga de 10 segundos).",
+      "§8Each cast costs 10XP."
     ],
     "creativeTab": {
       "value": "COMBAT"

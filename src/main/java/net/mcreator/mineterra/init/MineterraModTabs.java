@@ -73,6 +73,9 @@ public class MineterraModTabs {
 				tabData.accept(MineterraModItems.RUNIC_STONE_FATALITY.get());
 				tabData.accept(MineterraModItems.RUNIC_STONE_BRUTALITY.get());
 				tabData.accept(MineterraModItems.RUNE_STONE_SPELLCASTER.get());
+				tabData.accept(MineterraModBlocks.CELESTIUM_ORE.get().asItem());
+				tabData.accept(MineterraModBlocks.CELESTIUM_BLOCK.get().asItem());
+				tabData.accept(MineterraModItems.CELESTIUM_INGOT.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -201,6 +204,12 @@ public class MineterraModTabs {
 			tabData.accept(MineterraModItems.DIAMOND_RAPIER.get());
 			tabData.accept(MineterraModItems.STEEL_RAPIER.get());
 			tabData.accept(MineterraModItems.DRAGON_BITE_DAGGER.get());
+			tabData.accept(MineterraModItems.CELESTIUM_ARMOR_HELMET.get());
+			tabData.accept(MineterraModItems.CELESTIUM_ARMOR_CHESTPLATE.get());
+			tabData.accept(MineterraModItems.CELESTIUM_ARMOR_LEGGINGS.get());
+			tabData.accept(MineterraModItems.CELESTIUM_ARMOR_BOOTS.get());
+			tabData.accept(MineterraModItems.CELESTIUM_SWORD.get());
+			tabData.accept(MineterraModItems.BALSADUR_GREATSWORD_CLAYMORE.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
@@ -265,6 +274,10 @@ public class MineterraModTabs {
 			tabData.accept(MineterraModItems.STEEL_AXE.get());
 			tabData.accept(MineterraModItems.STEEL_SHOVEL.get());
 			tabData.accept(MineterraModItems.STEEL_HOE.get());
+			tabData.accept(MineterraModItems.CELESTIUM_PICKAXE.get());
+			tabData.accept(MineterraModItems.CELESTIUM_AXE.get());
+			tabData.accept(MineterraModItems.CELESTIUM_SHOVEL.get());
+			tabData.accept(MineterraModItems.CELESTIUM_HOE.get());
 		}
 	}
 }

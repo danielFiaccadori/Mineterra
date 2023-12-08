@@ -37,6 +37,7 @@ public class LightStaffItem extends Item {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("\u00A7dIlluminate"));
 		list.add(Component.literal("\u00A78Conjures a light orb into a target, dealing \u00A753\u00A78 + \u00A7530%(+ total XP level) Magical Damage\u00A78."));
+		list.add(Component.literal("\u00A78\u00A7oEach cast costs 3 XP."));
 	}
 
 	@Override
