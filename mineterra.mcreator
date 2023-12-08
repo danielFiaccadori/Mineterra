@@ -3,7 +3,7 @@
     {
       "name": "Human",
       "type": "procedure",
-      "sortid": 141,
+      "sortid": 198,
       "compiles": true,
       "locked_code": false,
       "registry_name": "human",
@@ -39,7 +39,7 @@
     {
       "name": "Celestial",
       "type": "procedure",
-      "sortid": 142,
+      "sortid": 199,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestial",
@@ -75,7 +75,7 @@
     {
       "name": "Abyssal",
       "type": "procedure",
-      "sortid": 143,
+      "sortid": 200,
       "compiles": true,
       "locked_code": false,
       "registry_name": "abyssal",
@@ -111,7 +111,7 @@
     {
       "name": "ChildrenOfTheTide",
       "type": "procedure",
-      "sortid": 144,
+      "sortid": 201,
       "compiles": true,
       "locked_code": false,
       "registry_name": "children_of_the_tide",
@@ -147,7 +147,7 @@
     {
       "name": "Dwarf",
       "type": "procedure",
-      "sortid": 145,
+      "sortid": 202,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dwarf",
@@ -183,7 +183,7 @@
     {
       "name": "ForestElfs",
       "type": "procedure",
-      "sortid": 146,
+      "sortid": 203,
       "compiles": true,
       "locked_code": false,
       "registry_name": "forest_elf",
@@ -219,7 +219,7 @@
     {
       "name": "HighElfs",
       "type": "procedure",
-      "sortid": 147,
+      "sortid": 204,
       "compiles": true,
       "locked_code": false,
       "registry_name": "high_elfs",
@@ -255,7 +255,7 @@
     {
       "name": "Feralits",
       "type": "procedure",
-      "sortid": 148,
+      "sortid": 205,
       "compiles": true,
       "locked_code": false,
       "registry_name": "feralits",
@@ -291,7 +291,7 @@
     {
       "name": "Orc",
       "type": "procedure",
-      "sortid": 149,
+      "sortid": 206,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orc",
@@ -327,7 +327,7 @@
     {
       "name": "Gnome",
       "type": "procedure",
-      "sortid": 150,
+      "sortid": 207,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gnome",
@@ -363,7 +363,7 @@
     {
       "name": "Chaos",
       "type": "attribute",
-      "sortid": 182,
+      "sortid": 208,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos",
@@ -375,7 +375,7 @@
     {
       "name": "ChaosBarDisplayOverlayIngame",
       "type": "procedure",
-      "sortid": 183,
+      "sortid": 209,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_bar_display_overlay_ingame",
@@ -390,7 +390,7 @@
     {
       "name": "ChaosBar",
       "type": "overlay",
-      "sortid": 184,
+      "sortid": 210,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_bar",
@@ -404,7 +404,7 @@
     {
       "name": "ChaosAmount",
       "type": "procedure",
-      "sortid": 185,
+      "sortid": 211,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_amount",
@@ -425,7 +425,7 @@
     {
       "name": "ChaosAmount10",
       "type": "procedure",
-      "sortid": 186,
+      "sortid": 212,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_amount_10",
@@ -446,7 +446,7 @@
     {
       "name": "ChaosAmount20",
       "type": "procedure",
-      "sortid": 187,
+      "sortid": 213,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_amount_20",
@@ -467,7 +467,7 @@
     {
       "name": "ChaosAmount30",
       "type": "procedure",
-      "sortid": 188,
+      "sortid": 214,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_amount_30",
@@ -488,7 +488,7 @@
     {
       "name": "ChaosAmount40",
       "type": "procedure",
-      "sortid": 189,
+      "sortid": 215,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_amount_40",
@@ -509,7 +509,7 @@
     {
       "name": "ChaosAmount50",
       "type": "procedure",
-      "sortid": 190,
+      "sortid": 216,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_amount_50",
@@ -530,7 +530,7 @@
     {
       "name": "ChaosAmount60",
       "type": "procedure",
-      "sortid": 191,
+      "sortid": 217,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_amount_60",
@@ -551,7 +551,7 @@
     {
       "name": "ChaosAmount70",
       "type": "procedure",
-      "sortid": 192,
+      "sortid": 218,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_amount_70",
@@ -572,7 +572,7 @@
     {
       "name": "ChaosAmount80",
       "type": "procedure",
-      "sortid": 193,
+      "sortid": 219,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_amount_80",
@@ -593,7 +593,7 @@
     {
       "name": "ChaosAmount90",
       "type": "procedure",
-      "sortid": 194,
+      "sortid": 220,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_amount_90",
@@ -614,7 +614,7 @@
     {
       "name": "ChaosAmount100",
       "type": "procedure",
-      "sortid": 195,
+      "sortid": 221,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_amount_100",
@@ -635,7 +635,7 @@
     {
       "name": "HumanPassiveEffectStartedapplied",
       "type": "procedure",
-      "sortid": 196,
+      "sortid": 222,
       "compiles": true,
       "locked_code": false,
       "registry_name": "human_passive_effect_startedapplied",
@@ -671,7 +671,7 @@
     {
       "name": "HumanAttributes",
       "type": "procedure",
-      "sortid": 197,
+      "sortid": 223,
       "compiles": true,
       "locked_code": false,
       "registry_name": "human_attributes",
@@ -691,7 +691,7 @@
     {
       "name": "CelestialPassiveEffects",
       "type": "procedure",
-      "sortid": 207,
+      "sortid": 224,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestial_passive_effects",
@@ -699,19 +699,14 @@
         "files": [
           "src/main/java/net/mcreator/mineterra/procedures/CelestialPassiveEffectsProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
+        "dependencies": []
       },
       "path": "~/CharacterCreation/PassiveEffects/Celestial"
     },
     {
       "name": "AbyssalPassiveEffect",
       "type": "procedure",
-      "sortid": 209,
+      "sortid": 225,
       "compiles": true,
       "locked_code": false,
       "registry_name": "abyssal_passive_effect",
@@ -722,10 +717,6 @@
         "dependencies": [
           {
             "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
             "type": "entity"
           },
           {
@@ -751,7 +742,7 @@
     {
       "name": "SunBlessingEffectStartedapplied",
       "type": "procedure",
-      "sortid": 210,
+      "sortid": 226,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sun_blessing_effect_startedapplied",
@@ -771,7 +762,7 @@
     {
       "name": "SunBlessing",
       "type": "potioneffect",
-      "sortid": 211,
+      "sortid": 227,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sun_blessing",
@@ -785,7 +776,7 @@
     {
       "name": "InsatableHungerEffectStartedapplied",
       "type": "procedure",
-      "sortid": 212,
+      "sortid": 228,
       "compiles": true,
       "locked_code": false,
       "registry_name": "insatable_hunger_effect_startedapplied",
@@ -805,7 +796,7 @@
     {
       "name": "InsatableHunger",
       "type": "potioneffect",
-      "sortid": 213,
+      "sortid": 229,
       "compiles": true,
       "locked_code": false,
       "registry_name": "insatable_hunger",
@@ -819,7 +810,7 @@
     {
       "name": "COTTPassive",
       "type": "procedure",
-      "sortid": 214,
+      "sortid": 230,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cott_passive",
@@ -839,7 +830,7 @@
     {
       "name": "TideBlessing",
       "type": "potioneffect",
-      "sortid": 215,
+      "sortid": 231,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tide_blessing",
@@ -853,7 +844,7 @@
     {
       "name": "TideBlessingEffectStartedapplied",
       "type": "procedure",
-      "sortid": 216,
+      "sortid": 232,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tide_blessing_effect_startedapplied",
@@ -873,7 +864,7 @@
     {
       "name": "DwarfPassiveEffect",
       "type": "procedure",
-      "sortid": 217,
+      "sortid": 233,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dwarf_passive_effect",
@@ -881,35 +872,14 @@
         "files": [
           "src/main/java/net/mcreator/mineterra/procedures/DwarfPassiveEffectProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       },
       "path": "~/CharacterCreation/PassiveEffects/Dwarf"
     },
     {
       "name": "DwarfPassiveEffect2",
       "type": "procedure",
-      "sortid": 218,
+      "sortid": 234,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dwarf_passive_effect_2",
@@ -921,22 +891,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -945,7 +899,7 @@
     {
       "name": "SmallAndEfficient",
       "type": "potioneffect",
-      "sortid": 219,
+      "sortid": 235,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_and_efficient",
@@ -959,7 +913,7 @@
     {
       "name": "SmallAndEfficientEffectStartedapplied",
       "type": "procedure",
-      "sortid": 220,
+      "sortid": 236,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_and_efficient_effect_startedapplied",
@@ -979,7 +933,7 @@
     {
       "name": "ForestBlessingEffectStartedapplied",
       "type": "procedure",
-      "sortid": 221,
+      "sortid": 237,
       "compiles": true,
       "locked_code": false,
       "registry_name": "forest_blessing_effect_startedapplied",
@@ -999,7 +953,7 @@
     {
       "name": "ForestBlessing",
       "type": "potioneffect",
-      "sortid": 222,
+      "sortid": 238,
       "compiles": true,
       "locked_code": false,
       "registry_name": "forest_blessing",
@@ -1013,7 +967,7 @@
     {
       "name": "ForestElfPassiveEffect",
       "type": "procedure",
-      "sortid": 223,
+      "sortid": 239,
       "compiles": true,
       "locked_code": false,
       "registry_name": "forest_elf_passive_effect",
@@ -1021,19 +975,14 @@
         "files": [
           "src/main/java/net/mcreator/mineterra/procedures/ForestElfPassiveEffectProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
+        "dependencies": []
       },
       "path": "~/CharacterCreation/PassiveEffects/Forest Elfs"
     },
     {
       "name": "MagicDamage",
       "type": "attribute",
-      "sortid": 224,
+      "sortid": 240,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magic_damage",
@@ -1045,7 +994,7 @@
     {
       "name": "ChaosBarDisplayOverlayIngameCondition",
       "type": "procedure",
-      "sortid": 225,
+      "sortid": 241,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_bar_display_overlay_ingame_condition",
@@ -1066,7 +1015,7 @@
     {
       "name": "OrcPassive",
       "type": "procedure",
-      "sortid": 226,
+      "sortid": 242,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orc_passive",
@@ -1074,14 +1023,23 @@
         "files": [
           "src/main/java/net/mcreator/mineterra/procedures/OrcPassiveProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
       },
       "path": "~/CharacterCreation/PassiveEffects/Orc"
     },
     {
       "name": "OrcPassive2",
       "type": "procedure",
-      "sortid": 227,
+      "sortid": 243,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orc_passive_2",
@@ -1089,14 +1047,23 @@
         "files": [
           "src/main/java/net/mcreator/mineterra/procedures/OrcPassive2Procedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
       },
       "path": "~/CharacterCreation/PassiveEffects/Orc"
     },
     {
       "name": "Ferocity",
       "type": "potioneffect",
-      "sortid": 228,
+      "sortid": 244,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ferocity",
@@ -1110,7 +1077,7 @@
     {
       "name": "FerocityEffectStartedapplied",
       "type": "procedure",
-      "sortid": 229,
+      "sortid": 245,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ferocity_effect_startedapplied",
@@ -1130,7 +1097,7 @@
     {
       "name": "HighElfPassive",
       "type": "procedure",
-      "sortid": 231,
+      "sortid": 246,
       "compiles": true,
       "locked_code": false,
       "registry_name": "high_elf_passive",
@@ -1150,7 +1117,7 @@
     {
       "name": "BestialDomainnEffectStartedapplied",
       "type": "procedure",
-      "sortid": 232,
+      "sortid": 247,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bestial_domainn_effect_startedapplied",
@@ -1165,7 +1132,7 @@
     {
       "name": "BestialDomain",
       "type": "potioneffect",
-      "sortid": 233,
+      "sortid": 248,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bestial_domain",
@@ -1179,7 +1146,7 @@
     {
       "name": "FeralitPassive",
       "type": "procedure",
-      "sortid": 234,
+      "sortid": 249,
       "compiles": true,
       "locked_code": false,
       "registry_name": "feralit_passive",
@@ -1203,7 +1170,7 @@
     {
       "name": "GnomePassiveEffect",
       "type": "procedure",
-      "sortid": 235,
+      "sortid": 250,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gnome_passive_effect",
@@ -1223,7 +1190,7 @@
     {
       "name": "Sangramento",
       "type": "potioneffect",
-      "sortid": 236,
+      "sortid": 251,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sangramento",
@@ -1237,7 +1204,7 @@
     {
       "name": "Blood",
       "type": "particle",
-      "sortid": 237,
+      "sortid": 252,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blood",
@@ -1252,7 +1219,7 @@
     {
       "name": "SangramentoEffectStartedapplied",
       "type": "procedure",
-      "sortid": 238,
+      "sortid": 253,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sangramento_effect_startedapplied",
@@ -1284,7 +1251,7 @@
     {
       "name": "SangramentoActiveTickCondition",
       "type": "procedure",
-      "sortid": 239,
+      "sortid": 254,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sangramento_active_tick_condition",
@@ -1309,7 +1276,7 @@
     {
       "name": "SangramentoOnEffectActiveTick",
       "type": "procedure",
-      "sortid": 240,
+      "sortid": 255,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sangramento_on_effect_active_tick",
@@ -1405,7 +1372,7 @@
     {
       "name": "StarterDaggerOnHitProcedure",
       "type": "procedure",
-      "sortid": 241,
+      "sortid": 256,
       "compiles": true,
       "locked_code": false,
       "registry_name": "starter_dagger_on_hit_procedure",
@@ -1429,7 +1396,7 @@
     {
       "name": "GoldDaggerRecipe",
       "type": "recipe",
-      "sortid": 242,
+      "sortid": 257,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_dagger_recipe",
@@ -1443,7 +1410,7 @@
     {
       "name": "IronDaggerRecipe",
       "type": "recipe",
-      "sortid": 243,
+      "sortid": 258,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_dagger_recipe",
@@ -1457,7 +1424,7 @@
     {
       "name": "DiamondDaggerRecipe",
       "type": "recipe",
-      "sortid": 244,
+      "sortid": 259,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_dagger_recipe",
@@ -1471,7 +1438,7 @@
     {
       "name": "NetheriteDaggerRecipe",
       "type": "recipe",
-      "sortid": 245,
+      "sortid": 260,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netherite_dagger_recipe",
@@ -1485,7 +1452,7 @@
     {
       "name": "SilverIngot",
       "type": "item",
-      "sortid": 246,
+      "sortid": 261,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ingot",
@@ -1500,7 +1467,7 @@
     {
       "name": "SilverOre",
       "type": "block",
-      "sortid": 247,
+      "sortid": 262,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ore",
@@ -1521,7 +1488,7 @@
     {
       "name": "SilverBlock",
       "type": "block",
-      "sortid": 248,
+      "sortid": 263,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_block",
@@ -1538,7 +1505,7 @@
     {
       "name": "SilverOreBlockRecipe",
       "type": "recipe",
-      "sortid": 249,
+      "sortid": 264,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ore_block_recipe",
@@ -1552,7 +1519,7 @@
     {
       "name": "SilverBlockOreRecipe",
       "type": "recipe",
-      "sortid": 250,
+      "sortid": 265,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_block_ore_recipe",
@@ -1566,7 +1533,7 @@
     {
       "name": "SilverOreSmelting",
       "type": "recipe",
-      "sortid": 251,
+      "sortid": 266,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ore_smelting",
@@ -1580,7 +1547,7 @@
     {
       "name": "SilverPickaxe",
       "type": "tool",
-      "sortid": 56,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_pickaxe",
@@ -1595,7 +1562,7 @@
     {
       "name": "SilverAxe",
       "type": "tool",
-      "sortid": 57,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_axe",
@@ -1610,7 +1577,7 @@
     {
       "name": "SilverSword",
       "type": "tool",
-      "sortid": 24,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_sword",
@@ -1625,7 +1592,7 @@
     {
       "name": "SilverShovel",
       "type": "tool",
-      "sortid": 58,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_shovel",
@@ -1640,7 +1607,7 @@
     {
       "name": "SilverHoe",
       "type": "tool",
-      "sortid": 59,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_hoe",
@@ -1655,7 +1622,7 @@
     {
       "name": "SilverPickaxeRecipe",
       "type": "recipe",
-      "sortid": 252,
+      "sortid": 267,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_pickaxe_recipe",
@@ -1669,7 +1636,7 @@
     {
       "name": "SilverAxeRecipe",
       "type": "recipe",
-      "sortid": 253,
+      "sortid": 268,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_axe_recipe",
@@ -1683,7 +1650,7 @@
     {
       "name": "SilverSwordRecipe",
       "type": "recipe",
-      "sortid": 254,
+      "sortid": 269,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_sword_recipe",
@@ -1697,7 +1664,7 @@
     {
       "name": "SilverShovelRecipe",
       "type": "recipe",
-      "sortid": 255,
+      "sortid": 270,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_shovel_recipe",
@@ -1711,7 +1678,7 @@
     {
       "name": "SilverHoeRecipe",
       "type": "recipe",
-      "sortid": 256,
+      "sortid": 271,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_hoe_recipe",
@@ -1725,7 +1692,7 @@
     {
       "name": "SilverArmor",
       "type": "armor",
-      "sortid": 32,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_armor",
@@ -1743,7 +1710,7 @@
     {
       "name": "SilverArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 257,
+      "sortid": 272,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_armor_helmet_recipe",
@@ -1757,7 +1724,7 @@
     {
       "name": "SilverArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 258,
+      "sortid": 273,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_armor_chestplate_recipe",
@@ -1771,7 +1738,7 @@
     {
       "name": "SilverArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 259,
+      "sortid": 274,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_armor_leggings_recipe",
@@ -1785,7 +1752,7 @@
     {
       "name": "SilverArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 260,
+      "sortid": 275,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_armor_boots_recipe",
@@ -1799,7 +1766,7 @@
     {
       "name": "SilverWeaponsOnHitEffect",
       "type": "procedure",
-      "sortid": 261,
+      "sortid": 276,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_weapons_on_hit_effect",
@@ -1838,7 +1805,7 @@
     {
       "name": "StoneDaggerRecipe",
       "type": "recipe",
-      "sortid": 262,
+      "sortid": 277,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_dagger_recipe",
@@ -1867,7 +1834,7 @@
     {
       "name": "FlintDaggerRecipe",
       "type": "recipe",
-      "sortid": 263,
+      "sortid": 278,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flint_dagger_recipe",
@@ -1881,7 +1848,7 @@
     {
       "name": "Mineterra",
       "type": "tab",
-      "sortid": 264,
+      "sortid": 279,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mineterra",
@@ -1893,7 +1860,7 @@
     {
       "name": "LifestealProcedure",
       "type": "procedure",
-      "sortid": 265,
+      "sortid": 280,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lifesteal_procedure",
@@ -1921,7 +1888,7 @@
     {
       "name": "LifeSteal",
       "type": "attribute",
-      "sortid": 266,
+      "sortid": 281,
       "compiles": true,
       "locked_code": false,
       "registry_name": "life_steal",
@@ -1933,7 +1900,7 @@
     {
       "name": "IronRapier",
       "type": "tool",
-      "sortid": 20,
+      "sortid": 24,
       "compiles": true,
       "locked_code": true,
       "registry_name": "rapier",
@@ -1948,7 +1915,7 @@
     {
       "name": "RapierRecipe",
       "type": "recipe",
-      "sortid": 268,
+      "sortid": 282,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rapier_recipe",
@@ -1962,7 +1929,7 @@
     {
       "name": "RapierProcedure",
       "type": "procedure",
-      "sortid": 269,
+      "sortid": 283,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rapier_procedure",
@@ -2005,7 +1972,7 @@
     {
       "name": "SacrificeDaggerLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 270,
+      "sortid": 284,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sacrifice_dagger_living_entity_is_hit_with_tool",
@@ -2029,7 +1996,7 @@
     {
       "name": "SacrificeDaggerRecipe",
       "type": "recipe",
-      "sortid": 271,
+      "sortid": 285,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sacrifice_dagger_recipe",
@@ -2043,7 +2010,7 @@
     {
       "name": "RitualDagger",
       "type": "tool",
-      "sortid": 10,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ritual_dagger",
@@ -2058,7 +2025,7 @@
     {
       "name": "DarkRitual",
       "type": "potioneffect",
-      "sortid": 272,
+      "sortid": 286,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_ritual",
@@ -2072,7 +2039,7 @@
     {
       "name": "RitualDaggerRightclicked",
       "type": "procedure",
-      "sortid": 273,
+      "sortid": 287,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ritual_dagger_rightclicked",
@@ -2112,7 +2079,7 @@
     {
       "name": "RitualDaggerLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 274,
+      "sortid": 288,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ritual_dagger_living_entity_is_hit_with_tool",
@@ -2155,7 +2122,7 @@
     {
       "name": "DarkRitualEffectStartedapplied",
       "type": "procedure",
-      "sortid": 275,
+      "sortid": 289,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_ritual_effect_startedapplied",
@@ -2175,7 +2142,7 @@
     {
       "name": "EpicDaggerRecipe",
       "type": "recipe",
-      "sortid": 276,
+      "sortid": 290,
       "compiles": true,
       "locked_code": false,
       "registry_name": "epic_dagger_recipe",
@@ -2189,7 +2156,7 @@
     {
       "name": "IronSai",
       "type": "tool",
-      "sortid": 11,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_sai_rapier",
@@ -2204,7 +2171,7 @@
     {
       "name": "IronSaiLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 277,
+      "sortid": 291,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_sai_living_entity_is_hit_with_tool",
@@ -2228,7 +2195,7 @@
     {
       "name": "IronSaiRecipe",
       "type": "recipe",
-      "sortid": 278,
+      "sortid": 292,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_sai_recipe",
@@ -2242,7 +2209,7 @@
     {
       "name": "ElderlySai",
       "type": "tool",
-      "sortid": 12,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elderly_rapier_sai",
@@ -2257,7 +2224,7 @@
     {
       "name": "ElderlySaiTp",
       "type": "procedure",
-      "sortid": 279,
+      "sortid": 293,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elderly_sai_tp",
@@ -2301,7 +2268,7 @@
     {
       "name": "ElderlySaiRecipe",
       "type": "recipe",
-      "sortid": 280,
+      "sortid": 294,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elderly_sai_recipe",
@@ -2315,7 +2282,7 @@
     {
       "name": "SpiritualLongsword",
       "type": "tool",
-      "sortid": 18,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spiritual_claymore",
@@ -2330,7 +2297,7 @@
     {
       "name": "SpiritualLongswordLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 281,
+      "sortid": 295,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spiritual_longsword_living_entity_is_hit_with_tool",
@@ -2350,7 +2317,7 @@
     {
       "name": "SpiritualSwordStun",
       "type": "procedure",
-      "sortid": 282,
+      "sortid": 296,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spiritual_sword_stun",
@@ -2390,7 +2357,7 @@
     {
       "name": "SoulStealActiveTickCondition",
       "type": "procedure",
-      "sortid": 283,
+      "sortid": 297,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soul_steal_active_tick_condition",
@@ -2415,7 +2382,7 @@
     {
       "name": "SoulSteal",
       "type": "potioneffect",
-      "sortid": 284,
+      "sortid": 298,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soul_steal",
@@ -2429,7 +2396,7 @@
     {
       "name": "SoulStealEffectStartedapplied",
       "type": "procedure",
-      "sortid": 285,
+      "sortid": 299,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soul_steal_effect_startedapplied",
@@ -2449,7 +2416,7 @@
     {
       "name": "SoulHealActiveTickCondition",
       "type": "procedure",
-      "sortid": 286,
+      "sortid": 300,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soul_heal_active_tick_condition",
@@ -2474,7 +2441,7 @@
     {
       "name": "SoulHeal",
       "type": "potioneffect",
-      "sortid": 287,
+      "sortid": 301,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soul_heal",
@@ -2488,7 +2455,7 @@
     {
       "name": "SoulHealOnEffectActiveTick",
       "type": "procedure",
-      "sortid": 288,
+      "sortid": 302,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soul_heal_on_effect_active_tick",
@@ -2508,7 +2475,7 @@
     {
       "name": "SoulStealOnEffectActiveTick",
       "type": "procedure",
-      "sortid": 289,
+      "sortid": 303,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soul_steal_on_effect_active_tick",
@@ -2532,7 +2499,7 @@
     {
       "name": "IronClaymore",
       "type": "tool",
-      "sortid": 13,
+      "sortid": 17,
       "compiles": true,
       "locked_code": true,
       "registry_name": "iron_claymore",
@@ -2547,7 +2514,7 @@
     {
       "name": "IronClaymoreLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 291,
+      "sortid": 304,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_claymore_living_entity_is_hit_with_tool",
@@ -2575,7 +2542,7 @@
     {
       "name": "GoldenClaymore",
       "type": "tool",
-      "sortid": 14,
+      "sortid": 18,
       "compiles": true,
       "locked_code": true,
       "registry_name": "golden_claymore",
@@ -2590,7 +2557,7 @@
     {
       "name": "DiamondClaymore",
       "type": "tool",
-      "sortid": 15,
+      "sortid": 19,
       "compiles": true,
       "locked_code": true,
       "registry_name": "diamond_claymore",
@@ -2605,7 +2572,7 @@
     {
       "name": "NetheriteClaymore",
       "type": "tool",
-      "sortid": 16,
+      "sortid": 21,
       "compiles": true,
       "locked_code": true,
       "registry_name": "netherite_claymore",
@@ -2620,7 +2587,7 @@
     {
       "name": "IronClaymoreRecipe",
       "type": "recipe",
-      "sortid": 292,
+      "sortid": 305,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_claymore_recipe",
@@ -2634,7 +2601,7 @@
     {
       "name": "GoldenClaymoreRecipe",
       "type": "recipe",
-      "sortid": 293,
+      "sortid": 306,
       "compiles": true,
       "locked_code": false,
       "registry_name": "golden_claymore_recipe",
@@ -2648,7 +2615,7 @@
     {
       "name": "DiamondClaymoreRecipe",
       "type": "recipe",
-      "sortid": 294,
+      "sortid": 307,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_claymore_recipe",
@@ -2662,7 +2629,7 @@
     {
       "name": "NetheriteClaymoreRecipe",
       "type": "recipe",
-      "sortid": 295,
+      "sortid": 308,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netherite_claymore_recipe",
@@ -2676,7 +2643,7 @@
     {
       "name": "GoldSai",
       "type": "tool",
-      "sortid": 21,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_sai_rapier",
@@ -2691,7 +2658,7 @@
     {
       "name": "DiamondSai",
       "type": "tool",
-      "sortid": 22,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_sai_rapier",
@@ -2706,7 +2673,7 @@
     {
       "name": "NetheriteSai",
       "type": "tool",
-      "sortid": 23,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netherite_sai_rapier",
@@ -2721,7 +2688,7 @@
     {
       "name": "GoldSaiRecipe",
       "type": "recipe",
-      "sortid": 296,
+      "sortid": 309,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_sai_recipe",
@@ -2735,7 +2702,7 @@
     {
       "name": "DiamondSaiRecipe",
       "type": "recipe",
-      "sortid": 297,
+      "sortid": 310,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_sai_recipe",
@@ -2749,7 +2716,7 @@
     {
       "name": "NetheriteSaiRecipe",
       "type": "recipe",
-      "sortid": 298,
+      "sortid": 311,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netherite_sai_recipe",
@@ -2763,7 +2730,7 @@
     {
       "name": "SilverDaggerRecipe",
       "type": "recipe",
-      "sortid": 299,
+      "sortid": 312,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_dagger_recipe",
@@ -2777,7 +2744,7 @@
     {
       "name": "ImperialGoldClaymore",
       "type": "tool",
-      "sortid": 17,
+      "sortid": 22,
       "compiles": true,
       "locked_code": true,
       "registry_name": "imperial_gold_claymore",
@@ -2807,7 +2774,7 @@
     {
       "name": "WoodKatana",
       "type": "tool",
-      "sortid": 26,
+      "sortid": 25,
       "compiles": true,
       "locked_code": true,
       "registry_name": "wood_katana",
@@ -2882,7 +2849,7 @@
     {
       "name": "IronKatanaRecipe",
       "type": "recipe",
-      "sortid": 300,
+      "sortid": 313,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_katana_recipe",
@@ -2896,7 +2863,7 @@
     {
       "name": "WoodKatanaRecipe",
       "type": "recipe",
-      "sortid": 301,
+      "sortid": 314,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wood_katana_recipe",
@@ -2910,7 +2877,7 @@
     {
       "name": "StoneKatanaRecipe",
       "type": "recipe",
-      "sortid": 302,
+      "sortid": 315,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_katana_recipe",
@@ -2924,7 +2891,7 @@
     {
       "name": "GoldKatanaRecipe",
       "type": "recipe",
-      "sortid": 303,
+      "sortid": 316,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_katana_recipe",
@@ -2938,7 +2905,7 @@
     {
       "name": "DiamondKatanaRecipe",
       "type": "recipe",
-      "sortid": 304,
+      "sortid": 317,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_katana_recipe",
@@ -2952,7 +2919,7 @@
     {
       "name": "NetheriteKatanaRecipe",
       "type": "recipe",
-      "sortid": 305,
+      "sortid": 318,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netherite_katana_recipe",
@@ -2966,7 +2933,7 @@
     {
       "name": "KatanaProcedure",
       "type": "procedure",
-      "sortid": 306,
+      "sortid": 319,
       "compiles": true,
       "locked_code": false,
       "registry_name": "katana_procedure",
@@ -2998,7 +2965,7 @@
     {
       "name": "Demonita",
       "type": "item",
-      "sortid": 130,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demonita",
@@ -3013,7 +2980,7 @@
     {
       "name": "DemonitaOre",
       "type": "block",
-      "sortid": 109,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demonita_ore",
@@ -3034,7 +3001,7 @@
     {
       "name": "DemonitaBlock",
       "type": "block",
-      "sortid": 110,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demonita_block",
@@ -3051,7 +3018,7 @@
     {
       "name": "DemonitaOreBlockRecipe",
       "type": "recipe",
-      "sortid": 307,
+      "sortid": 320,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demonita_ore_block_recipe",
@@ -3065,7 +3032,7 @@
     {
       "name": "DemonitaBlockOreRecipe",
       "type": "recipe",
-      "sortid": 308,
+      "sortid": 321,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demonita_block_ore_recipe",
@@ -3079,7 +3046,7 @@
     {
       "name": "DemonitaOreSmelting",
       "type": "recipe",
-      "sortid": 309,
+      "sortid": 322,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demonita_ore_smelting",
@@ -3093,7 +3060,7 @@
     {
       "name": "DemonitaPickaxe",
       "type": "tool",
-      "sortid": 60,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demonita_pickaxe",
@@ -3108,7 +3075,7 @@
     {
       "name": "DemonitaAxe",
       "type": "tool",
-      "sortid": 61,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demonita_axe",
@@ -3123,7 +3090,7 @@
     {
       "name": "DemonitaSword",
       "type": "tool",
-      "sortid": 25,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demonita_sword",
@@ -3138,7 +3105,7 @@
     {
       "name": "DemonitaShovel",
       "type": "tool",
-      "sortid": 62,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demonita_shovel",
@@ -3153,7 +3120,7 @@
     {
       "name": "DemonitaHoe",
       "type": "tool",
-      "sortid": 63,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demonita_hoe",
@@ -3168,7 +3135,7 @@
     {
       "name": "DemonitaPickaxeRecipe",
       "type": "recipe",
-      "sortid": 310,
+      "sortid": 323,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demonita_pickaxe_recipe",
@@ -3182,7 +3149,7 @@
     {
       "name": "DemonitaAxeRecipe",
       "type": "recipe",
-      "sortid": 311,
+      "sortid": 324,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demonita_axe_recipe",
@@ -3196,7 +3163,7 @@
     {
       "name": "DemonitaSwordRecipe",
       "type": "recipe",
-      "sortid": 312,
+      "sortid": 325,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demonita_sword_recipe",
@@ -3210,7 +3177,7 @@
     {
       "name": "DemonitaShovelRecipe",
       "type": "recipe",
-      "sortid": 313,
+      "sortid": 326,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demonita_shovel_recipe",
@@ -3224,7 +3191,7 @@
     {
       "name": "DemonitaHoeRecipe",
       "type": "recipe",
-      "sortid": 314,
+      "sortid": 327,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demonita_hoe_recipe",
@@ -3238,7 +3205,7 @@
     {
       "name": "DemonitaArmor",
       "type": "armor",
-      "sortid": 33,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demonita_armor",
@@ -3256,7 +3223,7 @@
     {
       "name": "DemonitaArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 315,
+      "sortid": 328,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demonita_armor_helmet_recipe",
@@ -3270,7 +3237,7 @@
     {
       "name": "DemonitaArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 316,
+      "sortid": 329,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demonita_armor_chestplate_recipe",
@@ -3284,7 +3251,7 @@
     {
       "name": "DemonitaArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 317,
+      "sortid": 330,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demonita_armor_leggings_recipe",
@@ -3298,7 +3265,7 @@
     {
       "name": "DemonitaArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 318,
+      "sortid": 331,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demonita_armor_boots_recipe",
@@ -3312,7 +3279,7 @@
     {
       "name": "Strength",
       "type": "attribute",
-      "sortid": 320,
+      "sortid": 332,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strength",
@@ -3324,7 +3291,7 @@
     {
       "name": "Dexterity",
       "type": "attribute",
-      "sortid": 321,
+      "sortid": 333,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dexterity",
@@ -3336,7 +3303,7 @@
     {
       "name": "Constituition",
       "type": "attribute",
-      "sortid": 322,
+      "sortid": 334,
       "compiles": true,
       "locked_code": false,
       "registry_name": "constituition",
@@ -3348,7 +3315,7 @@
     {
       "name": "Intelligence",
       "type": "attribute",
-      "sortid": 323,
+      "sortid": 335,
       "compiles": true,
       "locked_code": false,
       "registry_name": "intelligence",
@@ -3360,7 +3327,7 @@
     {
       "name": "Charisma",
       "type": "attribute",
-      "sortid": 324,
+      "sortid": 336,
       "compiles": true,
       "locked_code": false,
       "registry_name": "charisma",
@@ -3372,7 +3339,7 @@
     {
       "name": "Wisdom",
       "type": "attribute",
-      "sortid": 325,
+      "sortid": 337,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wisdom",
@@ -3384,7 +3351,7 @@
     {
       "name": "MineterraWeapons",
       "type": "tab",
-      "sortid": 326,
+      "sortid": 338,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mineterra_weapons",
@@ -3396,7 +3363,7 @@
     {
       "name": "ForgeHammer",
       "type": "tool",
-      "sortid": 64,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "forge_hammer",
@@ -3411,7 +3378,7 @@
     {
       "name": "CopperPickaxe",
       "type": "tool",
-      "sortid": 65,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_pickaxe",
@@ -3426,7 +3393,7 @@
     {
       "name": "CopperAxe",
       "type": "tool",
-      "sortid": 66,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_axe",
@@ -3441,7 +3408,7 @@
     {
       "name": "CopperSword",
       "type": "tool",
-      "sortid": 36,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_sword",
@@ -3456,7 +3423,7 @@
     {
       "name": "CopperShovel",
       "type": "tool",
-      "sortid": 67,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_shovel",
@@ -3471,7 +3438,7 @@
     {
       "name": "CopperHoe",
       "type": "tool",
-      "sortid": 68,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_hoe",
@@ -3486,7 +3453,7 @@
     {
       "name": "CopperPickaxeRecipe",
       "type": "recipe",
-      "sortid": 327,
+      "sortid": 339,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_pickaxe_recipe",
@@ -3500,7 +3467,7 @@
     {
       "name": "CopperAxeRecipe",
       "type": "recipe",
-      "sortid": 328,
+      "sortid": 340,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_axe_recipe",
@@ -3514,7 +3481,7 @@
     {
       "name": "CopperSwordRecipe",
       "type": "recipe",
-      "sortid": 329,
+      "sortid": 341,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_sword_recipe",
@@ -3528,7 +3495,7 @@
     {
       "name": "CopperShovelRecipe",
       "type": "recipe",
-      "sortid": 330,
+      "sortid": 342,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_shovel_recipe",
@@ -3542,7 +3509,7 @@
     {
       "name": "CopperHoeRecipe",
       "type": "recipe",
-      "sortid": 331,
+      "sortid": 343,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_hoe_recipe",
@@ -3556,7 +3523,7 @@
     {
       "name": "CopperArmor",
       "type": "armor",
-      "sortid": 34,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_armor",
@@ -3574,7 +3541,7 @@
     {
       "name": "CopperArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 332,
+      "sortid": 344,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_armor_helmet_recipe",
@@ -3588,7 +3555,7 @@
     {
       "name": "CopperArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 333,
+      "sortid": 345,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_armor_chestplate_recipe",
@@ -3602,7 +3569,7 @@
     {
       "name": "CopperArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 334,
+      "sortid": 346,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_armor_leggings_recipe",
@@ -3616,7 +3583,7 @@
     {
       "name": "CopperArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 335,
+      "sortid": 347,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_armor_boots_recipe",
@@ -3630,7 +3597,7 @@
     {
       "name": "Citrine",
       "type": "item",
-      "sortid": 132,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "citrine",
@@ -3645,7 +3612,7 @@
     {
       "name": "CitrineOre",
       "type": "block",
-      "sortid": 111,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "registry_name": "citrine_ore",
@@ -3666,7 +3633,7 @@
     {
       "name": "CitrineBlock",
       "type": "block",
-      "sortid": 112,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "citrine_block",
@@ -3683,7 +3650,7 @@
     {
       "name": "CitrineOreBlockRecipe",
       "type": "recipe",
-      "sortid": 336,
+      "sortid": 348,
       "compiles": true,
       "locked_code": false,
       "registry_name": "citrine_ore_block_recipe",
@@ -3697,7 +3664,7 @@
     {
       "name": "CitrineBlockOreRecipe",
       "type": "recipe",
-      "sortid": 337,
+      "sortid": 349,
       "compiles": true,
       "locked_code": false,
       "registry_name": "citrine_block_ore_recipe",
@@ -3711,7 +3678,7 @@
     {
       "name": "CitrineOreSmelting",
       "type": "recipe",
-      "sortid": 338,
+      "sortid": 350,
       "compiles": true,
       "locked_code": false,
       "registry_name": "citrine_ore_smelting",
@@ -3725,7 +3692,7 @@
     {
       "name": "CitrinePickaxe",
       "type": "tool",
-      "sortid": 69,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "citrine_pickaxe",
@@ -3740,7 +3707,7 @@
     {
       "name": "CitrineAxe",
       "type": "tool",
-      "sortid": 70,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "citrine_axe",
@@ -3755,7 +3722,7 @@
     {
       "name": "CitrineSword",
       "type": "tool",
-      "sortid": 37,
+      "sortid": 52,
       "compiles": true,
       "locked_code": true,
       "registry_name": "citrine_sword",
@@ -3770,7 +3737,7 @@
     {
       "name": "CitrineShovel",
       "type": "tool",
-      "sortid": 71,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "citrine_shovel",
@@ -3785,7 +3752,7 @@
     {
       "name": "CitrineHoe",
       "type": "tool",
-      "sortid": 72,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "citrine_hoe",
@@ -3800,7 +3767,7 @@
     {
       "name": "CitrinePickaxeRecipe",
       "type": "recipe",
-      "sortid": 339,
+      "sortid": 351,
       "compiles": true,
       "locked_code": false,
       "registry_name": "citrine_pickaxe_recipe",
@@ -3814,7 +3781,7 @@
     {
       "name": "CitrineAxeRecipe",
       "type": "recipe",
-      "sortid": 340,
+      "sortid": 352,
       "compiles": true,
       "locked_code": false,
       "registry_name": "citrine_axe_recipe",
@@ -3828,7 +3795,7 @@
     {
       "name": "CitrineSwordRecipe",
       "type": "recipe",
-      "sortid": 341,
+      "sortid": 353,
       "compiles": true,
       "locked_code": false,
       "registry_name": "citrine_sword_recipe",
@@ -3842,7 +3809,7 @@
     {
       "name": "CitrineShovelRecipe",
       "type": "recipe",
-      "sortid": 342,
+      "sortid": 354,
       "compiles": true,
       "locked_code": false,
       "registry_name": "citrine_shovel_recipe",
@@ -3856,7 +3823,7 @@
     {
       "name": "CitrineHoeRecipe",
       "type": "recipe",
-      "sortid": 343,
+      "sortid": 355,
       "compiles": true,
       "locked_code": false,
       "registry_name": "citrine_hoe_recipe",
@@ -3870,7 +3837,7 @@
     {
       "name": "CitrineArmor",
       "type": "armor",
-      "sortid": 35,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "citrine_armor",
@@ -3888,7 +3855,7 @@
     {
       "name": "CitrineArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 344,
+      "sortid": 356,
       "compiles": true,
       "locked_code": false,
       "registry_name": "citrine_armor_helmet_recipe",
@@ -3902,7 +3869,7 @@
     {
       "name": "CitrineArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 345,
+      "sortid": 357,
       "compiles": true,
       "locked_code": false,
       "registry_name": "citrine_armor_chestplate_recipe",
@@ -3916,7 +3883,7 @@
     {
       "name": "CitrineArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 346,
+      "sortid": 358,
       "compiles": true,
       "locked_code": false,
       "registry_name": "citrine_armor_leggings_recipe",
@@ -3930,7 +3897,7 @@
     {
       "name": "CitrineArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 347,
+      "sortid": 359,
       "compiles": true,
       "locked_code": false,
       "registry_name": "citrine_armor_boots_recipe",
@@ -3944,7 +3911,7 @@
     {
       "name": "AmethystPickaxe",
       "type": "tool",
-      "sortid": 73,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_pickaxe",
@@ -3959,7 +3926,7 @@
     {
       "name": "AmethystAxe",
       "type": "tool",
-      "sortid": 74,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_axe",
@@ -3974,7 +3941,7 @@
     {
       "name": "AmethystSword",
       "type": "tool",
-      "sortid": 40,
+      "sortid": 46,
       "compiles": true,
       "locked_code": true,
       "registry_name": "amethyst_sword",
@@ -3989,7 +3956,7 @@
     {
       "name": "AmethystShovel",
       "type": "tool",
-      "sortid": 75,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_shovel",
@@ -4004,7 +3971,7 @@
     {
       "name": "AmethystHoe",
       "type": "tool",
-      "sortid": 76,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_hoe",
@@ -4019,7 +3986,7 @@
     {
       "name": "AmethystPickaxeRecipe",
       "type": "recipe",
-      "sortid": 348,
+      "sortid": 360,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_pickaxe_recipe",
@@ -4033,7 +4000,7 @@
     {
       "name": "AmethystAxeRecipe",
       "type": "recipe",
-      "sortid": 349,
+      "sortid": 361,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_axe_recipe",
@@ -4047,7 +4014,7 @@
     {
       "name": "AmethystSwordRecipe",
       "type": "recipe",
-      "sortid": 350,
+      "sortid": 362,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_sword_recipe",
@@ -4061,7 +4028,7 @@
     {
       "name": "AmethystShovelRecipe",
       "type": "recipe",
-      "sortid": 351,
+      "sortid": 363,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_shovel_recipe",
@@ -4075,7 +4042,7 @@
     {
       "name": "AmethystHoeRecipe",
       "type": "recipe",
-      "sortid": 352,
+      "sortid": 364,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_hoe_recipe",
@@ -4089,7 +4056,7 @@
     {
       "name": "AmethystArmor",
       "type": "armor",
-      "sortid": 38,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_armor",
@@ -4107,7 +4074,7 @@
     {
       "name": "AmethystArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 353,
+      "sortid": 365,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_armor_helmet_recipe",
@@ -4121,7 +4088,7 @@
     {
       "name": "AmethystArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 354,
+      "sortid": 366,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_armor_chestplate_recipe",
@@ -4135,7 +4102,7 @@
     {
       "name": "AmethystArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 355,
+      "sortid": 367,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_armor_leggings_recipe",
@@ -4149,7 +4116,7 @@
     {
       "name": "AmethystArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 356,
+      "sortid": 368,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_armor_boots_recipe",
@@ -4163,7 +4130,7 @@
     {
       "name": "Ruby",
       "type": "item",
-      "sortid": 131,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby",
@@ -4178,7 +4145,7 @@
     {
       "name": "RubyOre",
       "type": "block",
-      "sortid": 113,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_ore",
@@ -4199,7 +4166,7 @@
     {
       "name": "RubyBlock",
       "type": "block",
-      "sortid": 114,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_block",
@@ -4216,7 +4183,7 @@
     {
       "name": "RubyOreBlockRecipe",
       "type": "recipe",
-      "sortid": 357,
+      "sortid": 369,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_ore_block_recipe",
@@ -4230,7 +4197,7 @@
     {
       "name": "RubyBlockOreRecipe",
       "type": "recipe",
-      "sortid": 358,
+      "sortid": 370,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_block_ore_recipe",
@@ -4244,7 +4211,7 @@
     {
       "name": "RubyOreSmelting",
       "type": "recipe",
-      "sortid": 359,
+      "sortid": 371,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_ore_smelting",
@@ -4258,7 +4225,7 @@
     {
       "name": "RubyPickaxe",
       "type": "tool",
-      "sortid": 77,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_pickaxe",
@@ -4273,7 +4240,7 @@
     {
       "name": "RubyAxe",
       "type": "tool",
-      "sortid": 78,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_axe",
@@ -4288,7 +4255,7 @@
     {
       "name": "RubySword",
       "type": "tool",
-      "sortid": 41,
+      "sortid": 47,
       "compiles": true,
       "locked_code": true,
       "registry_name": "ruby_sword",
@@ -4303,7 +4270,7 @@
     {
       "name": "RubyShovel",
       "type": "tool",
-      "sortid": 79,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_shovel",
@@ -4318,7 +4285,7 @@
     {
       "name": "RubyHoe",
       "type": "tool",
-      "sortid": 80,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_hoe",
@@ -4333,7 +4300,7 @@
     {
       "name": "RubyPickaxeRecipe",
       "type": "recipe",
-      "sortid": 360,
+      "sortid": 372,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_pickaxe_recipe",
@@ -4347,7 +4314,7 @@
     {
       "name": "RubyAxeRecipe",
       "type": "recipe",
-      "sortid": 361,
+      "sortid": 373,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_axe_recipe",
@@ -4361,7 +4328,7 @@
     {
       "name": "RubySwordRecipe",
       "type": "recipe",
-      "sortid": 362,
+      "sortid": 374,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_sword_recipe",
@@ -4375,7 +4342,7 @@
     {
       "name": "RubyShovelRecipe",
       "type": "recipe",
-      "sortid": 363,
+      "sortid": 375,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_shovel_recipe",
@@ -4389,7 +4356,7 @@
     {
       "name": "RubyHoeRecipe",
       "type": "recipe",
-      "sortid": 364,
+      "sortid": 376,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_hoe_recipe",
@@ -4403,7 +4370,7 @@
     {
       "name": "RubyArmor",
       "type": "armor",
-      "sortid": 39,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_armor",
@@ -4421,7 +4388,7 @@
     {
       "name": "RubyArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 365,
+      "sortid": 377,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_armor_helmet_recipe",
@@ -4435,7 +4402,7 @@
     {
       "name": "RubyArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 366,
+      "sortid": 378,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_armor_chestplate_recipe",
@@ -4449,7 +4416,7 @@
     {
       "name": "RubyArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 367,
+      "sortid": 379,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_armor_leggings_recipe",
@@ -4463,7 +4430,7 @@
     {
       "name": "RubyArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 368,
+      "sortid": 380,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_armor_boots_recipe",
@@ -4477,7 +4444,7 @@
     {
       "name": "Garnet",
       "type": "item",
-      "sortid": 135,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "registry_name": "garnet",
@@ -4492,7 +4459,7 @@
     {
       "name": "GarnetOre",
       "type": "block",
-      "sortid": 115,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "garnet_ore",
@@ -4513,7 +4480,7 @@
     {
       "name": "GarnetBlock",
       "type": "block",
-      "sortid": 116,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "registry_name": "garnet_block",
@@ -4530,7 +4497,7 @@
     {
       "name": "GarnetOreBlockRecipe",
       "type": "recipe",
-      "sortid": 369,
+      "sortid": 381,
       "compiles": true,
       "locked_code": false,
       "registry_name": "garnet_ore_block_recipe",
@@ -4544,7 +4511,7 @@
     {
       "name": "GarnetBlockOreRecipe",
       "type": "recipe",
-      "sortid": 370,
+      "sortid": 382,
       "compiles": true,
       "locked_code": false,
       "registry_name": "garnet_block_ore_recipe",
@@ -4558,7 +4525,7 @@
     {
       "name": "GarnetOreSmelting",
       "type": "recipe",
-      "sortid": 371,
+      "sortid": 383,
       "compiles": true,
       "locked_code": false,
       "registry_name": "garnet_ore_smelting",
@@ -4572,7 +4539,7 @@
     {
       "name": "GarnetPickaxe",
       "type": "tool",
-      "sortid": 81,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "garnet_pickaxe",
@@ -4587,7 +4554,7 @@
     {
       "name": "GarnetAxe",
       "type": "tool",
-      "sortid": 82,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "garnet_axe",
@@ -4602,7 +4569,7 @@
     {
       "name": "GarnetSword",
       "type": "tool",
-      "sortid": 43,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "garnet_sword",
@@ -4617,7 +4584,7 @@
     {
       "name": "GarnetShovel",
       "type": "tool",
-      "sortid": 83,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "garnet_shovel",
@@ -4632,7 +4599,7 @@
     {
       "name": "GarnetHoe",
       "type": "tool",
-      "sortid": 84,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "garnet_hoe",
@@ -4647,7 +4614,7 @@
     {
       "name": "GarnetPickaxeRecipe",
       "type": "recipe",
-      "sortid": 372,
+      "sortid": 384,
       "compiles": true,
       "locked_code": false,
       "registry_name": "garnet_pickaxe_recipe",
@@ -4661,7 +4628,7 @@
     {
       "name": "GarnetAxeRecipe",
       "type": "recipe",
-      "sortid": 373,
+      "sortid": 385,
       "compiles": true,
       "locked_code": false,
       "registry_name": "garnet_axe_recipe",
@@ -4675,7 +4642,7 @@
     {
       "name": "GarnetSwordRecipe",
       "type": "recipe",
-      "sortid": 374,
+      "sortid": 386,
       "compiles": true,
       "locked_code": false,
       "registry_name": "garnet_sword_recipe",
@@ -4689,7 +4656,7 @@
     {
       "name": "GarnetShovelRecipe",
       "type": "recipe",
-      "sortid": 375,
+      "sortid": 387,
       "compiles": true,
       "locked_code": false,
       "registry_name": "garnet_shovel_recipe",
@@ -4703,7 +4670,7 @@
     {
       "name": "GarnetHoeRecipe",
       "type": "recipe",
-      "sortid": 376,
+      "sortid": 388,
       "compiles": true,
       "locked_code": false,
       "registry_name": "garnet_hoe_recipe",
@@ -4717,7 +4684,7 @@
     {
       "name": "GarnetArmor",
       "type": "armor",
-      "sortid": 42,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "garnet_armor",
@@ -4735,7 +4702,7 @@
     {
       "name": "GarnetArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 377,
+      "sortid": 389,
       "compiles": true,
       "locked_code": false,
       "registry_name": "garnet_armor_helmet_recipe",
@@ -4749,7 +4716,7 @@
     {
       "name": "GarnetArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 378,
+      "sortid": 390,
       "compiles": true,
       "locked_code": false,
       "registry_name": "garnet_armor_chestplate_recipe",
@@ -4763,7 +4730,7 @@
     {
       "name": "GarnetArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 379,
+      "sortid": 391,
       "compiles": true,
       "locked_code": false,
       "registry_name": "garnet_armor_leggings_recipe",
@@ -4777,7 +4744,7 @@
     {
       "name": "GarnetArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 380,
+      "sortid": 392,
       "compiles": true,
       "locked_code": false,
       "registry_name": "garnet_armor_boots_recipe",
@@ -4791,7 +4758,7 @@
     {
       "name": "Zircon",
       "type": "item",
-      "sortid": 136,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zircon",
@@ -4806,7 +4773,7 @@
     {
       "name": "ZirconOre",
       "type": "block",
-      "sortid": 117,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zircon_ore",
@@ -4827,7 +4794,7 @@
     {
       "name": "ZirconBlock",
       "type": "block",
-      "sortid": 118,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zircon_block",
@@ -4844,7 +4811,7 @@
     {
       "name": "ZirconOreBlockRecipe",
       "type": "recipe",
-      "sortid": 381,
+      "sortid": 393,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zircon_ore_block_recipe",
@@ -4858,7 +4825,7 @@
     {
       "name": "ZirconBlockOreRecipe",
       "type": "recipe",
-      "sortid": 382,
+      "sortid": 394,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zircon_block_ore_recipe",
@@ -4872,7 +4839,7 @@
     {
       "name": "ZirconOreSmelting",
       "type": "recipe",
-      "sortid": 383,
+      "sortid": 395,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zircon_ore_smelting",
@@ -4886,7 +4853,7 @@
     {
       "name": "ZirconPickaxe",
       "type": "tool",
-      "sortid": 85,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zircon_pickaxe",
@@ -4901,7 +4868,7 @@
     {
       "name": "ZirconAxe",
       "type": "tool",
-      "sortid": 86,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zircon_axe",
@@ -4916,7 +4883,7 @@
     {
       "name": "ZirconSword",
       "type": "tool",
-      "sortid": 45,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zircon_sword",
@@ -4931,7 +4898,7 @@
     {
       "name": "ZirconShovel",
       "type": "tool",
-      "sortid": 87,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zircon_shovel",
@@ -4946,7 +4913,7 @@
     {
       "name": "ZirconHoe",
       "type": "tool",
-      "sortid": 88,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zircon_hoe",
@@ -4961,7 +4928,7 @@
     {
       "name": "ZirconPickaxeRecipe",
       "type": "recipe",
-      "sortid": 384,
+      "sortid": 396,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zircon_pickaxe_recipe",
@@ -4975,7 +4942,7 @@
     {
       "name": "ZirconAxeRecipe",
       "type": "recipe",
-      "sortid": 385,
+      "sortid": 397,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zircon_axe_recipe",
@@ -4989,7 +4956,7 @@
     {
       "name": "ZirconSwordRecipe",
       "type": "recipe",
-      "sortid": 386,
+      "sortid": 398,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zircon_sword_recipe",
@@ -5003,7 +4970,7 @@
     {
       "name": "ZirconShovelRecipe",
       "type": "recipe",
-      "sortid": 387,
+      "sortid": 399,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zircon_shovel_recipe",
@@ -5017,7 +4984,7 @@
     {
       "name": "ZirconHoeRecipe",
       "type": "recipe",
-      "sortid": 388,
+      "sortid": 400,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zircon_hoe_recipe",
@@ -5031,7 +4998,7 @@
     {
       "name": "ZirconArmor",
       "type": "armor",
-      "sortid": 44,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zircon_armor",
@@ -5049,7 +5016,7 @@
     {
       "name": "ZirconArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 389,
+      "sortid": 401,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zircon_armor_helmet_recipe",
@@ -5063,7 +5030,7 @@
     {
       "name": "ZirconArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 390,
+      "sortid": 402,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zircon_armor_chestplate_recipe",
@@ -5077,7 +5044,7 @@
     {
       "name": "ZirconArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 391,
+      "sortid": 403,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zircon_armor_leggings_recipe",
@@ -5091,7 +5058,7 @@
     {
       "name": "ZirconArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 392,
+      "sortid": 404,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zircon_armor_boots_recipe",
@@ -5105,7 +5072,7 @@
     {
       "name": "Topaz",
       "type": "item",
-      "sortid": 137,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "registry_name": "topaz",
@@ -5120,7 +5087,7 @@
     {
       "name": "TopazOre",
       "type": "block",
-      "sortid": 119,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "topaz_ore",
@@ -5141,7 +5108,7 @@
     {
       "name": "TopazBlock",
       "type": "block",
-      "sortid": 120,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "topaz_block",
@@ -5158,7 +5125,7 @@
     {
       "name": "TopazOreBlockRecipe",
       "type": "recipe",
-      "sortid": 393,
+      "sortid": 405,
       "compiles": true,
       "locked_code": false,
       "registry_name": "topaz_ore_block_recipe",
@@ -5172,7 +5139,7 @@
     {
       "name": "TopazBlockOreRecipe",
       "type": "recipe",
-      "sortid": 394,
+      "sortid": 406,
       "compiles": true,
       "locked_code": false,
       "registry_name": "topaz_block_ore_recipe",
@@ -5186,7 +5153,7 @@
     {
       "name": "TopazOreSmelting",
       "type": "recipe",
-      "sortid": 395,
+      "sortid": 407,
       "compiles": true,
       "locked_code": false,
       "registry_name": "topaz_ore_smelting",
@@ -5200,7 +5167,7 @@
     {
       "name": "TopazPickaxe",
       "type": "tool",
-      "sortid": 89,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "topaz_pickaxe",
@@ -5215,7 +5182,7 @@
     {
       "name": "TopazAxe",
       "type": "tool",
-      "sortid": 90,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "topaz_axe",
@@ -5230,7 +5197,7 @@
     {
       "name": "TopazSword",
       "type": "tool",
-      "sortid": 47,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "topaz_sword",
@@ -5245,7 +5212,7 @@
     {
       "name": "TopazShovel",
       "type": "tool",
-      "sortid": 91,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "topaz_shovel",
@@ -5260,7 +5227,7 @@
     {
       "name": "TopazHoe",
       "type": "tool",
-      "sortid": 92,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "topaz_hoe",
@@ -5275,7 +5242,7 @@
     {
       "name": "TopazPickaxeRecipe",
       "type": "recipe",
-      "sortid": 396,
+      "sortid": 408,
       "compiles": true,
       "locked_code": false,
       "registry_name": "topaz_pickaxe_recipe",
@@ -5289,7 +5256,7 @@
     {
       "name": "TopazAxeRecipe",
       "type": "recipe",
-      "sortid": 397,
+      "sortid": 409,
       "compiles": true,
       "locked_code": false,
       "registry_name": "topaz_axe_recipe",
@@ -5303,7 +5270,7 @@
     {
       "name": "TopazSwordRecipe",
       "type": "recipe",
-      "sortid": 398,
+      "sortid": 410,
       "compiles": true,
       "locked_code": false,
       "registry_name": "topaz_sword_recipe",
@@ -5317,7 +5284,7 @@
     {
       "name": "TopazShovelRecipe",
       "type": "recipe",
-      "sortid": 399,
+      "sortid": 411,
       "compiles": true,
       "locked_code": false,
       "registry_name": "topaz_shovel_recipe",
@@ -5331,7 +5298,7 @@
     {
       "name": "TopazHoeRecipe",
       "type": "recipe",
-      "sortid": 400,
+      "sortid": 412,
       "compiles": true,
       "locked_code": false,
       "registry_name": "topaz_hoe_recipe",
@@ -5345,7 +5312,7 @@
     {
       "name": "TopazArmor",
       "type": "armor",
-      "sortid": 46,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "topaz_armor",
@@ -5363,7 +5330,7 @@
     {
       "name": "TopazArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 401,
+      "sortid": 413,
       "compiles": true,
       "locked_code": false,
       "registry_name": "topaz_armor_helmet_recipe",
@@ -5377,7 +5344,7 @@
     {
       "name": "TopazArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 402,
+      "sortid": 414,
       "compiles": true,
       "locked_code": false,
       "registry_name": "topaz_armor_chestplate_recipe",
@@ -5391,7 +5358,7 @@
     {
       "name": "TopazArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 403,
+      "sortid": 415,
       "compiles": true,
       "locked_code": false,
       "registry_name": "topaz_armor_leggings_recipe",
@@ -5405,7 +5372,7 @@
     {
       "name": "TopazArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 404,
+      "sortid": 416,
       "compiles": true,
       "locked_code": false,
       "registry_name": "topaz_armor_boots_recipe",
@@ -5419,7 +5386,7 @@
     {
       "name": "Tanzanite",
       "type": "item",
-      "sortid": 138,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tanzanite",
@@ -5434,7 +5401,7 @@
     {
       "name": "TanzaniteOre",
       "type": "block",
-      "sortid": 121,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tanzanite_ore",
@@ -5455,7 +5422,7 @@
     {
       "name": "TanzaniteBlock",
       "type": "block",
-      "sortid": 122,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tanzanite_block",
@@ -5472,7 +5439,7 @@
     {
       "name": "TanzaniteOreBlockRecipe",
       "type": "recipe",
-      "sortid": 405,
+      "sortid": 417,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tanzanite_ore_block_recipe",
@@ -5486,7 +5453,7 @@
     {
       "name": "TanzaniteBlockOreRecipe",
       "type": "recipe",
-      "sortid": 406,
+      "sortid": 418,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tanzanite_block_ore_recipe",
@@ -5500,7 +5467,7 @@
     {
       "name": "TanzaniteOreSmelting",
       "type": "recipe",
-      "sortid": 407,
+      "sortid": 419,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tanzanite_ore_smelting",
@@ -5514,7 +5481,7 @@
     {
       "name": "TanzanitePickaxe",
       "type": "tool",
-      "sortid": 93,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tanzanite_pickaxe",
@@ -5529,7 +5496,7 @@
     {
       "name": "TanzaniteAxe",
       "type": "tool",
-      "sortid": 94,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tanzanite_axe",
@@ -5544,7 +5511,7 @@
     {
       "name": "TanzaniteSword",
       "type": "tool",
-      "sortid": 49,
+      "sortid": 32,
       "compiles": true,
       "locked_code": true,
       "registry_name": "tanzanite_sword",
@@ -5559,7 +5526,7 @@
     {
       "name": "TanzaniteShovel",
       "type": "tool",
-      "sortid": 95,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tanzanite_shovel",
@@ -5574,7 +5541,7 @@
     {
       "name": "TanzaniteHoe",
       "type": "tool",
-      "sortid": 96,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tanzanite_hoe",
@@ -5589,7 +5556,7 @@
     {
       "name": "TanzanitePickaxeRecipe",
       "type": "recipe",
-      "sortid": 408,
+      "sortid": 420,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tanzanite_pickaxe_recipe",
@@ -5603,7 +5570,7 @@
     {
       "name": "TanzaniteAxeRecipe",
       "type": "recipe",
-      "sortid": 409,
+      "sortid": 421,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tanzanite_axe_recipe",
@@ -5617,7 +5584,7 @@
     {
       "name": "TanzaniteSwordRecipe",
       "type": "recipe",
-      "sortid": 410,
+      "sortid": 422,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tanzanite_sword_recipe",
@@ -5631,7 +5598,7 @@
     {
       "name": "TanzaniteShovelRecipe",
       "type": "recipe",
-      "sortid": 411,
+      "sortid": 423,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tanzanite_shovel_recipe",
@@ -5645,7 +5612,7 @@
     {
       "name": "TanzaniteHoeRecipe",
       "type": "recipe",
-      "sortid": 412,
+      "sortid": 424,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tanzanite_hoe_recipe",
@@ -5659,7 +5626,7 @@
     {
       "name": "TanzaniteArmor",
       "type": "armor",
-      "sortid": 48,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tanzanite_armor",
@@ -5677,7 +5644,7 @@
     {
       "name": "TanzaniteArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 413,
+      "sortid": 425,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tanzanite_armor_helmet_recipe",
@@ -5691,7 +5658,7 @@
     {
       "name": "TanzaniteArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 414,
+      "sortid": 426,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tanzanite_armor_chestplate_recipe",
@@ -5705,7 +5672,7 @@
     {
       "name": "TanzaniteArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 415,
+      "sortid": 427,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tanzanite_armor_leggings_recipe",
@@ -5719,7 +5686,7 @@
     {
       "name": "TanzaniteArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 416,
+      "sortid": 428,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tanzanite_armor_boots_recipe",
@@ -5733,7 +5700,7 @@
     {
       "name": "Sapphire",
       "type": "item",
-      "sortid": 125,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sapphire",
@@ -5748,7 +5715,7 @@
     {
       "name": "SapphireOre",
       "type": "block",
-      "sortid": 123,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sapphire_ore",
@@ -5769,7 +5736,7 @@
     {
       "name": "SapphireBlock",
       "type": "block",
-      "sortid": 124,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sapphire_block",
@@ -5786,7 +5753,7 @@
     {
       "name": "SapphireOreBlockRecipe",
       "type": "recipe",
-      "sortid": 417,
+      "sortid": 429,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sapphire_ore_block_recipe",
@@ -5800,7 +5767,7 @@
     {
       "name": "SapphireBlockOreRecipe",
       "type": "recipe",
-      "sortid": 418,
+      "sortid": 430,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sapphire_block_ore_recipe",
@@ -5814,7 +5781,7 @@
     {
       "name": "SapphireOreSmelting",
       "type": "recipe",
-      "sortid": 419,
+      "sortid": 431,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sapphire_ore_smelting",
@@ -5828,7 +5795,7 @@
     {
       "name": "SapphirePickaxe",
       "type": "tool",
-      "sortid": 97,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sapphire_pickaxe",
@@ -5843,7 +5810,7 @@
     {
       "name": "SapphireAxe",
       "type": "tool",
-      "sortid": 98,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sapphire_axe",
@@ -5858,7 +5825,7 @@
     {
       "name": "SapphireSword",
       "type": "tool",
-      "sortid": 51,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sapphire_sword",
@@ -5873,7 +5840,7 @@
     {
       "name": "SapphireShovel",
       "type": "tool",
-      "sortid": 99,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sapphire_shovel",
@@ -5888,7 +5855,7 @@
     {
       "name": "SapphireHoe",
       "type": "tool",
-      "sortid": 100,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sapphire_hoe",
@@ -5903,7 +5870,7 @@
     {
       "name": "SapphirePickaxeRecipe",
       "type": "recipe",
-      "sortid": 420,
+      "sortid": 432,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sapphire_pickaxe_recipe",
@@ -5917,7 +5884,7 @@
     {
       "name": "SapphireAxeRecipe",
       "type": "recipe",
-      "sortid": 421,
+      "sortid": 433,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sapphire_axe_recipe",
@@ -5931,7 +5898,7 @@
     {
       "name": "SapphireSwordRecipe",
       "type": "recipe",
-      "sortid": 422,
+      "sortid": 434,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sapphire_sword_recipe",
@@ -5945,7 +5912,7 @@
     {
       "name": "SapphireShovelRecipe",
       "type": "recipe",
-      "sortid": 423,
+      "sortid": 435,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sapphire_shovel_recipe",
@@ -5959,7 +5926,7 @@
     {
       "name": "SapphireHoeRecipe",
       "type": "recipe",
-      "sortid": 424,
+      "sortid": 436,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sapphire_hoe_recipe",
@@ -5973,7 +5940,7 @@
     {
       "name": "SapphireArmor",
       "type": "armor",
-      "sortid": 50,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sapphire_armor",
@@ -5991,7 +5958,7 @@
     {
       "name": "SapphireArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 425,
+      "sortid": 437,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sapphire_armor_helmet_recipe",
@@ -6005,7 +5972,7 @@
     {
       "name": "SapphireArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 426,
+      "sortid": 438,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sapphire_armor_chestplate_recipe",
@@ -6019,7 +5986,7 @@
     {
       "name": "SapphireArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 427,
+      "sortid": 439,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sapphire_armor_leggings_recipe",
@@ -6033,7 +6000,7 @@
     {
       "name": "SapphireArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 428,
+      "sortid": 440,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sapphire_armor_boots_recipe",
@@ -6047,7 +6014,7 @@
     {
       "name": "Sunstone",
       "type": "item",
-      "sortid": 133,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstone",
@@ -6062,7 +6029,7 @@
     {
       "name": "SunstoneOre",
       "type": "block",
-      "sortid": 126,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstone_ore",
@@ -6083,7 +6050,7 @@
     {
       "name": "SunstoneBlock",
       "type": "block",
-      "sortid": 127,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstone_block",
@@ -6100,7 +6067,7 @@
     {
       "name": "SunstoneOreBlockRecipe",
       "type": "recipe",
-      "sortid": 429,
+      "sortid": 441,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstone_ore_block_recipe",
@@ -6114,7 +6081,7 @@
     {
       "name": "SunstoneBlockOreRecipe",
       "type": "recipe",
-      "sortid": 430,
+      "sortid": 442,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstone_block_ore_recipe",
@@ -6128,7 +6095,7 @@
     {
       "name": "SunstoneOreSmelting",
       "type": "recipe",
-      "sortid": 431,
+      "sortid": 443,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstone_ore_smelting",
@@ -6142,7 +6109,7 @@
     {
       "name": "SunstonePickaxe",
       "type": "tool",
-      "sortid": 101,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstone_pickaxe",
@@ -6157,7 +6124,7 @@
     {
       "name": "SunstoneAxe",
       "type": "tool",
-      "sortid": 102,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstone_axe",
@@ -6172,7 +6139,7 @@
     {
       "name": "SunstoneSword",
       "type": "tool",
-      "sortid": 53,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstone_sword",
@@ -6187,7 +6154,7 @@
     {
       "name": "SunstoneShovel",
       "type": "tool",
-      "sortid": 103,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstone_shovel",
@@ -6202,7 +6169,7 @@
     {
       "name": "SunstoneHoe",
       "type": "tool",
-      "sortid": 104,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstone_hoe",
@@ -6217,7 +6184,7 @@
     {
       "name": "SunstonePickaxeRecipe",
       "type": "recipe",
-      "sortid": 432,
+      "sortid": 444,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstone_pickaxe_recipe",
@@ -6231,7 +6198,7 @@
     {
       "name": "SunstoneAxeRecipe",
       "type": "recipe",
-      "sortid": 433,
+      "sortid": 445,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstone_axe_recipe",
@@ -6245,7 +6212,7 @@
     {
       "name": "SunstoneSwordRecipe",
       "type": "recipe",
-      "sortid": 434,
+      "sortid": 446,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstone_sword_recipe",
@@ -6259,7 +6226,7 @@
     {
       "name": "SunstoneShovelRecipe",
       "type": "recipe",
-      "sortid": 435,
+      "sortid": 447,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstone_shovel_recipe",
@@ -6273,7 +6240,7 @@
     {
       "name": "SunstoneHoeRecipe",
       "type": "recipe",
-      "sortid": 436,
+      "sortid": 448,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstone_hoe_recipe",
@@ -6287,7 +6254,7 @@
     {
       "name": "SunstoneArmor",
       "type": "armor",
-      "sortid": 52,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstone_armor",
@@ -6305,7 +6272,7 @@
     {
       "name": "SunstoneArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 437,
+      "sortid": 449,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstone_armor_helmet_recipe",
@@ -6319,7 +6286,7 @@
     {
       "name": "SunstoneArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 438,
+      "sortid": 450,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstone_armor_chestplate_recipe",
@@ -6333,7 +6300,7 @@
     {
       "name": "SunstoneArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 439,
+      "sortid": 451,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstone_armor_leggings_recipe",
@@ -6347,7 +6314,7 @@
     {
       "name": "SunstoneArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 440,
+      "sortid": 452,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstone_armor_boots_recipe",
@@ -6361,7 +6328,7 @@
     {
       "name": "Tourmaline",
       "type": "item",
-      "sortid": 134,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tourmaline",
@@ -6376,7 +6343,7 @@
     {
       "name": "TourmalineOre",
       "type": "block",
-      "sortid": 128,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tourmaline_ore",
@@ -6397,7 +6364,7 @@
     {
       "name": "TourmalineBlock",
       "type": "block",
-      "sortid": 129,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tourmaline_block",
@@ -6414,7 +6381,7 @@
     {
       "name": "TourmalineOreBlockRecipe",
       "type": "recipe",
-      "sortid": 441,
+      "sortid": 453,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tourmaline_ore_block_recipe",
@@ -6428,7 +6395,7 @@
     {
       "name": "TourmalineBlockOreRecipe",
       "type": "recipe",
-      "sortid": 442,
+      "sortid": 454,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tourmaline_block_ore_recipe",
@@ -6442,7 +6409,7 @@
     {
       "name": "TourmalineOreSmelting",
       "type": "recipe",
-      "sortid": 443,
+      "sortid": 455,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tourmaline_ore_smelting",
@@ -6456,7 +6423,7 @@
     {
       "name": "TourmalinePickaxe",
       "type": "tool",
-      "sortid": 105,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tourmaline_pickaxe",
@@ -6471,7 +6438,7 @@
     {
       "name": "TourmalineAxe",
       "type": "tool",
-      "sortid": 106,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tourmaline_axe",
@@ -6486,7 +6453,7 @@
     {
       "name": "TourmalineSword",
       "type": "tool",
-      "sortid": 54,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tourmaline_sword",
@@ -6501,7 +6468,7 @@
     {
       "name": "TourmalineShovel",
       "type": "tool",
-      "sortid": 107,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tourmaline_shovel",
@@ -6516,7 +6483,7 @@
     {
       "name": "TourmalineHoe",
       "type": "tool",
-      "sortid": 108,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tourmaline_hoe",
@@ -6531,7 +6498,7 @@
     {
       "name": "TourmalinePickaxeRecipe",
       "type": "recipe",
-      "sortid": 444,
+      "sortid": 456,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tourmaline_pickaxe_recipe",
@@ -6545,7 +6512,7 @@
     {
       "name": "TourmalineAxeRecipe",
       "type": "recipe",
-      "sortid": 445,
+      "sortid": 457,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tourmaline_axe_recipe",
@@ -6559,7 +6526,7 @@
     {
       "name": "TourmalineSwordRecipe",
       "type": "recipe",
-      "sortid": 446,
+      "sortid": 458,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tourmaline_sword_recipe",
@@ -6573,7 +6540,7 @@
     {
       "name": "TourmalineShovelRecipe",
       "type": "recipe",
-      "sortid": 447,
+      "sortid": 459,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tourmaline_shovel_recipe",
@@ -6587,7 +6554,7 @@
     {
       "name": "TourmalineHoeRecipe",
       "type": "recipe",
-      "sortid": 448,
+      "sortid": 460,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tourmaline_hoe_recipe",
@@ -6601,7 +6568,7 @@
     {
       "name": "TourmalineArmor",
       "type": "armor",
-      "sortid": 55,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tourmaline_armor",
@@ -6619,7 +6586,7 @@
     {
       "name": "TourmalineArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 449,
+      "sortid": 461,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tourmaline_armor_helmet_recipe",
@@ -6633,7 +6600,7 @@
     {
       "name": "TourmalineArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 450,
+      "sortid": 462,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tourmaline_armor_chestplate_recipe",
@@ -6647,7 +6614,7 @@
     {
       "name": "TourmalineArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 451,
+      "sortid": 463,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tourmaline_armor_leggings_recipe",
@@ -6661,7 +6628,7 @@
     {
       "name": "TourmalineArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 452,
+      "sortid": 464,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tourmaline_armor_boots_recipe",
@@ -6675,7 +6642,7 @@
     {
       "name": "TitaniumIngot",
       "type": "item",
-      "sortid": 456,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_ingot",
@@ -6690,7 +6657,7 @@
     {
       "name": "TitaniumOre",
       "type": "block",
-      "sortid": 454,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_ore",
@@ -6711,7 +6678,7 @@
     {
       "name": "TitaniumBlock",
       "type": "block",
-      "sortid": 455,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_block",
@@ -6728,7 +6695,7 @@
     {
       "name": "TitaniumOreBlockRecipe",
       "type": "recipe",
-      "sortid": 457,
+      "sortid": 465,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_ore_block_recipe",
@@ -6742,7 +6709,7 @@
     {
       "name": "TitaniumBlockOreRecipe",
       "type": "recipe",
-      "sortid": 458,
+      "sortid": 466,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_block_ore_recipe",
@@ -6756,7 +6723,7 @@
     {
       "name": "TitaniumOreSmelting",
       "type": "recipe",
-      "sortid": 459,
+      "sortid": 467,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_ore_smelting",
@@ -6770,7 +6737,7 @@
     {
       "name": "TitaniumPickaxe",
       "type": "tool",
-      "sortid": 469,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_pickaxe",
@@ -6785,7 +6752,7 @@
     {
       "name": "TitaniumAxe",
       "type": "tool",
-      "sortid": 470,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_axe",
@@ -6800,7 +6767,7 @@
     {
       "name": "TitaniumSword",
       "type": "tool",
-      "sortid": 471,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_sword",
@@ -6815,7 +6782,7 @@
     {
       "name": "TitaniumShovel",
       "type": "tool",
-      "sortid": 472,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_shovel",
@@ -6830,7 +6797,7 @@
     {
       "name": "TitaniumHoe",
       "type": "tool",
-      "sortid": 473,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_hoe",
@@ -6845,7 +6812,7 @@
     {
       "name": "TitaniumPickaxeRecipe",
       "type": "recipe",
-      "sortid": 460,
+      "sortid": 468,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_pickaxe_recipe",
@@ -6859,7 +6826,7 @@
     {
       "name": "TitaniumAxeRecipe",
       "type": "recipe",
-      "sortid": 461,
+      "sortid": 469,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_axe_recipe",
@@ -6873,7 +6840,7 @@
     {
       "name": "TitaniumSwordRecipe",
       "type": "recipe",
-      "sortid": 462,
+      "sortid": 470,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_sword_recipe",
@@ -6887,7 +6854,7 @@
     {
       "name": "TitaniumShovelRecipe",
       "type": "recipe",
-      "sortid": 463,
+      "sortid": 471,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_shovel_recipe",
@@ -6901,7 +6868,7 @@
     {
       "name": "TitaniumHoeRecipe",
       "type": "recipe",
-      "sortid": 464,
+      "sortid": 472,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_hoe_recipe",
@@ -6915,7 +6882,7 @@
     {
       "name": "TitaniumArmor",
       "type": "armor",
-      "sortid": 453,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_armor",
@@ -6933,7 +6900,7 @@
     {
       "name": "TitaniumArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 465,
+      "sortid": 473,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_armor_helmet_recipe",
@@ -6947,7 +6914,7 @@
     {
       "name": "TitaniumArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 466,
+      "sortid": 474,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_armor_chestplate_recipe",
@@ -6961,7 +6928,7 @@
     {
       "name": "TitaniumArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 467,
+      "sortid": 475,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_armor_leggings_recipe",
@@ -6975,7 +6942,7 @@
     {
       "name": "TitaniumArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 468,
+      "sortid": 476,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_armor_boots_recipe",
@@ -6989,7 +6956,7 @@
     {
       "name": "GameStartCharacterCreation",
       "type": "gui",
-      "sortid": 475,
+      "sortid": 477,
       "compiles": true,
       "locked_code": false,
       "registry_name": "game_start_character_creation",
@@ -7005,7 +6972,7 @@
     {
       "name": "WoodStaff",
       "type": "tool",
-      "sortid": 476,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wood_staff",
@@ -7020,7 +6987,7 @@
     {
       "name": "WoodStaffRecipe",
       "type": "recipe",
-      "sortid": 477,
+      "sortid": 478,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wood_staff_recipe",
@@ -7034,7 +7001,7 @@
     {
       "name": "MagicalCasing",
       "type": "item",
-      "sortid": 478,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magical_casing",
@@ -7063,7 +7030,7 @@
     {
       "name": "StaffOfLesserMagic",
       "type": "rangeditem",
-      "sortid": 485,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanite_staff_wand",
@@ -7079,7 +7046,7 @@
     {
       "name": "StaffOfLesserMagicWhileProjectileFlyingTick",
       "type": "procedure",
-      "sortid": 486,
+      "sortid": 480,
       "compiles": true,
       "locked_code": false,
       "registry_name": "staff_of_lesser_magic_while_projectile_flying_tick",
@@ -7111,7 +7078,7 @@
     {
       "name": "StaffOfLesserMagicProjectileHitsLivingEntity",
       "type": "procedure",
-      "sortid": 487,
+      "sortid": 481,
       "compiles": true,
       "locked_code": false,
       "registry_name": "staff_of_lesser_magic_projectile_hits_living_entity",
@@ -7151,7 +7118,7 @@
     {
       "name": "ArcaniteStaff",
       "type": "recipe",
-      "sortid": 495,
+      "sortid": 482,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanite_staff",
@@ -7165,7 +7132,7 @@
     {
       "name": "StaffOfLesserMagicRangedItemUsed",
       "type": "procedure",
-      "sortid": 496,
+      "sortid": 483,
       "compiles": true,
       "locked_code": false,
       "registry_name": "staff_of_lesser_magic_ranged_item_used",
@@ -7189,7 +7156,7 @@
     {
       "name": "StaffOfLesserMagicCanUseRangedItem",
       "type": "procedure",
-      "sortid": 497,
+      "sortid": 484,
       "compiles": true,
       "locked_code": false,
       "registry_name": "staff_of_lesser_magic_can_use_ranged_item",
@@ -7214,7 +7181,7 @@
     {
       "name": "Empty",
       "type": "item",
-      "sortid": 499,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "empty",
@@ -7229,7 +7196,7 @@
     {
       "name": "ArcaniteParticle",
       "type": "particle",
-      "sortid": 500,
+      "sortid": 485,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanite_particle",
@@ -7244,7 +7211,7 @@
     {
       "name": "ArcaniteParticle2",
       "type": "particle",
-      "sortid": 501,
+      "sortid": 486,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanite_particle_2",
@@ -7259,7 +7226,7 @@
     {
       "name": "ArcanitePArticle3",
       "type": "particle",
-      "sortid": 502,
+      "sortid": 487,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanite_p_article_3",
@@ -7274,7 +7241,7 @@
     {
       "name": "ArcaniteAsh",
       "type": "particle",
-      "sortid": 503,
+      "sortid": 488,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanite_ash",
@@ -7289,7 +7256,7 @@
     {
       "name": "ArcaniteAshTranslucnet",
       "type": "particle",
-      "sortid": 504,
+      "sortid": 489,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanite_ash_translucnet",
@@ -7304,7 +7271,7 @@
     {
       "name": "Arcanitium",
       "type": "item",
-      "sortid": 507,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanitium",
@@ -7319,7 +7286,7 @@
     {
       "name": "ArcanitiumOre",
       "type": "block",
-      "sortid": 505,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanitium_ore",
@@ -7340,7 +7307,7 @@
     {
       "name": "ArcanitiumBlock",
       "type": "block",
-      "sortid": 506,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanitium_block",
@@ -7357,7 +7324,7 @@
     {
       "name": "ArcanitiumOreBlockRecipe",
       "type": "recipe",
-      "sortid": 508,
+      "sortid": 490,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanitium_ore_block_recipe",
@@ -7371,7 +7338,7 @@
     {
       "name": "ArcanitiumBlockOreRecipe",
       "type": "recipe",
-      "sortid": 509,
+      "sortid": 491,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanitium_block_ore_recipe",
@@ -7385,7 +7352,7 @@
     {
       "name": "ArcanitiumOreSmelting",
       "type": "recipe",
-      "sortid": 510,
+      "sortid": 492,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanitium_ore_smelting",
@@ -7399,7 +7366,7 @@
     {
       "name": "LightStaff",
       "type": "rangeditem",
-      "sortid": 516,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_staff_wand",
@@ -7415,7 +7382,7 @@
     {
       "name": "LightStaffWhileProjectileFlyingTick",
       "type": "procedure",
-      "sortid": 512,
+      "sortid": 493,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_staff_while_projectile_flying_tick",
@@ -7451,7 +7418,7 @@
     {
       "name": "LightStaffProjectileHitsLivingEntity",
       "type": "procedure",
-      "sortid": 513,
+      "sortid": 494,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_staff_projectile_hits_living_entity",
@@ -7491,7 +7458,7 @@
     {
       "name": "LightStaffRecipe",
       "type": "recipe",
-      "sortid": 517,
+      "sortid": 495,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_staff_recipe",
@@ -7505,7 +7472,7 @@
     {
       "name": "LightStaffRangedItemIsUsed",
       "type": "procedure",
-      "sortid": 514,
+      "sortid": 496,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_staff_ranged_item_is_used",
@@ -7529,7 +7496,7 @@
     {
       "name": "LightStaffCanUseRangedItem",
       "type": "procedure",
-      "sortid": 515,
+      "sortid": 497,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_staff_can_use_ranged_item",
@@ -7554,7 +7521,7 @@
     {
       "name": "Arcanite",
       "type": "item",
-      "sortid": 511,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanite",
@@ -7569,7 +7536,7 @@
     {
       "name": "ArcaniteRecipe",
       "type": "recipe",
-      "sortid": 518,
+      "sortid": 498,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanite_recipe",
@@ -7583,7 +7550,7 @@
     {
       "name": "LightOrbParticle",
       "type": "particle",
-      "sortid": 519,
+      "sortid": 499,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_orb_particle",
@@ -7598,7 +7565,7 @@
     {
       "name": "LightOrb",
       "type": "item",
-      "sortid": 520,
+      "sortid": 500,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_orb",
@@ -7613,7 +7580,7 @@
     {
       "name": "LightFlash",
       "type": "particle",
-      "sortid": 521,
+      "sortid": 501,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_flash",
@@ -7628,7 +7595,7 @@
     {
       "name": "ArcaneTopaz",
       "type": "item",
-      "sortid": 522,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcane_topaz",
@@ -7643,7 +7610,7 @@
     {
       "name": "ArcaneTopazRecipe",
       "type": "recipe",
-      "sortid": 523,
+      "sortid": 502,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcane_topaz_recipe",
@@ -7657,7 +7624,7 @@
     {
       "name": "ArcaniteGemstone",
       "type": "item",
-      "sortid": 524,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanite_gemstone",
@@ -7672,7 +7639,7 @@
     {
       "name": "ArcanitePowderRecipe",
       "type": "recipe",
-      "sortid": 525,
+      "sortid": 503,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanite_powder_recipe",
@@ -7686,7 +7653,7 @@
     {
       "name": "FireStaff",
       "type": "rangeditem",
-      "sortid": 530,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_staff_wand",
@@ -7702,7 +7669,7 @@
     {
       "name": "FireStaffWhileProjectileFlyingTick",
       "type": "procedure",
-      "sortid": 526,
+      "sortid": 504,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_staff_while_projectile_flying_tick",
@@ -7738,7 +7705,7 @@
     {
       "name": "FireStaffProjectileHitsLivingEntity",
       "type": "procedure",
-      "sortid": 527,
+      "sortid": 505,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_staff_projectile_hits_living_entity",
@@ -7778,7 +7745,7 @@
     {
       "name": "FireStaffRecipe",
       "type": "recipe",
-      "sortid": 531,
+      "sortid": 506,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_staff_recipe",
@@ -7792,7 +7759,7 @@
     {
       "name": "FireStaffRangedItemIsUsed",
       "type": "procedure",
-      "sortid": 528,
+      "sortid": 507,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_staff_ranged_item_is_used",
@@ -7816,7 +7783,7 @@
     {
       "name": "FireStaffCanUseRangedItem",
       "type": "procedure",
-      "sortid": 529,
+      "sortid": 508,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_staff_can_use_ranged_item",
@@ -7841,7 +7808,7 @@
     {
       "name": "FireAsh",
       "type": "particle",
-      "sortid": 532,
+      "sortid": 509,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_ash",
@@ -7856,7 +7823,7 @@
     {
       "name": "FireAsh2",
       "type": "particle",
-      "sortid": 533,
+      "sortid": 510,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_ash_2",
@@ -7871,7 +7838,7 @@
     {
       "name": "FireAsh3",
       "type": "particle",
-      "sortid": 534,
+      "sortid": 511,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_ash_3",
@@ -7886,7 +7853,7 @@
     {
       "name": "LightIronDagger",
       "type": "tool",
-      "sortid": 535,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_iron_dagger",
@@ -7901,7 +7868,7 @@
     {
       "name": "LightIronDaggerRacipe",
       "type": "recipe",
-      "sortid": 536,
+      "sortid": 512,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_iron_dagger_racipe",
@@ -7915,7 +7882,7 @@
     {
       "name": "NebulousVeilDagger",
       "type": "tool",
-      "sortid": 537,
+      "sortid": 9,
       "compiles": true,
       "locked_code": true,
       "registry_name": "nebulous_veil_dagger",
@@ -7930,7 +7897,7 @@
     {
       "name": "NebulousVeilRecipe",
       "type": "recipe",
-      "sortid": 538,
+      "sortid": 513,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nebulous_veil_recipe",
@@ -7944,7 +7911,7 @@
     {
       "name": "NebulousVeilDaggerRightclicked",
       "type": "procedure",
-      "sortid": 539,
+      "sortid": 514,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nebulous_veil_dagger_rightclicked",
@@ -7980,7 +7947,7 @@
     {
       "name": "NebulousVeilDaggerLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 540,
+      "sortid": 515,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nebulous_veil_dagger_living_entity_is_hit_with_tool",
@@ -8020,7 +7987,7 @@
     {
       "name": "CrepitarsBladeSword",
       "type": "tool",
-      "sortid": 541,
+      "sortid": 20,
       "compiles": true,
       "locked_code": true,
       "registry_name": "crepitars_blade_sword",
@@ -8035,7 +8002,7 @@
     {
       "name": "CrepitarsBladeRecipe",
       "type": "recipe",
-      "sortid": 542,
+      "sortid": 516,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crepitars_blade_recipe",
@@ -8049,7 +8016,7 @@
     {
       "name": "BladeOfBanishedQueen",
       "type": "tool",
-      "sortid": 543,
+      "sortid": 43,
       "compiles": true,
       "locked_code": true,
       "registry_name": "blade_of_banished_queen",
@@ -8064,7 +8031,7 @@
     {
       "name": "BladeOfBanishedQueenLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 544,
+      "sortid": 517,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blade_of_banished_queen_living_entity_is_hit_with_tool",
@@ -8104,7 +8071,7 @@
     {
       "name": "StormrazorKatana",
       "type": "tool",
-      "sortid": 545,
+      "sortid": 26,
       "compiles": true,
       "locked_code": true,
       "registry_name": "stormrazor_katana",
@@ -8119,7 +8086,7 @@
     {
       "name": "StormrazorKatanaLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 546,
+      "sortid": 518,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stormrazor_katana_living_entity_is_hit_with_tool",
@@ -8147,7 +8114,7 @@
     {
       "name": "DarkHarvesterScythe",
       "type": "tool",
-      "sortid": 547,
+      "sortid": 54,
       "compiles": true,
       "locked_code": true,
       "registry_name": "dark_harvester_scythe",
@@ -8162,7 +8129,7 @@
     {
       "name": "SuradiirsScythe",
       "type": "tool",
-      "sortid": 548,
+      "sortid": 55,
       "compiles": true,
       "locked_code": true,
       "registry_name": "suradiirs_scythe",
@@ -8177,7 +8144,7 @@
     {
       "name": "SuradiirsScytheLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 549,
+      "sortid": 519,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suradiirs_scythe_living_entity_is_hit_with_tool",
@@ -8205,7 +8172,7 @@
     {
       "name": "DarkHarvesterScytheLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 570,
+      "sortid": 520,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_harvester_scythe_living_entity_is_hit_with_tool",
@@ -8229,7 +8196,7 @@
     {
       "name": "IronScythe",
       "type": "tool",
-      "sortid": 571,
+      "sortid": 56,
       "compiles": true,
       "locked_code": true,
       "registry_name": "iron_scythe",
@@ -8244,7 +8211,7 @@
     {
       "name": "ScytheLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 572,
+      "sortid": 521,
       "compiles": true,
       "locked_code": false,
       "registry_name": "scythe_living_entity_is_hit_with_tool",
@@ -8264,7 +8231,7 @@
     {
       "name": "SteelIngot",
       "type": "item",
-      "sortid": 575,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_ingot",
@@ -8279,7 +8246,7 @@
     {
       "name": "SteelBlock",
       "type": "block",
-      "sortid": 574,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_block",
@@ -8296,7 +8263,7 @@
     {
       "name": "SteelOreBlockRecipe",
       "type": "recipe",
-      "sortid": 576,
+      "sortid": 522,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_ore_block_recipe",
@@ -8310,7 +8277,7 @@
     {
       "name": "SteelBlockOreRecipe",
       "type": "recipe",
-      "sortid": 577,
+      "sortid": 523,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_block_ore_recipe",
@@ -8324,7 +8291,7 @@
     {
       "name": "SteelOreSmelting",
       "type": "recipe",
-      "sortid": 578,
+      "sortid": 524,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_ore_smelting",
@@ -8338,7 +8305,7 @@
     {
       "name": "SteelPickaxe",
       "type": "tool",
-      "sortid": 588,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_pickaxe",
@@ -8353,7 +8320,7 @@
     {
       "name": "SteelAxe",
       "type": "tool",
-      "sortid": 589,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_axe",
@@ -8368,7 +8335,7 @@
     {
       "name": "SteelSword",
       "type": "tool",
-      "sortid": 590,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_sword",
@@ -8383,7 +8350,7 @@
     {
       "name": "SteelShovel",
       "type": "tool",
-      "sortid": 591,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_shovel",
@@ -8398,7 +8365,7 @@
     {
       "name": "SteelHoe",
       "type": "tool",
-      "sortid": 592,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_hoe",
@@ -8413,7 +8380,7 @@
     {
       "name": "SteelPickaxeRecipe",
       "type": "recipe",
-      "sortid": 579,
+      "sortid": 525,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_pickaxe_recipe",
@@ -8427,7 +8394,7 @@
     {
       "name": "SteelAxeRecipe",
       "type": "recipe",
-      "sortid": 580,
+      "sortid": 526,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_axe_recipe",
@@ -8441,7 +8408,7 @@
     {
       "name": "SteelSwordRecipe",
       "type": "recipe",
-      "sortid": 581,
+      "sortid": 527,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_sword_recipe",
@@ -8455,7 +8422,7 @@
     {
       "name": "SteelShovelRecipe",
       "type": "recipe",
-      "sortid": 582,
+      "sortid": 528,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_shovel_recipe",
@@ -8469,7 +8436,7 @@
     {
       "name": "SteelHoeRecipe",
       "type": "recipe",
-      "sortid": 583,
+      "sortid": 529,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_hoe_recipe",
@@ -8483,7 +8450,7 @@
     {
       "name": "SteelArmor",
       "type": "armor",
-      "sortid": 573,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_armor",
@@ -8501,7 +8468,7 @@
     {
       "name": "SteelArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 584,
+      "sortid": 530,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_armor_helmet_recipe",
@@ -8515,7 +8482,7 @@
     {
       "name": "SteelArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 585,
+      "sortid": 531,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_armor_chestplate_recipe",
@@ -8529,7 +8496,7 @@
     {
       "name": "SteelArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 586,
+      "sortid": 532,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_armor_leggings_recipe",
@@ -8543,7 +8510,7 @@
     {
       "name": "SteelArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 587,
+      "sortid": 533,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_armor_boots_recipe",
@@ -8557,7 +8524,7 @@
     {
       "name": "SteelScythe",
       "type": "tool",
-      "sortid": 593,
+      "sortid": 57,
       "compiles": true,
       "locked_code": true,
       "registry_name": "steel_scythe",
@@ -8572,7 +8539,7 @@
     {
       "name": "RustedIronScythe",
       "type": "tool",
-      "sortid": 594,
+      "sortid": 58,
       "compiles": true,
       "locked_code": true,
       "registry_name": "rusted_iron_scythe",
@@ -8587,7 +8554,7 @@
     {
       "name": "SteelGladiumsSword",
       "type": "tool",
-      "sortid": 595,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_gladiums_sword",
@@ -8602,7 +8569,7 @@
     {
       "name": "Bowtwohandedlighticebow",
       "type": "rangeditem",
-      "sortid": 597,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bowtwohandedlighticebow",
@@ -8618,7 +8585,7 @@
     {
       "name": "BowtwohandedlighticebowProjectileHitsLivingEntity",
       "type": "procedure",
-      "sortid": 598,
+      "sortid": 534,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bowtwohandedlighticebow_projectile_hits_living_entity",
@@ -8646,7 +8613,7 @@
     {
       "name": "BowtwohandedlighticebowWhileProjectileFlyingTick",
       "type": "procedure",
-      "sortid": 599,
+      "sortid": 535,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bowtwohandedlighticebow_while_projectile_flying_tick",
@@ -8678,7 +8645,7 @@
     {
       "name": "BowDamageProcedure",
       "type": "procedure",
-      "sortid": 600,
+      "sortid": 536,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bow_damage_procedure",
@@ -8701,12 +8668,12 @@
           }
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/RawItems/Bows/FrostbiteBow"
+      "path": "~/Items/ItemsNormal/Common Items/RawItems/Bows"
     },
     {
       "name": "RunicStonePrecision",
       "type": "curiosbauble",
-      "sortid": 601,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_precision",
@@ -8721,7 +8688,7 @@
     {
       "name": "RunicStonePrecisionWhileBaubleIsEquippedTick",
       "type": "procedure",
-      "sortid": 602,
+      "sortid": 537,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_precision_while_bauble_is_equipped_tick",
@@ -8736,7 +8703,7 @@
     {
       "name": "PrecisionRunicStone",
       "type": "procedure",
-      "sortid": 603,
+      "sortid": 538,
       "compiles": true,
       "locked_code": false,
       "registry_name": "precision_runic_stone",
@@ -8756,7 +8723,7 @@
     {
       "name": "RunicStoneDueling",
       "type": "curiosbauble",
-      "sortid": 604,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_dueling",
@@ -8771,7 +8738,7 @@
     {
       "name": "RunicStoneDuelingBaubleIsEquipped",
       "type": "procedure",
-      "sortid": 605,
+      "sortid": 539,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_dueling_bauble_is_equipped",
@@ -8791,7 +8758,7 @@
     {
       "name": "GoldRapier",
       "type": "tool",
-      "sortid": 606,
+      "sortid": 60,
       "compiles": true,
       "locked_code": true,
       "registry_name": "gold_rapier",
@@ -8806,7 +8773,7 @@
     {
       "name": "GoldRapierRecipe",
       "type": "recipe",
-      "sortid": 607,
+      "sortid": 540,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_rapier_recipe",
@@ -8820,7 +8787,7 @@
     {
       "name": "DiamondRapier",
       "type": "tool",
-      "sortid": 608,
+      "sortid": 61,
       "compiles": true,
       "locked_code": true,
       "registry_name": "diamond_rapier",
@@ -8835,7 +8802,7 @@
     {
       "name": "DiamondRapierProcedure",
       "type": "recipe",
-      "sortid": 609,
+      "sortid": 541,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_rapier_procedure",
@@ -8849,7 +8816,7 @@
     {
       "name": "SteelRapier",
       "type": "tool",
-      "sortid": 610,
+      "sortid": 62,
       "compiles": true,
       "locked_code": true,
       "registry_name": "steel_rapier",
@@ -8864,7 +8831,7 @@
     {
       "name": "SteelRapierProcedure",
       "type": "recipe",
-      "sortid": 611,
+      "sortid": 542,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_rapier_procedure",
@@ -8878,7 +8845,7 @@
     {
       "name": "DragonBiteDagger",
       "type": "tool",
-      "sortid": 612,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dragon_bite_dagger",
@@ -8893,7 +8860,7 @@
     {
       "name": "DragonBiteDaggerLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 613,
+      "sortid": 543,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dragon_bite_dagger_living_entity_is_hit_with_tool",
@@ -8933,7 +8900,7 @@
     {
       "name": "RunicStoneResistence",
       "type": "curiosbauble",
-      "sortid": 614,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_resistence",
@@ -8948,7 +8915,7 @@
     {
       "name": "RunicStoneResistenceBaubleIsEquipped",
       "type": "procedure",
-      "sortid": 615,
+      "sortid": 544,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_resistence_bauble_is_equipped",
@@ -8968,7 +8935,7 @@
     {
       "name": "RunicStoneFatality",
       "type": "curiosbauble",
-      "sortid": 616,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_fatality",
@@ -8983,7 +8950,7 @@
     {
       "name": "RunicStoneFatalityBaubleIsEquipped",
       "type": "procedure",
-      "sortid": 617,
+      "sortid": 545,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_fatality_bauble_is_equipped",
@@ -9003,7 +8970,7 @@
     {
       "name": "RunicStoneBrutality",
       "type": "curiosbauble",
-      "sortid": 618,
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_brutality",
@@ -9018,7 +8985,7 @@
     {
       "name": "BrutalityRuneProcedure",
       "type": "procedure",
-      "sortid": 619,
+      "sortid": 546,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brutality_rune_procedure",
@@ -9038,7 +9005,7 @@
     {
       "name": "RuneStoneSpellcaster",
       "type": "curiosbauble",
-      "sortid": 620,
+      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rune_stone_spellcaster",
@@ -9053,7 +9020,7 @@
     {
       "name": "RuneStoneSpellcasterBaubleIsEquipped",
       "type": "procedure",
-      "sortid": 621,
+      "sortid": 547,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rune_stone_spellcaster_bauble_is_equipped",
@@ -9073,7 +9040,7 @@
     {
       "name": "CelestiumIngot",
       "type": "item",
-      "sortid": 625,
+      "sortid": 197,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestium_ingot",
@@ -9088,7 +9055,7 @@
     {
       "name": "CelestiumOre",
       "type": "block",
-      "sortid": 623,
+      "sortid": 195,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestium_ore",
@@ -9109,7 +9076,7 @@
     {
       "name": "CelestiumBlock",
       "type": "block",
-      "sortid": 624,
+      "sortid": 196,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestium_block",
@@ -9126,7 +9093,7 @@
     {
       "name": "CelestiumOreBlockRecipe",
       "type": "recipe",
-      "sortid": 626,
+      "sortid": 548,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestium_ore_block_recipe",
@@ -9140,7 +9107,7 @@
     {
       "name": "CelestiumBlockOreRecipe",
       "type": "recipe",
-      "sortid": 627,
+      "sortid": 549,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestium_block_ore_recipe",
@@ -9154,7 +9121,7 @@
     {
       "name": "CelestiumOreSmelting",
       "type": "recipe",
-      "sortid": 628,
+      "sortid": 550,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestium_ore_smelting",
@@ -9168,7 +9135,7 @@
     {
       "name": "CelestiumPickaxe",
       "type": "tool",
-      "sortid": 638,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestium_pickaxe",
@@ -9183,7 +9150,7 @@
     {
       "name": "CelestiumAxe",
       "type": "tool",
-      "sortid": 639,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestium_axe",
@@ -9198,7 +9165,7 @@
     {
       "name": "CelestiumSword",
       "type": "tool",
-      "sortid": 640,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestium_sword",
@@ -9213,7 +9180,7 @@
     {
       "name": "CelestiumShovel",
       "type": "tool",
-      "sortid": 641,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestium_shovel",
@@ -9228,7 +9195,7 @@
     {
       "name": "CelestiumHoe",
       "type": "tool",
-      "sortid": 642,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestium_hoe",
@@ -9243,7 +9210,7 @@
     {
       "name": "CelestiumPickaxeRecipe",
       "type": "recipe",
-      "sortid": 629,
+      "sortid": 551,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestium_pickaxe_recipe",
@@ -9257,7 +9224,7 @@
     {
       "name": "CelestiumAxeRecipe",
       "type": "recipe",
-      "sortid": 630,
+      "sortid": 552,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestium_axe_recipe",
@@ -9271,7 +9238,7 @@
     {
       "name": "CelestiumSwordRecipe",
       "type": "recipe",
-      "sortid": 631,
+      "sortid": 553,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestium_sword_recipe",
@@ -9285,7 +9252,7 @@
     {
       "name": "CelestiumShovelRecipe",
       "type": "recipe",
-      "sortid": 632,
+      "sortid": 554,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestium_shovel_recipe",
@@ -9299,7 +9266,7 @@
     {
       "name": "CelestiumHoeRecipe",
       "type": "recipe",
-      "sortid": 633,
+      "sortid": 555,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestium_hoe_recipe",
@@ -9313,7 +9280,7 @@
     {
       "name": "CelestiumArmor",
       "type": "armor",
-      "sortid": 622,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestium_armor",
@@ -9331,7 +9298,7 @@
     {
       "name": "CelestiumArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 634,
+      "sortid": 556,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestium_armor_helmet_recipe",
@@ -9345,7 +9312,7 @@
     {
       "name": "CelestiumArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 635,
+      "sortid": 557,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestium_armor_chestplate_recipe",
@@ -9359,7 +9326,7 @@
     {
       "name": "CelestiumArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 636,
+      "sortid": 558,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestium_armor_leggings_recipe",
@@ -9373,7 +9340,7 @@
     {
       "name": "CelestiumArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 637,
+      "sortid": 559,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestium_armor_boots_recipe",
@@ -9387,7 +9354,7 @@
     {
       "name": "CelestialAttribbutes",
       "type": "procedure",
-      "sortid": 643,
+      "sortid": 560,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestial_attribbutes",
@@ -9407,7 +9374,7 @@
     {
       "name": "AbyssalAttributes",
       "type": "procedure",
-      "sortid": 644,
+      "sortid": 561,
       "compiles": true,
       "locked_code": false,
       "registry_name": "abyssal_attributes",
@@ -9427,7 +9394,7 @@
     {
       "name": "COTTAttributes",
       "type": "procedure",
-      "sortid": 645,
+      "sortid": 562,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cott_attributes",
@@ -9447,7 +9414,7 @@
     {
       "name": "BalsadurGreatsword",
       "type": "tool",
-      "sortid": 646,
+      "sortid": 63,
       "compiles": true,
       "locked_code": true,
       "registry_name": "balsadur_greatsword_claymore",
@@ -9462,7 +9429,7 @@
     {
       "name": "RuneStoneSpellcasterEXP",
       "type": "procedure",
-      "sortid": 647,
+      "sortid": 563,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rune_stone_spellcaster_exp",
@@ -9478,6 +9445,203 @@
         ]
       },
       "path": "~/Items/ItemsNormal/PassiveItems/Spellcaster"
+    },
+    {
+      "name": "GameStartCharacterCreationDisplayCondition",
+      "type": "procedure",
+      "sortid": 564,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "game_start_character_creation_display_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/GameStartCharacterCreationDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CharacterCreation/GUI"
+    },
+    {
+      "name": "RunicStonePrecisionCrafting",
+      "type": "recipe",
+      "sortid": 565,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_stone_precision_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/runic_stone_precision_crafting.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/PassiveItems/Precision"
+    },
+    {
+      "name": "RunicStoneDuelingCrafting",
+      "type": "recipe",
+      "sortid": 566,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_stone_dueling_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/runic_stone_dueling_crafting.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/PassiveItems/Duelling"
+    },
+    {
+      "name": "RunicStoneResistenceCrafting",
+      "type": "recipe",
+      "sortid": 567,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_stone_resistence_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/runic_stone_resistence_crafting.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/PassiveItems/Resistence"
+    },
+    {
+      "name": "RunicStoneBrutalityCraftingg",
+      "type": "recipe",
+      "sortid": 568,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_stone_brutality_craftingg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/runic_stone_brutality_craftingg.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/PassiveItems/Brutality"
+    },
+    {
+      "name": "RunicStoneFatalityCrafting",
+      "type": "recipe",
+      "sortid": 569,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_stone_fatality_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/runic_stone_fatality_crafting.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/PassiveItems/Fatality"
+    },
+    {
+      "name": "RunicStoneSpellCasterCrafting",
+      "type": "recipe",
+      "sortid": 570,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_stone_spell_caster_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/runic_stone_spell_caster_crafting.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/PassiveItems/Spellcaster"
+    },
+    {
+      "name": "Dash",
+      "type": "curiosbauble",
+      "sortid": 571,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dash",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/DashItem.java",
+          "src/main/resources/assets/mineterra/models/item/dash.json"
+        ]
+      },
+      "path": "~/Abilities/Dash"
+    },
+    {
+      "name": "DashAbility",
+      "type": "procedure",
+      "sortid": 572,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dash_ability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/DashAbilityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Abilities/Dash"
+    },
+    {
+      "name": "Ability",
+      "type": "keybind",
+      "sortid": 573,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/network/AbilityMessage.java"
+        ]
+      },
+      "path": "~/Abilities"
+    },
+    {
+      "name": "AbilityOnKeyPressed",
+      "type": "procedure",
+      "sortid": 574,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ability_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/AbilityOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Abilities"
     }
   ],
   "variable_elements": [
@@ -9739,6 +9903,7 @@
       "gui.mineterra.game_start_character_creation.button_select": "Select",
       "effect.mineterra.forest_blessing": "Bênção da Fauna",
       "item.mineterra.garnet_axe": "Garnet Axe",
+      "key.mineterra.ability": "Ability",
       "item.mineterra.silver_shovel": "Pá de Prata",
       "item.mineterra.light_staff_wand": "Light Staff",
       "gui.mineterra.celestial_gui.label_das_suas_consequencias": "das suas consequências.",
@@ -9876,6 +10041,7 @@
       "subtitles.stab": "",
       "gui.mineterra.game_start_character_creation.Gnome": "Gnome",
       "block.mineterra.topaz_block": "Block of Topaz",
+      "item.mineterra.dash": "Dash",
       "item.mineterra.titanium_armor_chestplate": "Titanium Chestplate",
       "item.mineterra.celestium_hoe": "Celestium Hoe",
       "item.mineterra.celestium_armor_boots": "Celestium Boots",
@@ -10306,10 +10472,6 @@
                 "name": "Magic",
                 "children": [
                   {
-                    "name": "ElementalPowers",
-                    "children": []
-                  },
-                  {
                     "name": "Staffs",
                     "children": [
                       {
@@ -10375,7 +10537,12 @@
       },
       {
         "name": "Abilities",
-        "children": []
+        "children": [
+          {
+            "name": "Dash",
+            "children": []
+          }
+        ]
       },
       {
         "name": "StatsGUI",

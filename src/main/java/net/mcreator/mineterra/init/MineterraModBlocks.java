@@ -63,8 +63,6 @@ public class MineterraModBlocks {
 	public static final RegistryObject<Block> SUNSTONE_BLOCK = REGISTRY.register("sunstone_block", () -> new SunstoneBlockBlock());
 	public static final RegistryObject<Block> TOURMALINE_ORE = REGISTRY.register("tourmaline_ore", () -> new TourmalineOreBlock());
 	public static final RegistryObject<Block> TOURMALINE_BLOCK = REGISTRY.register("tourmaline_block", () -> new TourmalineBlockBlock());
-	public static final RegistryObject<Block> SILVER_ORE = REGISTRY.register("silver_ore", () -> new SilverOreBlock());
-	public static final RegistryObject<Block> SILVER_BLOCK = REGISTRY.register("silver_block", () -> new SilverBlockBlock());
 	public static final RegistryObject<Block> TITANIUM_ORE = REGISTRY.register("titanium_ore", () -> new TitaniumOreBlock());
 	public static final RegistryObject<Block> TITANIUM_BLOCK = REGISTRY.register("titanium_block", () -> new TitaniumBlockBlock());
 	public static final RegistryObject<Block> ARCANITIUM_ORE = REGISTRY.register("arcanitium_ore", () -> new ArcanitiumOreBlock());
@@ -72,4 +70,6 @@ public class MineterraModBlocks {
 	public static final RegistryObject<Block> STEEL_BLOCK = REGISTRY.register("steel_block", () -> new SteelBlockBlock());
 	public static final RegistryObject<Block> CELESTIUM_ORE = REGISTRY.register("celestium_ore", () -> new CelestiumOreBlock());
 	public static final RegistryObject<Block> CELESTIUM_BLOCK = REGISTRY.register("celestium_block", () -> new CelestiumBlockBlock());
+	public static final RegistryObject<Block> SILVER_ORE = REGISTRY.register("silver_ore", () -> new SilverOreBlock());
+	public static final RegistryObject<Block> SILVER_BLOCK = REGISTRY.register("silver_block", () -> new SilverBlockBlock());
 }

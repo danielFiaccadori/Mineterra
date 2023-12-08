@@ -8,6 +8,8 @@ import net.minecraftforge.event.entity.player.PlayerXpEvent;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.mineterra.network.MineterraModVariables;
+
 import javax.annotation.Nullable;
 
 @Mod.EventBusSubscriber
@@ -26,7 +28,7 @@ public class GnomePassiveEffectProcedure {
 	private static void execute(@Nullable Event event, Entity entity) {
 		if (entity == null)
 			return;
-		if ((entity.getPersistentData().getString("race")).equals("gnome")) {
+		if ((entity.getCapability(MineterraModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new MineterraModVariables.PlayerVariables())).race == 10) {
 			if (entity instanceof Player _player)
 				_player.giveExperiencePoints(50);
 		}

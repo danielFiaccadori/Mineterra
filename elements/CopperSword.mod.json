@@ -4,7 +4,7 @@
   "definition": {
     "toolType": "Sword",
     "renderType": 0,
-    "texture": "copper_sword",
+    "texture": "cooper_sword",
     "customModelName": "Normal",
     "name": "Copper Sword",
     "specialInfo": [],

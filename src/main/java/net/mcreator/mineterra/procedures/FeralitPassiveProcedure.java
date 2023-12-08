@@ -9,6 +9,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffectInstance;
 
+import net.mcreator.mineterra.network.MineterraModVariables;
 import net.mcreator.mineterra.init.MineterraModMobEffects;
 
 import javax.annotation.Nullable;
@@ -27,7 +28,7 @@ public class FeralitPassiveProcedure {
 	private static void execute(@Nullable Event event, Entity entity, Entity sourceentity) {
 		if (entity == null || sourceentity == null)
 			return;
-		if ((sourceentity.getPersistentData().getString("race")).equals("feralit")) {
+		if ((entity.getCapability(MineterraModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new MineterraModVariables.PlayerVariables())).race == 8) {
 			if (!sourceentity.onGround()) {
 				if (Math.random() < 0.7) {
 					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())

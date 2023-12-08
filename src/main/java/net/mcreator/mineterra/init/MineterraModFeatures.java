@@ -40,8 +40,8 @@ public class MineterraModFeatures {
 	public static final RegistryObject<Feature<?>> SAPPHIRE_ORE = REGISTRY.register("sapphire_ore", SapphireOreFeature::new);
 	public static final RegistryObject<Feature<?>> SUNSTONE_ORE = REGISTRY.register("sunstone_ore", SunstoneOreFeature::new);
 	public static final RegistryObject<Feature<?>> TOURMALINE_ORE = REGISTRY.register("tourmaline_ore", TourmalineOreFeature::new);
-	public static final RegistryObject<Feature<?>> SILVER_ORE = REGISTRY.register("silver_ore", SilverOreFeature::new);
 	public static final RegistryObject<Feature<?>> TITANIUM_ORE = REGISTRY.register("titanium_ore", TitaniumOreFeature::new);
 	public static final RegistryObject<Feature<?>> ARCANITIUM_ORE = REGISTRY.register("arcanitium_ore", ArcanitiumOreFeature::new);
 	public static final RegistryObject<Feature<?>> CELESTIUM_ORE = REGISTRY.register("celestium_ore", CelestiumOreFeature::new);
+	public static final RegistryObject<Feature<?>> SILVER_ORE = REGISTRY.register("silver_ore", SilverOreFeature::new);
 }
