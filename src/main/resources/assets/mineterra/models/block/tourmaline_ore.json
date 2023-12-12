@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "mineterra:block/tourmaline_ore",
-    "particle": "mineterra:block/tourmaline_ore"
-  },
-  "render_type": "solid"
-}

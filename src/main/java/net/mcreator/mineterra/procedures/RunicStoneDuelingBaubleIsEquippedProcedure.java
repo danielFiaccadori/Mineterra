@@ -22,11 +22,11 @@ public class RunicStoneDuelingBaubleIsEquippedProcedure {
 			if (entity instanceof LivingEntity lv ? CuriosApi.getCuriosHelper().findEquippedCurio(MineterraModItems.RUNIC_STONE_DUELING.get(), lv).isPresent() : false) {
 				if (!(((LivingEntity) entity).getAttribute(MineterraModAttributes.LIFESTEAL.get()).hasModifier(DuellingLvlOneModifier)))
 					((LivingEntity) entity).getAttribute(MineterraModAttributes.LIFESTEAL.get()).addTransientModifier(DuellingLvlOneModifier);
-				if (!(((LivingEntity) entity).getAttribute(MineterraModAttributes.CONSTITUITION.get()).hasModifier(DuellingLvlOneModifier)))
-					((LivingEntity) entity).getAttribute(MineterraModAttributes.CONSTITUITION.get()).addTransientModifier(DuellingLvlOneModifier);
+				if (!(((LivingEntity) entity).getAttribute(net.minecraft.world.entity.ai.attributes.Attributes.MAX_HEALTH).hasModifier(DuellingLvlOneModifier)))
+					((LivingEntity) entity).getAttribute(net.minecraft.world.entity.ai.attributes.Attributes.MAX_HEALTH).addTransientModifier(DuellingLvlOneModifier);
 			} else {
 				((LivingEntity) entity).getAttribute(MineterraModAttributes.LIFESTEAL.get()).removeModifier(DuellingLvlOneModifier);
-				((LivingEntity) entity).getAttribute(MineterraModAttributes.CONSTITUITION.get()).removeModifier(DuellingLvlOneModifier);
+				((LivingEntity) entity).getAttribute(net.minecraft.world.entity.ai.attributes.Attributes.MAX_HEALTH).removeModifier(DuellingLvlOneModifier);
 			}
 		}
 	}

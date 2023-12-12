@@ -30,21 +30,15 @@
     "damageVsEntity": 0.0,
     "specialInfo": [
       "§6Precision Nv.1",
-      "- §7+1 Dexterity",
-      "- §7+1 Inteligence",
-      "§8§oThe subject of this rune is to give the player an slight augment of dexterity and inteligence, the main attributes of ranged physical damage items. (Each runic stone can be upgraded using a runic upgrader in a smithing table)"
+      "- §7+2 Ranged Attack Damage",
+      "§710% Ranged Critical Hit Chance",
+      "§8§oThe subject of this rune is to increase the damage of ranged items. (Each runic stone can be upgraded using a runic upgrader in a smithing table)"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "slotAmount": 1,
-    "onEquip": {
-      "name": "PrecisionRunicStone"
-    },
-    "onUnequip": {
-      "name": "PrecisionRunicStone"
-    },
     "isFood": false,
     "friendlyPigs": false,
     "enderMask": false,

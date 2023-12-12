@@ -3,11 +3,11 @@
   "_type": "curiosbauble",
   "definition": {
     "renderType": 0,
-    "texture": "swiftness",
+    "texture": "skill_icons30",
     "customModelName": "Normal",
     "name": "Dash",
     "rarity": "COMMON",
-    "slotType": "BODY",
+    "slotType": "CURIO",
     "baubleModel": "Default",
     "baubleModelTexture": "",
     "creativeTab": {
@@ -29,8 +29,9 @@
     "addSlot": true,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "§8§oWhen the special ability button is pressed, dashes the player to a short direction he is looking at.",
-      "§8§oCooldown of 10 seconds(-20% of your §ddexterity§8)."
+      "Ability (Q) - Dash",
+      "§8§oDashes the player to a short direction he is looking at.",
+      "§8§oCooldown of 10 seconds(-50% of your §ddexterity§8)."
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

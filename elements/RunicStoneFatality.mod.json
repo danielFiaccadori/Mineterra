@@ -30,9 +30,8 @@
     "damageVsEntity": 0.0,
     "specialInfo": [
       "§6Lethal Nv.1",
-      "- §7+1 Dexterity",
-      "- §7+1 Attack Damage",
-      "- §7 +10% Movespeed",
+      "- §710% Attack Damage",
+      "- §7 +5% Movespeed",
       "§8§oThe subject of this rune is to give the player the capacity of executing enemies fastly, although at the cost of a weak durability during long fights. (Each runic stone can be upgraded using a runic upgrader in a smithing table)"
     ],
     "hasGlow": false,

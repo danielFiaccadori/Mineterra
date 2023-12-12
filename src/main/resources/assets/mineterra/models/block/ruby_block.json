@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "mineterra:block/ruby_ore_block",
-    "particle": "mineterra:block/ruby_ore_block"
-  },
-  "render_type": "solid"
-}

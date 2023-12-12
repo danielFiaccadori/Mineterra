@@ -8,8 +8,8 @@
     "customModelName": "Normal",
     "name": "Espada de Prata",
     "specialInfo": [
-      "§cPurificação de prata",
-      "§8Armas ou projéteis de prata causam dano adicional a criaturas não-vivas. Sendo assim, ataques desferidos por Espada de prata  causam §22% da vida máxima§8 do alvo como dano físico adicional."
+      "§cSteel Purification",
+      "§8Steel weapons cause 22% of undead target's max health as additional damage."
     ],
     "creativeTab": {
       "value": "COMBAT"

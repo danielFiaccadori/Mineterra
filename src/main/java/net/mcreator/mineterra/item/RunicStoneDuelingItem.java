@@ -25,9 +25,9 @@ public class RunicStoneDuelingItem extends Item implements ICurioItem {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("\u00A76Duelling Nv.1"));
 		list.add(Component.literal("- \u00A77+1 Lifesteal"));
-		list.add(Component.literal("- \u00A77+1 Constituition"));
+		list.add(Component.literal("- \u00A77+1 Max Health"));
 		list.add(Component.literal(
-				"\u00A78\u00A7oThe subject of this rune is to give the player an slight augment of lifesteal and constituition, giving the player a higher durability during long fights. (Each runic stone can be upgraded using a runic upgrader in a smithing table)"));
+				"\u00A78\u00A7oThe subject of this rune is to give the player an slight augment of lifesteal and max health, giving the player a higher durability during long fights. (Each runic stone can be upgraded using a runic upgrader in a smithing table)"));
 	}
 
 	@Override

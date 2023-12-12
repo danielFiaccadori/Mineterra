@@ -4,10 +4,13 @@
   "definition": {
     "toolType": "Sword",
     "renderType": 0,
-    "texture": "demonita_sword",
+    "texture": "icon_32_2_01",
     "customModelName": "Normal",
     "name": "Espada de Demonita",
-    "specialInfo": [],
+    "specialInfo": [
+      "§cDemon Blaze",
+      "§8The blazing energy of the demonic gem infuses this sword, granting it the ability to deal additional fire damage each 3 attacks during 2 seconds."
+    ],
     "creativeTab": {
       "value": "COMBAT"
     },
@@ -26,6 +29,9 @@
     ],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "DemonitaSwordLivingEntityIsHitWithTool"
+    }
   }
 }

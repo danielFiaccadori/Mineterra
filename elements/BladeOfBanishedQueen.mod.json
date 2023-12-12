@@ -7,7 +7,10 @@
     "texture": "bladeofbanishedqueen",
     "customModelName": "Normal",
     "name": "Blade Of Banished Queen",
-    "specialInfo": [],
+    "specialInfo": [
+      "§cGhost Bite",
+      "§8Each 3rd attack deal additional damage and steals target's movement speed."
+    ],
     "creativeTab": {
       "value": "COMBAT"
     },

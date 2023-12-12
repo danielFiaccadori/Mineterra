@@ -7,7 +7,10 @@
     "texture": "titanium_sword",
     "customModelName": "Normal",
     "name": "Titanium Sword",
-    "specialInfo": [],
+    "specialInfo": [
+      "§4Titanic Resilience",
+      "§8§oForged from the resilient metal, this sword has a high durability."
+    ],
     "creativeTab": {
       "value": "COMBAT"
     },
@@ -16,7 +19,7 @@
     "attackSpeed": 1.0,
     "enchantability": 28,
     "damageVsEntity": 12.0,
-    "usageCount": 2564,
+    "usageCount": 9234,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
@@ -24,7 +27,7 @@
         "value": "CUSTOM:TitaniumIngot"
       }
     ],
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

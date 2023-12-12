@@ -55,8 +55,7 @@ public class SilverSwordItem extends SwordItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("\u00A7cPurifica\u00E7\u00E3o de prata"));
-		list.add(Component.literal(
-				"\u00A78Armas ou proj\u00E9teis de prata causam dano adicional a criaturas n\u00E3o-vivas. Sendo assim, ataques desferidos por Espada de prata causam \u00A722% da vida m\u00E1xima\u00A78 do alvo como dano f\u00EDsico adicional."));
+		list.add(Component.literal("\u00A7cSteel Purification"));
+		list.add(Component.literal("\u00A78Steel weapons cause 22% of undead target's max health as additional damage."));
 	}
 }

@@ -4,10 +4,13 @@
   "definition": {
     "toolType": "Sword",
     "renderType": 0,
-    "texture": "steel-sword",
+    "texture": "steel_sword",
     "customModelName": "Normal",
     "name": "Steel Sword",
-    "specialInfo": [],
+    "specialInfo": [
+      "§4Tempered Fury",
+      "§8§oCrafted with hardened steel, this sword carries the essence of tempered fury. Strikes with this blade have a chance to unleash a devastating critical hit, dealing increased damage to adversaries."
+    ],
     "creativeTab": {
       "value": "COMBAT"
     },
@@ -26,6 +29,9 @@
     ],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "SteelSwordLivingEntityIsHitWithTool"
+    }
   }
 }

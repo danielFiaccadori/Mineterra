@@ -7,6 +7,10 @@
     "mineterra:runic_stone_resistence",
     "mineterra:runic_stone_fatality",
     "mineterra:runic_stone_brutality",
-    "mineterra:rune_stone_spellcaster"
+    "mineterra:rune_stone_spellcaster",
+    "mineterra:dash",
+    "mineterra:focus_blade",
+    "mineterra:vampiric_instinct",
+    "mineterra:sudden_burst"
   ]
 }

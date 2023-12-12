@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "mineterra:block/citrine_ore",
-    "particle": "mineterra:block/citrine_ore"
-  },
-  "render_type": "solid"
-}

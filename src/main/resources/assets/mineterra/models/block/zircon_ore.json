@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "mineterra:block/zircon_ore",
-    "particle": "mineterra:block/zircon_ore"
-  },
-  "render_type": "solid"
-}

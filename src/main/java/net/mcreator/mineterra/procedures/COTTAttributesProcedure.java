@@ -21,7 +21,7 @@ public class COTTAttributesProcedure {
 			((LivingEntity) entity).getAttribute(MineterraModAttributes.MAGICDAMAGE.get()).setBaseValue(3);
 			((LivingEntity) entity).getAttribute(net.minecraft.world.entity.ai.attributes.Attributes.MOVEMENT_SPEED).setBaseValue(0.10000000123011613);
 			((LivingEntity) entity).getAttribute(net.minecraft.world.entity.ai.attributes.Attributes.LUCK).setBaseValue(0);
-			((LivingEntity) entity).getAttribute(ForgeMod.SWIM_SPEED.get()).setBaseValue(0.1000000018411612);
+			((LivingEntity) entity).getAttribute(ForgeMod.SWIM_SPEED.get()).setBaseValue(2);
 			((LivingEntity) entity).getAttribute(MineterraModAttributes.CHARISMA.get()).setBaseValue(0);
 			((LivingEntity) entity).getAttribute(MineterraModAttributes.CONSTITUITION.get()).setBaseValue(2);
 			((LivingEntity) entity).getAttribute(MineterraModAttributes.DEXTERITY.get()).setBaseValue(0);

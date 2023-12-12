@@ -4,10 +4,16 @@
   "definition": {
     "toolType": "Sword",
     "renderType": 0,
-    "texture": "celestiumsword",
+    "texture": "icon_32_2_04",
     "customModelName": "Normal",
     "name": "Celestium Sword",
-    "specialInfo": [],
+    "specialInfo": [
+      "§4Fage",
+      "§8§oInfused with celestial energy, attacks causes a crescent amount of movespeed boost:",
+      "- 5 attacks (speed I)",
+      "- 10 attacks (speed II)",
+      "- 15 attacks (speed III for 1 minute))"
+    ],
     "creativeTab": {
       "value": "COMBAT"
     },
@@ -26,6 +32,9 @@
     ],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "CelestiumSwordLivingEntityIsHitWithTool"
+    }
   }
 }

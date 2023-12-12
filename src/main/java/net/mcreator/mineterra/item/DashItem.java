@@ -20,7 +20,8 @@ public class DashItem extends Item implements ICurioItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("\u00A78\u00A7oWhen the special ability button is pressed, dashes the player to a short direction he is looking at."));
-		list.add(Component.literal("\u00A78\u00A7oCooldown of 10 seconds(-20% of your \u00A7ddexterity\u00A78)."));
+		list.add(Component.literal("Ability (Q) - Dash"));
+		list.add(Component.literal("\u00A78\u00A7oDashes the player to a short direction he is looking at."));
+		list.add(Component.literal("\u00A78\u00A7oCooldown of 10 seconds(-50% of your \u00A7ddexterity\u00A78)."));
 	}
 }

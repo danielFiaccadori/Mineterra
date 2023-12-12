@@ -38,4 +38,6 @@ public class MineterraModSounds {
 	public static final RegistryObject<SoundEvent> ARCANITE_SPELL = REGISTRY.register("arcanite-spell", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mineterra", "arcanite-spell")));
 	public static final RegistryObject<SoundEvent> LIGHTSPELL = REGISTRY.register("lightspell", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mineterra", "lightspell")));
 	public static final RegistryObject<SoundEvent> STAB = REGISTRY.register("stab", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mineterra", "stab")));
+	public static final RegistryObject<SoundEvent> DASH = REGISTRY.register("dash", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mineterra", "dash")));
+	public static final RegistryObject<SoundEvent> ARCANE_SWORD_SOUND = REGISTRY.register("arcane-sword-sound", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mineterra", "arcane-sword-sound")));
 }

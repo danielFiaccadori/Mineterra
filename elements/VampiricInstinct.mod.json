@@ -1,0 +1,55 @@
+{
+  "_fv": 47,
+  "_type": "curiosbauble",
+  "definition": {
+    "renderType": 0,
+    "texture": "skill_icons40",
+    "customModelName": "Normal",
+    "name": "Vampiric Instinct",
+    "rarity": "COMMON",
+    "slotType": "CURIO",
+    "baubleModel": "Default",
+    "baubleModelTexture": "",
+    "creativeTab": {
+      "value": "CUSTOM:Mineterra"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "addSlot": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "Ability (Q) - Vampiric Instinct",
+      "§8§oYour next attack in the next 5 seconds heals you in 5 (+50% of your §dconstituition§8). (§8§oCooldown of 10 seconds)"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "slotAmount": 1,
+    "isFood": false,
+    "friendlyPigs": false,
+    "enderMask": false,
+    "rotateModel": false,
+    "translateModel": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "hasModel": false,
+    "animation": "none"
+  }
+}

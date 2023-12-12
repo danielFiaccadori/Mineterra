@@ -2,8 +2,11 @@
   "_fv": 47,
   "_type": "keybind",
   "definition": {
-    "triggerKey": "R",
+    "triggerKey": "Q",
     "keyBindingName": "Ability",
-    "keyBindingCategoryKey": "gameplay"
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": {
+      "name": "AbilityOnKeyPressed"
+    }
   }
 }

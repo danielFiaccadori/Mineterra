@@ -30,9 +30,7 @@
     "damageVsEntity": 0.0,
     "specialInfo": [
       "§6Mage Nv.1",
-      "- §7+1 Magic Damage",
-      "- §7+1 Wisdom",
-      "- §7 +1 Intelligence",
+      "- §7+10% Magic Damage",
       "§8§oThe subject of this rune is to increase the Magical Capacity of the user. All of the attributes are the ones responsible for damage or power of the magic skills from Mineterra. Earning XP grants 20 more XP. (Each runic stone can be upgraded using a runic upgrader in a smithing table)"
     ],
     "hasGlow": false,

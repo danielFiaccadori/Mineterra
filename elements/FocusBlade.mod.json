@@ -1,0 +1,56 @@
+{
+  "_fv": 47,
+  "_type": "curiosbauble",
+  "definition": {
+    "renderType": 0,
+    "texture": "skill_icons34",
+    "customModelName": "Normal",
+    "name": "Focus Blade",
+    "rarity": "COMMON",
+    "slotType": "CURIO",
+    "baubleModel": "Default",
+    "baubleModelTexture": "",
+    "creativeTab": {
+      "value": "CUSTOM:Mineterra"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "addSlot": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "Ability (Q) - Focus Blade",
+      "§8§oYour next attack upon 5 seconds deals bonus on hit damage based on your base §6AD§8 (+ your bonus §5MD§8 + §8your bonus §6AD§8 * 0,5) until a maximum of 5. (This effect only applies to items in main hand)",
+      "§8§oCooldown of 10 seconds."
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "slotAmount": 1,
+    "isFood": false,
+    "friendlyPigs": false,
+    "enderMask": false,
+    "rotateModel": false,
+    "translateModel": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "hasModel": false,
+    "animation": "none"
+  }
+}

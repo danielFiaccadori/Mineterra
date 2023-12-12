@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "mineterra:block/tanzanite_ore",
-    "particle": "mineterra:block/tanzanite_ore"
-  },
-  "render_type": "solid"
-}

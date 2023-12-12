@@ -182,5 +182,21 @@
         "stream": false
       }
     ]
+  },
+  "dash": {
+    "sounds": [
+      {
+        "name": "mineterra:fast-simple-chop-5-6270",
+        "stream": false
+      }
+    ]
+  },
+  "arcane-sword-sound": {
+    "sounds": [
+      {
+        "name": "mineterra:mixkit-quick-magic-sword-slice-2793",
+        "stream": false
+      }
+    ]
   }
 }

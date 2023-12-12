@@ -17,19 +17,13 @@ public class RuneStoneSpellcasterBaubleIsEquippedProcedure {
 		if (entity == null)
 			return;
 		AttributeModifier MageAugment1 = null;
-		MageAugment1 = new AttributeModifier(UUID.fromString("2b4c96b0-665d-4f73-a773-62292f6dfc71"), "Mageaugment", 1, AttributeModifier.Operation.ADDITION);
+		MageAugment1 = new AttributeModifier(UUID.fromString("2b4c96b0-665d-4f73-a773-62292f6dfc71"), "Mageaugment", 1.1, AttributeModifier.Operation.MULTIPLY_TOTAL);
 		if (entity instanceof Player) {
 			if (entity instanceof LivingEntity lv ? CuriosApi.getCuriosHelper().findEquippedCurio(MineterraModItems.RUNE_STONE_SPELLCASTER.get(), lv).isPresent() : false) {
 				if (!(((LivingEntity) entity).getAttribute(MineterraModAttributes.MAGICDAMAGE.get()).hasModifier(MageAugment1)))
 					((LivingEntity) entity).getAttribute(MineterraModAttributes.MAGICDAMAGE.get()).addTransientModifier(MageAugment1);
-				if (!(((LivingEntity) entity).getAttribute(MineterraModAttributes.INTELLIGENCE.get()).hasModifier(MageAugment1)))
-					((LivingEntity) entity).getAttribute(MineterraModAttributes.INTELLIGENCE.get()).addTransientModifier(MageAugment1);
-				if (!(((LivingEntity) entity).getAttribute(MineterraModAttributes.WISDOM.get()).hasModifier(MageAugment1)))
-					((LivingEntity) entity).getAttribute(MineterraModAttributes.WISDOM.get()).addTransientModifier(MageAugment1);
 			} else {
 				((LivingEntity) entity).getAttribute(MineterraModAttributes.MAGICDAMAGE.get()).removeModifier(MageAugment1);
-				((LivingEntity) entity).getAttribute(MineterraModAttributes.INTELLIGENCE.get()).removeModifier(MageAugment1);
-				((LivingEntity) entity).getAttribute(MineterraModAttributes.WISDOM.get()).removeModifier(MageAugment1);
 			}
 		}
 	}
