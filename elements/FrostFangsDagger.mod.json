@@ -1,0 +1,38 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "pixelart_swords_glacial_32_05",
+    "customModelName": "Normal",
+    "name": "Frostfangs",
+    "specialInfo": [
+      "§Glacial Laceration",
+      "§8§oCarrying elemental power of the ancient ice, the first attack with this dagger stuns a target. While stunned, your next attack will inflict §6§oFocus Blade§8§o bonus damage.",
+      "§8§oFocus blade deals bonus on hit damage based on your base §6AD§8§o(+ your bonus §5MD§8§o + §8§oyour bonus §6§oAD§8§o * 0,5) until a maximum of 5."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
+    "enchantability": 21,
+    "damageVsEntity": 6.0,
+    "usageCount": 4612,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Blocks.PACKED_ICE"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "FrostbiteSwordLivingEntityIsHitWithTool"
+    }
+  }
+}

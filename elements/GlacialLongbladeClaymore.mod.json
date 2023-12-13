@@ -1,0 +1,38 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "pixelart_swords_glacial_32_02",
+    "customModelName": "Normal",
+    "name": "Glacial Longsword",
+    "specialInfo": [
+      "§bWinter's Wrath",
+      "§8§oCarrying elemental power of the ancient ice, the 3rd attack of this sword emmits a icebreaker strike, dealing bonus damage based on 20% of your §2§oMax Health§8§o, having a chance of §b§oFreezing§8§o the target for 5 seconds.",
+      "§8§o(Frozen targets suffer 5 additional damage when the ice is broken)"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 21,
+    "damageVsEntity": 6.0,
+    "usageCount": 4612,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Blocks.PACKED_ICE"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "GlacialLongbladeClaymoreLivingEntityIsHitWithTool"
+    }
+  }
+}

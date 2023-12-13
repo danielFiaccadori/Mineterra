@@ -15,8 +15,14 @@ import net.mcreator.mineterra.block.TitaniumBlockBlock;
 import net.mcreator.mineterra.block.SteelBlockBlock;
 import net.mcreator.mineterra.block.SilverOreBlock;
 import net.mcreator.mineterra.block.SilverBlockBlock;
+import net.mcreator.mineterra.block.RubyOreBlock;
+import net.mcreator.mineterra.block.RubyBlockBlock;
+import net.mcreator.mineterra.block.GarnetOreBlock;
+import net.mcreator.mineterra.block.GarnetBlockBlock;
 import net.mcreator.mineterra.block.DemonitaOreBlock;
 import net.mcreator.mineterra.block.DemonitaBlockBlock;
+import net.mcreator.mineterra.block.CitrineOreBlock;
+import net.mcreator.mineterra.block.CitrineBlockBlock;
 import net.mcreator.mineterra.block.CelestiumOreBlock;
 import net.mcreator.mineterra.block.CelestiumBlockBlock;
 import net.mcreator.mineterra.block.ArcanitiumOreBlock;
@@ -34,6 +40,12 @@ public class MineterraModBlocks {
 	public static final RegistryObject<Block> STEEL_BLOCK = REGISTRY.register("steel_block", () -> new SteelBlockBlock());
 	public static final RegistryObject<Block> CELESTIUM_ORE = REGISTRY.register("celestium_ore", () -> new CelestiumOreBlock());
 	public static final RegistryObject<Block> CELESTIUM_BLOCK = REGISTRY.register("celestium_block", () -> new CelestiumBlockBlock());
+	public static final RegistryObject<Block> RUBY_ORE = REGISTRY.register("ruby_ore", () -> new RubyOreBlock());
+	public static final RegistryObject<Block> RUBY_BLOCK = REGISTRY.register("ruby_block", () -> new RubyBlockBlock());
+	public static final RegistryObject<Block> GARNET_ORE = REGISTRY.register("garnet_ore", () -> new GarnetOreBlock());
+	public static final RegistryObject<Block> GARNET_BLOCK = REGISTRY.register("garnet_block", () -> new GarnetBlockBlock());
 	public static final RegistryObject<Block> SILVER_ORE = REGISTRY.register("silver_ore", () -> new SilverOreBlock());
 	public static final RegistryObject<Block> SILVER_BLOCK = REGISTRY.register("silver_block", () -> new SilverBlockBlock());
+	public static final RegistryObject<Block> CITRINE_ORE = REGISTRY.register("citrine_ore", () -> new CitrineOreBlock());
+	public static final RegistryObject<Block> CITRINE_BLOCK = REGISTRY.register("citrine_block", () -> new CitrineBlockBlock());
 }

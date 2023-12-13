@@ -1,0 +1,37 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "icon_32_2_24",
+    "customModelName": "Normal",
+    "name": "Citrine Sword",
+    "specialInfo": [
+      "§4Solar Flare",
+      "§8§oForged with mineterran citrine, this sword harnesses the power of the sun. Strikes with this blade have a chance to emit a blinding burst of light, temporarily disorienting enemies and inflicting slowness for 5 seconds."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.5,
+    "enchantability": 13,
+    "damageVsEntity": 6.0,
+    "usageCount": 2671,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Citrine"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "CitrineSwordLivingEntityIsHitWithTool"
+    }
+  }
+}

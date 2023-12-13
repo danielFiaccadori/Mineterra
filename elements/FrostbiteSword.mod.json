@@ -1,0 +1,37 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "pixelart_swords_glacial_32_01",
+    "customModelName": "Normal",
+    "name": "Frostbite Sword",
+    "specialInfo": [
+      "§bBlizzard",
+      "§8§oCarrying elemental power of the ancient ice, attacks with this sword inflict exponential slowness for 2 seconds based on the amount of attacks, at a maximum of 10."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.5,
+    "enchantability": 21,
+    "damageVsEntity": 8.0,
+    "usageCount": 4612,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Blocks.PACKED_ICE"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "FrostbiteSwordLivingEntityIsHitWithTool"
+    }
+  }
+}

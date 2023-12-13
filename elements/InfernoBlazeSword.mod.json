@@ -1,0 +1,37 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "pixelart_swords_fire_32_10",
+    "customModelName": "Normal",
+    "name": "Inferno Blaze",
+    "specialInfo": [
+      "§4Eternal Blaze",
+      "§8§oCarrying elemental power of permafire, attacks with this sword have a slight chance of igniting a target. If the entity ignited is hitten, it will suffer a burst of fire that deals 10% of it's §2§oMax Health§8§o as additional damage."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.5,
+    "enchantability": 21,
+    "damageVsEntity": 8.0,
+    "usageCount": 4612,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.BLAZE_POWDER"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "InfernoBlazeSwordLivingEntityIsHitWithTool"
+    }
+  }
+}

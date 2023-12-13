@@ -4,10 +4,13 @@
   "definition": {
     "toolType": "Sword",
     "renderType": 0,
-    "texture": "dragonbite",
+    "texture": "iicon_32_11",
     "customModelName": "Normal",
     "name": "Dragon Bite",
-    "specialInfo": [],
+    "specialInfo": [
+      "§cDraconic Fury",
+      "§8The first attack dealt by this dagger imobillizes both the enemy and the attacker, dealing a lot of damage to the target, and affecting the attacker with a high amount of regeneration and resistence."
+    ],
     "creativeTab": {
       "value": "COMBAT"
     },

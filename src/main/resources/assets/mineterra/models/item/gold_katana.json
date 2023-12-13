@@ -1,7 +1,7 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "mineterra:item/Gold_katana"
+    "layer0": "mineterra:item/golden_katana"
   },
 "display": {
       "ground": {

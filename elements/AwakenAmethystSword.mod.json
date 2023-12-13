@@ -1,0 +1,37 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "iicon_32_37",
+    "customModelName": "Normal",
+    "name": "Amethyst Sword",
+    "specialInfo": [
+      "§4Crystal Sharp",
+      "§8§oForged with mineterran amethyst, this sword has a high cut potential. Strikes with this blade have a chance to inflict bleeding for a random time, up to a maximum of 10 seconds, and momentarily slowing down enemies within range."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.5,
+    "enchantability": 32,
+    "damageVsEntity": 8.0,
+    "usageCount": 210,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.AMETHYST_SHARD"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "AmethystSwordLivingEntityIsHitWithTool"
+    }
+  }
+}

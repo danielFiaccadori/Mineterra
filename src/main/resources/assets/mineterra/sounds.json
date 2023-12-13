@@ -198,5 +198,29 @@
         "stream": false
       }
     ]
+  },
+  "fireignite1": {
+    "sounds": [
+      {
+        "name": "mineterra:fireball-whoosh-5-179129",
+        "stream": false
+      }
+    ]
+  },
+  "fireignite2": {
+    "sounds": [
+      {
+        "name": "mineterra:fireball-whoosh-1-179125",
+        "stream": false
+      }
+    ]
+  },
+  "frozen": {
+    "sounds": [
+      {
+        "name": "mineterra:ice-cracking-field-recording-06-139709",
+        "stream": false
+      }
+    ]
   }
 }

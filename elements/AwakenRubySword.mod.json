@@ -1,0 +1,37 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "icon_32_2_29",
+    "customModelName": "Normal",
+    "name": "Ruby Sword",
+    "specialInfo": [
+      "§4Inferno Blaze",
+      "§8§oInfused with the fervor of blazing rubies, this sword channels searing power. Strikes with this blade not only deal damage but also have a chance to create a burst of intense heat, briefly igniting enemies in proximity and dealing 3 damage."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.5,
+    "enchantability": 32,
+    "damageVsEntity": 7.0,
+    "usageCount": 2140,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Ruby"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "RubySwordLivingEntityIsHitWithTool"
+    }
+  }
+}

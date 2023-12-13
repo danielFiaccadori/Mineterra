@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BladeOfBanishedQueen"
+      "value": "CUSTOM:AwakenBanishedQueenSword"
     },
     "name": "blade_of_banished_queen_recipe",
     "namespace": "mod"

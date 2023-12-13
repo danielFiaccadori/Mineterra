@@ -8,17 +8,17 @@
   ],
   "key": {
     "2": {
-      "item": "mineterra:arcanitium"
+      "item": "mineterra:arcanite_gemstone"
     },
     "4": {
-      "item": "mineterra:arcanite"
+      "item": "mineterra:arcanite_gemstone"
     },
     "6": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "mineterra:arcanite_sword",
+    "item": "mineterra:awaken_arcanite_sword",
     "count": 1
   }
 }

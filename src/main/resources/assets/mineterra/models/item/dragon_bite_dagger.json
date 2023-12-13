@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "mineterra:item/dragonbite"
+    "layer0": "mineterra:item/iicon_32_11"
   }
 }

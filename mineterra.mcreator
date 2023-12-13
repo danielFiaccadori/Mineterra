@@ -3,7 +3,7 @@
     {
       "name": "Human",
       "type": "procedure",
-      "sortid": 92,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "human",
@@ -39,7 +39,7 @@
     {
       "name": "Celestial",
       "type": "procedure",
-      "sortid": 93,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestial",
@@ -75,7 +75,7 @@
     {
       "name": "Abyssal",
       "type": "procedure",
-      "sortid": 94,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "abyssal",
@@ -111,7 +111,7 @@
     {
       "name": "ChildrenOfTheTide",
       "type": "procedure",
-      "sortid": 95,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "children_of_the_tide",
@@ -147,7 +147,7 @@
     {
       "name": "Dwarf",
       "type": "procedure",
-      "sortid": 96,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dwarf",
@@ -183,7 +183,7 @@
     {
       "name": "ForestElfs",
       "type": "procedure",
-      "sortid": 97,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "forest_elf",
@@ -219,7 +219,7 @@
     {
       "name": "HighElfs",
       "type": "procedure",
-      "sortid": 98,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "high_elfs",
@@ -255,7 +255,7 @@
     {
       "name": "Feralits",
       "type": "procedure",
-      "sortid": 99,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "feralits",
@@ -291,7 +291,7 @@
     {
       "name": "Orc",
       "type": "procedure",
-      "sortid": 100,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orc",
@@ -327,7 +327,7 @@
     {
       "name": "Gnome",
       "type": "procedure",
-      "sortid": 101,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gnome",
@@ -363,7 +363,7 @@
     {
       "name": "Chaos",
       "type": "attribute",
-      "sortid": 102,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos",
@@ -375,7 +375,7 @@
     {
       "name": "ChaosBarDisplayOverlayIngame",
       "type": "procedure",
-      "sortid": 103,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_bar_display_overlay_ingame",
@@ -390,7 +390,7 @@
     {
       "name": "ChaosBar",
       "type": "overlay",
-      "sortid": 104,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_bar",
@@ -404,7 +404,7 @@
     {
       "name": "ChaosAmount",
       "type": "procedure",
-      "sortid": 105,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_amount",
@@ -425,7 +425,7 @@
     {
       "name": "ChaosAmount10",
       "type": "procedure",
-      "sortid": 106,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_amount_10",
@@ -446,7 +446,7 @@
     {
       "name": "ChaosAmount20",
       "type": "procedure",
-      "sortid": 107,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_amount_20",
@@ -467,7 +467,7 @@
     {
       "name": "ChaosAmount30",
       "type": "procedure",
-      "sortid": 108,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_amount_30",
@@ -488,7 +488,7 @@
     {
       "name": "ChaosAmount40",
       "type": "procedure",
-      "sortid": 109,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_amount_40",
@@ -509,7 +509,7 @@
     {
       "name": "ChaosAmount50",
       "type": "procedure",
-      "sortid": 110,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_amount_50",
@@ -530,7 +530,7 @@
     {
       "name": "ChaosAmount60",
       "type": "procedure",
-      "sortid": 111,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_amount_60",
@@ -551,7 +551,7 @@
     {
       "name": "ChaosAmount70",
       "type": "procedure",
-      "sortid": 112,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_amount_70",
@@ -572,7 +572,7 @@
     {
       "name": "ChaosAmount80",
       "type": "procedure",
-      "sortid": 113,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_amount_80",
@@ -593,7 +593,7 @@
     {
       "name": "ChaosAmount90",
       "type": "procedure",
-      "sortid": 114,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_amount_90",
@@ -614,7 +614,7 @@
     {
       "name": "ChaosAmount100",
       "type": "procedure",
-      "sortid": 115,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_amount_100",
@@ -635,7 +635,7 @@
     {
       "name": "HumanPassiveEffectStartedapplied",
       "type": "procedure",
-      "sortid": 116,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "human_passive_effect_startedapplied",
@@ -671,7 +671,7 @@
     {
       "name": "HumanAttributes",
       "type": "procedure",
-      "sortid": 117,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "human_attributes",
@@ -691,7 +691,7 @@
     {
       "name": "CelestialPassiveEffects",
       "type": "procedure",
-      "sortid": 118,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestial_passive_effects",
@@ -706,7 +706,7 @@
     {
       "name": "AbyssalPassiveEffect",
       "type": "procedure",
-      "sortid": 119,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "abyssal_passive_effect",
@@ -742,7 +742,7 @@
     {
       "name": "SunBlessingEffectStartedapplied",
       "type": "procedure",
-      "sortid": 120,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sun_blessing_effect_startedapplied",
@@ -762,7 +762,7 @@
     {
       "name": "SunBlessing",
       "type": "potioneffect",
-      "sortid": 121,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sun_blessing",
@@ -776,7 +776,7 @@
     {
       "name": "InsatableHungerEffectStartedapplied",
       "type": "procedure",
-      "sortid": 122,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "insatable_hunger_effect_startedapplied",
@@ -796,7 +796,7 @@
     {
       "name": "InsatableHunger",
       "type": "potioneffect",
-      "sortid": 123,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "insatable_hunger",
@@ -810,7 +810,7 @@
     {
       "name": "COTTPassive",
       "type": "procedure",
-      "sortid": 124,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cott_passive",
@@ -830,7 +830,7 @@
     {
       "name": "TideBlessing",
       "type": "potioneffect",
-      "sortid": 125,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tide_blessing",
@@ -844,7 +844,7 @@
     {
       "name": "TideBlessingEffectStartedapplied",
       "type": "procedure",
-      "sortid": 126,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tide_blessing_effect_startedapplied",
@@ -864,7 +864,7 @@
     {
       "name": "DwarfPassiveEffect",
       "type": "procedure",
-      "sortid": 127,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dwarf_passive_effect",
@@ -879,7 +879,7 @@
     {
       "name": "DwarfPassiveEffect2",
       "type": "procedure",
-      "sortid": 128,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dwarf_passive_effect_2",
@@ -899,7 +899,7 @@
     {
       "name": "SmallAndEfficient",
       "type": "potioneffect",
-      "sortid": 129,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_and_efficient",
@@ -913,7 +913,7 @@
     {
       "name": "SmallAndEfficientEffectStartedapplied",
       "type": "procedure",
-      "sortid": 130,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_and_efficient_effect_startedapplied",
@@ -933,7 +933,7 @@
     {
       "name": "ForestBlessingEffectStartedapplied",
       "type": "procedure",
-      "sortid": 131,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "forest_blessing_effect_startedapplied",
@@ -953,7 +953,7 @@
     {
       "name": "ForestBlessing",
       "type": "potioneffect",
-      "sortid": 132,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "forest_blessing",
@@ -967,7 +967,7 @@
     {
       "name": "ForestElfPassiveEffect",
       "type": "procedure",
-      "sortid": 133,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "forest_elf_passive_effect",
@@ -982,7 +982,7 @@
     {
       "name": "MagicDamage",
       "type": "attribute",
-      "sortid": 134,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magic_damage",
@@ -994,7 +994,7 @@
     {
       "name": "ChaosBarDisplayOverlayIngameCondition",
       "type": "procedure",
-      "sortid": 135,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_bar_display_overlay_ingame_condition",
@@ -1015,7 +1015,7 @@
     {
       "name": "OrcPassive",
       "type": "procedure",
-      "sortid": 136,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orc_passive",
@@ -1039,7 +1039,7 @@
     {
       "name": "OrcPassive2",
       "type": "procedure",
-      "sortid": 137,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orc_passive_2",
@@ -1063,7 +1063,7 @@
     {
       "name": "Ferocity",
       "type": "potioneffect",
-      "sortid": 138,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ferocity",
@@ -1077,7 +1077,7 @@
     {
       "name": "FerocityEffectStartedapplied",
       "type": "procedure",
-      "sortid": 139,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ferocity_effect_startedapplied",
@@ -1097,7 +1097,7 @@
     {
       "name": "HighElfPassive",
       "type": "procedure",
-      "sortid": 140,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "high_elf_passive",
@@ -1117,7 +1117,7 @@
     {
       "name": "BestialDomainnEffectStartedapplied",
       "type": "procedure",
-      "sortid": 141,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bestial_domainn_effect_startedapplied",
@@ -1132,7 +1132,7 @@
     {
       "name": "BestialDomain",
       "type": "potioneffect",
-      "sortid": 142,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bestial_domain",
@@ -1146,7 +1146,7 @@
     {
       "name": "FeralitPassive",
       "type": "procedure",
-      "sortid": 143,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "feralit_passive",
@@ -1170,7 +1170,7 @@
     {
       "name": "GnomePassiveEffect",
       "type": "procedure",
-      "sortid": 144,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gnome_passive_effect",
@@ -1190,7 +1190,7 @@
     {
       "name": "Sangramento",
       "type": "potioneffect",
-      "sortid": 145,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sangramento",
@@ -1204,7 +1204,7 @@
     {
       "name": "Blood",
       "type": "particle",
-      "sortid": 146,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blood",
@@ -1219,7 +1219,7 @@
     {
       "name": "SangramentoEffectStartedapplied",
       "type": "procedure",
-      "sortid": 147,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sangramento_effect_startedapplied",
@@ -1251,7 +1251,7 @@
     {
       "name": "SangramentoActiveTickCondition",
       "type": "procedure",
-      "sortid": 148,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sangramento_active_tick_condition",
@@ -1276,7 +1276,7 @@
     {
       "name": "SangramentoOnEffectActiveTick",
       "type": "procedure",
-      "sortid": 149,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sangramento_on_effect_active_tick",
@@ -1372,7 +1372,7 @@
     {
       "name": "StarterDaggerOnHitProcedure",
       "type": "procedure",
-      "sortid": 150,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "registry_name": "starter_dagger_on_hit_procedure",
@@ -1396,7 +1396,7 @@
     {
       "name": "GoldDaggerRecipe",
       "type": "recipe",
-      "sortid": 151,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_dagger_recipe",
@@ -1410,7 +1410,7 @@
     {
       "name": "IronDaggerRecipe",
       "type": "recipe",
-      "sortid": 152,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_dagger_recipe",
@@ -1424,7 +1424,7 @@
     {
       "name": "DiamondDaggerRecipe",
       "type": "recipe",
-      "sortid": 153,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_dagger_recipe",
@@ -1438,7 +1438,7 @@
     {
       "name": "NetheriteDaggerRecipe",
       "type": "recipe",
-      "sortid": 154,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netherite_dagger_recipe",
@@ -1452,7 +1452,7 @@
     {
       "name": "SilverIngot",
       "type": "item",
-      "sortid": 155,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ingot",
@@ -1467,7 +1467,7 @@
     {
       "name": "SilverOre",
       "type": "block",
-      "sortid": 156,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ore",
@@ -1488,7 +1488,7 @@
     {
       "name": "SilverBlock",
       "type": "block",
-      "sortid": 157,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_block",
@@ -1505,7 +1505,7 @@
     {
       "name": "SilverOreBlockRecipe",
       "type": "recipe",
-      "sortid": 158,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ore_block_recipe",
@@ -1519,7 +1519,7 @@
     {
       "name": "SilverBlockOreRecipe",
       "type": "recipe",
-      "sortid": 159,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_block_ore_recipe",
@@ -1533,7 +1533,7 @@
     {
       "name": "SilverOreSmelting",
       "type": "recipe",
-      "sortid": 160,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ore_smelting",
@@ -1547,9 +1547,9 @@
     {
       "name": "SilverSword",
       "type": "tool",
-      "sortid": 42,
+      "sortid": 46,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "silver_sword",
       "metadata": {
         "files": [
@@ -1562,7 +1562,7 @@
     {
       "name": "SilverWeaponsOnHitEffect",
       "type": "procedure",
-      "sortid": 161,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_weapons_on_hit_effect",
@@ -1601,7 +1601,7 @@
     {
       "name": "StoneDaggerRecipe",
       "type": "recipe",
-      "sortid": 162,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_dagger_recipe",
@@ -1630,7 +1630,7 @@
     {
       "name": "FlintDaggerRecipe",
       "type": "recipe",
-      "sortid": 163,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flint_dagger_recipe",
@@ -1644,7 +1644,7 @@
     {
       "name": "Mineterra",
       "type": "tab",
-      "sortid": 164,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mineterra",
@@ -1656,7 +1656,7 @@
     {
       "name": "LifestealProcedure",
       "type": "procedure",
-      "sortid": 165,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lifesteal_procedure",
@@ -1684,7 +1684,7 @@
     {
       "name": "LifeSteal",
       "type": "attribute",
-      "sortid": 166,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "registry_name": "life_steal",
@@ -1696,7 +1696,7 @@
     {
       "name": "IronRapier",
       "type": "tool",
-      "sortid": 23,
+      "sortid": 24,
       "compiles": true,
       "locked_code": true,
       "registry_name": "rapier",
@@ -1711,7 +1711,7 @@
     {
       "name": "RapierRecipe",
       "type": "recipe",
-      "sortid": 167,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rapier_recipe",
@@ -1725,7 +1725,7 @@
     {
       "name": "RapierProcedure",
       "type": "procedure",
-      "sortid": 168,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rapier_procedure",
@@ -1768,7 +1768,7 @@
     {
       "name": "SacrificeDaggerLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 169,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sacrifice_dagger_living_entity_is_hit_with_tool",
@@ -1792,7 +1792,7 @@
     {
       "name": "SacrificeDaggerRecipe",
       "type": "recipe",
-      "sortid": 170,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sacrifice_dagger_recipe",
@@ -1836,7 +1836,7 @@
     {
       "name": "IronSaiLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 171,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_sai_living_entity_is_hit_with_tool",
@@ -1860,7 +1860,7 @@
     {
       "name": "IronSaiRecipe",
       "type": "recipe",
-      "sortid": 172,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_sai_recipe",
@@ -1889,7 +1889,7 @@
     {
       "name": "ElderlySaiTp",
       "type": "procedure",
-      "sortid": 173,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elderly_sai_tp",
@@ -1933,7 +1933,7 @@
     {
       "name": "ElderlySaiRecipe",
       "type": "recipe",
-      "sortid": 174,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elderly_sai_recipe",
@@ -1947,7 +1947,7 @@
     {
       "name": "SpiritualLongsword",
       "type": "tool",
-      "sortid": 22,
+      "sortid": 23,
       "compiles": true,
       "locked_code": true,
       "registry_name": "spiritual_claymore",
@@ -1962,7 +1962,7 @@
     {
       "name": "SpiritualLongswordLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 175,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spiritual_longsword_living_entity_is_hit_with_tool",
@@ -1982,7 +1982,7 @@
     {
       "name": "SpiritualSwordStun",
       "type": "procedure",
-      "sortid": 176,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spiritual_sword_stun",
@@ -2022,7 +2022,7 @@
     {
       "name": "SoulStealActiveTickCondition",
       "type": "procedure",
-      "sortid": 177,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soul_steal_active_tick_condition",
@@ -2047,7 +2047,7 @@
     {
       "name": "SoulSteal",
       "type": "potioneffect",
-      "sortid": 178,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soul_steal",
@@ -2061,7 +2061,7 @@
     {
       "name": "SoulStealEffectStartedapplied",
       "type": "procedure",
-      "sortid": 179,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soul_steal_effect_startedapplied",
@@ -2081,7 +2081,7 @@
     {
       "name": "SoulHealActiveTickCondition",
       "type": "procedure",
-      "sortid": 180,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soul_heal_active_tick_condition",
@@ -2106,7 +2106,7 @@
     {
       "name": "SoulHeal",
       "type": "potioneffect",
-      "sortid": 181,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soul_heal",
@@ -2120,7 +2120,7 @@
     {
       "name": "SoulHealOnEffectActiveTick",
       "type": "procedure",
-      "sortid": 182,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soul_heal_on_effect_active_tick",
@@ -2140,7 +2140,7 @@
     {
       "name": "SoulStealOnEffectActiveTick",
       "type": "procedure",
-      "sortid": 183,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soul_steal_on_effect_active_tick",
@@ -2174,12 +2174,12 @@
           "src/main/resources/assets/mineterra/models/item/iron_claymore.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Sai"
+      "path": "~/Items/ItemsNormal/Common Items/Claymore"
     },
     {
       "name": "IronClaymoreLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 184,
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_claymore_living_entity_is_hit_with_tool",
@@ -2237,7 +2237,7 @@
     {
       "name": "NetheriteClaymore",
       "type": "tool",
-      "sortid": 20,
+      "sortid": 21,
       "compiles": true,
       "locked_code": true,
       "registry_name": "netherite_claymore",
@@ -2252,7 +2252,7 @@
     {
       "name": "IronClaymoreRecipe",
       "type": "recipe",
-      "sortid": 185,
+      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_claymore_recipe",
@@ -2266,7 +2266,7 @@
     {
       "name": "GoldenClaymoreRecipe",
       "type": "recipe",
-      "sortid": 186,
+      "sortid": 195,
       "compiles": true,
       "locked_code": false,
       "registry_name": "golden_claymore_recipe",
@@ -2280,7 +2280,7 @@
     {
       "name": "DiamondClaymoreRecipe",
       "type": "recipe",
-      "sortid": 187,
+      "sortid": 196,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_claymore_recipe",
@@ -2294,7 +2294,7 @@
     {
       "name": "NetheriteClaymoreRecipe",
       "type": "recipe",
-      "sortid": 188,
+      "sortid": 197,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netherite_claymore_recipe",
@@ -2353,7 +2353,7 @@
     {
       "name": "GoldSaiRecipe",
       "type": "recipe",
-      "sortid": 189,
+      "sortid": 198,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_sai_recipe",
@@ -2367,7 +2367,7 @@
     {
       "name": "DiamondSaiRecipe",
       "type": "recipe",
-      "sortid": 190,
+      "sortid": 199,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_sai_recipe",
@@ -2381,7 +2381,7 @@
     {
       "name": "NetheriteSaiRecipe",
       "type": "recipe",
-      "sortid": 191,
+      "sortid": 200,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netherite_sai_recipe",
@@ -2395,7 +2395,7 @@
     {
       "name": "SilverDaggerRecipe",
       "type": "recipe",
-      "sortid": 192,
+      "sortid": 201,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_dagger_recipe",
@@ -2409,7 +2409,7 @@
     {
       "name": "ImperialGoldClaymore",
       "type": "tool",
-      "sortid": 21,
+      "sortid": 22,
       "compiles": true,
       "locked_code": true,
       "registry_name": "imperial_gold_claymore",
@@ -2424,7 +2424,7 @@
     {
       "name": "IronKatana",
       "type": "tool",
-      "sortid": 28,
+      "sortid": 29,
       "compiles": true,
       "locked_code": true,
       "registry_name": "iron_katana",
@@ -2439,7 +2439,7 @@
     {
       "name": "WoodKatana",
       "type": "tool",
-      "sortid": 24,
+      "sortid": 25,
       "compiles": true,
       "locked_code": true,
       "registry_name": "wood_katana",
@@ -2454,7 +2454,7 @@
     {
       "name": "StoneKatana",
       "type": "tool",
-      "sortid": 26,
+      "sortid": 27,
       "compiles": true,
       "locked_code": true,
       "registry_name": "stone_katana",
@@ -2469,7 +2469,7 @@
     {
       "name": "GoldKatana",
       "type": "tool",
-      "sortid": 27,
+      "sortid": 28,
       "compiles": true,
       "locked_code": true,
       "registry_name": "gold_katana",
@@ -2484,7 +2484,7 @@
     {
       "name": "DiamondKatana",
       "type": "tool",
-      "sortid": 29,
+      "sortid": 30,
       "compiles": true,
       "locked_code": true,
       "registry_name": "diamond_katana",
@@ -2499,7 +2499,7 @@
     {
       "name": "NetheriteKatana",
       "type": "tool",
-      "sortid": 30,
+      "sortid": 31,
       "compiles": true,
       "locked_code": true,
       "registry_name": "netherite_katana",
@@ -2514,7 +2514,7 @@
     {
       "name": "IronKatanaRecipe",
       "type": "recipe",
-      "sortid": 193,
+      "sortid": 202,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_katana_recipe",
@@ -2528,7 +2528,7 @@
     {
       "name": "WoodKatanaRecipe",
       "type": "recipe",
-      "sortid": 194,
+      "sortid": 203,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wood_katana_recipe",
@@ -2542,7 +2542,7 @@
     {
       "name": "StoneKatanaRecipe",
       "type": "recipe",
-      "sortid": 195,
+      "sortid": 204,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_katana_recipe",
@@ -2556,7 +2556,7 @@
     {
       "name": "GoldKatanaRecipe",
       "type": "recipe",
-      "sortid": 196,
+      "sortid": 205,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_katana_recipe",
@@ -2570,7 +2570,7 @@
     {
       "name": "DiamondKatanaRecipe",
       "type": "recipe",
-      "sortid": 197,
+      "sortid": 206,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_katana_recipe",
@@ -2584,7 +2584,7 @@
     {
       "name": "NetheriteKatanaRecipe",
       "type": "recipe",
-      "sortid": 198,
+      "sortid": 207,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netherite_katana_recipe",
@@ -2598,7 +2598,7 @@
     {
       "name": "KatanaProcedure",
       "type": "procedure",
-      "sortid": 199,
+      "sortid": 208,
       "compiles": true,
       "locked_code": false,
       "registry_name": "katana_procedure",
@@ -2630,7 +2630,7 @@
     {
       "name": "Demonita",
       "type": "item",
-      "sortid": 65,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demonita",
@@ -2645,7 +2645,7 @@
     {
       "name": "DemonitaOre",
       "type": "block",
-      "sortid": 63,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demonita_ore",
@@ -2666,7 +2666,7 @@
     {
       "name": "DemonitaBlock",
       "type": "block",
-      "sortid": 64,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demonita_block",
@@ -2683,7 +2683,7 @@
     {
       "name": "DemonitaOreBlockRecipe",
       "type": "recipe",
-      "sortid": 200,
+      "sortid": 209,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demonita_ore_block_recipe",
@@ -2697,7 +2697,7 @@
     {
       "name": "DemonitaBlockOreRecipe",
       "type": "recipe",
-      "sortid": 201,
+      "sortid": 210,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demonita_block_ore_recipe",
@@ -2711,7 +2711,7 @@
     {
       "name": "DemonitaOreSmelting",
       "type": "recipe",
-      "sortid": 202,
+      "sortid": 211,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demonita_ore_smelting",
@@ -2723,24 +2723,9 @@
       "path": "~/Items/ItemsNormal/Common Items/Ores"
     },
     {
-      "name": "DemonitaSword",
-      "type": "tool",
-      "sortid": 41,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "demonita_sword",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/mineterra/models/item/demonita_sword.json",
-          "src/main/java/net/mcreator/mineterra/item/DemonitaSwordItem.java"
-        ]
-      },
-      "path": "~/Items/ItemsNormal/Common Items/Swords"
-    },
-    {
       "name": "Strength",
       "type": "attribute",
-      "sortid": 203,
+      "sortid": 212,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strength",
@@ -2752,7 +2737,7 @@
     {
       "name": "Dexterity",
       "type": "attribute",
-      "sortid": 204,
+      "sortid": 213,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dexterity",
@@ -2764,7 +2749,7 @@
     {
       "name": "Constituition",
       "type": "attribute",
-      "sortid": 205,
+      "sortid": 214,
       "compiles": true,
       "locked_code": false,
       "registry_name": "constituition",
@@ -2776,7 +2761,7 @@
     {
       "name": "Intelligence",
       "type": "attribute",
-      "sortid": 206,
+      "sortid": 215,
       "compiles": true,
       "locked_code": false,
       "registry_name": "intelligence",
@@ -2788,7 +2773,7 @@
     {
       "name": "Charisma",
       "type": "attribute",
-      "sortid": 207,
+      "sortid": 216,
       "compiles": true,
       "locked_code": false,
       "registry_name": "charisma",
@@ -2800,7 +2785,7 @@
     {
       "name": "Wisdom",
       "type": "attribute",
-      "sortid": 208,
+      "sortid": 217,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wisdom",
@@ -2812,7 +2797,7 @@
     {
       "name": "MineterraWeapons",
       "type": "tab",
-      "sortid": 209,
+      "sortid": 218,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mineterra_weapons",
@@ -2824,7 +2809,7 @@
     {
       "name": "ForgeHammer",
       "type": "tool",
-      "sortid": 54,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "forge_hammer",
@@ -2839,9 +2824,9 @@
     {
       "name": "CopperSword",
       "type": "tool",
-      "sortid": 43,
+      "sortid": 47,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "copper_sword",
       "metadata": {
         "files": [
@@ -2854,7 +2839,7 @@
     {
       "name": "TitaniumIngot",
       "type": "item",
-      "sortid": 68,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_ingot",
@@ -2869,7 +2854,7 @@
     {
       "name": "TitaniumOre",
       "type": "block",
-      "sortid": 66,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_ore",
@@ -2890,7 +2875,7 @@
     {
       "name": "TitaniumBlock",
       "type": "block",
-      "sortid": 67,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_block",
@@ -2907,7 +2892,7 @@
     {
       "name": "TitaniumOreBlockRecipe",
       "type": "recipe",
-      "sortid": 210,
+      "sortid": 219,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_ore_block_recipe",
@@ -2921,7 +2906,7 @@
     {
       "name": "TitaniumBlockOreRecipe",
       "type": "recipe",
-      "sortid": 211,
+      "sortid": 220,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_block_ore_recipe",
@@ -2935,7 +2920,7 @@
     {
       "name": "TitaniumOreSmelting",
       "type": "recipe",
-      "sortid": 212,
+      "sortid": 221,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_ore_smelting",
@@ -2949,7 +2934,7 @@
     {
       "name": "TitaniumPickaxe",
       "type": "tool",
-      "sortid": 55,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_pickaxe",
@@ -2964,7 +2949,7 @@
     {
       "name": "TitaniumAxe",
       "type": "tool",
-      "sortid": 56,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_axe",
@@ -2979,9 +2964,9 @@
     {
       "name": "TitaniumSword",
       "type": "tool",
-      "sortid": 31,
+      "sortid": 32,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "titanium_sword",
       "metadata": {
         "files": [
@@ -2994,7 +2979,7 @@
     {
       "name": "TitaniumShovel",
       "type": "tool",
-      "sortid": 57,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_shovel",
@@ -3009,7 +2994,7 @@
     {
       "name": "TitaniumHoe",
       "type": "tool",
-      "sortid": 58,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_hoe",
@@ -3024,7 +3009,7 @@
     {
       "name": "TitaniumPickaxeRecipe",
       "type": "recipe",
-      "sortid": 213,
+      "sortid": 222,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_pickaxe_recipe",
@@ -3038,7 +3023,7 @@
     {
       "name": "TitaniumAxeRecipe",
       "type": "recipe",
-      "sortid": 214,
+      "sortid": 223,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_axe_recipe",
@@ -3052,7 +3037,7 @@
     {
       "name": "TitaniumSwordRecipe",
       "type": "recipe",
-      "sortid": 215,
+      "sortid": 224,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_sword_recipe",
@@ -3066,7 +3051,7 @@
     {
       "name": "TitaniumShovelRecipe",
       "type": "recipe",
-      "sortid": 216,
+      "sortid": 225,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_shovel_recipe",
@@ -3080,7 +3065,7 @@
     {
       "name": "TitaniumHoeRecipe",
       "type": "recipe",
-      "sortid": 217,
+      "sortid": 226,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_hoe_recipe",
@@ -3094,7 +3079,7 @@
     {
       "name": "TitaniumArmor",
       "type": "armor",
-      "sortid": 52,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_armor",
@@ -3112,7 +3097,7 @@
     {
       "name": "TitaniumArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 218,
+      "sortid": 227,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_armor_helmet_recipe",
@@ -3126,7 +3111,7 @@
     {
       "name": "TitaniumArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 219,
+      "sortid": 228,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_armor_chestplate_recipe",
@@ -3140,7 +3125,7 @@
     {
       "name": "TitaniumArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 220,
+      "sortid": 229,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_armor_leggings_recipe",
@@ -3154,7 +3139,7 @@
     {
       "name": "TitaniumArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 221,
+      "sortid": 230,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_armor_boots_recipe",
@@ -3168,7 +3153,7 @@
     {
       "name": "GameStartCharacterCreation",
       "type": "gui",
-      "sortid": 222,
+      "sortid": 231,
       "compiles": true,
       "locked_code": false,
       "registry_name": "game_start_character_creation",
@@ -3184,7 +3169,7 @@
     {
       "name": "WoodStaff",
       "type": "tool",
-      "sortid": 32,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wood_staff",
@@ -3199,7 +3184,7 @@
     {
       "name": "WoodStaffRecipe",
       "type": "recipe",
-      "sortid": 223,
+      "sortid": 232,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wood_staff_recipe",
@@ -3213,7 +3198,7 @@
     {
       "name": "MagicalCasing",
       "type": "item",
-      "sortid": 69,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magical_casing",
@@ -3228,7 +3213,7 @@
     {
       "name": "MagicalCasingRecipe",
       "type": "recipe",
-      "sortid": 224,
+      "sortid": 233,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magical_casing_recipe",
@@ -3242,7 +3227,7 @@
     {
       "name": "StaffOfLesserMagic",
       "type": "rangeditem",
-      "sortid": 33,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanite_staff_wand",
@@ -3258,7 +3243,7 @@
     {
       "name": "StaffOfLesserMagicWhileProjectileFlyingTick",
       "type": "procedure",
-      "sortid": 225,
+      "sortid": 234,
       "compiles": true,
       "locked_code": false,
       "registry_name": "staff_of_lesser_magic_while_projectile_flying_tick",
@@ -3290,7 +3275,7 @@
     {
       "name": "StaffOfLesserMagicProjectileHitsLivingEntity",
       "type": "procedure",
-      "sortid": 226,
+      "sortid": 235,
       "compiles": true,
       "locked_code": false,
       "registry_name": "staff_of_lesser_magic_projectile_hits_living_entity",
@@ -3330,7 +3315,7 @@
     {
       "name": "ArcaniteStaff",
       "type": "recipe",
-      "sortid": 227,
+      "sortid": 236,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanite_staff",
@@ -3344,7 +3329,7 @@
     {
       "name": "StaffOfLesserMagicRangedItemUsed",
       "type": "procedure",
-      "sortid": 228,
+      "sortid": 237,
       "compiles": true,
       "locked_code": false,
       "registry_name": "staff_of_lesser_magic_ranged_item_used",
@@ -3368,7 +3353,7 @@
     {
       "name": "StaffOfLesserMagicCanUseRangedItem",
       "type": "procedure",
-      "sortid": 229,
+      "sortid": 238,
       "compiles": true,
       "locked_code": false,
       "registry_name": "staff_of_lesser_magic_can_use_ranged_item",
@@ -3393,7 +3378,7 @@
     {
       "name": "Empty",
       "type": "item",
-      "sortid": 70,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "empty",
@@ -3408,7 +3393,7 @@
     {
       "name": "ArcaniteParticle",
       "type": "particle",
-      "sortid": 230,
+      "sortid": 239,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanite_particle",
@@ -3423,7 +3408,7 @@
     {
       "name": "ArcaniteParticle2",
       "type": "particle",
-      "sortid": 231,
+      "sortid": 240,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanite_particle_2",
@@ -3438,7 +3423,7 @@
     {
       "name": "ArcanitePArticle3",
       "type": "particle",
-      "sortid": 232,
+      "sortid": 241,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanite_p_article_3",
@@ -3453,7 +3438,7 @@
     {
       "name": "ArcaniteAsh",
       "type": "particle",
-      "sortid": 233,
+      "sortid": 242,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanite_ash",
@@ -3468,7 +3453,7 @@
     {
       "name": "ArcaniteAshTranslucnet",
       "type": "particle",
-      "sortid": 234,
+      "sortid": 243,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanite_ash_translucnet",
@@ -3483,7 +3468,7 @@
     {
       "name": "Arcanitium",
       "type": "item",
-      "sortid": 73,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanitium",
@@ -3498,7 +3483,7 @@
     {
       "name": "ArcanitiumOre",
       "type": "block",
-      "sortid": 71,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanitium_ore",
@@ -3519,7 +3504,7 @@
     {
       "name": "ArcanitiumBlock",
       "type": "block",
-      "sortid": 72,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanitium_block",
@@ -3536,7 +3521,7 @@
     {
       "name": "ArcanitiumOreBlockRecipe",
       "type": "recipe",
-      "sortid": 235,
+      "sortid": 244,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanitium_ore_block_recipe",
@@ -3550,7 +3535,7 @@
     {
       "name": "ArcanitiumBlockOreRecipe",
       "type": "recipe",
-      "sortid": 236,
+      "sortid": 245,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanitium_block_ore_recipe",
@@ -3564,7 +3549,7 @@
     {
       "name": "ArcanitiumOreSmelting",
       "type": "recipe",
-      "sortid": 237,
+      "sortid": 246,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanitium_ore_smelting",
@@ -3578,7 +3563,7 @@
     {
       "name": "LightStaff",
       "type": "rangeditem",
-      "sortid": 34,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_staff_wand",
@@ -3594,7 +3579,7 @@
     {
       "name": "LightStaffWhileProjectileFlyingTick",
       "type": "procedure",
-      "sortid": 238,
+      "sortid": 247,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_staff_while_projectile_flying_tick",
@@ -3630,7 +3615,7 @@
     {
       "name": "LightStaffProjectileHitsLivingEntity",
       "type": "procedure",
-      "sortid": 239,
+      "sortid": 248,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_staff_projectile_hits_living_entity",
@@ -3670,7 +3655,7 @@
     {
       "name": "LightStaffRecipe",
       "type": "recipe",
-      "sortid": 240,
+      "sortid": 249,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_staff_recipe",
@@ -3684,7 +3669,7 @@
     {
       "name": "LightStaffRangedItemIsUsed",
       "type": "procedure",
-      "sortid": 241,
+      "sortid": 250,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_staff_ranged_item_is_used",
@@ -3708,7 +3693,7 @@
     {
       "name": "LightStaffCanUseRangedItem",
       "type": "procedure",
-      "sortid": 242,
+      "sortid": 251,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_staff_can_use_ranged_item",
@@ -3733,7 +3718,7 @@
     {
       "name": "Arcanite",
       "type": "item",
-      "sortid": 74,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanite",
@@ -3748,7 +3733,7 @@
     {
       "name": "ArcaniteRecipe",
       "type": "recipe",
-      "sortid": 243,
+      "sortid": 252,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanite_recipe",
@@ -3762,7 +3747,7 @@
     {
       "name": "LightOrbParticle",
       "type": "particle",
-      "sortid": 244,
+      "sortid": 253,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_orb_particle",
@@ -3777,7 +3762,7 @@
     {
       "name": "LightOrb",
       "type": "item",
-      "sortid": 245,
+      "sortid": 254,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_orb",
@@ -3792,7 +3777,7 @@
     {
       "name": "LightFlash",
       "type": "particle",
-      "sortid": 246,
+      "sortid": 255,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_flash",
@@ -3807,7 +3792,7 @@
     {
       "name": "ArcaneTopaz",
       "type": "item",
-      "sortid": 75,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcane_topaz",
@@ -3822,7 +3807,7 @@
     {
       "name": "ArcaneTopazRecipe",
       "type": "recipe",
-      "sortid": 247,
+      "sortid": 256,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcane_topaz_recipe",
@@ -3836,7 +3821,7 @@
     {
       "name": "ArcaniteGemstone",
       "type": "item",
-      "sortid": 76,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanite_gemstone",
@@ -3851,7 +3836,7 @@
     {
       "name": "ArcanitePowderRecipe",
       "type": "recipe",
-      "sortid": 248,
+      "sortid": 257,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanite_powder_recipe",
@@ -3865,7 +3850,7 @@
     {
       "name": "FireStaff",
       "type": "rangeditem",
-      "sortid": 35,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_staff_wand",
@@ -3881,7 +3866,7 @@
     {
       "name": "FireStaffWhileProjectileFlyingTick",
       "type": "procedure",
-      "sortid": 249,
+      "sortid": 258,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_staff_while_projectile_flying_tick",
@@ -3917,7 +3902,7 @@
     {
       "name": "FireStaffProjectileHitsLivingEntity",
       "type": "procedure",
-      "sortid": 250,
+      "sortid": 259,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_staff_projectile_hits_living_entity",
@@ -3957,7 +3942,7 @@
     {
       "name": "FireStaffRecipe",
       "type": "recipe",
-      "sortid": 251,
+      "sortid": 260,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_staff_recipe",
@@ -3971,7 +3956,7 @@
     {
       "name": "FireStaffRangedItemIsUsed",
       "type": "procedure",
-      "sortid": 252,
+      "sortid": 261,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_staff_ranged_item_is_used",
@@ -3995,7 +3980,7 @@
     {
       "name": "FireStaffCanUseRangedItem",
       "type": "procedure",
-      "sortid": 253,
+      "sortid": 262,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_staff_can_use_ranged_item",
@@ -4020,7 +4005,7 @@
     {
       "name": "FireAsh",
       "type": "particle",
-      "sortid": 254,
+      "sortid": 263,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_ash",
@@ -4035,7 +4020,7 @@
     {
       "name": "FireAsh2",
       "type": "particle",
-      "sortid": 255,
+      "sortid": 264,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_ash_2",
@@ -4050,7 +4035,7 @@
     {
       "name": "FireAsh3",
       "type": "particle",
-      "sortid": 256,
+      "sortid": 265,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_ash_3",
@@ -4065,7 +4050,7 @@
     {
       "name": "LightIronDagger",
       "type": "tool",
-      "sortid": 36,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_iron_dagger",
@@ -4080,7 +4065,7 @@
     {
       "name": "LightIronDaggerRacipe",
       "type": "recipe",
-      "sortid": 257,
+      "sortid": 266,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_iron_dagger_racipe",
@@ -4109,7 +4094,7 @@
     {
       "name": "NebulousVeilRecipe",
       "type": "recipe",
-      "sortid": 258,
+      "sortid": 267,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nebulous_veil_recipe",
@@ -4123,7 +4108,7 @@
     {
       "name": "NebulousVeilDaggerRightclicked",
       "type": "procedure",
-      "sortid": 259,
+      "sortid": 268,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nebulous_veil_dagger_rightclicked",
@@ -4159,7 +4144,7 @@
     {
       "name": "NebulousVeilDaggerLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 260,
+      "sortid": 269,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nebulous_veil_dagger_living_entity_is_hit_with_tool",
@@ -4201,7 +4186,7 @@
       "type": "tool",
       "sortid": 19,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "crepitars_blade_sword",
       "metadata": {
         "files": [
@@ -4214,7 +4199,7 @@
     {
       "name": "CrepitarsBladeRecipe",
       "type": "recipe",
-      "sortid": 261,
+      "sortid": 270,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crepitars_blade_recipe",
@@ -4226,24 +4211,9 @@
       "path": "~/Items/ItemsNormal/Common Items/Recipes"
     },
     {
-      "name": "BladeOfBanishedQueen",
-      "type": "tool",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "blade_of_banished_queen",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/mineterra/models/item/blade_of_banished_queen.json",
-          "src/main/java/net/mcreator/mineterra/item/BladeOfBanishedQueenItem.java"
-        ]
-      },
-      "path": "~/Items/ItemsNormal/Common Items/Swords"
-    },
-    {
       "name": "BladeOfBanishedQueenLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 262,
+      "sortid": 271,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blade_of_banished_queen_living_entity_is_hit_with_tool",
@@ -4283,7 +4253,7 @@
     {
       "name": "StormrazorKatana",
       "type": "tool",
-      "sortid": 25,
+      "sortid": 26,
       "compiles": true,
       "locked_code": true,
       "registry_name": "stormrazor_katana",
@@ -4298,7 +4268,7 @@
     {
       "name": "StormrazorKatanaLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 263,
+      "sortid": 272,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stormrazor_katana_living_entity_is_hit_with_tool",
@@ -4326,7 +4296,7 @@
     {
       "name": "SuradiirsScythe",
       "type": "tool",
-      "sortid": 44,
+      "sortid": 48,
       "compiles": true,
       "locked_code": true,
       "registry_name": "suradiirs_scythe",
@@ -4341,7 +4311,7 @@
     {
       "name": "SuradiirsScytheLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 264,
+      "sortid": 273,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suradiirs_scythe_living_entity_is_hit_with_tool",
@@ -4369,7 +4339,7 @@
     {
       "name": "IronScythe",
       "type": "tool",
-      "sortid": 45,
+      "sortid": 49,
       "compiles": true,
       "locked_code": true,
       "registry_name": "iron_scythe",
@@ -4384,7 +4354,7 @@
     {
       "name": "ScytheLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 265,
+      "sortid": 274,
       "compiles": true,
       "locked_code": false,
       "registry_name": "scythe_living_entity_is_hit_with_tool",
@@ -4404,7 +4374,7 @@
     {
       "name": "SteelIngot",
       "type": "item",
-      "sortid": 78,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_ingot",
@@ -4419,7 +4389,7 @@
     {
       "name": "SteelBlock",
       "type": "block",
-      "sortid": 77,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_block",
@@ -4436,7 +4406,7 @@
     {
       "name": "SteelOreBlockRecipe",
       "type": "recipe",
-      "sortid": 266,
+      "sortid": 275,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_ore_block_recipe",
@@ -4450,7 +4420,7 @@
     {
       "name": "SteelBlockOreRecipe",
       "type": "recipe",
-      "sortid": 267,
+      "sortid": 276,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_block_ore_recipe",
@@ -4464,7 +4434,7 @@
     {
       "name": "SteelOreSmelting",
       "type": "recipe",
-      "sortid": 268,
+      "sortid": 277,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_ore_smelting",
@@ -4478,7 +4448,7 @@
     {
       "name": "SteelPickaxe",
       "type": "tool",
-      "sortid": 59,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_pickaxe",
@@ -4493,7 +4463,7 @@
     {
       "name": "SteelAxe",
       "type": "tool",
-      "sortid": 60,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_axe",
@@ -4508,9 +4478,9 @@
     {
       "name": "SteelSword",
       "type": "tool",
-      "sortid": 40,
+      "sortid": 44,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "steel_sword",
       "metadata": {
         "files": [
@@ -4523,7 +4493,7 @@
     {
       "name": "SteelShovel",
       "type": "tool",
-      "sortid": 61,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_shovel",
@@ -4538,7 +4508,7 @@
     {
       "name": "SteelHoe",
       "type": "tool",
-      "sortid": 62,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_hoe",
@@ -4553,7 +4523,7 @@
     {
       "name": "SteelPickaxeRecipe",
       "type": "recipe",
-      "sortid": 269,
+      "sortid": 278,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_pickaxe_recipe",
@@ -4567,7 +4537,7 @@
     {
       "name": "SteelAxeRecipe",
       "type": "recipe",
-      "sortid": 270,
+      "sortid": 279,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_axe_recipe",
@@ -4581,7 +4551,7 @@
     {
       "name": "SteelSwordRecipe",
       "type": "recipe",
-      "sortid": 271,
+      "sortid": 280,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_sword_recipe",
@@ -4595,7 +4565,7 @@
     {
       "name": "SteelShovelRecipe",
       "type": "recipe",
-      "sortid": 272,
+      "sortid": 281,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_shovel_recipe",
@@ -4609,7 +4579,7 @@
     {
       "name": "SteelHoeRecipe",
       "type": "recipe",
-      "sortid": 273,
+      "sortid": 282,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_hoe_recipe",
@@ -4623,7 +4593,7 @@
     {
       "name": "SteelArmor",
       "type": "armor",
-      "sortid": 53,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_armor",
@@ -4641,7 +4611,7 @@
     {
       "name": "SteelArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 274,
+      "sortid": 283,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_armor_helmet_recipe",
@@ -4655,7 +4625,7 @@
     {
       "name": "SteelArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 275,
+      "sortid": 284,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_armor_chestplate_recipe",
@@ -4669,7 +4639,7 @@
     {
       "name": "SteelArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 276,
+      "sortid": 285,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_armor_leggings_recipe",
@@ -4683,7 +4653,7 @@
     {
       "name": "SteelArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 277,
+      "sortid": 286,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_armor_boots_recipe",
@@ -4697,7 +4667,7 @@
     {
       "name": "SteelScythe",
       "type": "tool",
-      "sortid": 46,
+      "sortid": 50,
       "compiles": true,
       "locked_code": true,
       "registry_name": "steel_scythe",
@@ -4712,7 +4682,7 @@
     {
       "name": "RustedIronScythe",
       "type": "tool",
-      "sortid": 47,
+      "sortid": 51,
       "compiles": true,
       "locked_code": true,
       "registry_name": "rusted_iron_scythe",
@@ -4727,7 +4697,7 @@
     {
       "name": "RunicStonePrecision",
       "type": "curiosbauble",
-      "sortid": 79,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_precision",
@@ -4742,7 +4712,7 @@
     {
       "name": "PrecisionRunicStone",
       "type": "procedure",
-      "sortid": 278,
+      "sortid": 287,
       "compiles": true,
       "locked_code": false,
       "registry_name": "precision_runic_stone",
@@ -4782,7 +4752,7 @@
     {
       "name": "RunicStoneDueling",
       "type": "curiosbauble",
-      "sortid": 80,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_dueling",
@@ -4797,7 +4767,7 @@
     {
       "name": "RunicStoneDuelingBaubleIsEquipped",
       "type": "procedure",
-      "sortid": 279,
+      "sortid": 288,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_dueling_bauble_is_equipped",
@@ -4817,7 +4787,7 @@
     {
       "name": "GoldRapier",
       "type": "tool",
-      "sortid": 48,
+      "sortid": 52,
       "compiles": true,
       "locked_code": true,
       "registry_name": "gold_rapier",
@@ -4832,7 +4802,7 @@
     {
       "name": "GoldRapierRecipe",
       "type": "recipe",
-      "sortid": 280,
+      "sortid": 289,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_rapier_recipe",
@@ -4846,7 +4816,7 @@
     {
       "name": "DiamondRapier",
       "type": "tool",
-      "sortid": 49,
+      "sortid": 53,
       "compiles": true,
       "locked_code": true,
       "registry_name": "diamond_rapier",
@@ -4861,7 +4831,7 @@
     {
       "name": "DiamondRapierProcedure",
       "type": "recipe",
-      "sortid": 281,
+      "sortid": 290,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_rapier_procedure",
@@ -4875,7 +4845,7 @@
     {
       "name": "SteelRapier",
       "type": "tool",
-      "sortid": 50,
+      "sortid": 54,
       "compiles": true,
       "locked_code": true,
       "registry_name": "steel_rapier",
@@ -4890,7 +4860,7 @@
     {
       "name": "SteelRapierProcedure",
       "type": "recipe",
-      "sortid": 282,
+      "sortid": 291,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_rapier_procedure",
@@ -4919,7 +4889,7 @@
     {
       "name": "DragonBiteDaggerLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 283,
+      "sortid": 292,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dragon_bite_dagger_living_entity_is_hit_with_tool",
@@ -4959,7 +4929,7 @@
     {
       "name": "RunicStoneResistence",
       "type": "curiosbauble",
-      "sortid": 81,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_resistence",
@@ -4974,7 +4944,7 @@
     {
       "name": "RunicStoneResistenceBaubleIsEquipped",
       "type": "procedure",
-      "sortid": 284,
+      "sortid": 293,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_resistence_bauble_is_equipped",
@@ -4994,7 +4964,7 @@
     {
       "name": "RunicStoneFatality",
       "type": "curiosbauble",
-      "sortid": 82,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_fatality",
@@ -5009,7 +4979,7 @@
     {
       "name": "RunicStoneFatalityBaubleIsEquipped",
       "type": "procedure",
-      "sortid": 285,
+      "sortid": 294,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_fatality_bauble_is_equipped",
@@ -5029,7 +4999,7 @@
     {
       "name": "RunicStoneBrutality",
       "type": "curiosbauble",
-      "sortid": 83,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_brutality",
@@ -5044,7 +5014,7 @@
     {
       "name": "BrutalityRuneProcedure",
       "type": "procedure",
-      "sortid": 286,
+      "sortid": 295,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brutality_rune_procedure",
@@ -5064,7 +5034,7 @@
     {
       "name": "RuneStoneSpellcaster",
       "type": "curiosbauble",
-      "sortid": 84,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rune_stone_spellcaster",
@@ -5079,7 +5049,7 @@
     {
       "name": "RuneStoneSpellcasterBaubleIsEquipped",
       "type": "procedure",
-      "sortid": 287,
+      "sortid": 296,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rune_stone_spellcaster_bauble_is_equipped",
@@ -5099,7 +5069,7 @@
     {
       "name": "CelestiumIngot",
       "type": "item",
-      "sortid": 87,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestium_ingot",
@@ -5114,7 +5084,7 @@
     {
       "name": "CelestiumOre",
       "type": "block",
-      "sortid": 85,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestium_ore",
@@ -5135,7 +5105,7 @@
     {
       "name": "CelestiumBlock",
       "type": "block",
-      "sortid": 86,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestium_block",
@@ -5152,7 +5122,7 @@
     {
       "name": "CelestiumOreBlockRecipe",
       "type": "recipe",
-      "sortid": 288,
+      "sortid": 297,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestium_ore_block_recipe",
@@ -5166,7 +5136,7 @@
     {
       "name": "CelestiumBlockOreRecipe",
       "type": "recipe",
-      "sortid": 289,
+      "sortid": 298,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestium_block_ore_recipe",
@@ -5180,7 +5150,7 @@
     {
       "name": "CelestiumOreSmelting",
       "type": "recipe",
-      "sortid": 290,
+      "sortid": 299,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestium_ore_smelting",
@@ -5192,24 +5162,9 @@
       "path": "~/Items/ItemsNormal/Common Items/Ores"
     },
     {
-      "name": "CelestiumSword",
-      "type": "tool",
-      "sortid": 37,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "celestium_sword",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/mineterra/models/item/celestium_sword.json",
-          "src/main/java/net/mcreator/mineterra/item/CelestiumSwordItem.java"
-        ]
-      },
-      "path": "~/Items/ItemsNormal/Common Items/Swords"
-    },
-    {
       "name": "CelestialAttribbutes",
       "type": "procedure",
-      "sortid": 291,
+      "sortid": 300,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestial_attribbutes",
@@ -5229,7 +5184,7 @@
     {
       "name": "AbyssalAttributes",
       "type": "procedure",
-      "sortid": 292,
+      "sortid": 301,
       "compiles": true,
       "locked_code": false,
       "registry_name": "abyssal_attributes",
@@ -5249,7 +5204,7 @@
     {
       "name": "COTTAttributes",
       "type": "procedure",
-      "sortid": 293,
+      "sortid": 302,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cott_attributes",
@@ -5269,7 +5224,7 @@
     {
       "name": "BalsadurGreatsword",
       "type": "tool",
-      "sortid": 51,
+      "sortid": 20,
       "compiles": true,
       "locked_code": true,
       "registry_name": "balsadur_greatsword_claymore",
@@ -5284,7 +5239,7 @@
     {
       "name": "RuneStoneSpellcasterEXP",
       "type": "procedure",
-      "sortid": 294,
+      "sortid": 303,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rune_stone_spellcaster_exp",
@@ -5304,7 +5259,7 @@
     {
       "name": "GameStartCharacterCreationDisplayCondition",
       "type": "procedure",
-      "sortid": 295,
+      "sortid": 304,
       "compiles": true,
       "locked_code": false,
       "registry_name": "game_start_character_creation_display_condition",
@@ -5340,7 +5295,7 @@
     {
       "name": "RunicStonePrecisionCrafting",
       "type": "recipe",
-      "sortid": 296,
+      "sortid": 305,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_precision_crafting",
@@ -5354,7 +5309,7 @@
     {
       "name": "RunicStoneDuelingCrafting",
       "type": "recipe",
-      "sortid": 297,
+      "sortid": 306,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_dueling_crafting",
@@ -5368,7 +5323,7 @@
     {
       "name": "RunicStoneResistenceCrafting",
       "type": "recipe",
-      "sortid": 298,
+      "sortid": 307,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_resistence_crafting",
@@ -5382,7 +5337,7 @@
     {
       "name": "RunicStoneBrutalityCraftingg",
       "type": "recipe",
-      "sortid": 299,
+      "sortid": 308,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_brutality_craftingg",
@@ -5396,7 +5351,7 @@
     {
       "name": "RunicStoneFatalityCrafting",
       "type": "recipe",
-      "sortid": 300,
+      "sortid": 309,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_fatality_crafting",
@@ -5410,7 +5365,7 @@
     {
       "name": "RunicStoneSpellCasterCrafting",
       "type": "recipe",
-      "sortid": 301,
+      "sortid": 310,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_spell_caster_crafting",
@@ -5424,7 +5379,7 @@
     {
       "name": "Dash",
       "type": "curiosbauble",
-      "sortid": 88,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dash",
@@ -5434,12 +5389,12 @@
           "src/main/resources/assets/mineterra/models/item/dash.json"
         ]
       },
-      "path": "~/Abilities/Dash"
+      "path": "~/Abilities/Q/Dash"
     },
     {
       "name": "DashAbility",
       "type": "procedure",
-      "sortid": 302,
+      "sortid": 311,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dash_ability",
@@ -5470,12 +5425,12 @@
           }
         ]
       },
-      "path": "~/Abilities/Dash"
+      "path": "~/Abilities/Q/Dash"
     },
     {
       "name": "Ability",
       "type": "keybind",
-      "sortid": 303,
+      "sortid": 312,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ability",
@@ -5484,12 +5439,12 @@
           "src/main/java/net/mcreator/mineterra/network/AbilityMessage.java"
         ]
       },
-      "path": "~/Abilities"
+      "path": "~/Abilities/Q"
     },
     {
       "name": "AbilityOnKeyPressed",
       "type": "procedure",
-      "sortid": 304,
+      "sortid": 313,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ability_on_key_pressed",
@@ -5520,12 +5475,12 @@
           }
         ]
       },
-      "path": "~/Abilities"
+      "path": "~/Abilities/Q"
     },
     {
       "name": "FocusBlade",
       "type": "curiosbauble",
-      "sortid": 89,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "focus_blade",
@@ -5535,12 +5490,12 @@
           "src/main/resources/assets/mineterra/models/item/focus_blade.json"
         ]
       },
-      "path": "~/Abilities/Focus Blade"
+      "path": "~/Abilities/Q/Focus Blade"
     },
     {
       "name": "FocusBladeAbility",
       "type": "procedure",
-      "sortid": 305,
+      "sortid": 314,
       "compiles": true,
       "locked_code": false,
       "registry_name": "focus_blade_ability",
@@ -5555,12 +5510,12 @@
           }
         ]
       },
-      "path": "~/Abilities/Focus Blade"
+      "path": "~/Abilities/Q/Focus Blade"
     },
     {
       "name": "FocusBladeEffect",
       "type": "potioneffect",
-      "sortid": 306,
+      "sortid": 315,
       "compiles": true,
       "locked_code": false,
       "registry_name": "focus_blade_effect",
@@ -5569,12 +5524,12 @@
           "src/main/java/net/mcreator/mineterra/potion/FocusBladeEffectMobEffect.java"
         ]
       },
-      "path": "~/Abilities/Focus Blade"
+      "path": "~/Abilities/Q/Focus Blade"
     },
     {
       "name": "FocusBladeEffectEffectStartedapplied",
       "type": "procedure",
-      "sortid": 307,
+      "sortid": 316,
       "compiles": true,
       "locked_code": false,
       "registry_name": "focus_blade_effect_effect_startedapplied",
@@ -5589,12 +5544,12 @@
           }
         ]
       },
-      "path": "~/Abilities/Focus Blade"
+      "path": "~/Abilities/Q/Focus Blade"
     },
     {
       "name": "FocusBladeEndEffectCondition",
       "type": "procedure",
-      "sortid": 308,
+      "sortid": 317,
       "compiles": true,
       "locked_code": false,
       "registry_name": "focus_blade_end_effect_condition",
@@ -5609,12 +5564,12 @@
           }
         ]
       },
-      "path": "~/Abilities/Focus Blade"
+      "path": "~/Abilities/Q/Focus Blade"
     },
     {
       "name": "VampiricInstinct",
       "type": "curiosbauble",
-      "sortid": 90,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vampiric_instinct",
@@ -5624,12 +5579,12 @@
           "src/main/resources/assets/mineterra/models/item/vampiric_instinct.json"
         ]
       },
-      "path": "~/Abilities/Vampiric Instinct"
+      "path": "~/Abilities/Q/Vampiric Instinct"
     },
     {
       "name": "VampiricInstinctAbility",
       "type": "procedure",
-      "sortid": 309,
+      "sortid": 318,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vampiric_instinct_ability",
@@ -5644,12 +5599,12 @@
           }
         ]
       },
-      "path": "~/Abilities/Vampiric Instinct"
+      "path": "~/Abilities/Q/Vampiric Instinct"
     },
     {
       "name": "VampiricInstinctEffect",
       "type": "potioneffect",
-      "sortid": 310,
+      "sortid": 319,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vampiric_instinct_effect",
@@ -5658,12 +5613,12 @@
           "src/main/java/net/mcreator/mineterra/potion/VampiricInstinctEffectMobEffect.java"
         ]
       },
-      "path": "~/Abilities/Vampiric Instinct"
+      "path": "~/Abilities/Q/Vampiric Instinct"
     },
     {
       "name": "VampiricInstinctEndEffectCondition",
       "type": "procedure",
-      "sortid": 311,
+      "sortid": 320,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vampiric_instinct_end_effect_condition",
@@ -5678,12 +5633,12 @@
           }
         ]
       },
-      "path": "~/Abilities/Vampiric Instinct"
+      "path": "~/Abilities/Q/Vampiric Instinct"
     },
     {
       "name": "SuddenBurst",
       "type": "curiosbauble",
-      "sortid": 91,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sudden_burst",
@@ -5693,12 +5648,12 @@
           "src/main/java/net/mcreator/mineterra/item/SuddenBurstItem.java"
         ]
       },
-      "path": "~/Abilities/Sudden Burst"
+      "path": "~/Abilities/Q/Sudden Burst"
     },
     {
       "name": "SuddenBurstAbility",
       "type": "procedure",
-      "sortid": 312,
+      "sortid": 321,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sudden_burst_ability",
@@ -5713,12 +5668,12 @@
           }
         ]
       },
-      "path": "~/Abilities/Sudden Burst"
+      "path": "~/Abilities/Q/Sudden Burst"
     },
     {
       "name": "SuddenBurstEffect",
       "type": "potioneffect",
-      "sortid": 313,
+      "sortid": 322,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sudden_burst_effect",
@@ -5727,12 +5682,12 @@
           "src/main/java/net/mcreator/mineterra/potion/SuddenBurstEffectMobEffect.java"
         ]
       },
-      "path": "~/Abilities/Sudden Burst"
+      "path": "~/Abilities/Q/Sudden Burst"
     },
     {
       "name": "SuddenBurstEndEffectCondition",
       "type": "procedure",
-      "sortid": 314,
+      "sortid": 323,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sudden_burst_end_effect_condition",
@@ -5751,12 +5706,12 @@
           }
         ]
       },
-      "path": "~/Abilities/Sudden Burst"
+      "path": "~/Abilities/Q/Sudden Burst"
     },
     {
       "name": "AttributeUpgrader",
       "type": "gui",
-      "sortid": 315,
+      "sortid": 324,
       "compiles": true,
       "locked_code": false,
       "registry_name": "attribute_upgrader",
@@ -5772,7 +5727,7 @@
     {
       "name": "DisplayConstituition",
       "type": "procedure",
-      "sortid": 316,
+      "sortid": 325,
       "compiles": true,
       "locked_code": false,
       "registry_name": "display_constituition",
@@ -5793,7 +5748,7 @@
     {
       "name": "DisplayStrenght",
       "type": "procedure",
-      "sortid": 317,
+      "sortid": 326,
       "compiles": true,
       "locked_code": false,
       "registry_name": "display_strenght",
@@ -5814,7 +5769,7 @@
     {
       "name": "DisplayDexterity",
       "type": "procedure",
-      "sortid": 318,
+      "sortid": 327,
       "compiles": true,
       "locked_code": false,
       "registry_name": "display_dexterity",
@@ -5835,7 +5790,7 @@
     {
       "name": "DisplayIntelligence",
       "type": "procedure",
-      "sortid": 319,
+      "sortid": 328,
       "compiles": true,
       "locked_code": false,
       "registry_name": "display_intelligence",
@@ -5856,7 +5811,7 @@
     {
       "name": "DisplayCharisma",
       "type": "procedure",
-      "sortid": 320,
+      "sortid": 329,
       "compiles": true,
       "locked_code": false,
       "registry_name": "display_charisma",
@@ -5877,7 +5832,7 @@
     {
       "name": "DisplayWisdom",
       "type": "procedure",
-      "sortid": 321,
+      "sortid": 330,
       "compiles": true,
       "locked_code": false,
       "registry_name": "display_wisdom",
@@ -5896,24 +5851,9 @@
       "path": "~/Custom Attributes/GUIs/Attribute Upgrade"
     },
     {
-      "name": "ArcaniteSword",
-      "type": "tool",
-      "sortid": 38,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "arcanite_sword",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/mineterra/models/item/arcanite_sword.json",
-          "src/main/java/net/mcreator/mineterra/item/ArcaniteSwordItem.java"
-        ]
-      },
-      "path": "~/Items/ItemsNormal/Common Items/Swords"
-    },
-    {
       "name": "ArcaniteSwordLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 322,
+      "sortid": 331,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanite_sword_living_entity_is_hit_with_tool",
@@ -5953,7 +5893,7 @@
     {
       "name": "ArcaniteSwordRecipe",
       "type": "recipe",
-      "sortid": 323,
+      "sortid": 332,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcanite_sword_recipe",
@@ -5967,7 +5907,7 @@
     {
       "name": "DisplayPoints",
       "type": "procedure",
-      "sortid": 324,
+      "sortid": 333,
       "compiles": true,
       "locked_code": false,
       "registry_name": "display_points",
@@ -5988,7 +5928,7 @@
     {
       "name": "EarnPoints",
       "type": "procedure",
-      "sortid": 325,
+      "sortid": 334,
       "compiles": true,
       "locked_code": false,
       "registry_name": "earn_points",
@@ -6008,7 +5948,7 @@
     {
       "name": "AttributeUpgraderOpenOnKeyPressed",
       "type": "procedure",
-      "sortid": 326,
+      "sortid": 335,
       "compiles": true,
       "locked_code": false,
       "registry_name": "attribute_upgrader_open_on_key_pressed",
@@ -6044,7 +5984,7 @@
     {
       "name": "AttributeUpgraderOpen",
       "type": "keybind",
-      "sortid": 327,
+      "sortid": 336,
       "compiles": true,
       "locked_code": false,
       "registry_name": "attribute_upgrader_open",
@@ -6058,7 +5998,7 @@
     {
       "name": "IncreaseConstituition",
       "type": "procedure",
-      "sortid": 328,
+      "sortid": 337,
       "compiles": true,
       "locked_code": false,
       "registry_name": "increase_constituition",
@@ -6078,7 +6018,7 @@
     {
       "name": "IncreaseStrength",
       "type": "procedure",
-      "sortid": 329,
+      "sortid": 338,
       "compiles": true,
       "locked_code": false,
       "registry_name": "increase_strength",
@@ -6098,7 +6038,7 @@
     {
       "name": "IncreaseDexterity",
       "type": "procedure",
-      "sortid": 330,
+      "sortid": 339,
       "compiles": true,
       "locked_code": false,
       "registry_name": "increase_dexterity",
@@ -6118,7 +6058,7 @@
     {
       "name": "IncreaseIntelligence",
       "type": "procedure",
-      "sortid": 331,
+      "sortid": 340,
       "compiles": true,
       "locked_code": false,
       "registry_name": "increase_intelligence",
@@ -6138,7 +6078,7 @@
     {
       "name": "IncreaseCharisma",
       "type": "procedure",
-      "sortid": 332,
+      "sortid": 341,
       "compiles": true,
       "locked_code": false,
       "registry_name": "increase_charisma",
@@ -6158,7 +6098,7 @@
     {
       "name": "IncreaseWisdom",
       "type": "procedure",
-      "sortid": 333,
+      "sortid": 342,
       "compiles": true,
       "locked_code": false,
       "registry_name": "increase_wisdom",
@@ -6178,7 +6118,7 @@
     {
       "name": "BladeOfBanishedQueenRecipe",
       "type": "recipe",
-      "sortid": 334,
+      "sortid": 343,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blade_of_banished_queen_recipe",
@@ -6192,7 +6132,7 @@
     {
       "name": "SilverSwordRecipe",
       "type": "recipe",
-      "sortid": 335,
+      "sortid": 344,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_sword_recipe",
@@ -6206,7 +6146,7 @@
     {
       "name": "DemonitaSwordLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 336,
+      "sortid": 345,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demonita_sword_living_entity_is_hit_with_tool",
@@ -6230,7 +6170,7 @@
     {
       "name": "CopperSwordLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 337,
+      "sortid": 346,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_sword_living_entity_is_hit_with_tool",
@@ -6250,7 +6190,7 @@
     {
       "name": "SteelSwordLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 338,
+      "sortid": 347,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_sword_living_entity_is_hit_with_tool",
@@ -6286,7 +6226,7 @@
     {
       "name": "CelestiumSwordLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 339,
+      "sortid": 348,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celestium_sword_living_entity_is_hit_with_tool",
@@ -6320,24 +6260,9 @@
       "path": "~/Items/ItemsNormal/Common Items/Procedures"
     },
     {
-      "name": "AmethystSword",
-      "type": "tool",
-      "sortid": 340,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "amethyst_sword",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mineterra/item/AmethystSwordItem.java",
-          "src/main/resources/assets/mineterra/models/item/amethyst_sword.json"
-        ]
-      },
-      "path": "~/Items/ItemsNormal/Common Items/Swords"
-    },
-    {
       "name": "AmethystSwordLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 341,
+      "sortid": 349,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_sword_living_entity_is_hit_with_tool",
@@ -6369,6 +6294,950 @@
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Procedures"
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/RubyItem.java",
+          "src/main/resources/assets/mineterra/models/item/ruby.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Ores"
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/world/features/ores/RubyOreFeature.java",
+          "src/main/resources/data/mineterra/worldgen/configured_feature/ruby_ore.json",
+          "src/main/resources/assets/mineterra/blockstates/ruby_ore.json",
+          "src/main/resources/assets/mineterra/models/block/ruby_ore.json",
+          "src/main/resources/data/mineterra/forge/biome_modifier/ruby_ore_biome_modifier.json",
+          "src/main/resources/assets/mineterra/models/item/ruby_ore.json",
+          "src/main/resources/data/mineterra/worldgen/placed_feature/ruby_ore.json",
+          "src/main/java/net/mcreator/mineterra/block/RubyOreBlock.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Ores"
+    },
+    {
+      "name": "RubyBlock",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/ruby_block.json",
+          "src/main/java/net/mcreator/mineterra/block/RubyBlockBlock.java",
+          "src/main/resources/assets/mineterra/blockstates/ruby_block.json",
+          "src/main/resources/assets/mineterra/models/block/ruby_block.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Ores"
+    },
+    {
+      "name": "RubyOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 350,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/ruby_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Ores"
+    },
+    {
+      "name": "RubyBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 351,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/ruby_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Ores"
+    },
+    {
+      "name": "RubyOreSmelting",
+      "type": "recipe",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/ruby_ore_smelting.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Ores"
+    },
+    {
+      "name": "RubySwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/RubySwordLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Procedures"
+    },
+    {
+      "name": "Garnet",
+      "type": "item",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/garnet.json",
+          "src/main/java/net/mcreator/mineterra/item/GarnetItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Ores"
+    },
+    {
+      "name": "GarnetOre",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/blockstates/garnet_ore.json",
+          "src/main/resources/assets/mineterra/models/block/garnet_ore.json",
+          "src/main/resources/data/mineterra/forge/biome_modifier/garnet_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/mineterra/world/features/ores/GarnetOreFeature.java",
+          "src/main/resources/data/mineterra/worldgen/placed_feature/garnet_ore.json",
+          "src/main/resources/assets/mineterra/models/item/garnet_ore.json",
+          "src/main/resources/data/mineterra/worldgen/configured_feature/garnet_ore.json",
+          "src/main/java/net/mcreator/mineterra/block/GarnetOreBlock.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Ores"
+    },
+    {
+      "name": "GarnetBlock",
+      "type": "block",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/block/GarnetBlockBlock.java",
+          "src/main/resources/assets/mineterra/models/item/garnet_block.json",
+          "src/main/resources/assets/mineterra/models/block/garnet_block.json",
+          "src/main/resources/assets/mineterra/blockstates/garnet_block.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Ores"
+    },
+    {
+      "name": "GarnetOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/garnet_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Ores"
+    },
+    {
+      "name": "GarnetBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 355,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/garnet_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Ores"
+    },
+    {
+      "name": "GarnetOreSmelting",
+      "type": "recipe",
+      "sortid": 356,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/garnet_ore_smelting.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Ores"
+    },
+    {
+      "name": "GarnetSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 357,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/GarnetSwordLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Procedures"
+    },
+    {
+      "name": "TheScavengerCutlass",
+      "type": "tool",
+      "sortid": 358,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_scavenger_cutlass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/the_scavenger_cutlass.json",
+          "src/main/java/net/mcreator/mineterra/item/TheScavengerCutlassItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Cutlass"
+    },
+    {
+      "name": "TheScavengerCutlassLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 359,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_scavenger_cutlass_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/TheScavengerCutlassLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Procedures"
+    },
+    {
+      "name": "TheScavengerCutlassRecipe",
+      "type": "recipe",
+      "sortid": 360,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_scavenger_cutlass_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/the_scavenger_cutlass_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Recipes"
+    },
+    {
+      "name": "AwakenDemoniteSword",
+      "type": "tool",
+      "sortid": 361,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "awaken_demonite_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/awaken_demonite_sword.json",
+          "src/main/java/net/mcreator/mineterra/item/AwakenDemoniteSwordItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Swords"
+    },
+    {
+      "name": "AwakenBanishedQueenSword",
+      "type": "tool",
+      "sortid": 362,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "awaken_banished_queen_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/awaken_banished_queen_sword.json",
+          "src/main/java/net/mcreator/mineterra/item/AwakenBanishedQueenSwordItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Swords"
+    },
+    {
+      "name": "AwakenCelestiumSword",
+      "type": "tool",
+      "sortid": 363,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "awaken_celestium_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/AwakenCelestiumSwordItem.java",
+          "src/main/resources/assets/mineterra/models/item/awaken_celestium_sword.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Swords"
+    },
+    {
+      "name": "AwakenArcaniteSword",
+      "type": "tool",
+      "sortid": 364,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "awaken_arcanite_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/AwakenArcaniteSwordItem.java",
+          "src/main/resources/assets/mineterra/models/item/awaken_arcanite_sword.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Swords"
+    },
+    {
+      "name": "AwakenAmethystSword",
+      "type": "tool",
+      "sortid": 365,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "awaken_amethyst_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/awaken_amethyst_sword.json",
+          "src/main/java/net/mcreator/mineterra/item/AwakenAmethystSwordItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Swords"
+    },
+    {
+      "name": "AwakenRubySword",
+      "type": "tool",
+      "sortid": 366,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "awaken_ruby_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/AwakenRubySwordItem.java",
+          "src/main/resources/assets/mineterra/models/item/awaken_ruby_sword.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Swords"
+    },
+    {
+      "name": "AwakenGarnetSword",
+      "type": "tool",
+      "sortid": 367,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "awaken_garnet_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/AwakenGarnetSwordItem.java",
+          "src/main/resources/assets/mineterra/models/item/awaken_garnet_sword.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Swords"
+    },
+    {
+      "name": "CelestiumSwordRecipe",
+      "type": "recipe",
+      "sortid": 368,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestium_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/celestium_sword_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Recipes"
+    },
+    {
+      "name": "AmethystSwordRecipe",
+      "type": "recipe",
+      "sortid": 369,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/amethyst_sword_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Recipes"
+    },
+    {
+      "name": "GarnetSwordRecipe",
+      "type": "recipe",
+      "sortid": 370,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/garnet_sword_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Recipes"
+    },
+    {
+      "name": "RubySwordRecipe",
+      "type": "recipe",
+      "sortid": 371,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/ruby_sword_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Recipes"
+    },
+    {
+      "name": "Citrine",
+      "type": "item",
+      "sortid": 374,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/citrine.json",
+          "src/main/java/net/mcreator/mineterra/item/CitrineItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Ores"
+    },
+    {
+      "name": "CitrineOre",
+      "type": "block",
+      "sortid": 372,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrine_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/world/features/ores/CitrineOreFeature.java",
+          "src/main/resources/data/mineterra/forge/biome_modifier/citrine_ore_biome_modifier.json",
+          "src/main/resources/assets/mineterra/blockstates/citrine_ore.json",
+          "src/main/java/net/mcreator/mineterra/block/CitrineOreBlock.java",
+          "src/main/resources/assets/mineterra/models/item/citrine_ore.json",
+          "src/main/resources/assets/mineterra/models/block/citrine_ore.json",
+          "src/main/resources/data/mineterra/worldgen/configured_feature/citrine_ore.json",
+          "src/main/resources/data/mineterra/worldgen/placed_feature/citrine_ore.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Ores"
+    },
+    {
+      "name": "CitrineBlock",
+      "type": "block",
+      "sortid": 373,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrine_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/block/CitrineBlockBlock.java",
+          "src/main/resources/assets/mineterra/blockstates/citrine_block.json",
+          "src/main/resources/assets/mineterra/models/block/citrine_block.json",
+          "src/main/resources/assets/mineterra/models/item/citrine_block.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Ores"
+    },
+    {
+      "name": "CitrineOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 375,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrine_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/citrine_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Ores"
+    },
+    {
+      "name": "CitrineBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 376,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrine_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/citrine_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Ores"
+    },
+    {
+      "name": "CitrineOreSmelting",
+      "type": "recipe",
+      "sortid": 377,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrine_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mineterra/recipes/citrine_ore_smelting.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Ores"
+    },
+    {
+      "name": "CitrineSword",
+      "type": "tool",
+      "sortid": 378,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrine_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/CitrineSwordItem.java",
+          "src/main/resources/assets/mineterra/models/item/citrine_sword.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Swords"
+    },
+    {
+      "name": "CitrineSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 379,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrine_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/CitrineSwordLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Procedures"
+    },
+    {
+      "name": "FrostbiteSword",
+      "type": "tool",
+      "sortid": 380,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frostbite_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/FrostbiteSwordItem.java",
+          "src/main/resources/assets/mineterra/models/item/frostbite_sword.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Elemental Weapons/Ice"
+    },
+    {
+      "name": "FrostbiteSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 381,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frostbite_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/FrostbiteSwordLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Procedures"
+    },
+    {
+      "name": "GlacialLongbladeClaymore",
+      "type": "tool",
+      "sortid": 382,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glacial_longblade_claymore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/glacial_longblade_claymore.json",
+          "src/main/java/net/mcreator/mineterra/item/GlacialLongbladeClaymoreItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Elemental Weapons/Ice"
+    },
+    {
+      "name": "GlacialLongbladeClaymoreLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 383,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glacial_longblade_claymore_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/GlacialLongbladeClaymoreLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Procedures"
+    },
+    {
+      "name": "FrostFangsDagger",
+      "type": "tool",
+      "sortid": 384,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frost_fangs_dagger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/frost_fangs_dagger.json",
+          "src/main/java/net/mcreator/mineterra/item/FrostFangsDaggerItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Elemental Weapons/Ice"
+    },
+    {
+      "name": "InfernoBlazeSword",
+      "type": "tool",
+      "sortid": 385,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inferno_blaze_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/InfernoBlazeSwordItem.java",
+          "src/main/resources/assets/mineterra/models/item/inferno_blaze_sword.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Elemental Weapons/Fire"
+    },
+    {
+      "name": "InfernoBlazeSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 386,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inferno_blaze_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/InfernoBlazeSwordLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Procedures"
+    },
+    {
+      "name": "Freeze",
+      "type": "procedure",
+      "sortid": 387,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freeze",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/FreezeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Global Effects/Freeze"
+    },
+    {
+      "name": "Frozen",
+      "type": "potioneffect",
+      "sortid": 388,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frozen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/potion/FrozenMobEffect.java"
+        ]
+      },
+      "path": "~/Global Effects/Freeze"
+    },
+    {
+      "name": "FrozenOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 389,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frozen_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/FrozenOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Global Effects/Freeze"
+    },
+    {
+      "name": "FrozenEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 390,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frozen_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/FrozenEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Global Effects/Freeze"
+    },
+    {
+      "name": "FrozenEffectExpires",
+      "type": "procedure",
+      "sortid": 391,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frozen_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/FrozenEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Global Effects/Freeze"
+    },
+    {
+      "name": "FreezeBrokeCondition",
+      "type": "procedure",
+      "sortid": 392,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freeze_broke_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/FreezeBrokeConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Global Effects/Freeze"
     }
   ],
   "variable_elements": [
@@ -6597,6 +7466,30 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "fireignite1",
+      "files": [
+        "fireball-whoosh-5-179129"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "fireignite2",
+      "files": [
+        "fireball-whoosh-1-179125"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "frozen",
+      "files": [
+        "ice-cracking-field-recording-06-139709"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -6609,17 +7502,20 @@
       "item.mineterra.arcanite_gemstone": "Arcanite Gemstone",
       "block.mineterra.celestium_block": "Block of Celestium",
       "effect.mineterra.sangramento": "Bleeding",
+      "block.mineterra.garnet_ore": "Garnet Ore",
       "gui.mineterra.game_start_character_creation.Celestial": "Celestial",
       "item.mineterra.steel_armor_chestplate": "Steel Chestplate",
       "gui.mineterra.game_start_character_creation.tooltip_brute": "Brute.",
       "block.mineterra.silver_ore": "Minério de Prata",
       "block.mineterra.titanium_block": "Block of Titanium",
+      "item.mineterra.awaken_demonite_sword": "Demonite Sword",
       "item.mineterra.fire_staff_wand": "Fire Staff",
       "item.mineterra.iron_sai_rapier": "Sai de Ferro",
       "gui.mineterra.game_start_character_creation.name": "Your name",
       "attribute.mineterra.life_steal": "Life Steal",
       "gui.mineterra.feralits_gui.label_mas_ao_final_do_dia_todos_sabem": "mas ao final do dia, todos sabemos",
       "item.mineterra.light_iron_dagger": "Light Iron Dagger",
+      "item.mineterra.awaken_arcanite_sword": "Arcanite Sword",
       "subtitles.orc-roar": "",
       "item.mineterra.imperial_gold_claymore": "Espada Longa Imperial de Ouro ",
       "block.mineterra.steel_block": "Block of Steel",
@@ -6631,8 +7527,11 @@
       "item.mineterra.sudden_burst": "Vampiric Instinct",
       "item.mineterra.runic_stone_dueling": "Runic Stone Dueling",
       "item.mineterra.rusted_iron_scythe": "Rusted Scythe",
+      "subtitles.fireignite1": "",
+      "subtitles.fireignite2": "",
       "gui.mineterra.game_start_character_creation.button_select": "Select",
       "effect.mineterra.forest_blessing": "Bênção da Fauna",
+      "item.mineterra.frostbite_sword": "Frostbite Sword",
       "key.mineterra.ability": "Ability",
       "effect.mineterra.focus_blade_effect": "Focus - Your next attack deals more damage",
       "item.mineterra.light_staff_wand": "Light Staff",
@@ -6641,9 +7540,11 @@
       "item.mineterra.suradiirs_scythe": "Suradiirs Scythe",
       "subtitles.ferocity-growl": "",
       "subtitles.dash": "",
-      "item.mineterra.celestium_sword": "Celestium Sword",
+      "item.mineterra.ruby": "Ruby",
       "item.mineterra.iron_dagger": "Adaga de Ferro",
       "item.mineterra.steel_sword": "Steel Sword",
+      "item.mineterra.garnet": "Garnet",
+      "block.mineterra.garnet_block": "Block of Garnet",
       "item.mineterra.titanium_axe": "Titanium Axe",
       "gui.mineterra.attribute_upgrader.label_attributes": "Attributes",
       "item.mineterra.diamond_katana": "Katana de Diamante",
@@ -6659,17 +7560,18 @@
       "attribute.mineterra.intelligence": "Intelligence",
       "gui.mineterra.game_start_character_creation.label_empty": "?",
       "gui.mineterra.game_start_character_creation.Feralit": "Feralit",
+      "item.mineterra.citrine": "Citrine",
       "subtitles.dreamwood-ambience": "",
       "item.mineterra.arcanitium": "Arcanitium",
       "item.mineterra.stone_katana": "Katana de Pedra",
       "gui.mineterra.gnome_gui.label_mas_ao_final_do_dia_todos_sabem": "mas ao final do dia, todos sabemos",
       "subtitles.abyssal-transformation-sound": "",
       "item.mineterra.titanium_armor_boots": "Titanium Boots",
-      "item.mineterra.amethyst_sword": "Arcanite Sword",
-      "effect.mineterra.soul_steal": "Banquete Espiritual",
+      "effect.mineterra.soul_steal": "Spiritual Lift",
       "item.mineterra.golden_claymore": "Espada Longa de Ouro",
       "subtitles.arcanite-spell": "",
       "item.mineterra.titanium_hoe": "Titanium Hoe",
+      "item.mineterra.awaken_banished_queen_sword": "Phantom Blade",
       "attribute.mineterra.dexterity": "Dexterity",
       "item.mineterra.magical_casing": "Magical Casing",
       "subtitles.heartbeat10s": "",
@@ -6688,6 +7590,7 @@
       "gui.mineterra.game_start_character_creation.ForestElf": "ForestElf",
       "gui.mineterra.game_start_character_creation.button_prev": "\u003c Prev.",
       "effect.mineterra.ferocity": "Brutalidade e Ferocidade",
+      "item.mineterra.citrine_sword": "Citrine Sword",
       "gui.mineterra.game_start_character_creation.button_human4": "Dwarfen",
       "gui.mineterra.game_start_character_creation.button_human3": "Oceanic",
       "gui.mineterra.game_start_character_creation.button_human6": "Arcanes",
@@ -6696,8 +7599,8 @@
       "gui.mineterra.game_start_character_creation.button_human7": "Ixtalean",
       "gui.mineterra.game_start_character_creation.button_human9": "Luckmore",
       "item.mineterra.spiritual_claymore": "Espada Espiritual",
-      "gui.mineterra.game_start_character_creation.tooltip_good_at_mining_dwarfen_are_peop": "Good at mining, Dwarfen are people born in the far lands of Dwarfia, the richest land in the ores and gemstones quesites. You earn haste and a mining boost depending on the amount of time you pass underground.",
       "item.mineterra.gold_rapier": "Gold Rapier",
+      "gui.mineterra.game_start_character_creation.tooltip_good_at_mining_dwarfen_are_peop": "Good at mining, Dwarfen are people born in the far lands of Dwarfia, the richest land in the ores and gemstones quesites. You earn haste and a mining boost depending on the amount of time you pass underground.",
       "block.mineterra.silver_block": "Bloco de Prata",
       "block.mineterra.arcanitium_block": "Block of Arcanitium",
       "item.mineterra.steel_armor_leggings": "Steel Leggings",
@@ -6709,10 +7612,10 @@
       "gui.mineterra.game_start_character_creation.button_human1": "Haerean",
       "item.mineterra.light_orb": "Light Orb",
       "item.mineterra.steel_ingot": "Steel",
-      "item.mineterra.arcanite_sword": "Arcanite Sword",
       "item.mineterra.stone_dagger": "Adaga de Pedra",
       "item.mineterra.nebulous_veil_dagger": "Nebulous Veil",
       "item.mineterra.runic_stone_fatality": "Runic Stone Fatality",
+      "item.mineterra.awaken_ruby_sword": "Ruby Sword",
       "item.mineterra.celestium_ingot": "Celestium",
       "gui.mineterra.human_gui.tooltip_ha_eons_atras_muito_antes_da_so": "Há éons atrás, muito antes da sombra do asteroide Astérion lançar o mundo em um abismo de caos e desolação, uma raça ancestral dominava os confins de Mineterra. Seus domínios se estendiam por vastos territórios, da cintura dos mares tempestuosos às profundezas das florestas milenares, e sua civilização prosperava em harmonia com a natureza e a magia.  No entanto, quando o asteroide destruidor, Astérion, rasgou os céus com sua queda devastadora, o mundo que conheciam foi mergulhado na escuridão e no desespero. Cidades grandiosas se transformaram em ruínas, e os corações corajosos desses antigos habitantes se viram confrontados com uma luta pela sobrevivência em uma terra transformada.  Hoje, enquanto os seres humanos tentam recomeçar, eles aproveitam ao máximo sua incrível capacidade de se adaptar a novos ambientes e de criar ferramentas para desbravar os recantos mais sombrios da Mineterra. Eles carregam consigo a memória de sua herança perdida, determinados a aprender com os segredos antigos e restaurar a grandiosidade de uma raça que uma vez foi aclamada como uma das mais bem-sucedidas do universo. Nas suas jornadas, os humanos se esforçam para mostrar ao mundo o verdadeiro motivo de seu legado, enquanto enfrentam os desafios implacáveis de um novo amanhecer épico.",
       "gui.mineterra.passive_items.tooltip_item_inicialitem_de_classe": "Item Inicial/Item de classe",
@@ -6733,6 +7636,7 @@
       "item.mineterra.arcanite_staff_wand": "Arcanite Staff",
       "gui.mineterra.game_start_character_creation.tooltip_people_with_haerean_offspring_ar": "People with Haerean offspring are good beings. The main descendents of the Celestial, they were descendents of demigods and humans. You earn the ability to fly, and became stronger on the air, although you are slower on the ground. ",
       "block.mineterra.titanium_ore": "Titanium Ore",
+      "subtitles.frozen": "",
       "item.mineterra.titanium_pickaxe": "Titanium Pickaxe",
       "effect.mineterra.vampiric_instinct_effect": "Bloodthirst - Your next attack will heal you.",
       "item.mineterra.steel_hoe": "Steel Hoe",
@@ -6740,6 +7644,7 @@
       "gui.mineterra.game_start_character_creation.tooltip_offsprings_are_the_races_the": "Offsprings are the \"races\", the informations that will give you the basic attributes depending on what race have you choosen. You can change them later creating a race diffuser. You can see more information about each offspring hovering the mouse on the right side of each race.",
       "subtitles.insatable-hunger": "",
       "block.mineterra.demonita_ore": "Minério de Demonita",
+      "block.mineterra.citrine_block": "Block of Citrine",
       "item.mineterra.steel_pickaxe": "Steel Pickaxe",
       "gui.mineterra.game_start_character_creation.label_pick_an_race": "Hello! Mineterran, i need some information",
       "gui.mineterra.game_start_character_creation.label_first_tell_me_your_starting_fun": "First, tell me your offspring",
@@ -6752,13 +7657,18 @@
       "attribute.mineterra.wisdom": "Wisdom",
       "subtitles.lightspell": "",
       "item.mineterra.netherite_katana": "Katana de Netherita",
+      "item.mineterra.awaken_garnet_sword": "Garnet Sword",
       "item.mineterra.silver_ingot": "Prata",
+      "block.mineterra.citrine_ore": "Citrine Ore",
       "item.mineterra.runic_stone_precision": "Precision Runic Stone",
       "gui.mineterra.attribute_upgrader.button_empty": "+",
       "subtitles.arcane-sword-sound": "",
       "subtitles.ritualdagger8s": "",
+      "item.mineterra.awaken_celestium_sword": "Celestium Sword",
       "item.mineterra.elderly_rapier_sai": "Ender Sai",
       "item.mineterra.steel_scythe": "Steel Scythe",
+      "item.mineterra.inferno_blaze_sword": "Inferno Blaze",
+      "item.mineterra.glacial_longblade_claymore": "Glacial Longsword",
       "item.mineterra.gold_sai_rapier": "Sai de Ouro",
       "gui.mineterra.game_start_character_creation.HighElf": "HighElf",
       "item.mineterra.silver_sword": "Espada de Prata",
@@ -6767,18 +7677,17 @@
       "item.mineterra.silver_dagger": "Adaga de Prata",
       "item.mineterra.iron_scythe": "Iron Scythe",
       "block.mineterra.demonita_block": "Bloco de Demonita",
-      "effect.mineterra.soul_heal": "Consumir a Alma",
+      "effect.mineterra.soul_heal": "Soul Consume",
       "item.mineterra.diamond_claymore": "Espada Longa de Diamante",
-      "item.mineterra.demonita_sword": "Espada de Demonita",
       "item.mineterra.demonita": "Demonita",
       "attribute.mineterra.strength": "Strength",
       "item.mineterra.wood_staff": "Wood Staff",
       "subtitles.gemstone_armor_equip": "",
       "item.mineterra.netherite_sai_rapier": "Sai de Netherita",
+      "item.mineterra.frost_fangs_dagger": "Frostfangs",
       "item.mineterra.focus_blade": "Focus Blade",
       "item_group.mineterra.mineterra": "Mineterra",
       "gui.mineterra.gnome_gui.label_a_heranca_de_um_evento_devastado": "a herança de um evento devastador,",
-      "item.mineterra.blade_of_banished_queen": "Blade Of Banished Queen",
       "item.mineterra.runic_stone_resistence": "Runic Stone Resistence",
       "gui.mineterra.game_start_character_creation.Abyssal": "Abyssal",
       "subtitles.katana_draw": "",
@@ -6787,14 +7696,17 @@
       "item.mineterra.steel_shovel": "Steel Shovel",
       "item.mineterra.empty": "Empty",
       "subtitles.shen_sword": "",
+      "effect.mineterra.frozen": "Frozen",
       "item.mineterra.rapier": "Iron Rapier",
       "effect.mineterra.bestial_domain": "Fera Enfurecida",
       "gui.mineterra.game_start_character_creation.label_about_you_to_let_you_enter_in_ou": "about you to let you enter in our lands.",
+      "block.mineterra.ruby_block": "Block of Ruby",
       "item.mineterra.crepitars_blade_sword": "Crepitars Blade Sword",
       "subtitles.celestial-transform-saound": "",
       "gui.mineterra.game_start_character_creation.Human": "Human",
       "subtitles.start-bleeding": "",
       "gui.mineterra.gnome_gui.label_das_suas_consequencias": "das suas consequências.",
+      "item.mineterra.the_scavenger_cutlass": "The Scavenger Cutlass",
       "item.mineterra.stormrazor_katana": "Stormrazor",
       "block.mineterra.arcanitium_ore": "Arcanitium Ore",
       "key.mineterra.attribute_upgrader_open": "Attribute Upgrader Open",
@@ -6804,6 +7716,8 @@
       "subtitles.transformation-sound": "",
       "gui.mineterra.game_start_character_creation.button_next": "Next \u003e",
       "subtitles.max-chaos": "",
+      "block.mineterra.ruby_ore": "Ruby Ore",
+      "item.mineterra.awaken_amethyst_sword": "Amethyst Sword",
       "subtitles.celestial-transformation-sound": "",
       "item.mineterra.titanium_armor_leggings": "Titanium Leggings",
       "effect.mineterra.tide_blessing": "Bênção da Maré"
@@ -6931,6 +7845,23 @@
                   {
                     "name": "Recipes",
                     "children": []
+                  },
+                  {
+                    "name": "Cutlass",
+                    "children": []
+                  },
+                  {
+                    "name": "Elemental Weapons",
+                    "children": [
+                      {
+                        "name": "Ice",
+                        "children": []
+                      },
+                      {
+                        "name": "Fire",
+                        "children": []
+                      }
+                    ]
                   }
                 ]
               },
@@ -7005,19 +7936,28 @@
         "name": "Abilities",
         "children": [
           {
-            "name": "Dash",
-            "children": []
+            "name": "Q",
+            "children": [
+              {
+                "name": "Sudden Burst",
+                "children": []
+              },
+              {
+                "name": "Vampiric Instinct",
+                "children": []
+              },
+              {
+                "name": "Focus Blade",
+                "children": []
+              },
+              {
+                "name": "Dash",
+                "children": []
+              }
+            ]
           },
           {
-            "name": "Focus Blade",
-            "children": []
-          },
-          {
-            "name": "Vampiric Instinct",
-            "children": []
-          },
-          {
-            "name": "Sudden Burst",
+            "name": "R",
             "children": []
           }
         ]
@@ -7031,6 +7971,10 @@
         "children": [
           {
             "name": "Bleeding",
+            "children": []
+          },
+          {
+            "name": "Freeze",
             "children": []
           }
         ]

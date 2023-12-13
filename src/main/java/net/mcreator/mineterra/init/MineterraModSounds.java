@@ -40,4 +40,7 @@ public class MineterraModSounds {
 	public static final RegistryObject<SoundEvent> STAB = REGISTRY.register("stab", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mineterra", "stab")));
 	public static final RegistryObject<SoundEvent> DASH = REGISTRY.register("dash", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mineterra", "dash")));
 	public static final RegistryObject<SoundEvent> ARCANE_SWORD_SOUND = REGISTRY.register("arcane-sword-sound", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mineterra", "arcane-sword-sound")));
+	public static final RegistryObject<SoundEvent> FIREIGNITE1 = REGISTRY.register("fireignite1", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mineterra", "fireignite1")));
+	public static final RegistryObject<SoundEvent> FIREIGNITE2 = REGISTRY.register("fireignite2", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mineterra", "fireignite2")));
+	public static final RegistryObject<SoundEvent> FROZEN = REGISTRY.register("frozen", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("mineterra", "frozen")));
 }

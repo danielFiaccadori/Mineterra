@@ -1,0 +1,37 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "icon_32_2_01",
+    "customModelName": "Normal",
+    "name": "Demonite Sword",
+    "specialInfo": [
+      "§cDemon Blaze",
+      "§8The blazing energy of the demonic gem infuses this sword, granting it the ability to deal additional fire damage each 3 attacks during 2 seconds."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 3,
+    "efficiency": 8.0,
+    "attackSpeed": 1.0,
+    "enchantability": 21,
+    "damageVsEntity": 3.0,
+    "usageCount": 4332,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Demonita"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "DemonitaSwordLivingEntityIsHitWithTool"
+    }
+  }
+}

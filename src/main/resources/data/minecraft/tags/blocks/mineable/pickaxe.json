@@ -10,7 +10,13 @@
     "mineterra:steel_block",
     "mineterra:celestium_ore",
     "mineterra:celestium_block",
+    "mineterra:ruby_ore",
+    "mineterra:ruby_block",
+    "mineterra:garnet_ore",
+    "mineterra:garnet_block",
     "mineterra:silver_ore",
-    "mineterra:silver_block"
+    "mineterra:silver_block",
+    "mineterra:citrine_ore",
+    "mineterra:citrine_block"
   ]
 }

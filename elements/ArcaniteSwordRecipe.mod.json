@@ -18,13 +18,13 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Arcanitium"
+        "value": "CUSTOM:ArcaniteGemstone"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Arcanite"
+        "value": "CUSTOM:ArcaniteGemstone"
       },
       {
         "value": ""
@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ArcaniteSword"
+      "value": "CUSTOM:AwakenArcaniteSword"
     },
     "name": "arcanite_sword_recipe",
     "namespace": "mod"

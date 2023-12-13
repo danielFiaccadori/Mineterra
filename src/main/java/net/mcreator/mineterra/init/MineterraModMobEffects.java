@@ -19,6 +19,7 @@ import net.mcreator.mineterra.potion.SoulHealMobEffect;
 import net.mcreator.mineterra.potion.SmallAndEfficientMobEffect;
 import net.mcreator.mineterra.potion.SangramentoMobEffect;
 import net.mcreator.mineterra.potion.InsatableHungerMobEffect;
+import net.mcreator.mineterra.potion.FrozenMobEffect;
 import net.mcreator.mineterra.potion.ForestBlessingMobEffect;
 import net.mcreator.mineterra.potion.FocusBladeEffectMobEffect;
 import net.mcreator.mineterra.potion.FerocityMobEffect;
@@ -40,4 +41,5 @@ public class MineterraModMobEffects {
 	public static final RegistryObject<MobEffect> FOCUS_BLADE_EFFECT = REGISTRY.register("focus_blade_effect", () -> new FocusBladeEffectMobEffect());
 	public static final RegistryObject<MobEffect> VAMPIRIC_INSTINCT_EFFECT = REGISTRY.register("vampiric_instinct_effect", () -> new VampiricInstinctEffectMobEffect());
 	public static final RegistryObject<MobEffect> SUDDEN_BURST_EFFECT = REGISTRY.register("sudden_burst_effect", () -> new SuddenBurstEffectMobEffect());
+	public static final RegistryObject<MobEffect> FROZEN = REGISTRY.register("frozen", () -> new FrozenMobEffect());
 }

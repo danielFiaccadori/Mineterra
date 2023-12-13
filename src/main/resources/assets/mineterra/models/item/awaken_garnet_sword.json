@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "mineterra:item/icon_32_2_03"
+  }
+}

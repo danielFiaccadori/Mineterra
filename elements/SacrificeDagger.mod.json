@@ -4,13 +4,12 @@
   "definition": {
     "toolType": "Sword",
     "renderType": 0,
-    "texture": "sacrificedagger",
+    "texture": "iicon_32_26",
     "customModelName": "Normal",
     "name": "Adaga de Sacrifício",
     "specialInfo": [
-      "§cAssassin§8",
-      "Daggers deal §6additional damage§8 based on your Dexterity + Attack Damage.",
-      "§8§oExecute enemies below 30% of health."
+      "§cSudden Death",
+      "§8Execute enemies below 30% of health."
     ],
     "creativeTab": {
       "value": "COMBAT"

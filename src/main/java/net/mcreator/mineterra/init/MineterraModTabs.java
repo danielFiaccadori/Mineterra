@@ -53,6 +53,15 @@ public class MineterraModTabs {
 				tabData.accept(MineterraModItems.FOCUS_BLADE.get());
 				tabData.accept(MineterraModItems.VAMPIRIC_INSTINCT.get());
 				tabData.accept(MineterraModItems.SUDDEN_BURST.get());
+				tabData.accept(MineterraModBlocks.RUBY_ORE.get().asItem());
+				tabData.accept(MineterraModBlocks.RUBY_BLOCK.get().asItem());
+				tabData.accept(MineterraModItems.RUBY.get());
+				tabData.accept(MineterraModBlocks.GARNET_ORE.get().asItem());
+				tabData.accept(MineterraModBlocks.GARNET_BLOCK.get().asItem());
+				tabData.accept(MineterraModItems.GARNET.get());
+				tabData.accept(MineterraModBlocks.CITRINE_ORE.get().asItem());
+				tabData.accept(MineterraModBlocks.CITRINE_BLOCK.get().asItem());
+				tabData.accept(MineterraModItems.CITRINE.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -78,6 +87,7 @@ public class MineterraModTabs {
 			tabData.accept(MineterraModItems.GOLDEN_CLAYMORE.get());
 			tabData.accept(MineterraModItems.DIAMOND_CLAYMORE.get());
 			tabData.accept(MineterraModItems.CREPITARS_BLADE_SWORD.get());
+			tabData.accept(MineterraModItems.BALSADUR_GREATSWORD_CLAYMORE.get());
 			tabData.accept(MineterraModItems.NETHERITE_CLAYMORE.get());
 			tabData.accept(MineterraModItems.IMPERIAL_GOLD_CLAYMORE.get());
 			tabData.accept(MineterraModItems.SPIRITUAL_CLAYMORE.get());
@@ -95,11 +105,7 @@ public class MineterraModTabs {
 			tabData.accept(MineterraModItems.LIGHT_STAFF_WAND.get());
 			tabData.accept(MineterraModItems.FIRE_STAFF_WAND.get());
 			tabData.accept(MineterraModItems.LIGHT_IRON_DAGGER.get());
-			tabData.accept(MineterraModItems.CELESTIUM_SWORD.get());
-			tabData.accept(MineterraModItems.ARCANITE_SWORD.get());
-			tabData.accept(MineterraModItems.BLADE_OF_BANISHED_QUEEN.get());
 			tabData.accept(MineterraModItems.STEEL_SWORD.get());
-			tabData.accept(MineterraModItems.DEMONITA_SWORD.get());
 			tabData.accept(MineterraModItems.SILVER_SWORD.get());
 			tabData.accept(MineterraModItems.COPPER_SWORD.get());
 			tabData.accept(MineterraModItems.SURADIIRS_SCYTHE.get());
@@ -109,7 +115,6 @@ public class MineterraModTabs {
 			tabData.accept(MineterraModItems.GOLD_RAPIER.get());
 			tabData.accept(MineterraModItems.DIAMOND_RAPIER.get());
 			tabData.accept(MineterraModItems.STEEL_RAPIER.get());
-			tabData.accept(MineterraModItems.BALSADUR_GREATSWORD_CLAYMORE.get());
 			tabData.accept(MineterraModItems.TITANIUM_ARMOR_HELMET.get());
 			tabData.accept(MineterraModItems.TITANIUM_ARMOR_CHESTPLATE.get());
 			tabData.accept(MineterraModItems.TITANIUM_ARMOR_LEGGINGS.get());
@@ -118,7 +123,19 @@ public class MineterraModTabs {
 			tabData.accept(MineterraModItems.STEEL_ARMOR_CHESTPLATE.get());
 			tabData.accept(MineterraModItems.STEEL_ARMOR_LEGGINGS.get());
 			tabData.accept(MineterraModItems.STEEL_ARMOR_BOOTS.get());
-			tabData.accept(MineterraModItems.AMETHYST_SWORD.get());
+			tabData.accept(MineterraModItems.THE_SCAVENGER_CUTLASS.get());
+			tabData.accept(MineterraModItems.AWAKEN_DEMONITE_SWORD.get());
+			tabData.accept(MineterraModItems.AWAKEN_BANISHED_QUEEN_SWORD.get());
+			tabData.accept(MineterraModItems.AWAKEN_CELESTIUM_SWORD.get());
+			tabData.accept(MineterraModItems.AWAKEN_ARCANITE_SWORD.get());
+			tabData.accept(MineterraModItems.AWAKEN_AMETHYST_SWORD.get());
+			tabData.accept(MineterraModItems.AWAKEN_RUBY_SWORD.get());
+			tabData.accept(MineterraModItems.AWAKEN_GARNET_SWORD.get());
+			tabData.accept(MineterraModItems.CITRINE_SWORD.get());
+			tabData.accept(MineterraModItems.FROSTBITE_SWORD.get());
+			tabData.accept(MineterraModItems.GLACIAL_LONGBLADE_CLAYMORE.get());
+			tabData.accept(MineterraModItems.FROST_FANGS_DAGGER.get());
+			tabData.accept(MineterraModItems.INFERNO_BLAZE_SWORD.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
