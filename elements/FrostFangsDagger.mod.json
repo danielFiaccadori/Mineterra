@@ -9,8 +9,9 @@
     "name": "Frostfangs",
     "specialInfo": [
       "§Glacial Laceration",
-      "§8§oCarrying elemental power of the ancient ice, the first attack with this dagger stuns a target. While stunned, your next attack will inflict §6§oFocus Blade§8§o bonus damage.",
-      "§8§oFocus blade deals bonus on hit damage based on your base §6AD§8§o(+ your bonus §5MD§8§o + §8§oyour bonus §6§oAD§8§o * 0,5) until a maximum of 5."
+      "§8§oCarrying elemental power of the ancient ice, the first hit with this dagger §b§oFreezes§8§o a target for a short periodt. While §b§oFrozen§8§o, your next attack will inflict §6§oFocus Blade§8§o bonus damage.",
+      "§8§oFocus blade deals bonus on hit damage based on your base §6AD§8§o(+ your bonus §5MD§8§o + §8§oyour bonus §6§oAD§8§o * 0,5) until a maximum of 5.",
+      "§8§o(Frozen targets suffer 5 additional damage when the ice is broken)"
     ],
     "creativeTab": {
       "value": "COMBAT"
@@ -32,7 +33,7 @@
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onEntityHitWith": {
-      "name": "FrostbiteSwordLivingEntityIsHitWithTool"
+      "name": "FrostFangsDaggerLivingEntityIsHitWithTool"
     }
   }
 }

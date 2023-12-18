@@ -12,7 +12,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.mineterra.procedures.FrostbiteSwordLivingEntityIsHitWithToolProcedure;
+import net.mcreator.mineterra.procedures.FrostFangsDaggerLivingEntityIsHitWithToolProcedure;
 
 import java.util.List;
 
@@ -48,7 +48,7 @@ public class FrostFangsDaggerItem extends SwordItem {
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
-		FrostbiteSwordLivingEntityIsHitWithToolProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity, sourceentity);
+		FrostFangsDaggerLivingEntityIsHitWithToolProcedure.execute(entity.level(), entity, sourceentity, itemstack);
 		return retval;
 	}
 
@@ -56,8 +56,10 @@ public class FrostFangsDaggerItem extends SwordItem {
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("\u00A7Glacial Laceration"));
-		list.add(Component.literal("\u00A78\u00A7oCarrying elemental power of the ancient ice, the first attack with this dagger stuns a target. While stunned, your next attack will inflict \u00A76\u00A7oFocus Blade\u00A78\u00A7o bonus damage."));
+		list.add(Component.literal(
+				"\u00A78\u00A7oCarrying elemental power of the ancient ice, the first hit with this dagger \u00A7b\u00A7oFreezes\u00A78\u00A7o a target for a short periodt. While \u00A7b\u00A7oFrozen\u00A78\u00A7o, your next attack will inflict \u00A76\u00A7oFocus Blade\u00A78\u00A7o bonus damage."));
 		list.add(Component
 				.literal("\u00A78\u00A7oFocus blade deals bonus on hit damage based on your base \u00A76AD\u00A78\u00A7o(+ your bonus \u00A75MD\u00A78\u00A7o + \u00A78\u00A7oyour bonus \u00A76\u00A7oAD\u00A78\u00A7o * 0,5) until a maximum of 5."));
+		list.add(Component.literal("\u00A78\u00A7o(Frozen targets suffer 5 additional damage when the ice is broken)"));
 	}
 }

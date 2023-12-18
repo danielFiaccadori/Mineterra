@@ -9,7 +9,7 @@
     "name": "Glacial Longsword",
     "specialInfo": [
       "§bWinter's Wrath",
-      "§8§oCarrying elemental power of the ancient ice, the 3rd attack of this sword emmits a icebreaker strike, dealing bonus damage based on 20% of your §2§oMax Health§8§o, having a chance of §b§oFreezing§8§o the target for 5 seconds.",
+      "§8§oCarrying elemental power of the ancient ice, each 9 attacks §b§oFreeze§8§o the target for 5 seconds, disarming enemies if they're using a weapon.",
       "§8§o(Frozen targets suffer 5 additional damage when the ice is broken)"
     ],
     "creativeTab": {
@@ -17,7 +17,7 @@
     },
     "harvestLevel": 1,
     "efficiency": 4.0,
-    "attackSpeed": 1.0,
+    "attackSpeed": 0.5,
     "enchantability": 21,
     "damageVsEntity": 6.0,
     "usageCount": 4612,

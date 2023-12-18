@@ -1,0 +1,37 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "pixelart_swords_fire_32_07",
+    "customModelName": "Normal",
+    "name": "Inferno Emberlash",
+    "specialInfo": [
+      "§4Flameburst Fury",
+      "§8§oCarrying elemental power of permafire, hits has a chance of inflict Bleeding to enemies based on your §6Meele Critical Chance§8§o for 5 seconds. If a enemy that is still bleeding is hit, you suddenly cauterizes its torns, stopping the bleeding and causing a burst of damage based on enemie's §2Max Health§8§o. (You also recieve additional Attack Speed while attacking those enemies)"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.5,
+    "enchantability": 21,
+    "damageVsEntity": 8.0,
+    "usageCount": 4612,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.BLAZE_POWDER"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "InfernoEmberlashDaggerOnEntityIsHitWithTool"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_fv": 47,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "On Fire",
+    "icon": "tile004.png",
+    "color": {
+      "value": -3381760,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "OnFireEffectStartedapplied"
+    }
+  }
+}

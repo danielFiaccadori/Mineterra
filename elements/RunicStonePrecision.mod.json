@@ -30,8 +30,7 @@
     "damageVsEntity": 0.0,
     "specialInfo": [
       "§6Precision Nv.1",
-      "- §7+2 Ranged Attack Damage",
-      "§710% Ranged Critical Hit Chance",
+      "§7- 10% Ranged Critical Hit Chance",
       "§8§oThe subject of this rune is to increase the damage of ranged items. (Each runic stone can be upgraded using a runic upgrader in a smithing table)"
     ],
     "hasGlow": false,
@@ -39,6 +38,12 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "slotAmount": 1,
+    "onEquip": {
+      "name": "RunicStonePrecisionProcedure"
+    },
+    "onUnequip": {
+      "name": "RunicStonePrecisionProcedure"
+    },
     "isFood": false,
     "friendlyPigs": false,
     "enderMask": false,

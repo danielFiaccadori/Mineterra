@@ -4747,7 +4747,7 @@
           }
         ]
       },
-      "path": "~/Items/ItemsNormal/PassiveItems/Precision"
+      "path": "~/Custom Attributes/Custom Common Attributes/Critical/Ranged Critical"
     },
     {
       "name": "RunicStoneDueling",
@@ -5722,7 +5722,7 @@
           "src/main/java/net/mcreator/mineterra/world/inventory/AttributeUpgraderMenu.java"
         ]
       },
-      "path": "~/Custom Attributes/GUIs/Attribute Upgrade"
+      "path": "~/Custom Attributes/GUIs/Attribute Upgrade/AttributeUpgraderScreens"
     },
     {
       "name": "DisplayConstituition",
@@ -6563,11 +6563,11 @@
       "sortid": 358,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "the_scavenger_cutlass",
+      "registry_name": "cutlass_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mineterra/models/item/the_scavenger_cutlass.json",
-          "src/main/java/net/mcreator/mineterra/item/TheScavengerCutlassItem.java"
+          "src/main/java/net/mcreator/mineterra/item/TheScavengerCutlassItem.java",
+          "src/main/resources/assets/mineterra/models/item/cutlass_1.json"
         ]
       },
       "path": "~/Items/ItemsNormal/Common Items/Cutlass"
@@ -6664,7 +6664,7 @@
       "type": "tool",
       "sortid": 364,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "awaken_arcanite_sword",
       "metadata": {
         "files": [
@@ -6672,7 +6672,7 @@
           "src/main/resources/assets/mineterra/models/item/awaken_arcanite_sword.json"
         ]
       },
-      "path": "~/Items/ItemsNormal/Common Items/Swords"
+      "path": "~/Items/ItemsNormal/Common Items/Elemental Weapons/Arcane"
     },
     {
       "name": "AwakenAmethystSword",
@@ -6926,7 +6926,7 @@
       "type": "tool",
       "sortid": 380,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "frostbite_sword",
       "metadata": {
         "files": [
@@ -6981,7 +6981,7 @@
       "type": "tool",
       "sortid": 382,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "glacial_longblade_claymore",
       "metadata": {
         "files": [
@@ -7012,18 +7012,6 @@
             "type": "entity"
           },
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -7036,7 +7024,7 @@
       "type": "tool",
       "sortid": 384,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "frost_fangs_dagger",
       "metadata": {
         "files": [
@@ -7051,7 +7039,7 @@
       "type": "tool",
       "sortid": 385,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "inferno_blaze_sword",
       "metadata": {
         "files": [
@@ -7098,26 +7086,6 @@
       "path": "~/Items/ItemsNormal/Common Items/Procedures"
     },
     {
-      "name": "Freeze",
-      "type": "procedure",
-      "sortid": 387,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "freeze",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mineterra/procedures/FreezeProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Global Effects/Freeze"
-    },
-    {
       "name": "Frozen",
       "type": "potioneffect",
       "sortid": 388,
@@ -7127,26 +7095,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/mineterra/potion/FrozenMobEffect.java"
-        ]
-      },
-      "path": "~/Global Effects/Freeze"
-    },
-    {
-      "name": "FrozenOnEffectActiveTick",
-      "type": "procedure",
-      "sortid": 389,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "frozen_on_effect_active_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mineterra/procedures/FrozenOnEffectActiveTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
         ]
       },
       "path": "~/Global Effects/Freeze"
@@ -7164,6 +7112,10 @@
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -7184,18 +7136,73 @@
       "path": "~/Global Effects/Freeze"
     },
     {
-      "name": "FrozenEffectExpires",
-      "type": "procedure",
-      "sortid": 391,
+      "name": "InfernoEmberlashDagger",
+      "type": "tool",
+      "sortid": 394,
       "compiles": true,
-      "locked_code": false,
-      "registry_name": "frozen_effect_expires",
+      "locked_code": true,
+      "registry_name": "inferno_emberlash_dagger",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/procedures/FrozenEffectExpiresProcedure.java"
+          "src/main/java/net/mcreator/mineterra/item/InfernoEmberlashDaggerItem.java",
+          "src/main/resources/assets/mineterra/models/item/inferno_emberlash_dagger.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Elemental Weapons/Fire"
+    },
+    {
+      "name": "FrostFangsDaggerLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 395,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frost_fangs_dagger_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/FrostFangsDaggerLivingEntityIsHitWithToolProcedure.java"
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Procedures"
+    },
+    {
+      "name": "InfernoEmberlashDaggerOnEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 396,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inferno_emberlash_dagger_on_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/InfernoEmberlashDaggerOnEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -7213,18 +7220,475 @@
           }
         ]
       },
-      "path": "~/Global Effects/Freeze"
+      "path": "~/Items/ItemsNormal/Common Items/Procedures"
     },
     {
-      "name": "FreezeBrokeCondition",
-      "type": "procedure",
-      "sortid": 392,
+      "name": "AttributeUpgraderConstituition",
+      "type": "gui",
+      "sortid": 398,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "freeze_broke_condition",
+      "registry_name": "attribute_upgrader_constituition",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mineterra/procedures/FreezeBrokeConditionProcedure.java"
+          "src/main/java/net/mcreator/mineterra/client/gui/AttributeUpgraderConstituitionScreen.java",
+          "src/main/java/net/mcreator/mineterra/world/inventory/AttributeUpgraderConstituitionMenu.java",
+          "src/main/java/net/mcreator/mineterra/network/AttributeUpgraderConstituitionButtonMessage.java"
+        ]
+      },
+      "path": "~/Custom Attributes/GUIs/Attribute Upgrade/AttributeUpgraderScreens"
+    },
+    {
+      "name": "Base",
+      "type": "gui",
+      "sortid": 399,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "base",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/world/inventory/BaseMenu.java",
+          "src/main/java/net/mcreator/mineterra/client/gui/BaseScreen.java"
+        ]
+      },
+      "path": "~/Custom Attributes/GUIs/Attribute Upgrade/AttributeUpgraderScreens"
+    },
+    {
+      "name": "BackProcedure",
+      "type": "procedure",
+      "sortid": 400,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "back_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/BackProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Custom Attributes/GUIs/Attribute Upgrade/AttributeUpgraderScreens"
+    },
+    {
+      "name": "OpenUpgraderConstituition",
+      "type": "procedure",
+      "sortid": 401,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_upgrader_constituition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/OpenUpgraderConstituitionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Custom Attributes/GUIs/Attribute Upgrade/AttributeUpgraderScreens"
+    },
+    {
+      "name": "OpenUpgraderDexterity",
+      "type": "procedure",
+      "sortid": 403,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_upgrader_dexterity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/OpenUpgraderDexterityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Custom Attributes/GUIs/Attribute Upgrade/AttributeUpgraderScreens"
+    },
+    {
+      "name": "AttributeUpgraderDexterity",
+      "type": "gui",
+      "sortid": 402,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "attribute_upgrader_dexterity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/network/AttributeUpgraderDexterityButtonMessage.java",
+          "src/main/java/net/mcreator/mineterra/client/gui/AttributeUpgraderDexterityScreen.java",
+          "src/main/java/net/mcreator/mineterra/world/inventory/AttributeUpgraderDexterityMenu.java"
+        ]
+      },
+      "path": "~/Custom Attributes/GUIs/Attribute Upgrade/AttributeUpgraderScreens"
+    },
+    {
+      "name": "AttributeUpgraderIntelligence",
+      "type": "gui",
+      "sortid": 404,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "attribute_upgrader_intelligence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/client/gui/AttributeUpgraderIntelligenceScreen.java",
+          "src/main/java/net/mcreator/mineterra/world/inventory/AttributeUpgraderIntelligenceMenu.java",
+          "src/main/java/net/mcreator/mineterra/network/AttributeUpgraderIntelligenceButtonMessage.java"
+        ]
+      },
+      "path": "~/Custom Attributes/GUIs/Attribute Upgrade/AttributeUpgraderScreens"
+    },
+    {
+      "name": "OpenUpgraderIntelligence",
+      "type": "procedure",
+      "sortid": 405,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_upgrader_intelligence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/OpenUpgraderIntelligenceProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Custom Attributes/GUIs/Attribute Upgrade/AttributeUpgraderScreens"
+    },
+    {
+      "name": "AttributeUpgraderWisdom",
+      "type": "gui",
+      "sortid": 406,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "attribute_upgrader_wisdom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/world/inventory/AttributeUpgraderWisdomMenu.java",
+          "src/main/java/net/mcreator/mineterra/client/gui/AttributeUpgraderWisdomScreen.java",
+          "src/main/java/net/mcreator/mineterra/network/AttributeUpgraderWisdomButtonMessage.java"
+        ]
+      },
+      "path": "~/Custom Attributes/GUIs/Attribute Upgrade/AttributeUpgraderScreens"
+    },
+    {
+      "name": "OpenUpgraderWisdom",
+      "type": "procedure",
+      "sortid": 407,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_upgrader_wisdom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/OpenUpgraderWisdomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Custom Attributes/GUIs/Attribute Upgrade/AttributeUpgraderScreens"
+    },
+    {
+      "name": "AttributeUpgraderStrength",
+      "type": "gui",
+      "sortid": 408,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "attribute_upgrader_strength",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/world/inventory/AttributeUpgraderStrengthMenu.java",
+          "src/main/java/net/mcreator/mineterra/network/AttributeUpgraderStrengthButtonMessage.java",
+          "src/main/java/net/mcreator/mineterra/client/gui/AttributeUpgraderStrengthScreen.java"
+        ]
+      },
+      "path": "~/Custom Attributes/GUIs/Attribute Upgrade/AttributeUpgraderScreens"
+    },
+    {
+      "name": "OpenUpgraderStrength",
+      "type": "procedure",
+      "sortid": 409,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_upgrader_strength",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/OpenUpgraderStrengthProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Custom Attributes/GUIs/Attribute Upgrade/AttributeUpgraderScreens"
+    },
+    {
+      "name": "AttributeUpgraderCharisma",
+      "type": "gui",
+      "sortid": 410,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "attribute_upgrader_charisma",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/client/gui/AttributeUpgraderCharismaScreen.java",
+          "src/main/java/net/mcreator/mineterra/network/AttributeUpgraderCharismaButtonMessage.java",
+          "src/main/java/net/mcreator/mineterra/world/inventory/AttributeUpgraderCharismaMenu.java"
+        ]
+      },
+      "path": "~/Custom Attributes/GUIs/Attribute Upgrade/AttributeUpgraderScreens"
+    },
+    {
+      "name": "OpenUpgraderCharisma",
+      "type": "procedure",
+      "sortid": 411,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_upgrader_charisma",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/OpenUpgraderCharismaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Custom Attributes/GUIs/Attribute Upgrade/AttributeUpgraderScreens"
+    },
+    {
+      "name": "InfernosEmbrace",
+      "type": "tool",
+      "sortid": 412,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "infernos_embrace_claymore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mineterra/models/item/infernos_embrace_claymore.json",
+          "src/main/java/net/mcreator/mineterra/item/InfernosEmbraceItem.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Elemental Weapons/Fire"
+    },
+    {
+      "name": "InfernosEmbraceLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 413,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernos_embrace_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/InfernosEmbraceLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Procedures"
+    },
+    {
+      "name": "InfernosEmbraceDPS",
+      "type": "potioneffect",
+      "sortid": 415,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernos_embrace_dps",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/potion/InfernosEmbraceDPSMobEffect.java"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Procedures"
+    },
+    {
+      "name": "InfernosEmbraceDPSActiveTickCondition",
+      "type": "procedure",
+      "sortid": 416,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernos_embrace_dps_active_tick_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/InfernosEmbraceDPSActiveTickConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "amplifier",
+            "type": "number"
+          },
+          {
+            "name": "duration",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Procedures"
+    },
+    {
+      "name": "InfernosEmbraceDPSOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 417,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernos_embrace_dps_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/InfernosEmbraceDPSOnEffectActiveTickProcedure.java"
         ],
         "dependencies": [
           {
@@ -7237,7 +7701,278 @@
           }
         ]
       },
-      "path": "~/Global Effects/Freeze"
+      "path": "~/Items/ItemsNormal/Common Items/Procedures"
+    },
+    {
+      "name": "CriticalDamage",
+      "type": "procedure",
+      "sortid": 419,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "critical_damage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/CriticalDamageProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Custom Attributes/Custom Common Attributes/Critical/Meele Critical"
+    },
+    {
+      "name": "RangedCriticalChance",
+      "type": "attribute",
+      "sortid": 420,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ranged_critical_chance",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Custom Attributes/Custom Common Attributes/Critical/Ranged Critical"
+    },
+    {
+      "name": "RunicStonePrecisionProcedure",
+      "type": "procedure",
+      "sortid": 421,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_stone_precision_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/RunicStonePrecisionProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/PassiveItems/Precision"
+    },
+    {
+      "name": "MeeleCriticalChance",
+      "type": "attribute",
+      "sortid": 422,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meele_critical_chance",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Custom Attributes/Custom Common Attributes/Critical/Meele Critical"
+    },
+    {
+      "name": "FroststeelShiverbladeKatana",
+      "type": "tool",
+      "sortid": 423,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "froststeel_shiverblade_katana",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/FroststeelShiverbladeKatanaItem.java",
+          "src/main/resources/assets/mineterra/models/item/froststeel_shiverblade_katana.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Elemental Weapons/Ice"
+    },
+    {
+      "name": "FroststeelShiverbladeKatanaLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 424,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "froststeel_shiverblade_katana_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/FroststeelShiverbladeKatanaLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Procedures"
+    },
+    {
+      "name": "EternalEmberbladeKatana",
+      "type": "tool",
+      "sortid": 426,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "eternal_emberblade_katana",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/EternalEmberbladeKatanaItem.java",
+          "src/main/resources/assets/mineterra/models/item/eternal_emberblade_katana.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Elemental Weapons/Fire"
+    },
+    {
+      "name": "EternalEmberbladeKatanaOnEntityIsHit",
+      "type": "procedure",
+      "sortid": 425,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eternal_emberblade_katana_on_entity_is_hit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/EternalEmberbladeKatanaOnEntityIsHitProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Procedures"
+    },
+    {
+      "name": "OnFire",
+      "type": "potioneffect",
+      "sortid": 427,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_fire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/potion/OnFireMobEffect.java"
+        ]
+      },
+      "path": "~/Global Effects/On Fire"
+    },
+    {
+      "name": "OnFireEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 428,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_fire_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/OnFireEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Global Effects/On Fire"
+    },
+    {
+      "name": "ArcaniteLongswordClaymore",
+      "type": "tool",
+      "sortid": 429,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "arcanite_longsword_claymore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/item/ArcaniteLongswordClaymoreItem.java",
+          "src/main/resources/assets/mineterra/models/item/arcanite_longsword_claymore.json"
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Elemental Weapons/Arcane"
+    },
+    {
+      "name": "ArcaniteLongswordClaymoreLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 430,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcanite_longsword_claymore_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineterra/procedures/ArcaniteLongswordClaymoreLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/ItemsNormal/Common Items/Procedures"
     }
   ],
   "variable_elements": [
@@ -7498,21 +8233,22 @@
       "item.mineterra.iron_katana": "Katana de Ferro",
       "attribute.mineterra.charisma": "Charisma",
       "gui.mineterra.game_start_character_creation.label_human": "RACE SELECTOR",
-      "effect.mineterra.sudden_burst_effect": "Sudden Burst - Your next attack deals additional fatal damage and slow the target.",
       "item.mineterra.arcanite_gemstone": "Arcanite Gemstone",
+      "effect.mineterra.sudden_burst_effect": "Sudden Burst - Your next attack deals additional fatal damage and slow the target.",
       "block.mineterra.celestium_block": "Block of Celestium",
       "effect.mineterra.sangramento": "Bleeding",
       "block.mineterra.garnet_ore": "Garnet Ore",
       "gui.mineterra.game_start_character_creation.Celestial": "Celestial",
       "item.mineterra.steel_armor_chestplate": "Steel Chestplate",
-      "gui.mineterra.game_start_character_creation.tooltip_brute": "Brute.",
-      "block.mineterra.silver_ore": "Minério de Prata",
       "block.mineterra.titanium_block": "Block of Titanium",
+      "block.mineterra.silver_ore": "Minério de Prata",
+      "gui.mineterra.game_start_character_creation.tooltip_brute": "Brute.",
       "item.mineterra.awaken_demonite_sword": "Demonite Sword",
       "item.mineterra.fire_staff_wand": "Fire Staff",
       "item.mineterra.iron_sai_rapier": "Sai de Ferro",
       "gui.mineterra.game_start_character_creation.name": "Your name",
       "attribute.mineterra.life_steal": "Life Steal",
+      "item.mineterra.arcanite_longsword_claymore": "Arcanite Longsword",
       "gui.mineterra.feralits_gui.label_mas_ao_final_do_dia_todos_sabem": "mas ao final do dia, todos sabemos",
       "item.mineterra.light_iron_dagger": "Light Iron Dagger",
       "item.mineterra.awaken_arcanite_sword": "Arcanite Sword",
@@ -7527,6 +8263,7 @@
       "item.mineterra.sudden_burst": "Vampiric Instinct",
       "item.mineterra.runic_stone_dueling": "Runic Stone Dueling",
       "item.mineterra.rusted_iron_scythe": "Rusted Scythe",
+      "gui.mineterra.attribute_upgrader.label_wisdomeon": "Wisdomeon",
       "subtitles.fireignite1": "",
       "subtitles.fireignite2": "",
       "gui.mineterra.game_start_character_creation.button_select": "Select",
@@ -7538,8 +8275,10 @@
       "gui.mineterra.celestial_gui.label_das_suas_consequencias": "das suas consequências.",
       "item.mineterra.arcanite": "Arcanite Powder",
       "item.mineterra.suradiirs_scythe": "Suradiirs Scythe",
+      "attribute.mineterra.ranged_critical_chance": "Ranged Critical Chance",
       "subtitles.ferocity-growl": "",
       "subtitles.dash": "",
+      "item.mineterra.infernos_embrace_claymore": "Inferno\u0027s Embrace",
       "item.mineterra.ruby": "Ruby",
       "item.mineterra.iron_dagger": "Adaga de Ferro",
       "item.mineterra.steel_sword": "Steel Sword",
@@ -7556,12 +8295,16 @@
       "gui.mineterra.human_gui.label_conhecimento": "- Conhecimento;",
       "item.mineterra.gold_katana": "Katana de Ouro",
       "item.mineterra.rune_stone_spellcaster": "Runic Stone Fatality",
+      "gui.mineterra.attribute_upgrader_intelligence.label_constituition": "INTELLIGENCE",
+      "gui.mineterra.attribute_upgrader_constituition.label_constituition": "CONSTITUITION",
       "item.mineterra.diamond_rapier": "Diamond Rapier",
       "attribute.mineterra.intelligence": "Intelligence",
       "gui.mineterra.game_start_character_creation.label_empty": "?",
       "gui.mineterra.game_start_character_creation.Feralit": "Feralit",
       "item.mineterra.citrine": "Citrine",
       "subtitles.dreamwood-ambience": "",
+      "gui.mineterra.attribute_upgrader_dexterity.label_constituition": "DEXTERITY",
+      "gui.mineterra.attribute_upgrader_wisdom.label_available_attribute_points": "Available attribute points:",
       "item.mineterra.arcanitium": "Arcanitium",
       "item.mineterra.stone_katana": "Katana de Pedra",
       "gui.mineterra.gnome_gui.label_mas_ao_final_do_dia_todos_sabem": "mas ao final do dia, todos sabemos",
@@ -7570,6 +8313,7 @@
       "effect.mineterra.soul_steal": "Spiritual Lift",
       "item.mineterra.golden_claymore": "Espada Longa de Ouro",
       "subtitles.arcanite-spell": "",
+      "gui.mineterra.attribute_upgrader_constituition.button_empty1": "\u003c",
       "item.mineterra.titanium_hoe": "Titanium Hoe",
       "item.mineterra.awaken_banished_queen_sword": "Phantom Blade",
       "attribute.mineterra.dexterity": "Dexterity",
@@ -7590,12 +8334,14 @@
       "gui.mineterra.game_start_character_creation.ForestElf": "ForestElf",
       "gui.mineterra.game_start_character_creation.button_prev": "\u003c Prev.",
       "effect.mineterra.ferocity": "Brutalidade e Ferocidade",
+      "gui.mineterra.attribute_upgrader_constituition.label_available_attribute_points": "Available attribute points:",
       "item.mineterra.citrine_sword": "Citrine Sword",
       "gui.mineterra.game_start_character_creation.button_human4": "Dwarfen",
       "gui.mineterra.game_start_character_creation.button_human3": "Oceanic",
       "gui.mineterra.game_start_character_creation.button_human6": "Arcanes",
       "gui.mineterra.game_start_character_creation.button_human5": "Elven",
       "gui.mineterra.game_start_character_creation.button_human8": "Ugan",
+      "gui.mineterra.attribute_upgrader.label_luminaryxion": "Luminaryxion",
       "gui.mineterra.game_start_character_creation.button_human7": "Ixtalean",
       "gui.mineterra.game_start_character_creation.button_human9": "Luckmore",
       "item.mineterra.spiritual_claymore": "Espada Espiritual",
@@ -7603,9 +8349,12 @@
       "gui.mineterra.game_start_character_creation.tooltip_good_at_mining_dwarfen_are_peop": "Good at mining, Dwarfen are people born in the far lands of Dwarfia, the richest land in the ores and gemstones quesites. You earn haste and a mining boost depending on the amount of time you pass underground.",
       "block.mineterra.silver_block": "Bloco de Prata",
       "block.mineterra.arcanitium_block": "Block of Arcanitium",
+      "gui.mineterra.attribute_upgrader_strength.button_empty": "+",
       "item.mineterra.steel_armor_leggings": "Steel Leggings",
       "gui.mineterra.attribute_upgrader.label_points_available": "Points available:",
+      "gui.mineterra.attribute_upgrader.label_dexterity": "Dextriastra",
       "item.mineterra.runic_stone_brutality": "Runic Stone Brutality",
+      "gui.mineterra.attribute_upgrader_strength.label_constituition": "STRENGTH",
       "gui.mineterra.game_start_character_creation.button_human2": "Hadean",
       "item.mineterra.titanium_ingot": "Titanium",
       "item.mineterra.diamond_sai_rapier": "Sai de Diamante",
@@ -7614,9 +8363,12 @@
       "item.mineterra.steel_ingot": "Steel",
       "item.mineterra.stone_dagger": "Adaga de Pedra",
       "item.mineterra.nebulous_veil_dagger": "Nebulous Veil",
+      "gui.mineterra.attribute_upgrader_strength.label_this_attribute_is_mostly_recomme": "This attribute is mostly recommended in berserker and resistence builds.",
       "item.mineterra.runic_stone_fatality": "Runic Stone Fatality",
       "item.mineterra.awaken_ruby_sword": "Ruby Sword",
+      "gui.mineterra.attribute_upgrader_intelligence.button_empty1": "\u003c",
       "item.mineterra.celestium_ingot": "Celestium",
+      "gui.mineterra.attribute_upgrader_intelligence.button_empty": "+",
       "gui.mineterra.human_gui.tooltip_ha_eons_atras_muito_antes_da_so": "Há éons atrás, muito antes da sombra do asteroide Astérion lançar o mundo em um abismo de caos e desolação, uma raça ancestral dominava os confins de Mineterra. Seus domínios se estendiam por vastos territórios, da cintura dos mares tempestuosos às profundezas das florestas milenares, e sua civilização prosperava em harmonia com a natureza e a magia.  No entanto, quando o asteroide destruidor, Astérion, rasgou os céus com sua queda devastadora, o mundo que conheciam foi mergulhado na escuridão e no desespero. Cidades grandiosas se transformaram em ruínas, e os corações corajosos desses antigos habitantes se viram confrontados com uma luta pela sobrevivência em uma terra transformada.  Hoje, enquanto os seres humanos tentam recomeçar, eles aproveitam ao máximo sua incrível capacidade de se adaptar a novos ambientes e de criar ferramentas para desbravar os recantos mais sombrios da Mineterra. Eles carregam consigo a memória de sua herança perdida, determinados a aprender com os segredos antigos e restaurar a grandiosidade de uma raça que uma vez foi aclamada como uma das mais bem-sucedidas do universo. Nas suas jornadas, os humanos se esforçam para mostrar ao mundo o verdadeiro motivo de seu legado, enquanto enfrentam os desafios implacáveis de um novo amanhecer épico.",
       "gui.mineterra.passive_items.tooltip_item_inicialitem_de_classe": "Item Inicial/Item de classe",
       "item.mineterra.vampiric_instinct": "Vampiric Instinct",
@@ -7627,6 +8379,9 @@
       "gui.mineterra.game_start_character_creation.Gnome": "Gnome",
       "item.mineterra.dash": "Dash",
       "item.mineterra.titanium_armor_chestplate": "Titanium Chestplate",
+      "gui.mineterra.attribute_upgrader.label_intelligra": "Intelligra",
+      "gui.mineterra.attribute_upgrader_charisma.button_empty": "+",
+      "gui.mineterra.attribute_upgrader_constituition.button_empty": "+",
       "item.mineterra.arcane_topaz": "Arcane Topaz",
       "attribute.mineterra.chaos": "Chaos",
       "gui.mineterra.game_start_character_creation.tooltip_mainly_composed_by_humans_imper": "Mainly composed by humans, Imperials are part of one of the most adaptable and intelligent people of Mineterra. You earn knowledge and attributes based on your total EXP.",
@@ -7636,6 +8391,7 @@
       "item.mineterra.arcanite_staff_wand": "Arcanite Staff",
       "gui.mineterra.game_start_character_creation.tooltip_people_with_haerean_offspring_ar": "People with Haerean offspring are good beings. The main descendents of the Celestial, they were descendents of demigods and humans. You earn the ability to fly, and became stronger on the air, although you are slower on the ground. ",
       "block.mineterra.titanium_ore": "Titanium Ore",
+      "gui.mineterra.attribute_upgrader_constituition.label_this_attribute_is_mostly_recomme": "This attribute is mostly recommended in resistence and durability builds.",
       "subtitles.frozen": "",
       "item.mineterra.titanium_pickaxe": "Titanium Pickaxe",
       "effect.mineterra.vampiric_instinct_effect": "Bloodthirst - Your next attack will heal you.",
@@ -7647,22 +8403,32 @@
       "block.mineterra.citrine_block": "Block of Citrine",
       "item.mineterra.steel_pickaxe": "Steel Pickaxe",
       "gui.mineterra.game_start_character_creation.label_pick_an_race": "Hello! Mineterran, i need some information",
+      "gui.mineterra.attribute_upgrader.label_constituition": "Solarius",
       "gui.mineterra.game_start_character_creation.label_first_tell_me_your_starting_fun": "First, tell me your offspring",
       "gui.mineterra.orc_gui.label_das_suas_consequencias": "das suas consequências.",
       "gui.mineterra.game_start_character_creation.button_human": "Imperial",
       "gui.mineterra.feralits_gui.label_das_suas_consequencias": "das suas consequências.",
       "item.mineterra.dragon_bite_dagger": "Dragon Bite",
+      "gui.mineterra.attribute_upgrader_wisdom.label_this_attribute_is_mostly_recomme": "This attribute is mostly recommended in general and magic builds.",
       "item.mineterra.forge_hammer": "Forge Hammer",
       "item_group.mineterra.mineterra_weapons": "Mineterra Special Weapons",
+      "gui.mineterra.attribute_upgrader.label_stellarnox": "Stellarnox",
       "attribute.mineterra.wisdom": "Wisdom",
       "subtitles.lightspell": "",
+      "gui.mineterra.attribute_upgrader_dexterity.label_this_attribute_is_mostly_recomme": "This attribute is mostly recommended in damage and agility builds.",
       "item.mineterra.netherite_katana": "Katana de Netherita",
       "item.mineterra.awaken_garnet_sword": "Garnet Sword",
       "item.mineterra.silver_ingot": "Prata",
       "block.mineterra.citrine_ore": "Citrine Ore",
+      "gui.mineterra.attribute_upgrader_wisdom.button_empty1": "\u003c",
+      "gui.mineterra.attribute_upgrader_charisma.label_this_attribute_is_mostly_recomme": "This attribute is mostly recommended in illusion magic and merchant builds.",
+      "gui.mineterra.attribute_upgrader_intelligence.label_this_attribute_is_mostly_recomme": "This attribute is mostly recommended in precision and magic builds.",
+      "gui.mineterra.attribute_upgrader_strength.label_available_attribute_points": "Available attribute points:",
       "item.mineterra.runic_stone_precision": "Precision Runic Stone",
       "gui.mineterra.attribute_upgrader.button_empty": "+",
       "subtitles.arcane-sword-sound": "",
+      "item.mineterra.froststeel_shiverblade_katana": "Frostfangs",
+      "item.mineterra.inferno_emberlash_dagger": "Inferno Emberlash",
       "subtitles.ritualdagger8s": "",
       "item.mineterra.awaken_celestium_sword": "Celestium Sword",
       "item.mineterra.elderly_rapier_sai": "Ender Sai",
@@ -7670,8 +8436,10 @@
       "item.mineterra.inferno_blaze_sword": "Inferno Blaze",
       "item.mineterra.glacial_longblade_claymore": "Glacial Longsword",
       "item.mineterra.gold_sai_rapier": "Sai de Ouro",
+      "effect.mineterra.on_fire": "On Fire",
       "gui.mineterra.game_start_character_creation.HighElf": "HighElf",
       "item.mineterra.silver_sword": "Espada de Prata",
+      "gui.mineterra.attribute_upgrader_charisma.button_empty1": "\u003c",
       "subtitles.feralit-roar": "",
       "gui.mineterra.human_gui.label_atributos": "CARACTERÍSTICAS:",
       "item.mineterra.silver_dagger": "Adaga de Prata",
@@ -7679,24 +8447,30 @@
       "block.mineterra.demonita_block": "Bloco de Demonita",
       "effect.mineterra.soul_heal": "Soul Consume",
       "item.mineterra.diamond_claymore": "Espada Longa de Diamante",
+      "gui.mineterra.attribute_upgrader_charisma.label_constituition": "CHARISMA",
       "item.mineterra.demonita": "Demonita",
       "attribute.mineterra.strength": "Strength",
       "item.mineterra.wood_staff": "Wood Staff",
       "subtitles.gemstone_armor_equip": "",
       "item.mineterra.netherite_sai_rapier": "Sai de Netherita",
       "item.mineterra.frost_fangs_dagger": "Frostfangs",
+      "gui.mineterra.attribute_upgrader_intelligence.label_available_attribute_points": "Available attribute points:",
       "item.mineterra.focus_blade": "Focus Blade",
       "item_group.mineterra.mineterra": "Mineterra",
       "gui.mineterra.gnome_gui.label_a_heranca_de_um_evento_devastado": "a herança de um evento devastador,",
       "item.mineterra.runic_stone_resistence": "Runic Stone Resistence",
+      "attribute.mineterra.meele_critical_chance": "Meele Critical Chance",
+      "item.mineterra.cutlass_1": "The Scavenger Cutlass",
       "gui.mineterra.game_start_character_creation.Abyssal": "Abyssal",
       "subtitles.katana_draw": "",
+      "effect.mineterra.infernos_embrace_dps": "You\u0027re suffering damage from Inferno\u0027s Embrace.",
       "gui.mineterra.game_start_character_creation.Dwarf": "Dwarf",
       "item.mineterra.titanium_sword": "Titanium Sword",
       "item.mineterra.steel_shovel": "Steel Shovel",
       "item.mineterra.empty": "Empty",
       "subtitles.shen_sword": "",
       "effect.mineterra.frozen": "Frozen",
+      "gui.mineterra.attribute_upgrader_wisdom.button_empty": "+",
       "item.mineterra.rapier": "Iron Rapier",
       "effect.mineterra.bestial_domain": "Fera Enfurecida",
       "gui.mineterra.game_start_character_creation.label_about_you_to_let_you_enter_in_ou": "about you to let you enter in our lands.",
@@ -7705,13 +8479,17 @@
       "subtitles.celestial-transform-saound": "",
       "gui.mineterra.game_start_character_creation.Human": "Human",
       "subtitles.start-bleeding": "",
+      "gui.mineterra.attribute_upgrader_dexterity.button_empty1": "\u003c",
+      "gui.mineterra.attribute_upgrader_charisma.label_available_attribute_points": "Available attribute points:",
       "gui.mineterra.gnome_gui.label_das_suas_consequencias": "das suas consequências.",
-      "item.mineterra.the_scavenger_cutlass": "The Scavenger Cutlass",
       "item.mineterra.stormrazor_katana": "Stormrazor",
       "block.mineterra.arcanitium_ore": "Arcanitium Ore",
+      "gui.mineterra.attribute_upgrader_dexterity.button_empty": "+",
       "key.mineterra.attribute_upgrader_open": "Attribute Upgrader Open",
       "item.mineterra.steel_armor_boots": "Steel Boots",
       "attribute.mineterra.constituition": "Constituition",
+      "gui.mineterra.attribute_upgrader_dexterity.label_available_attribute_points": "Available attribute points:",
+      "item.mineterra.eternal_emberblade_katana": "Eternal Emberblade",
       "item.mineterra.steel_rapier": "Steel Rapier",
       "subtitles.transformation-sound": "",
       "gui.mineterra.game_start_character_creation.button_next": "Next \u003e",
@@ -7720,7 +8498,9 @@
       "item.mineterra.awaken_amethyst_sword": "Amethyst Sword",
       "subtitles.celestial-transformation-sound": "",
       "item.mineterra.titanium_armor_leggings": "Titanium Leggings",
-      "effect.mineterra.tide_blessing": "Bênção da Maré"
+      "gui.mineterra.attribute_upgrader_strength.button_empty1": "\u003c",
+      "effect.mineterra.tide_blessing": "Bênção da Maré",
+      "gui.mineterra.attribute_upgrader_wisdom.label_constituition": "WISDOM"
     }
   },
   "foldersRoot": {
@@ -7738,7 +8518,12 @@
               },
               {
                 "name": "Attribute Upgrade",
-                "children": []
+                "children": [
+                  {
+                    "name": "AttributeUpgraderScreens",
+                    "children": []
+                  }
+                ]
               }
             ]
           },
@@ -7776,6 +8561,19 @@
               {
                 "name": "Wisdom",
                 "children": []
+              },
+              {
+                "name": "Critical",
+                "children": [
+                  {
+                    "name": "Meele Critical",
+                    "children": []
+                  },
+                  {
+                    "name": "Ranged Critical",
+                    "children": []
+                  }
+                ]
               }
             ]
           },
@@ -7839,14 +8637,6 @@
                     "children": []
                   },
                   {
-                    "name": "Sai",
-                    "children": []
-                  },
-                  {
-                    "name": "Recipes",
-                    "children": []
-                  },
-                  {
                     "name": "Cutlass",
                     "children": []
                   },
@@ -7860,8 +8650,49 @@
                       {
                         "name": "Fire",
                         "children": []
+                      },
+                      {
+                        "name": "Arcane",
+                        "children": []
                       }
                     ]
+                  },
+                  {
+                    "name": "Sai",
+                    "children": []
+                  },
+                  {
+                    "name": "Recipes",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "PassiveItems",
+                "children": [
+                  {
+                    "name": "Precision",
+                    "children": []
+                  },
+                  {
+                    "name": "Duelling",
+                    "children": []
+                  },
+                  {
+                    "name": "Resistence",
+                    "children": []
+                  },
+                  {
+                    "name": "Brutality",
+                    "children": []
+                  },
+                  {
+                    "name": "Fatality",
+                    "children": []
+                  },
+                  {
+                    "name": "Spellcaster",
+                    "children": []
                   }
                 ]
               },
@@ -7895,35 +8726,6 @@
                   },
                   {
                     "name": "Arcane Natural Material",
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "name": "PassiveItems",
-                "children": [
-                  {
-                    "name": "Precision",
-                    "children": []
-                  },
-                  {
-                    "name": "Duelling",
-                    "children": []
-                  },
-                  {
-                    "name": "Resistence",
-                    "children": []
-                  },
-                  {
-                    "name": "Brutality",
-                    "children": []
-                  },
-                  {
-                    "name": "Fatality",
-                    "children": []
-                  },
-                  {
-                    "name": "Spellcaster",
                     "children": []
                   }
                 ]
@@ -7975,6 +8777,10 @@
           },
           {
             "name": "Freeze",
+            "children": []
+          },
+          {
+            "name": "On Fire",
             "children": []
           }
         ]

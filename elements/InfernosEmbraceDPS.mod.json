@@ -1,0 +1,23 @@
+{
+  "_fv": 47,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "You're suffering damage from Inferno's Embrace.",
+    "icon": "attack_speed_augment.png",
+    "color": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": false,
+    "renderStatusInHUD": false,
+    "onActiveTick": {
+      "name": "InfernosEmbraceDPSOnEffectActiveTick"
+    },
+    "activeTickCondition": {
+      "name": "InfernosEmbraceDPSActiveTickCondition"
+    }
+  }
+}

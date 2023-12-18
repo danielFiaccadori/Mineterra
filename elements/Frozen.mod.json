@@ -15,12 +15,6 @@
     "renderStatusInHUD": true,
     "onStarted": {
       "name": "FrozenEffectStartedapplied"
-    },
-    "onActiveTick": {
-      "name": "FrozenOnEffectActiveTick"
-    },
-    "onExpired": {
-      "name": "FrozenEffectExpires"
     }
   }
 }

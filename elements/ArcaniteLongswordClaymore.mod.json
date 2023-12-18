@@ -1,0 +1,37 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "pixelart_swords_arcane_32_09",
+    "customModelName": "Normal",
+    "name": "Arcanite Longsword",
+    "specialInfo": [
+      "§4Aetheric Annihilation",
+      "§8§oForged with Mineterran Arcanite, each 3rd attack is a §5Magical Critical§8§o that deals 30% of your §5Magical Damage§8§o as bonus damage. After some seconds, you recieve regeneration based on your §dConstituition§8§o."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 0.5,
+    "enchantability": 32,
+    "damageVsEntity": 6.0,
+    "usageCount": 4123,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ArcaniteGemstone"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "ArcaniteLongswordClaymoreLivingEntityIsHitWithTool"
+    }
+  }
+}

@@ -9,7 +9,7 @@
     "name": "The Scavenger Cutlass",
     "specialInfo": [
       "§cCourt Cut",
-      "§8§oCritical hits with this cutlass deal additional critical hit damage that scales with your §6Attack Damage§8§o."
+      "§8§oThis cutlass have 20% of chance to deal a additional critical on hit damage that scales with 100% of your §6Attack Damage§8§o."
     ],
     "creativeTab": {
       "value": "COMBAT"
@@ -29,6 +29,9 @@
     ],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "TheScavengerCutlassLivingEntityIsHitWithTool"
+    }
   }
 }

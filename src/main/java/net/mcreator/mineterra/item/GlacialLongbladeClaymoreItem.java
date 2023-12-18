@@ -42,13 +42,13 @@ public class GlacialLongbladeClaymoreItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Blocks.PACKED_ICE));
 			}
-		}, 3, -3f, new Item.Properties());
+		}, 3, -3.5f, new Item.Properties());
 	}
 
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
-		GlacialLongbladeClaymoreLivingEntityIsHitWithToolProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity, sourceentity);
+		GlacialLongbladeClaymoreLivingEntityIsHitWithToolProcedure.execute(entity.level(), entity, sourceentity);
 		return retval;
 	}
 
@@ -56,8 +56,7 @@ public class GlacialLongbladeClaymoreItem extends SwordItem {
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("\u00A7bWinter's Wrath"));
-		list.add(Component.literal(
-				"\u00A78\u00A7oCarrying elemental power of the ancient ice, the 3rd attack of this sword emmits a icebreaker strike, dealing bonus damage based on 20% of your \u00A72\u00A7oMax Health\u00A78\u00A7o, having a chance of \u00A7b\u00A7oFreezing\u00A78\u00A7o the target for 5 seconds."));
+		list.add(Component.literal("\u00A78\u00A7oCarrying elemental power of the ancient ice, each 9 attacks \u00A7b\u00A7oFreeze\u00A78\u00A7o the target for 5 seconds, disarming enemies if they're using a weapon."));
 		list.add(Component.literal("\u00A78\u00A7o(Frozen targets suffer 5 additional damage when the ice is broken)"));
 	}
 }

@@ -1,0 +1,37 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "glacial_katana",
+    "customModelName": "Normal",
+    "name": "Frostfangs",
+    "specialInfo": [
+      "§Frostbite Flourish",
+      "§8§oCarrying elemental power of the ancient ice, consecutive attacks with this Katana inflicts crescent slowness until a maximum off 5. From that, the next attack shatters the ice and give you a sudden Attack Speed increase for 2 seconds."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 21,
+    "damageVsEntity": 2.5,
+    "usageCount": 4612,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Blocks.PACKED_ICE"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "FroststeelShiverbladeKatanaLivingEntityIsHitWithTool"
+    }
+  }
+}

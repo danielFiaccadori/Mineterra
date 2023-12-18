@@ -18,7 +18,9 @@ import net.mcreator.mineterra.potion.SoulStealMobEffect;
 import net.mcreator.mineterra.potion.SoulHealMobEffect;
 import net.mcreator.mineterra.potion.SmallAndEfficientMobEffect;
 import net.mcreator.mineterra.potion.SangramentoMobEffect;
+import net.mcreator.mineterra.potion.OnFireMobEffect;
 import net.mcreator.mineterra.potion.InsatableHungerMobEffect;
+import net.mcreator.mineterra.potion.InfernosEmbraceDPSMobEffect;
 import net.mcreator.mineterra.potion.FrozenMobEffect;
 import net.mcreator.mineterra.potion.ForestBlessingMobEffect;
 import net.mcreator.mineterra.potion.FocusBladeEffectMobEffect;
@@ -42,4 +44,6 @@ public class MineterraModMobEffects {
 	public static final RegistryObject<MobEffect> VAMPIRIC_INSTINCT_EFFECT = REGISTRY.register("vampiric_instinct_effect", () -> new VampiricInstinctEffectMobEffect());
 	public static final RegistryObject<MobEffect> SUDDEN_BURST_EFFECT = REGISTRY.register("sudden_burst_effect", () -> new SuddenBurstEffectMobEffect());
 	public static final RegistryObject<MobEffect> FROZEN = REGISTRY.register("frozen", () -> new FrozenMobEffect());
+	public static final RegistryObject<MobEffect> INFERNOS_EMBRACE_DPS = REGISTRY.register("infernos_embrace_dps", () -> new InfernosEmbraceDPSMobEffect());
+	public static final RegistryObject<MobEffect> ON_FIRE = REGISTRY.register("on_fire", () -> new OnFireMobEffect());
 }

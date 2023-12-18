@@ -1,0 +1,37 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "pixelart_swords_fire_32_09",
+    "customModelName": "Normal",
+    "name": "Inferno's Embrace",
+    "specialInfo": [
+      "§4Bastion of Fire",
+      "§8§oCarrying elemental power of permafire, each 3 hits with this sword deals 5% of target's max health as additional damage, and bursts a fire explosion who deals damage per second based on max health to enemies (not players) in a small area for 5 seconds."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 0.5,
+    "enchantability": 21,
+    "damageVsEntity": 6.0,
+    "usageCount": 4612,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.BLAZE_POWDER"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "InfernosEmbraceLivingEntityIsHitWithTool"
+    }
+  }
+}

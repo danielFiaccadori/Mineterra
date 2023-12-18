@@ -32,6 +32,8 @@ public class MineterraModAttributes {
 	public static final RegistryObject<Attribute> INTELLIGENCE = ATTRIBUTES.register("intelligence", () -> (new RangedAttribute("attribute." + MineterraMod.MODID + ".intelligence", 0, 0, 100)).setSyncable(true));
 	public static final RegistryObject<Attribute> CHARISMA = ATTRIBUTES.register("charisma", () -> (new RangedAttribute("attribute." + MineterraMod.MODID + ".charisma", 0, 0, 100)).setSyncable(true));
 	public static final RegistryObject<Attribute> WISDOM = ATTRIBUTES.register("wisdom", () -> (new RangedAttribute("attribute." + MineterraMod.MODID + ".wisdom", 0, 0, 100)).setSyncable(true));
+	public static final RegistryObject<Attribute> RANGEDCRITICALCHANCE = ATTRIBUTES.register("ranged_critical_chance", () -> (new RangedAttribute("attribute." + MineterraMod.MODID + ".ranged_critical_chance", 0, 0, 1)).setSyncable(true));
+	public static final RegistryObject<Attribute> MEELECRITICALCHANCE = ATTRIBUTES.register("meele_critical_chance", () -> (new RangedAttribute("attribute." + MineterraMod.MODID + ".meele_critical_chance", 0, 0, 1)).setSyncable(true));
 
 	@SubscribeEvent
 	public static void register(FMLConstructModEvent event) {
@@ -51,6 +53,8 @@ public class MineterraModAttributes {
 		event.add(EntityType.PLAYER, INTELLIGENCE.get());
 		event.add(EntityType.PLAYER, CHARISMA.get());
 		event.add(EntityType.PLAYER, WISDOM.get());
+		event.add(EntityType.PLAYER, RANGEDCRITICALCHANCE.get());
+		event.add(EntityType.PLAYER, MEELECRITICALCHANCE.get());
 	}
 
 	@Mod.EventBusSubscriber
@@ -67,6 +71,8 @@ public class MineterraModAttributes {
 			newP.getAttribute(INTELLIGENCE.get()).setBaseValue(oldP.getAttribute(INTELLIGENCE.get()).getBaseValue());
 			newP.getAttribute(CHARISMA.get()).setBaseValue(oldP.getAttribute(CHARISMA.get()).getBaseValue());
 			newP.getAttribute(WISDOM.get()).setBaseValue(oldP.getAttribute(WISDOM.get()).getBaseValue());
+			newP.getAttribute(RANGEDCRITICALCHANCE.get()).setBaseValue(oldP.getAttribute(RANGEDCRITICALCHANCE.get()).getBaseValue());
+			newP.getAttribute(MEELECRITICALCHANCE.get()).setBaseValue(oldP.getAttribute(MEELECRITICALCHANCE.get()).getBaseValue());
 		}
 	}
 }

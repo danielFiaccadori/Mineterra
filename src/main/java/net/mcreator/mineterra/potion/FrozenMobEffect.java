@@ -6,9 +6,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.effect.MobEffect;
 
-import net.mcreator.mineterra.procedures.FrozenOnEffectActiveTickProcedure;
 import net.mcreator.mineterra.procedures.FrozenEffectStartedappliedProcedure;
-import net.mcreator.mineterra.procedures.FrozenEffectExpiresProcedure;
 
 public class FrozenMobEffect extends MobEffect {
 	public FrozenMobEffect() {
@@ -22,18 +20,7 @@ public class FrozenMobEffect extends MobEffect {
 
 	@Override
 	public void addAttributeModifiers(LivingEntity entity, AttributeMap attributeMap, int amplifier) {
-		FrozenEffectStartedappliedProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ());
-	}
-
-	@Override
-	public void applyEffectTick(LivingEntity entity, int amplifier) {
-		FrozenOnEffectActiveTickProcedure.execute(entity);
-	}
-
-	@Override
-	public void removeAttributeModifiers(LivingEntity entity, AttributeMap attributeMap, int amplifier) {
-		super.removeAttributeModifiers(entity, attributeMap, amplifier);
-		FrozenEffectExpiresProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ());
+		FrozenEffectStartedappliedProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity);
 	}
 
 	@Override

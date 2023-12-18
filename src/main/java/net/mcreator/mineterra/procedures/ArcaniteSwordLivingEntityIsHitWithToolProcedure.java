@@ -9,8 +9,10 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundSource;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.mineterra.network.MineterraModVariables;
@@ -37,6 +39,8 @@ public class ArcaniteSwordLivingEntityIsHitWithToolProcedure {
 					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("mineterra:arcane-sword-sound")), SoundSource.NEUTRAL, 1, 1, false);
 				}
 			}
+			if (world instanceof ServerLevel _level)
+				_level.sendParticles(ParticleTypes.ENCHANT, x, y, z, 50, 0.5, 0.5, 0.5, 0.5);
 			{
 				double _setval = 0;
 				sourceentity.getCapability(MineterraModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {

@@ -123,7 +123,7 @@ public class MineterraModTabs {
 			tabData.accept(MineterraModItems.STEEL_ARMOR_CHESTPLATE.get());
 			tabData.accept(MineterraModItems.STEEL_ARMOR_LEGGINGS.get());
 			tabData.accept(MineterraModItems.STEEL_ARMOR_BOOTS.get());
-			tabData.accept(MineterraModItems.THE_SCAVENGER_CUTLASS.get());
+			tabData.accept(MineterraModItems.CUTLASS_1.get());
 			tabData.accept(MineterraModItems.AWAKEN_DEMONITE_SWORD.get());
 			tabData.accept(MineterraModItems.AWAKEN_BANISHED_QUEEN_SWORD.get());
 			tabData.accept(MineterraModItems.AWAKEN_CELESTIUM_SWORD.get());
@@ -136,6 +136,11 @@ public class MineterraModTabs {
 			tabData.accept(MineterraModItems.GLACIAL_LONGBLADE_CLAYMORE.get());
 			tabData.accept(MineterraModItems.FROST_FANGS_DAGGER.get());
 			tabData.accept(MineterraModItems.INFERNO_BLAZE_SWORD.get());
+			tabData.accept(MineterraModItems.INFERNO_EMBERLASH_DAGGER.get());
+			tabData.accept(MineterraModItems.INFERNOS_EMBRACE_CLAYMORE.get());
+			tabData.accept(MineterraModItems.FROSTSTEEL_SHIVERBLADE_KATANA.get());
+			tabData.accept(MineterraModItems.ETERNAL_EMBERBLADE_KATANA.get());
+			tabData.accept(MineterraModItems.ARCANITE_LONGSWORD_CLAYMORE.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {

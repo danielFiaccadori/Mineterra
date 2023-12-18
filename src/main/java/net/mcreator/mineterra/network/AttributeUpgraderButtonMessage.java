@@ -12,12 +12,12 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.mineterra.world.inventory.AttributeUpgraderMenu;
-import net.mcreator.mineterra.procedures.IncreaseWisdomProcedure;
-import net.mcreator.mineterra.procedures.IncreaseStrengthProcedure;
-import net.mcreator.mineterra.procedures.IncreaseIntelligenceProcedure;
-import net.mcreator.mineterra.procedures.IncreaseDexterityProcedure;
-import net.mcreator.mineterra.procedures.IncreaseConstituitionProcedure;
-import net.mcreator.mineterra.procedures.IncreaseCharismaProcedure;
+import net.mcreator.mineterra.procedures.OpenUpgraderWisdomProcedure;
+import net.mcreator.mineterra.procedures.OpenUpgraderStrengthProcedure;
+import net.mcreator.mineterra.procedures.OpenUpgraderIntelligenceProcedure;
+import net.mcreator.mineterra.procedures.OpenUpgraderDexterityProcedure;
+import net.mcreator.mineterra.procedures.OpenUpgraderConstituitionProcedure;
+import net.mcreator.mineterra.procedures.OpenUpgraderCharismaProcedure;
 import net.mcreator.mineterra.MineterraMod;
 
 import java.util.function.Supplier;
@@ -69,27 +69,27 @@ public class AttributeUpgraderButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			IncreaseWisdomProcedure.execute(entity);
+			OpenUpgraderConstituitionProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 1) {
 
-			IncreaseIntelligenceProcedure.execute(entity);
+			OpenUpgraderDexterityProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 2) {
 
-			IncreaseStrengthProcedure.execute(entity);
+			OpenUpgraderIntelligenceProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 3) {
 
-			IncreaseConstituitionProcedure.execute(entity);
+			OpenUpgraderWisdomProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 4) {
 
-			IncreaseDexterityProcedure.execute(entity);
+			OpenUpgraderStrengthProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 5) {
 
-			IncreaseCharismaProcedure.execute(entity);
+			OpenUpgraderCharismaProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

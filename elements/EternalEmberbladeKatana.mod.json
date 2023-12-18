@@ -1,0 +1,37 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "pixelart_swords_fire_32_08",
+    "customModelName": "Normal",
+    "name": "Eternal Emberblade",
+    "specialInfo": [
+      "§4Bless Of The Charred Blood",
+      "§8§oCarrying elemental power of permafire, consecutive hits with this Katana gain additional Attack Speed until a maximum of 24. When the limit is reached, the enemy will burst on fire causing damage."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 21,
+    "damageVsEntity": 2.5,
+    "usageCount": 4612,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.BLAZE_POWDER"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "EternalEmberbladeKatanaOnEntityIsHit"
+    }
+  }
+}

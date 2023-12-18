@@ -6,17 +6,10 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.Button;
+import net.minecraft.client.gui.components.ImageButton;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.mineterra.world.inventory.AttributeUpgraderMenu;
-import net.mcreator.mineterra.procedures.DisplayWisdomProcedure;
-import net.mcreator.mineterra.procedures.DisplayStrenghtProcedure;
-import net.mcreator.mineterra.procedures.DisplayPointsProcedure;
-import net.mcreator.mineterra.procedures.DisplayIntelligenceProcedure;
-import net.mcreator.mineterra.procedures.DisplayDexterityProcedure;
-import net.mcreator.mineterra.procedures.DisplayConstituitionProcedure;
-import net.mcreator.mineterra.procedures.DisplayCharismaProcedure;
 import net.mcreator.mineterra.network.AttributeUpgraderButtonMessage;
 import net.mcreator.mineterra.MineterraMod;
 
@@ -29,12 +22,12 @@ public class AttributeUpgraderScreen extends AbstractContainerScreen<AttributeUp
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-	Button button_empty;
-	Button button_empty1;
-	Button button_empty2;
-	Button button_empty3;
-	Button button_empty4;
-	Button button_empty5;
+	ImageButton imagebutton_constituition;
+	ImageButton imagebutton_dexterity;
+	ImageButton imagebutton_intelligence;
+	ImageButton imagebutton_wisdom;
+	ImageButton imagebutton_strength;
+	ImageButton imagebutton_charisma;
 
 	public AttributeUpgraderScreen(AttributeUpgraderMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -43,7 +36,7 @@ public class AttributeUpgraderScreen extends AbstractContainerScreen<AttributeUp
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 265;
+		this.imageWidth = 179;
 		this.imageHeight = 194;
 	}
 
@@ -63,19 +56,7 @@ public class AttributeUpgraderScreen extends AbstractContainerScreen<AttributeUp
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		guiGraphics.blit(new ResourceLocation("mineterra:textures/screens/tile095.png"), this.leftPos + 36, this.topPos + 65, 0, 0, 16, 16, 16, 16);
-
-		guiGraphics.blit(new ResourceLocation("mineterra:textures/screens/tile275.png"), this.leftPos + -16, this.topPos + 66, 0, 0, 16, 16, 16, 16);
-
-		guiGraphics.blit(new ResourceLocation("mineterra:textures/screens/tile109.png"), this.leftPos + 99, this.topPos + 66, 0, 0, 16, 16, 16, 16);
-
-		guiGraphics.blit(new ResourceLocation("mineterra:textures/screens/tile047.png"), this.leftPos + 156, this.topPos + 67, 0, 0, 16, 16, 16, 16);
-
-		guiGraphics.blit(new ResourceLocation("mineterra:textures/screens/tile143.png"), this.leftPos + 273, this.topPos + 66, 0, 0, 16, 16, 16, 16);
-
-		guiGraphics.blit(new ResourceLocation("mineterra:textures/screens/tile380.png"), this.leftPos + 210, this.topPos + 67, 0, 0, 16, 16, 16, 16);
-
-		guiGraphics.blit(new ResourceLocation("mineterra:textures/screens/pixil-frame-0_1.png"), this.leftPos + -119, this.topPos + -58, 0, 0, 500, 281, 500, 281);
+		guiGraphics.blit(new ResourceLocation("mineterra:textures/screens/pixil-frame-0_2.png"), this.leftPos + -154, this.topPos + -44, 0, 0, 500, 281, 500, 281);
 
 		RenderSystem.disableBlend();
 	}
@@ -96,27 +77,12 @@ public class AttributeUpgraderScreen extends AbstractContainerScreen<AttributeUp
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font,
-
-				DisplayConstituitionProcedure.execute(entity), 26, 86, -1, false);
-		guiGraphics.drawString(this.font,
-
-				DisplayStrenghtProcedure.execute(entity), 233, 86, -1, false);
-		guiGraphics.drawString(this.font,
-
-				DisplayDexterityProcedure.execute(entity), 202, 164, -1, false);
-		guiGraphics.drawString(this.font,
-
-				DisplayIntelligenceProcedure.execute(entity), 207, 13, -1, false);
-		guiGraphics.drawString(this.font,
-
-				DisplayCharismaProcedure.execute(entity), 53, 169, -1, false);
-		guiGraphics.drawString(this.font,
-
-				DisplayWisdomProcedure.execute(entity), 45, 13, -1, false);
-		guiGraphics.drawString(this.font,
-
-				DisplayPointsProcedure.execute(entity), 129, 85, -13312, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.mineterra.attribute_upgrader.label_constituition"), -73, 57, -3355444, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.mineterra.attribute_upgrader.label_dexterity"), -94, 166, -6710887, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.mineterra.attribute_upgrader.label_intelligra"), 210, 40, -6710887, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.mineterra.attribute_upgrader.label_wisdomeon"), 21, 52, -6710887, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.mineterra.attribute_upgrader.label_stellarnox"), 71, 148, -6710887, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.mineterra.attribute_upgrader.label_luminaryxion"), 191, 155, -6710887, false);
 	}
 
 	@Override
@@ -127,53 +93,53 @@ public class AttributeUpgraderScreen extends AbstractContainerScreen<AttributeUp
 	@Override
 	public void init() {
 		super.init();
-		button_empty = Button.builder(Component.translatable("gui.mineterra.attribute_upgrader.button_empty"), e -> {
+		imagebutton_constituition = new ImageButton(this.leftPos + -89, this.topPos + -5, 64, 64, 0, 0, 64, new ResourceLocation("mineterra:textures/screens/atlas/imagebutton_constituition.png"), 64, 128, e -> {
 			if (true) {
 				MineterraMod.PACKET_HANDLER.sendToServer(new AttributeUpgraderButtonMessage(0, x, y, z));
 				AttributeUpgraderButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}).bounds(this.leftPos + -3, this.topPos + 9, 30, 20).build();
-		guistate.put("button:button_empty", button_empty);
-		this.addRenderableWidget(button_empty);
-		button_empty1 = Button.builder(Component.translatable("gui.mineterra.attribute_upgrader.button_empty1"), e -> {
+		});
+		guistate.put("button:imagebutton_constituition", imagebutton_constituition);
+		this.addRenderableWidget(imagebutton_constituition);
+		imagebutton_dexterity = new ImageButton(this.leftPos + -102, this.topPos + 107, 64, 64, 0, 0, 64, new ResourceLocation("mineterra:textures/screens/atlas/imagebutton_dexterity.png"), 64, 128, e -> {
 			if (true) {
 				MineterraMod.PACKET_HANDLER.sendToServer(new AttributeUpgraderButtonMessage(1, x, y, z));
 				AttributeUpgraderButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
-		}).bounds(this.leftPos + 227, this.topPos + 8, 30, 20).build();
-		guistate.put("button:button_empty1", button_empty1);
-		this.addRenderableWidget(button_empty1);
-		button_empty2 = Button.builder(Component.translatable("gui.mineterra.attribute_upgrader.button_empty2"), e -> {
+		});
+		guistate.put("button:imagebutton_dexterity", imagebutton_dexterity);
+		this.addRenderableWidget(imagebutton_dexterity);
+		imagebutton_intelligence = new ImageButton(this.leftPos + 210, this.topPos + -21, 64, 64, 0, 0, 64, new ResourceLocation("mineterra:textures/screens/atlas/imagebutton_intelligence.png"), 64, 128, e -> {
 			if (true) {
 				MineterraMod.PACKET_HANDLER.sendToServer(new AttributeUpgraderButtonMessage(2, x, y, z));
 				AttributeUpgraderButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
-		}).bounds(this.leftPos + 254, this.topPos + 81, 30, 20).build();
-		guistate.put("button:button_empty2", button_empty2);
-		this.addRenderableWidget(button_empty2);
-		button_empty3 = Button.builder(Component.translatable("gui.mineterra.attribute_upgrader.button_empty3"), e -> {
+		});
+		guistate.put("button:imagebutton_intelligence", imagebutton_intelligence);
+		this.addRenderableWidget(imagebutton_intelligence);
+		imagebutton_wisdom = new ImageButton(this.leftPos + 11, this.topPos + -9, 64, 64, 0, 0, 64, new ResourceLocation("mineterra:textures/screens/atlas/imagebutton_wisdom.png"), 64, 128, e -> {
 			if (true) {
 				MineterraMod.PACKET_HANDLER.sendToServer(new AttributeUpgraderButtonMessage(3, x, y, z));
 				AttributeUpgraderButtonMessage.handleButtonAction(entity, 3, x, y, z);
 			}
-		}).bounds(this.leftPos + -23, this.topPos + 81, 30, 20).build();
-		guistate.put("button:button_empty3", button_empty3);
-		this.addRenderableWidget(button_empty3);
-		button_empty4 = Button.builder(Component.translatable("gui.mineterra.attribute_upgrader.button_empty4"), e -> {
+		});
+		guistate.put("button:imagebutton_wisdom", imagebutton_wisdom);
+		this.addRenderableWidget(imagebutton_wisdom);
+		imagebutton_strength = new ImageButton(this.leftPos + 68, this.topPos + 84, 64, 64, 0, 0, 64, new ResourceLocation("mineterra:textures/screens/atlas/imagebutton_strength.png"), 64, 128, e -> {
 			if (true) {
 				MineterraMod.PACKET_HANDLER.sendToServer(new AttributeUpgraderButtonMessage(4, x, y, z));
 				AttributeUpgraderButtonMessage.handleButtonAction(entity, 4, x, y, z);
 			}
-		}).bounds(this.leftPos + 221, this.topPos + 159, 30, 20).build();
-		guistate.put("button:button_empty4", button_empty4);
-		this.addRenderableWidget(button_empty4);
-		button_empty5 = Button.builder(Component.translatable("gui.mineterra.attribute_upgrader.button_empty5"), e -> {
+		});
+		guistate.put("button:imagebutton_strength", imagebutton_strength);
+		this.addRenderableWidget(imagebutton_strength);
+		imagebutton_charisma = new ImageButton(this.leftPos + 190, this.topPos + 104, 64, 64, 0, 0, 64, new ResourceLocation("mineterra:textures/screens/atlas/imagebutton_charisma.png"), 64, 128, e -> {
 			if (true) {
 				MineterraMod.PACKET_HANDLER.sendToServer(new AttributeUpgraderButtonMessage(5, x, y, z));
 				AttributeUpgraderButtonMessage.handleButtonAction(entity, 5, x, y, z);
 			}
-		}).bounds(this.leftPos + 4, this.topPos + 164, 30, 20).build();
-		guistate.put("button:button_empty5", button_empty5);
-		this.addRenderableWidget(button_empty5);
+		});
+		guistate.put("button:imagebutton_charisma", imagebutton_charisma);
+		this.addRenderableWidget(imagebutton_charisma);
 	}
 }

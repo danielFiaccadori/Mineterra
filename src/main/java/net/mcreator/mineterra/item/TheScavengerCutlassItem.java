@@ -9,7 +9,10 @@ import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.network.chat.Component;
+
+import net.mcreator.mineterra.procedures.TheScavengerCutlassLivingEntityIsHitWithToolProcedure;
 
 import java.util.List;
 
@@ -43,9 +46,16 @@ public class TheScavengerCutlassItem extends SwordItem {
 	}
 
 	@Override
+	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
+		TheScavengerCutlassLivingEntityIsHitWithToolProcedure.execute(entity.level(), entity, sourceentity);
+		return retval;
+	}
+
+	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("\u00A7cCourt Cut"));
-		list.add(Component.literal("\u00A78\u00A7oCritical hits with this cutlass deal additional critical hit damage that scales with your \u00A76Attack Damage\u00A78\u00A7o."));
+		list.add(Component.literal("\u00A78\u00A7oThis cutlass have 20% of chance to deal a additional critical on hit damage that scales with 100% of your \u00A76Attack Damage\u00A78\u00A7o."));
 	}
 }
